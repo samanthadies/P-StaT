@@ -6,10 +6,11 @@ End-to-end analysis and plotting pipeline.
    - Generates merged analysis DataFrames from probe outputs.
    - Generates per-layer sW1 CSVs for activation heatmaps.
 2) Once all per-datapack artifacts exist, generates all plots by calling:
-   - plot_scripts/plot_ngram_dists.py
+   - plot_scripts/plot_ling_rep_dists.py
    - plot_scripts/plot_activation_heatmaps.py
    - plot_scripts/plot_boundary_heatmaps.py
    - plot_scripts/plot_flip_barcharts.py
+   - plot_scripts/plot_flip_barcharts_zs.py
 
 """
 
@@ -17,6 +18,7 @@ import os
 import re
 import glob
 import warnings
+from pathlib import Path
 
 import numpy as np
 import pandas as pd
@@ -26,14 +28,14 @@ from omegaconf import OmegaConf
 
 from utils import load_data
 
-from plot_scripts.plot_ngram_dists import plot_ngrams
 from plot_scripts.plot_activation_heatmaps import (
     generate_wasserstein_csvs,
-    plot_combined_activation_heatmaps,
     plot_single_model_activation_heatmaps,
 )
 from plot_scripts.plot_boundary_heatmaps import plot_boundary_heatmaps
 from plot_scripts.plot_flip_barcharts import plot_flip_barchart
+from plot_scripts.plot_flip_barcharts_zs import plot_zero_shot_flip_barchart
+from plot_scripts.plot_ling_rep_dists import make_combined_figure
 
 
 def _pick_best_yhat_file(cands):
@@ -349,42 +351,46 @@ def main(cfg):
 
     # 2) N-gram distribution plots (doesn't depend on cfg.datapack)
     csv_paths = {
-        "City Locations": [
+        "City\nLocations": [
             "datasets/cities_loc_true_false.csv",
             "datasets/cities_loc_synthetic.csv",
             "datasets/cities_loc_fictional.csv",
         ],
-        "Medical Indications": [
+        "Medical\nIndications": [
             "datasets/med_indications_true_false.csv",
             "datasets/med_indications_synthetic.csv",
             "datasets/med_indications_fictional.csv",
         ],
-        "Word Definitions": [
+        "Word\nDefinitions": [
             "datasets/defs_true_false.csv",
             "datasets/defs_synthetic.csv",
             "datasets/defs_fictional.csv",
         ],
     }
-    plot_ngrams(
-        csv_paths=csv_paths,
-        text_source="object_1+2",
+
+    heatmap_ds_keys = {
+        "City\nLocations": "cities_loc",
+        "Medical\nIndications": "med_indications",
+        "Word\nDefinitions": "defs",
+    }
+
+    make_combined_figure(
+        ngram_csv_paths=csv_paths,
+        heatmap_ds_keys=heatmap_ds_keys,
+        heatmap_root_dir=str(cfg.paths.model_level_root),  # where *_sW1.csv live
+        output_dir=str(cfg.paths.plots_root),
+        output_name="combined_3x2_ngrams_and_activation_heatmaps.pdf",
         n=2,
         level="char",
-        output_fp=cfg.paths.plots_root,
-    )
-    print("[stage] N-gram plots done")
-
-    # 3) Activation heatmaps (sW1)
-
-    # 3b) Aggregate across models and plot combined heatmaps
-    plot_combined_activation_heatmaps(
-        datasets=datasets_for_plots,
-        root_dir=cfg.paths.model_level_root,
-        output_fp=cfg.paths.plots_root,
-        noise=cfg.noise,
+        text_source="object_1+2",
+        xscale="linear",
+        yscale="log",
+        downsample=1,
     )
 
-    # 3c) Per-model heatmaps
+    print("[stage] N-gram and Avg. Activation Heatmap plot done")
+
+    # 3) Per-model activation heatmaps
     for model_name in cfg.models_for_activation_plots:
         plot_single_model_activation_heatmaps(
             model_name=model_name,
@@ -393,7 +399,7 @@ def main(cfg):
             output_fp=cfg.paths.model_level_root,
             noise=cfg.noise,
         )
-    print("[stage] Activation heatmaps done")
+    print("[stage] LLM-level activation heatmaps done")
 
     # 4) Decision-boundary heatmaps
     if hasattr(cfg.probe, "name"):
@@ -421,7 +427,7 @@ def main(cfg):
     )
     print("[stage] Decision-boundary heatmaps done")
 
-    # 5) Flip bar charts – one per datapack
+    # 5) Flip bar charts (for probes) – one per datapack
     merged_root = cfg.paths.merged_root
     init_task = 0
     new_tasks = [1, 2, 3, 4]
@@ -437,6 +443,15 @@ def main(cfg):
             noise=cfg.noise,
         )
         print(f"[stage] Flip bar chart done for {dp_name}")
+
+    # 6) Fip bar charts (for zero-shot) - one per datapack
+    for dp_name in datasets_for_plots:
+        plot_zero_shot_flip_barchart(
+            dataset=dp_name,
+            zero_shot_root=Path(cfg.paths.zero_shot_root),
+            output_dir=Path(cfg.paths.plots_root),
+        )
+        print(f"[stage] Zero-shot flip bar chart done for {dp_name}")
 
     print("\nAll plots completed.")
 

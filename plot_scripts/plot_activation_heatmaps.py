@@ -2,13 +2,11 @@
 plot_activation_heatmaps.py
 
 Compute sliced Wasserstein distances between activation clouds for
-different label categories and visualize them as heatmaps, aggregated
-over layers and models and per-model.
+different label categories and visualize them as heatmaps
 
 This script:
 1) Loads activations via the DataHandler and writes per-layer sW1 CSVs.
-2) Aggregates sW1 matrices over models for each dataset and plots them.
-3) Plots per-model activation distance heatmaps across datasets.
+2) Plots per-LLM activation distance heatmaps across datasets.
 
 """
 
@@ -713,167 +711,6 @@ def collect_dataset_mats(root_dir, dataset):
     return mats
 
 
-def plot_combined_activation_heatmaps(
-    datasets,
-    root_dir,
-    output_fp,
-    noise,
-):
-    """
-    Plot activation Wasserstein distance heatmaps aggregated over models.
-
-    For each dataset:
-        - collects all model-layer sW1 matrices
-        - computes the mean and count matrices
-        - enforces zero diagonal on the mean
-        - saves full mean & count CSVs
-        - plots a PLOT_CATEGORIES x PLOT_CATEGORIES heatmap in a 1x3 grid
-
-    :param datasets: list of dataset tags
-    :param root_dir: directory containing per-layer sW1 CSVs for all models
-    :param output_fp: output directory for the combined figure
-    :param noise: noise parameter used in the output filename
-    :return: None
-    """
-    label_order = ['(a)', '(b)', '(c)']
-
-    fig = plt.figure(figsize=(7.2, 3.2), constrained_layout=True)
-    gs = grid_spec.GridSpec(
-        figure=fig,
-        nrows=3,
-        ncols=3,
-        height_ratios=[0.10, 0.83, 0.07],
-    )
-    ax_title = fig.add_subplot(gs[0, :])
-
-    matrices_to_plot: Dict[str, pd.DataFrame] = {}
-    global_max = 0.0
-
-    for ds_name in datasets:
-        mats = collect_dataset_mats(root_dir, ds_name)
-        if not mats:
-            print(
-                f"[aggregate] No matrices found for dataset='{ds_name}' "
-                f"under {root_dir}"
-            )
-            continue
-
-        C_full = len(BASE_CATEGORIES)
-        stack = np.full((len(mats), C_full, C_full), np.nan, dtype=float)
-        for k, M in enumerate(mats):
-            M = M.reindex(index=BASE_CATEGORIES, columns=BASE_CATEGORIES).astype(float)
-            stack[k] = M.values
-
-        mean_mat = np.nanmean(stack, axis=0)
-        count_mat = np.sum(np.isfinite(stack), axis=0)
-
-        np.fill_diagonal(mean_mat, 0.0)
-
-        M_mean = pd.DataFrame(mean_mat, index=BASE_CATEGORIES, columns=BASE_CATEGORIES)
-        M_counts = pd.DataFrame(count_mat, index=BASE_CATEGORIES, columns=BASE_CATEGORIES)
-
-        out_root = 'outputs/plots'
-        os.makedirs(out_root, exist_ok=True)
-        mean_csv = os.path.join(out_root, f"aggregated_{ds_name}_sW1.csv")
-        counts_csv = os.path.join(out_root, f"aggregated_{ds_name}_sW1_counts.csv")
-
-        M_mean.to_csv(mean_csv, index=True)
-        M_counts.to_csv(counts_csv, index=True)
-
-        M_mean_plot = M_mean.loc[PLOT_CATEGORIES, PLOT_CATEGORIES]
-        matrices_to_plot[ds_name] = M_mean_plot
-
-        local_max = np.nanmax(M_mean_plot.values)
-        if np.isfinite(local_max):
-            global_max = max(global_max, float(local_max))
-
-    if not matrices_to_plot:
-        print("[aggregate] No matrices to plot at all. Skipping combined heatmap.")
-        return
-
-    ds_num = 0
-    last_im = None
-
-    for ds_name in datasets:
-        if ds_name not in matrices_to_plot:
-            continue
-
-        M_mean_plot = matrices_to_plot[ds_name]
-        C_plot = len(PLOT_CATEGORIES)
-
-        ax_subplot = fig.add_subplot(gs[1, ds_num])
-
-        last_im = ax_subplot.imshow(
-            M_mean_plot.values,
-            aspect="equal",
-            cmap="YlGn_r",
-            vmin=0.0,
-            vmax=global_max,
-        )
-
-        if ds_name == 'cities_loc':
-            data_name = 'City Locations'
-        elif ds_name == 'med_indications':
-            data_name = 'Medical Indications'
-        elif ds_name == 'defs':
-            data_name = 'Word Definitions'
-        else:
-            data_name = ds_name
-
-        subplot_text = f'{label_order[ds_num]} {data_name}'
-
-        ax_subplot.set_xticks(np.arange(C_plot))
-        ax_subplot.set_yticks(np.arange(C_plot))
-        ax_subplot.set_xticklabels(
-            M_mean_plot.columns,
-            rotation=45,
-            ha="right",
-        )
-        ax_subplot.set_yticklabels(M_mean_plot.index)
-
-        ax_subplot.text(
-            -0.40,
-            1.15,
-            subplot_text,
-            transform=ax_subplot.transAxes,
-            ha='left',
-            va='top',
-            fontsize=9,
-            fontweight='bold',
-            color='#444444',
-        )
-
-        ds_num += 1
-
-    ax_title.set_axis_off()
-    title = 'Wasserstein Distance between Activations (Averaged over LLMs)'
-    ax_title.text(
-        -0.1,
-        0.25,
-        title,
-        va="center",
-        ha="left",
-        fontsize=11,
-        fontweight="bold",
-        color="#333333",
-    )
-
-    if last_im is not None:
-        cax = fig.add_subplot(gs[2, :])
-        cbar = fig.colorbar(last_im, cax=cax, orientation="horizontal")
-        cbar.set_label(
-            "Average Wasserstein Distance",
-            rotation=0,
-            va="center",
-            labelpad=10,
-        )
-
-    os.makedirs(output_fp, exist_ok=True)
-    fp = os.path.join(output_fp, f"activation_heatmaps_noise{noise}.pdf")
-    fig.savefig(fp, dpi=600, bbox_inches="tight")
-    plt.close(fig)
-
-
 @hydra.main(version_base=None, config_path="configs", config_name="probe_linear_mil")
 def main(cfg: DictConfig):
 
@@ -886,16 +723,7 @@ def main(cfg: DictConfig):
         max_per_class=5000,
     )
 
-    # 2) Aggregate + plot across models (uses files in MODEL_LEVEL_DIR)
-    datasets = ['cities_loc', 'med_indications', 'defs']
-    plot_combined_activation_heatmaps(
-        datasets,
-        MODEL_LEVEL_DIR,
-        'outputs/plots/',
-        cfg.noise,
-    )
-
-    # 3) Per-model plots
+    # 2) Per-model plots
     models = [
         '_gemma-2-9b', '_gemma-7b', '_llama-3-8b-med', '_llama-3.1-8b',
         '_llama-3.1-8b-bio', '_llama-3.2-3b', '_mistral-7B-v0.3',

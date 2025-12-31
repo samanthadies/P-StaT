@@ -9,10 +9,9 @@ It includes scripts for:
 -   Generating **noise activations**
 -   Training **linear probes** (sAwMIL and Mean Difference) for "True
     vs. Not-True" classification
--   Running multi-task perturbation experiments
--   Generating all plots used in the paper (activation heatmaps,
-    decision-boundary heatmaps, n-gram distributions, stability bar
-    charts)
+-   Running **zero shot** experiments for "True vs. Not-true" classification
+-   Generating all plots used in the paper (n-gram distributions and activation heatmaps
+    decision-boundary heatmaps, stability bar charts)
 
 ------------------------------------------------------------------------
 
@@ -88,8 +87,9 @@ as a proportion of the number of non-noise statements.
 
 ### 3. Run Stability Experiments
 
-The stability experiments in the paper involve training baseline ***True vs. 
-Not True*** probes and four perturbations.
+The stability experiments in the paper involve (1) training baseline ***True vs. 
+Not True*** probes and four perturbations and (2) running baseline and perturbed
+***True vs. Not True*** zero-shot experiments.
 
 The perturbation type is controlled with the ```task``` parameter as follows:
 * ***True vs. Not True***: ```task=0```
@@ -98,9 +98,9 @@ The perturbation type is controlled with the ```task``` parameter as follows:
 * ***True + Fictional (T) vs. Not True***: ```task=3```
 * ***True + Noise vs. Not True***: ```task=4```
 
-To train these probes, run the following command for each probe, LLM,
+(1) To train the probes, run the following command for each probe, LLM,
 and dataset combination, and perturbation type (e.g., ```sAwMIL``` + 
-```llama-3-8b``` + ```cities_loc``` + ***True vs. Not True***):
+```llama-3-8b``` + ```cities_loc``` + ```0```):
 
 ``` bash
 python probe_linear.py \
@@ -113,16 +113,32 @@ python probe_linear.py \
   output_dir=outputs/probes/${probe.name}/${model.name}
 ```
 
-All artifacts of the trained probes are saved in [outputs/probes/](outputs/probes/).
-
 **Note:** To switch between the ```sAwMIL``` and ```Mean Difference``` probes,
 you must switch both ```probe.name``` and ```config-name``` (```probe_linear_mil```
 for ```sAwMIL``` and ```probe_linear_sil``` for ```Mean Difference```).
 
+(2) To run the zero-shot experiments, run the following command for each LLM, 
+Dataset, and perturbation combination (e.g., ```cities_loc``` + ```llama-3-8b``` + 
+```0```):
+
+```bash
+python zero_shot.py \
+  --config-path=configs \
+  --config-name=zero_shot \
+  datasets='DATAPACK' \
+  perturbation_type='TASK' \
+  model='MODEL'
+```
+
+**Note:** The zero-shot experiment does not support the ***True + Noise vs. Not True*** 
+perturbation since ***Noise*** does not have a semantic mapping.
+
+All artifacts of the trained probes are saved in [outputs/probes/](outputs/probes/).
+
 ### 4. Evaluate Stability & Generate Plots
 
-Once all activations are generated and probes are trained, you can evaluate the
-representational stability by running
+Once all activations are generated and experiments have been run, you can evaluate the 
+stability by running
 
 ``` bash
 python analyze_stability_and_plot.py \

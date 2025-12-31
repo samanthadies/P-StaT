@@ -13,6 +13,7 @@ noise: 10
 
 paths:
   probes_root: outputs/probes
+  zero_shot_root: outputs/probes/zero_shot
   merged_root: outputs/analysis_data
   plots_root: outputs/plots
   model_level_root: outputs/plots/model_level
