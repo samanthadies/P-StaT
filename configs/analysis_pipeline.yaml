@@ -1,0 +1,44 @@
+hydra:
+  run:
+    dir: outputs/hydra_logs/analysis/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+defaults:
+  - model: llama-3-8b
+  - datapack: cities_loc
+  - probe: sAwMIL
+  - _self_
+
+agg: full
+noise: 10
+
+paths:
+  probes_root: outputs/probes
+  merged_root: outputs/analysis_data
+  plots_root: outputs/plots
+  model_level_root: outputs/plots/model_level
+
+layers: ${model.task_layers}
+
+datasets_for_plots:
+  - cities_loc
+  - med_indications
+  - defs
+
+models_for_activation_plots:
+    - llama-3-8b
+# Uncomment once all experiments are completed:
+#  - _gemma-2-9b
+#  - _gemma-7b
+#  - _llama-3-8b-med
+#  - _llama-3.1-8b
+#  - _llama-3.1-8b-bio
+#  - _llama-3.2-3b
+#  - _mistral-7B-v0.3
+#  - _qwen-2.5-14b
+#  - _qwen-2.5-7b
+#  - gemma-2-9b
+#  - gemma-7b
+#  - llama-3.2-3b
+#  - mistral-7B-v0.3
+#  - qwen-2.5-14b
+#  - qwen-2.5-7b

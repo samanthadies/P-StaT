@@ -1,0 +1,47 @@
+hydra:
+  job_logging:
+    version: 1
+    disable_existing_loggers: false
+    root:
+      level: WARNING
+    loggers:
+      sklearn.utils.validation:
+        level: WARNING
+      sklearnex:
+        level: WARNING
+  run:
+    dir: outputs/hydra_logs/probes/${probe.name}/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+defaults:
+  - model: llama-3-8b
+  - probe: mean_diff
+  - datapack: cities_loc
+  - datapack@datapack_test: cities_loc
+  - _self_
+
+conformal_params:
+  alpha: 0.1
+  tie_breaking: False  # Break ties based on p-val (True) or abstains (False)
+  nc: 'symmetric'
+
+eval_params:
+  n_bootstraps: 1000
+
+task: 0
+layer_range: [0.1, 1.0]
+search: True
+agg: full
+
+layers: ${model.task_layers}  # not used by probe_linear.py, but harmless
+variation: ""
+trial_name: ${datapack.name}
+output_dir: "outputs/probes/${probe.name}/${model.name}/"
+run_debugging: False
+
+random_seed: 42
+sparsify_data: -1
+cv_n_folds: 3
+save_results: True
+start_from_checkpoint: True
+
+noise: None

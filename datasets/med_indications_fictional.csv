@@ -1,0 +1,805 @@
+statement,object_1,object_2,correct_object_2,correct,negation,real_object,fake_object,fictional_object,category,in_train,in_test,in_cal
+the Trump Virus is indicated for the treatment of Xenovirus Takis-B. .,the Trump Virus,Xenovirus Takis-B. ,Xenovirus Takis-B. ,1,0,0,1,1,indications,0,0,0
+Kolto is indicated for the treatment of Xenovirus Takis-B. .,Kolto,Xenovirus Takis-B. ,Xenovirus Takis-B. ,0,0,0,1,1,indications,0,0,0
+the Trump Virus is not indicated for the treatment of Xenovirus Takis-B. .,the Trump Virus,Xenovirus Takis-B. ,Xenovirus Takis-B. ,0,1,0,1,1,indications,0,0,0
+Kolto is not indicated for the treatment of Xenovirus Takis-B. .,Kolto,Xenovirus Takis-B. ,Xenovirus Takis-B. ,1,1,0,1,1,indications,0,0,0
+starshade is indicated for the treatment of Curse of the Warmbloods.,starshade,Curse of the Warmbloods,Curse of the Warmbloods,1,0,0,1,1,indications,0,0,1
+expunging the excess electricity is indicated for the treatment of Curse of the Warmbloods.,expunging the excess electricity,Curse of the Warmbloods,Curse of the Warmbloods,0,0,0,1,1,indications,0,0,1
+starshade is not indicated for the treatment of Curse of the Warmbloods.,starshade,Curse of the Warmbloods,Curse of the Warmbloods,0,1,0,1,1,indications,1,0,0
+expunging the excess electricity is not indicated for the treatment of Curse of the Warmbloods.,expunging the excess electricity,Curse of the Warmbloods,Curse of the Warmbloods,1,1,0,1,1,indications,1,0,0
+a cure developed by Gunhilda of Gorsemoor is indicated for the treatment of Dragon Pox.,a cure developed by Gunhilda of Gorsemoor,Dragon Pox,Dragon Pox,1,0,0,1,1,indications,0,1,0
+Cryostim is indicated for the treatment of Dragon Pox.,Cryostim,Dragon Pox,Dragon Pox,0,0,0,1,1,indications,1,0,0
+a cure developed by Gunhilda of Gorsemoor is not indicated for the treatment of Dragon Pox.,a cure developed by Gunhilda of Gorsemoor,Dragon Pox,Dragon Pox,0,1,0,1,1,indications,0,0,1
+Cryostim is not indicated for the treatment of Dragon Pox.,Cryostim,Dragon Pox,Dragon Pox,1,1,0,1,1,indications,0,1,0
+flowers of Icetor boiled in spring water is indicated for the treatment of Dryditch Fever.,flowers of Icetor boiled in spring water,Dryditch Fever,Dryditch Fever,1,0,0,1,1,indications,1,0,0
+Novril is indicated for the treatment of Dryditch Fever.,Novril,Dryditch Fever,Dryditch Fever,0,0,0,1,1,indications,0,0,1
+flowers of Icetor boiled in spring water is not indicated for the treatment of Dryditch Fever.,flowers of Icetor boiled in spring water,Dryditch Fever,Dryditch Fever,0,1,0,1,1,indications,1,0,0
+Novril is not indicated for the treatment of Dryditch Fever.,Novril,Dryditch Fever,Dryditch Fever,1,1,0,1,1,indications,0,0,1
+water sent down from the fairies' Mount Ziriat is indicated for the treatment of The Gray Death.,water sent down from the fairies' Mount Ziriat,The Gray Death,The Gray Death,1,0,0,1,1,indications,0,1,0
+Ryll is indicated for the treatment of The Gray Death.,Ryll,The Gray Death,The Gray Death,0,0,0,1,1,indications,0,1,0
+water sent down from the fairies' Mount Ziriat is not indicated for the treatment of The Gray Death.,water sent down from the fairies' Mount Ziriat,The Gray Death,The Gray Death,0,1,0,1,1,indications,0,0,1
+Ryll is not indicated for the treatment of The Gray Death.,Ryll,The Gray Death,The Gray Death,1,1,0,1,1,indications,0,1,0
+binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon is indicated for the treatment of Spattergroit.,binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon,Spattergroit,Spattergroit,1,0,0,1,1,indications,0,0,0
+Placiden is indicated for the treatment of Spattergroit.,Placiden,Spattergroit,Spattergroit,0,0,0,1,1,indications,0,1,0
+binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon is not indicated for the treatment of Spattergroit.,binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon,Spattergroit,Spattergroit,0,1,0,1,1,indications,0,0,0
+Placiden is not indicated for the treatment of Spattergroit.,Placiden,Spattergroit,Spattergroit,1,1,0,1,1,indications,0,1,0
+lima beans is indicated for the treatment of Stripes.,lima beans,Stripes,Stripes,1,0,0,1,1,indications,0,1,0
+Purging with fire is indicated for the treatment of Stripes.,Purging with fire,Stripes,Stripes,0,0,0,1,1,indications,1,0,0
+lima beans is not indicated for the treatment of Stripes.,lima beans,Stripes,Stripes,0,1,0,1,1,indications,1,0,0
+Purging with fire is not indicated for the treatment of Stripes.,Purging with fire,Stripes,Stripes,1,1,0,1,1,indications,0,1,0
+a pill containing a fusion inhibitor and dehydrated blood is indicated for the treatment of Vampiris.,a pill containing a fusion inhibitor and dehydrated blood,Vampiris,Vampiris,1,0,0,1,1,indications,1,0,0
+Removal of the toad's magic gem is indicated for the treatment of Vampiris.,Removal of the toad's magic gem,Vampiris,Vampiris,0,0,0,1,1,indications,1,0,0
+a pill containing a fusion inhibitor and dehydrated blood is not indicated for the treatment of Vampiris.,a pill containing a fusion inhibitor and dehydrated blood,Vampiris,Vampiris,0,1,0,1,1,indications,1,0,0
+Removal of the toad's magic gem is not indicated for the treatment of Vampiris.,Removal of the toad's magic gem,Vampiris,Vampiris,1,1,0,1,1,indications,0,1,0
+Gurdyroot is indicated for the treatment of Gulping Plimpies.,Gurdyroot,Gulping Plimpies,Gulping Plimpies,1,0,0,1,1,indications,0,0,1
+binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon is indicated for the treatment of Gulping Plimpies.,binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon,Gulping Plimpies,Gulping Plimpies,0,0,0,1,1,indications,0,0,0
+Gurdyroot is not indicated for the treatment of Gulping Plimpies.,Gurdyroot,Gulping Plimpies,Gulping Plimpies,0,1,0,1,1,indications,0,0,1
+binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon is not indicated for the treatment of Gulping Plimpies.,binding the liver of a toad around the victim's throat and standing nude in a barrel of eel's eyes under a full moon,Gulping Plimpies,Gulping Plimpies,1,1,0,1,1,indications,0,0,0
+the Medicine One Injection is indicated for the treatment of ATP Decoupler.,the Medicine One Injection,ATP Decoupler,ATP Decoupler,1,0,0,1,1,indications,1,0,0
+Kallocain is indicated for the treatment of ATP Decoupler.,Kallocain,ATP Decoupler,ATP Decoupler,0,0,0,1,1,indications,0,1,0
+the Medicine One Injection is not indicated for the treatment of ATP Decoupler.,the Medicine One Injection,ATP Decoupler,ATP Decoupler,0,1,0,1,1,indications,1,0,0
+Kallocain is not indicated for the treatment of ATP Decoupler.,Kallocain,ATP Decoupler,ATP Decoupler,1,1,0,1,1,indications,0,0,1
+synthetic epinephrine is indicated for the treatment of Beijing Cocktail.,synthetic epinephrine,Beijing Cocktail,Beijing Cocktail,1,0,0,1,1,indications,1,0,0
+Dimoxinil is indicated for the treatment of Beijing Cocktail.,Dimoxinil,Beijing Cocktail,Beijing Cocktail,0,0,0,1,1,indications,0,0,1
+synthetic epinephrine is not indicated for the treatment of Beijing Cocktail.,synthetic epinephrine,Beijing Cocktail,Beijing Cocktail,0,1,0,1,1,indications,0,0,1
+Dimoxinil is not indicated for the treatment of Beijing Cocktail.,Dimoxinil,Beijing Cocktail,Beijing Cocktail,1,1,0,1,1,indications,1,0,0
+the tears of a phoenix is indicated for the treatment of Basilisk Venom.,the tears of a phoenix,Basilisk Venom,Basilisk Venom,1,0,0,1,1,indications,1,0,0
+Valifin is indicated for the treatment of Basilisk Venom.,Valifin,Basilisk Venom,Basilisk Venom,0,0,0,1,1,indications,1,0,0
+the tears of a phoenix is not indicated for the treatment of Basilisk Venom.,the tears of a phoenix,Basilisk Venom,Basilisk Venom,0,1,0,1,1,indications,1,0,0
+Valifin is not indicated for the treatment of Basilisk Venom.,Valifin,Basilisk Venom,Basilisk Venom,1,1,0,1,1,indications,1,0,0
+Bhelliom is indicated for the treatment of Darestim.,Bhelliom,Darestim,Darestim,1,0,0,1,1,indications,1,0,0
+Vitameatavegamin is indicated for the treatment of Darestim.,Vitameatavegamin,Darestim,Darestim,0,0,0,1,1,indications,0,0,1
+Bhelliom is not indicated for the treatment of Darestim.,Bhelliom,Darestim,Darestim,0,1,0,1,1,indications,1,0,0
+Vitameatavegamin is not indicated for the treatment of Darestim.,Vitameatavegamin,Darestim,Darestim,1,1,0,1,1,indications,1,0,0
+an anti-toxin created by the Fourth Doctor  is indicated for the treatment of Janis thorn.,an anti-toxin created by the Fourth Doctor ,Janis thorn,Janis thorn,1,0,0,1,1,indications,0,0,0
+Adravil is indicated for the treatment of Janis thorn.,Adravil,Janis thorn,Janis thorn,0,0,0,1,1,indications,1,0,0
+an anti-toxin created by the Fourth Doctor  is not indicated for the treatment of Janis thorn.,an anti-toxin created by the Fourth Doctor ,Janis thorn,Janis thorn,0,1,0,1,1,indications,0,0,0
+Adravil is not indicated for the treatment of Janis thorn.,Adravil,Janis thorn,Janis thorn,1,1,0,1,1,indications,1,0,0
+the Stage-1 Antidote is indicated for the treatment of MacGregor's Syndrome.,the Stage-1 Antidote,MacGregor's Syndrome,MacGregor's Syndrome,1,0,0,1,1,indications,0,1,0
+Selenine is indicated for the treatment of MacGregor's Syndrome.,Selenine,MacGregor's Syndrome,MacGregor's Syndrome,0,0,0,1,1,indications,0,0,1
+the Stage-1 Antidote is not indicated for the treatment of MacGregor's Syndrome.,the Stage-1 Antidote,MacGregor's Syndrome,MacGregor's Syndrome,0,1,0,1,1,indications,1,0,0
+Selenine is not indicated for the treatment of MacGregor's Syndrome.,Selenine,MacGregor's Syndrome,MacGregor's Syndrome,1,1,0,1,1,indications,1,0,0
+Absolon is indicated for the treatment of Neurological Degeneration Syndrome.,Absolon,Neurological Degeneration Syndrome,Neurological Degeneration Syndrome,1,0,0,1,1,indications,1,0,0
+Conscious expression of repressed impulses through a conventional artistic approach is indicated for the treatment of Neurological Degeneration Syndrome.,Conscious expression of repressed impulses through a conventional artistic approach,Neurological Degeneration Syndrome,Neurological Degeneration Syndrome,0,0,0,1,1,indications,1,0,0
+Absolon is not indicated for the treatment of Neurological Degeneration Syndrome.,Absolon,Neurological Degeneration Syndrome,Neurological Degeneration Syndrome,0,1,0,1,1,indications,1,0,0
+Conscious expression of repressed impulses through a conventional artistic approach is not indicated for the treatment of Neurological Degeneration Syndrome.,Conscious expression of repressed impulses through a conventional artistic approach,Neurological Degeneration Syndrome,Neurological Degeneration Syndrome,1,1,0,1,1,indications,0,0,1
+Organ Transplants is indicated for the treatment of Synaptic/Neuro Overstimulation Syndrome.,Organ Transplants,Synaptic/Neuro Overstimulation Syndrome,Synaptic/Neuro Overstimulation Syndrome,1,0,0,1,1,indications,1,0,0
+Removal of the sexual apparatus is indicated for the treatment of Synaptic/Neuro Overstimulation Syndrome.,Removal of the sexual apparatus,Synaptic/Neuro Overstimulation Syndrome,Synaptic/Neuro Overstimulation Syndrome,0,0,0,1,1,indications,0,0,1
+Organ Transplants is not indicated for the treatment of Synaptic/Neuro Overstimulation Syndrome.,Organ Transplants,Synaptic/Neuro Overstimulation Syndrome,Synaptic/Neuro Overstimulation Syndrome,0,1,0,1,1,indications,1,0,0
+Removal of the sexual apparatus is not indicated for the treatment of Synaptic/Neuro Overstimulation Syndrome.,Removal of the sexual apparatus,Synaptic/Neuro Overstimulation Syndrome,Synaptic/Neuro Overstimulation Syndrome,1,1,0,1,1,indications,0,1,0
+Incineration is indicated for the treatment of Thing cells.,Incineration,Thing cells,Thing cells,1,0,0,1,1,indications,1,0,0
+Removal of the toad's magic gem is indicated for the treatment of Thing cells.,Removal of the toad's magic gem,Thing cells,Thing cells,0,0,0,1,1,indications,0,0,1
+Incineration is not indicated for the treatment of Thing cells.,Incineration,Thing cells,Thing cells,0,1,0,1,1,indications,0,1,0
+Removal of the toad's magic gem is not indicated for the treatment of Thing cells.,Removal of the toad's magic gem,Thing cells,Thing cells,1,1,0,1,1,indications,1,0,0
+the root of the reeksa plant is indicated for the treatment of Blue Shadow Virus.,the root of the reeksa plant,Blue Shadow Virus,Blue Shadow Virus,1,0,0,1,1,indications,1,0,0
+Byphodine is indicated for the treatment of Blue Shadow Virus.,Byphodine,Blue Shadow Virus,Blue Shadow Virus,0,0,0,1,1,indications,0,1,0
+the root of the reeksa plant is not indicated for the treatment of Blue Shadow Virus.,the root of the reeksa plant,Blue Shadow Virus,Blue Shadow Virus,0,1,0,1,1,indications,1,0,0
+Byphodine is not indicated for the treatment of Blue Shadow Virus.,Byphodine,Blue Shadow Virus,Blue Shadow Virus,1,1,0,1,1,indications,0,1,0
+Pasceline D is indicated for the treatment of Bowden's Malady.,Pasceline D,Bowden's Malady,Bowden's Malady,1,0,0,1,1,indications,0,0,1
+Corrective surgery is indicated for the treatment of Bowden's Malady.,Corrective surgery,Bowden's Malady,Bowden's Malady,0,0,0,1,1,indications,1,0,0
+Pasceline D is not indicated for the treatment of Bowden's Malady.,Pasceline D,Bowden's Malady,Bowden's Malady,0,1,0,1,1,indications,0,1,0
+Corrective surgery is not indicated for the treatment of Bowden's Malady.,Corrective surgery,Bowden's Malady,Bowden's Malady,1,1,0,1,1,indications,1,0,0
+consuming a flower sprouted from the Seeds of Truth is indicated for the treatment of Cutie Pox.,consuming a flower sprouted from the Seeds of Truth,Cutie Pox,Cutie Pox,1,0,0,1,1,indications,1,0,0
+Hypnocil is indicated for the treatment of Cutie Pox.,Hypnocil,Cutie Pox,Cutie Pox,0,0,0,1,1,indications,0,0,1
+consuming a flower sprouted from the Seeds of Truth is not indicated for the treatment of Cutie Pox.,consuming a flower sprouted from the Seeds of Truth,Cutie Pox,Cutie Pox,0,1,0,1,1,indications,0,1,0
+Hypnocil is not indicated for the treatment of Cutie Pox.,Hypnocil,Cutie Pox,Cutie Pox,1,1,0,1,1,indications,1,0,0
+soaking the hands and feet in buckets of zypholic acid is indicated for the treatment of Dermatemeculitis.,soaking the hands and feet in buckets of zypholic acid,Dermatemeculitis,Dermatemeculitis,1,0,0,1,1,indications,1,0,0
+Absolon is indicated for the treatment of Dermatemeculitis.,Absolon,Dermatemeculitis,Dermatemeculitis,0,0,0,1,1,indications,0,1,0
+soaking the hands and feet in buckets of zypholic acid is not indicated for the treatment of Dermatemeculitis.,soaking the hands and feet in buckets of zypholic acid,Dermatemeculitis,Dermatemeculitis,0,1,0,1,1,indications,1,0,0
+Absolon is not indicated for the treatment of Dermatemeculitis.,Absolon,Dermatemeculitis,Dermatemeculitis,1,1,0,1,1,indications,0,0,1
+silicone buttocks is indicated for the treatment of Diminished Gluteal Syndrome.,silicone buttocks,Diminished Gluteal Syndrome,Diminished Gluteal Syndrome,1,0,0,1,1,indications,1,0,0
+Valifin is indicated for the treatment of Diminished Gluteal Syndrome.,Valifin,Diminished Gluteal Syndrome,Diminished Gluteal Syndrome,0,0,0,1,1,indications,0,1,0
+silicone buttocks is not indicated for the treatment of Diminished Gluteal Syndrome.,silicone buttocks,Diminished Gluteal Syndrome,Diminished Gluteal Syndrome,0,1,0,1,1,indications,1,0,0
+Valifin is not indicated for the treatment of Diminished Gluteal Syndrome.,Valifin,Diminished Gluteal Syndrome,Diminished Gluteal Syndrome,1,1,0,1,1,indications,1,0,0
+expunging the excess electricity is indicated for the treatment of Electric flu.,expunging the excess electricity,Electric flu,Electric flu,1,0,0,1,1,indications,1,0,0
+Neodextraline solution is indicated for the treatment of Electric flu.,Neodextraline solution,Electric flu,Electric flu,0,0,0,1,1,indications,0,0,1
+expunging the excess electricity is not indicated for the treatment of Electric flu.,expunging the excess electricity,Electric flu,Electric flu,0,1,0,1,1,indications,0,0,1
+Neodextraline solution is not indicated for the treatment of Electric flu.,Neodextraline solution,Electric flu,Electric flu,1,1,0,1,1,indications,0,1,0
+vanquishing a ghost is indicated for the treatment of Ghost Sickness.,vanquishing a ghost,Ghost Sickness,Ghost Sickness,1,0,0,1,1,indications,1,0,0
+Mancozeb is indicated for the treatment of Ghost Sickness.,Mancozeb,Ghost Sickness,Ghost Sickness,0,0,0,1,1,indications,1,0,0
+vanquishing a ghost is not indicated for the treatment of Ghost Sickness.,vanquishing a ghost,Ghost Sickness,Ghost Sickness,0,1,0,1,1,indications,1,0,0
+Mancozeb is not indicated for the treatment of Ghost Sickness.,Mancozeb,Ghost Sickness,Ghost Sickness,1,1,0,1,1,indications,0,1,0
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is indicated for the treatment of Holovirus.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Holovirus,Holovirus,1,0,0,1,1,indications,1,0,0
+Rad-X is indicated for the treatment of Holovirus.,Rad-X,Holovirus,Holovirus,0,0,0,1,1,indications,1,0,0
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is not indicated for the treatment of Holovirus.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Holovirus,Holovirus,0,1,0,1,1,indications,0,0,1
+Rad-X is not indicated for the treatment of Holovirus.,Rad-X,Holovirus,Holovirus,1,1,0,1,1,indications,0,1,0
+radiation is indicated for the treatment of Lazar's Disease.,radiation,Lazar's Disease,Lazar's Disease,1,0,0,1,1,indications,0,1,0
+Pastillas de Chiquitolina is indicated for the treatment of Lazar's Disease.,Pastillas de Chiquitolina,Lazar's Disease,Lazar's Disease,0,0,0,1,1,indications,0,0,1
+radiation is not indicated for the treatment of Lazar's Disease.,radiation,Lazar's Disease,Lazar's Disease,0,1,0,1,1,indications,0,0,1
+Pastillas de Chiquitolina is not indicated for the treatment of Lazar's Disease.,Pastillas de Chiquitolina,Lazar's Disease,Lazar's Disease,1,1,0,1,1,indications,1,0,0
+Klingon DNA is indicated for the treatment of The Phage.,Klingon DNA,The Phage,The Phage,1,0,0,1,1,indications,1,0,0
+the tears of a phoenix is indicated for the treatment of The Phage.,the tears of a phoenix,The Phage,The Phage,0,0,0,1,1,indications,0,1,0
+Klingon DNA is not indicated for the treatment of The Phage.,Klingon DNA,The Phage,The Phage,0,1,0,1,1,indications,1,0,0
+the tears of a phoenix is not indicated for the treatment of The Phage.,the tears of a phoenix,The Phage,The Phage,1,1,0,1,1,indications,0,0,1
+ryetalyn is indicated for the treatment of Rigellian Fever.,ryetalyn,Rigellian Fever,Rigellian Fever,1,0,0,1,1,indications,0,0,1
+Blinkmoth serum is indicated for the treatment of Rigellian Fever.,Blinkmoth serum,Rigellian Fever,Rigellian Fever,0,0,0,1,1,indications,0,0,1
+ryetalyn is not indicated for the treatment of Rigellian Fever.,ryetalyn,Rigellian Fever,Rigellian Fever,0,1,0,1,1,indications,0,0,1
+Blinkmoth serum is not indicated for the treatment of Rigellian Fever.,Blinkmoth serum,Rigellian Fever,Rigellian Fever,1,1,0,1,1,indications,1,0,0
+milk of the Queen Bats is indicated for the treatment of Spectrox Toxaemia.,milk of the Queen Bats,Spectrox Toxaemia,Spectrox Toxaemia,1,0,0,1,1,indications,1,0,0
+Terminal impotence is indicated for the treatment of Spectrox Toxaemia.,Terminal impotence,Spectrox Toxaemia,Spectrox Toxaemia,0,0,0,1,1,indications,0,0,1
+milk of the Queen Bats is not indicated for the treatment of Spectrox Toxaemia.,milk of the Queen Bats,Spectrox Toxaemia,Spectrox Toxaemia,0,1,0,1,1,indications,0,1,0
+Terminal impotence is not indicated for the treatment of Spectrox Toxaemia.,Terminal impotence,Spectrox Toxaemia,Spectrox Toxaemia,1,1,0,1,1,indications,1,0,0
+washing a sponge is indicated for the treatment of Sudds.,washing a sponge,Sudds,Sudds,1,0,0,1,1,indications,1,0,0
+Medi-Gel is indicated for the treatment of Sudds.,Medi-Gel,Sudds,Sudds,0,0,0,1,1,indications,1,0,0
+washing a sponge is not indicated for the treatment of Sudds.,washing a sponge,Sudds,Sudds,0,1,0,1,1,indications,0,0,1
+Medi-Gel is not indicated for the treatment of Sudds.,Medi-Gel,Sudds,Sudds,1,1,0,1,1,indications,0,0,1
+Connie from the Kona Tree is indicated for the treatment of Tree-Rush.,Connie from the Kona Tree,Tree-Rush,Tree-Rush,1,0,0,1,1,indications,1,0,0
+Morpha is indicated for the treatment of Tree-Rush.,Morpha,Tree-Rush,Tree-Rush,0,0,0,1,1,indications,1,0,0
+Connie from the Kona Tree is not indicated for the treatment of Tree-Rush.,Connie from the Kona Tree,Tree-Rush,Tree-Rush,0,1,0,1,1,indications,0,1,0
+Morpha is not indicated for the treatment of Tree-Rush.,Morpha,Tree-Rush,Tree-Rush,1,1,0,1,1,indications,1,0,0
+Bellerophon is indicated for the treatment of Chimeran Virus.,Bellerophon,Chimeran Virus,Chimeran Virus,1,0,0,1,1,indications,1,0,0
+Hypnocil is indicated for the treatment of Chimeran Virus.,Hypnocil,Chimeran Virus,Chimeran Virus,0,0,0,1,1,indications,0,1,0
+Bellerophon is not indicated for the treatment of Chimeran Virus.,Bellerophon,Chimeran Virus,Chimeran Virus,0,1,0,1,1,indications,1,0,0
+Hypnocil is not indicated for the treatment of Chimeran Virus.,Hypnocil,Chimeran Virus,Chimeran Virus,1,1,0,1,1,indications,1,0,0
+medicine made from the Borginian Cocoon is indicated for the treatment of Incuritis.,medicine made from the Borginian Cocoon,Incuritis,Incuritis,1,0,0,1,1,indications,1,0,0
+Placiden is indicated for the treatment of Incuritis.,Placiden,Incuritis,Incuritis,0,0,0,1,1,indications,0,1,0
+medicine made from the Borginian Cocoon is not indicated for the treatment of Incuritis.,medicine made from the Borginian Cocoon,Incuritis,Incuritis,0,1,0,1,1,indications,0,1,0
+Placiden is not indicated for the treatment of Incuritis.,Placiden,Incuritis,Incuritis,1,1,0,1,1,indications,1,0,0
+La Esponja Grande is indicated for the treatment of Pox of LeChuck.,La Esponja Grande,Pox of LeChuck,Pox of LeChuck,1,0,0,1,1,indications,1,0,0
+Bhelliom is indicated for the treatment of Pox of LeChuck.,Bhelliom,Pox of LeChuck,Pox of LeChuck,0,0,0,1,1,indications,0,0,1
+La Esponja Grande is not indicated for the treatment of Pox of LeChuck.,La Esponja Grande,Pox of LeChuck,Pox of LeChuck,0,1,0,1,1,indications,1,0,0
+Bhelliom is not indicated for the treatment of Pox of LeChuck.,Bhelliom,Pox of LeChuck,Pox of LeChuck,1,1,0,1,1,indications,0,1,0
+a pretendectomy is indicated for the treatment of Pretendicitis.,a pretendectomy,Pretendicitis,Pretendicitis,1,0,0,1,1,indications,1,0,0
+Rad-X is indicated for the treatment of Pretendicitis.,Rad-X,Pretendicitis,Pretendicitis,0,0,0,1,1,indications,0,0,1
+a pretendectomy is not indicated for the treatment of Pretendicitis.,a pretendectomy,Pretendicitis,Pretendicitis,0,1,0,1,1,indications,1,0,0
+Rad-X is not indicated for the treatment of Pretendicitis.,Rad-X,Pretendicitis,Pretendicitis,1,1,0,1,1,indications,1,0,0
+Sokolov's Health Elixir is indicated for the treatment of The Rat Plague.,Sokolov's Health Elixir,The Rat Plague,The Rat Plague,1,0,0,1,1,indications,1,0,0
+Isoprovalyn is indicated for the treatment of The Rat Plague.,Isoprovalyn,The Rat Plague,The Rat Plague,0,0,0,1,1,indications,1,0,0
+Sokolov's Health Elixir is not indicated for the treatment of The Rat Plague.,Sokolov's Health Elixir,The Rat Plague,The Rat Plague,0,1,0,1,1,indications,1,0,0
+Isoprovalyn is not indicated for the treatment of The Rat Plague.,Isoprovalyn,The Rat Plague,The Rat Plague,1,1,0,1,1,indications,1,0,0
+Bittamucin is indicated for the treatment of Mellorak.,Bittamucin,Mellorak,Mellorak,1,0,0,1,1,indications,0,1,0
+Provasic is indicated for the treatment of Mellorak.,Provasic,Mellorak,Mellorak,0,0,0,1,1,indications,0,1,0
+Bittamucin is not indicated for the treatment of Mellorak.,Bittamucin,Mellorak,Mellorak,0,1,0,1,1,indications,1,0,0
+Provasic is not indicated for the treatment of Mellorak.,Provasic,Mellorak,Mellorak,1,1,0,1,1,indications,1,0,0
+Cryostim is indicated for the treatment of Hibernation sickness.,Cryostim,Hibernation sickness,Hibernation sickness,1,0,0,1,1,indications,1,0,0
+flowers of Icetor boiled in spring water is indicated for the treatment of Hibernation sickness.,flowers of Icetor boiled in spring water,Hibernation sickness,Hibernation sickness,0,0,0,1,1,indications,1,0,0
+Cryostim is not indicated for the treatment of Hibernation sickness.,Cryostim,Hibernation sickness,Hibernation sickness,0,1,0,1,1,indications,1,0,0
+flowers of Icetor boiled in spring water is not indicated for the treatment of Hibernation sickness.,flowers of Icetor boiled in spring water,Hibernation sickness,Hibernation sickness,1,1,0,1,1,indications,1,0,0
+Felicium is indicated for the treatment of Ornaran plague.,Felicium,Ornaran plague,Ornaran plague,1,0,0,1,1,indications,1,0,0
+Bandaging eyes and lying flat on a neutral surface is indicated for the treatment of Ornaran plague.,Bandaging eyes and lying flat on a neutral surface,Ornaran plague,Ornaran plague,0,0,0,1,1,indications,0,0,1
+Felicium is not indicated for the treatment of Ornaran plague.,Felicium,Ornaran plague,Ornaran plague,0,1,0,1,1,indications,0,1,0
+Bandaging eyes and lying flat on a neutral surface is not indicated for the treatment of Ornaran plague.,Bandaging eyes and lying flat on a neutral surface,Ornaran plague,Ornaran plague,1,1,0,1,1,indications,1,0,0
+Organ Transplants is indicated for the treatment of Ballistic Organ Syndrome.,Organ Transplants,Ballistic Organ Syndrome,Ballistic Organ Syndrome,1,0,0,1,1,indications,1,0,0
+Bacta is indicated for the treatment of Ballistic Organ Syndrome.,Bacta,Ballistic Organ Syndrome,Ballistic Organ Syndrome,0,0,0,1,1,indications,0,0,1
+Organ Transplants is not indicated for the treatment of Ballistic Organ Syndrome.,Organ Transplants,Ballistic Organ Syndrome,Ballistic Organ Syndrome,0,1,0,1,1,indications,0,1,0
+Bacta is not indicated for the treatment of Ballistic Organ Syndrome.,Bacta,Ballistic Organ Syndrome,Ballistic Organ Syndrome,1,1,0,1,1,indications,1,0,0
+Purging with fire is indicated for the treatment of Buboparazygosia.,Purging with fire,Buboparazygosia,Buboparazygosia,1,0,0,1,1,indications,1,0,0
+Repressitol is indicated for the treatment of Buboparazygosia.,Repressitol,Buboparazygosia,Buboparazygosia,0,0,0,1,1,indications,0,1,0
+Purging with fire is not indicated for the treatment of Buboparazygosia.,Purging with fire,Buboparazygosia,Buboparazygosia,0,1,0,1,1,indications,0,1,0
+Repressitol is not indicated for the treatment of Buboparazygosia.,Repressitol,Buboparazygosia,Buboparazygosia,1,1,0,1,1,indications,0,0,1
+Removal of the toad's magic gem is indicated for the treatment of Bufonidic Cephalitis.,Removal of the toad's magic gem,Bufonidic Cephalitis,Bufonidic Cephalitis,1,0,0,1,1,indications,1,0,0
+Aqua Cure is indicated for the treatment of Bufonidic Cephalitis.,Aqua Cure,Bufonidic Cephalitis,Bufonidic Cephalitis,0,0,0,1,1,indications,0,1,0
+Removal of the toad's magic gem is not indicated for the treatment of Bufonidic Cephalitis.,Removal of the toad's magic gem,Bufonidic Cephalitis,Bufonidic Cephalitis,0,1,0,1,1,indications,0,0,1
+Aqua Cure is not indicated for the treatment of Bufonidic Cephalitis.,Aqua Cure,Bufonidic Cephalitis,Bufonidic Cephalitis,1,1,0,1,1,indications,1,0,0
+Psychotherapy is indicated for the treatment of Catamenia Hysterica.,Psychotherapy,Catamenia Hysterica,Catamenia Hysterica,1,0,0,1,1,indications,1,0,0
+Dypraxa is indicated for the treatment of Catamenia Hysterica.,Dypraxa,Catamenia Hysterica,Catamenia Hysterica,0,0,0,1,1,indications,1,0,0
+Psychotherapy is not indicated for the treatment of Catamenia Hysterica.,Psychotherapy,Catamenia Hysterica,Catamenia Hysterica,0,1,0,1,1,indications,1,0,0
+Dypraxa is not indicated for the treatment of Catamenia Hysterica.,Dypraxa,Catamenia Hysterica,Catamenia Hysterica,1,1,0,1,1,indications,0,1,0
+Reducing soft drink intake is indicated for the treatment of Ceòlmhar Bus.,Reducing soft drink intake,Ceòlmhar Bus,Ceòlmhar Bus,1,0,0,1,1,indications,1,0,0
+Gingold extract is indicated for the treatment of Ceòlmhar Bus.,Gingold extract,Ceòlmhar Bus,Ceòlmhar Bus,0,0,0,1,1,indications,0,0,1
+Reducing soft drink intake is not indicated for the treatment of Ceòlmhar Bus.,Reducing soft drink intake,Ceòlmhar Bus,Ceòlmhar Bus,0,1,0,1,1,indications,1,0,0
+Gingold extract is not indicated for the treatment of Ceòlmhar Bus.,Gingold extract,Ceòlmhar Bus,Ceòlmhar Bus,1,1,0,1,1,indications,1,0,0
+Subdermal separating agent to remove the parasite is indicated for the treatment of Chronic Zygotic Dermis Disorder.,Subdermal separating agent to remove the parasite,Chronic Zygotic Dermis Disorder,Chronic Zygotic Dermis Disorder,1,0,0,1,1,indications,1,0,0
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is indicated for the treatment of Chronic Zygotic Dermis Disorder.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Chronic Zygotic Dermis Disorder,Chronic Zygotic Dermis Disorder,0,0,0,1,1,indications,0,1,0
+Subdermal separating agent to remove the parasite is not indicated for the treatment of Chronic Zygotic Dermis Disorder.,Subdermal separating agent to remove the parasite,Chronic Zygotic Dermis Disorder,Chronic Zygotic Dermis Disorder,0,1,0,1,1,indications,0,0,1
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is not indicated for the treatment of Chronic Zygotic Dermis Disorder.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Chronic Zygotic Dermis Disorder,Chronic Zygotic Dermis Disorder,1,1,0,1,1,indications,0,1,0
+Forgetfulness is indicated for the treatment of Chrono-unific Deficiency Syndrome.,Forgetfulness,Chrono-unific Deficiency Syndrome,Chrono-unific Deficiency Syndrome,1,0,0,1,1,indications,1,0,0
+Bloodhype is indicated for the treatment of Chrono-unific Deficiency Syndrome.,Bloodhype,Chrono-unific Deficiency Syndrome,Chrono-unific Deficiency Syndrome,0,0,0,1,1,indications,1,0,0
+Forgetfulness is not indicated for the treatment of Chrono-unific Deficiency Syndrome.,Forgetfulness,Chrono-unific Deficiency Syndrome,Chrono-unific Deficiency Syndrome,0,1,0,1,1,indications,0,1,0
+Bloodhype is not indicated for the treatment of Chrono-unific Deficiency Syndrome.,Bloodhype,Chrono-unific Deficiency Syndrome,Chrono-unific Deficiency Syndrome,1,1,0,1,1,indications,0,0,1
+Drug treatment on the brain's spatial lobes is indicated for the treatment of Delusions of Universal Grandeur.,Drug treatment on the brain's spatial lobes,Delusions of Universal Grandeur,Delusions of Universal Grandeur,1,0,0,1,1,indications,0,0,1
+Retinax is indicated for the treatment of Delusions of Universal Grandeur.,Retinax,Delusions of Universal Grandeur,Delusions of Universal Grandeur,0,0,0,1,1,indications,0,0,1
+Drug treatment on the brain's spatial lobes is not indicated for the treatment of Delusions of Universal Grandeur.,Drug treatment on the brain's spatial lobes,Delusions of Universal Grandeur,Delusions of Universal Grandeur,0,1,0,1,1,indications,0,0,1
+Retinax is not indicated for the treatment of Delusions of Universal Grandeur.,Retinax,Delusions of Universal Grandeur,Delusions of Universal Grandeur,1,1,0,1,1,indications,0,1,0
+Scammony is indicated for the treatment of Diseasemaker's Croup.,Scammony,Diseasemaker's Croup,Diseasemaker's Croup,1,0,0,1,1,indications,1,0,0
+Triox Compound is indicated for the treatment of Diseasemaker's Croup.,Triox Compound,Diseasemaker's Croup,Diseasemaker's Croup,0,0,0,1,1,indications,1,0,0
+Scammony is not indicated for the treatment of Diseasemaker's Croup.,Scammony,Diseasemaker's Croup,Diseasemaker's Croup,0,1,0,1,1,indications,1,0,0
+Triox Compound is not indicated for the treatment of Diseasemaker's Croup.,Triox Compound,Diseasemaker's Croup,Diseasemaker's Croup,1,1,0,1,1,indications,0,0,1
+Nemo Omen's therapy is indicated for the treatment of Emordny's Syndrome.,Nemo Omen's therapy,Emordny's Syndrome,Emordny's Syndrome,1,0,0,1,1,indications,0,1,0
+Cloveritol is indicated for the treatment of Emordny's Syndrome.,Cloveritol,Emordny's Syndrome,Emordny's Syndrome,0,0,0,1,1,indications,0,1,0
+Nemo Omen's therapy is not indicated for the treatment of Emordny's Syndrome.,Nemo Omen's therapy,Emordny's Syndrome,Emordny's Syndrome,0,1,0,1,1,indications,0,1,0
+Cloveritol is not indicated for the treatment of Emordny's Syndrome.,Cloveritol,Emordny's Syndrome,Emordny's Syndrome,1,1,0,1,1,indications,1,0,0
+Removal of metal is indicated for the treatment of Ferrobacterial Accretion Syndrome.,Removal of metal,Ferrobacterial Accretion Syndrome,Ferrobacterial Accretion Syndrome,1,0,0,1,1,indications,1,0,0
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is indicated for the treatment of Ferrobacterial Accretion Syndrome.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Ferrobacterial Accretion Syndrome,Ferrobacterial Accretion Syndrome,0,0,0,1,1,indications,0,1,0
+Removal of metal is not indicated for the treatment of Ferrobacterial Accretion Syndrome.,Removal of metal,Ferrobacterial Accretion Syndrome,Ferrobacterial Accretion Syndrome,0,1,0,1,1,indications,1,0,0
+a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor is not indicated for the treatment of Ferrobacterial Accretion Syndrome.,a remote link to the hologram disk projection system and a detachable power transfer adapter capable of holding spikes of up to five million volts and a B47/7RF resistor,Ferrobacterial Accretion Syndrome,Ferrobacterial Accretion Syndrome,1,1,0,1,1,indications,0,1,0
+Not eating licorice  is indicated for the treatment of Figurative Synesthesia.,Not eating licorice ,Figurative Synesthesia,Figurative Synesthesia,1,0,0,1,1,indications,1,0,0
+the Medicine One Injection is indicated for the treatment of Figurative Synesthesia.,the Medicine One Injection,Figurative Synesthesia,Figurative Synesthesia,0,0,0,1,1,indications,0,0,1
+Not eating licorice  is not indicated for the treatment of Figurative Synesthesia.,Not eating licorice ,Figurative Synesthesia,Figurative Synesthesia,0,1,0,1,1,indications,0,1,0
+the Medicine One Injection is not indicated for the treatment of Figurative Synesthesia.,the Medicine One Injection,Figurative Synesthesia,Figurative Synesthesia,1,1,0,1,1,indications,0,0,1
+Fludioxonil is indicated for the treatment of Flora Metamorphosis Syndrome.,Fludioxonil,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,0,0,1,1,indications,1,0,0
+Cortexin is indicated for the treatment of Flora Metamorphosis Syndrome.,Cortexin,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,0,0,1,1,indications,0,1,0
+Fludioxonil is not indicated for the treatment of Flora Metamorphosis Syndrome.,Fludioxonil,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,1,0,1,1,indications,0,1,0
+Cortexin is not indicated for the treatment of Flora Metamorphosis Syndrome.,Cortexin,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,1,0,1,1,indications,1,0,0
+Mancozeb is indicated for the treatment of Flora Metamorphosis Syndrome.,Mancozeb,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,0,0,1,1,indications,0,0,1
+the root of the reeksa plant is indicated for the treatment of Flora Metamorphosis Syndrome.,the root of the reeksa plant,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,0,0,1,1,indications,1,0,0
+Mancozeb is not indicated for the treatment of Flora Metamorphosis Syndrome.,Mancozeb,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,1,0,1,1,indications,0,0,1
+the root of the reeksa plant is not indicated for the treatment of Flora Metamorphosis Syndrome.,the root of the reeksa plant,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,1,0,1,1,indications,0,1,0
+Triadimefon is indicated for the treatment of Flora Metamorphosis Syndrome.,Triadimefon,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,0,0,1,1,indications,0,0,1
+Gleemonex is indicated for the treatment of Flora Metamorphosis Syndrome.,Gleemonex,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,0,0,1,1,indications,1,0,0
+Triadimefon is not indicated for the treatment of Flora Metamorphosis Syndrome.,Triadimefon,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,0,1,0,1,1,indications,1,0,0
+Gleemonex is not indicated for the treatment of Flora Metamorphosis Syndrome.,Gleemonex,Flora Metamorphosis Syndrome,Flora Metamorphosis Syndrome,1,1,0,1,1,indications,1,0,0
+Gentle refrigeration is indicated for the treatment of Fruiting Body Syndrome.,Gentle refrigeration,Fruiting Body Syndrome,Fruiting Body Syndrome,1,0,0,1,1,indications,1,0,0
+radiation is indicated for the treatment of Fruiting Body Syndrome.,radiation,Fruiting Body Syndrome,Fruiting Body Syndrome,0,0,0,1,1,indications,0,0,1
+Gentle refrigeration is not indicated for the treatment of Fruiting Body Syndrome.,Gentle refrigeration,Fruiting Body Syndrome,Fruiting Body Syndrome,0,1,0,1,1,indications,1,0,0
+radiation is not indicated for the treatment of Fruiting Body Syndrome.,radiation,Fruiting Body Syndrome,Fruiting Body Syndrome,1,1,0,1,1,indications,0,0,1
+Conscious expression of repressed impulses through a conventional artistic approach is indicated for the treatment of Internalized Tattooing Disease.,Conscious expression of repressed impulses through a conventional artistic approach,Internalized Tattooing Disease,Internalized Tattooing Disease,1,0,0,1,1,indications,1,0,0
+Scammony is indicated for the treatment of Internalized Tattooing Disease.,Scammony,Internalized Tattooing Disease,Internalized Tattooing Disease,0,0,0,1,1,indications,1,0,0
+Conscious expression of repressed impulses through a conventional artistic approach is not indicated for the treatment of Internalized Tattooing Disease.,Conscious expression of repressed impulses through a conventional artistic approach,Internalized Tattooing Disease,Internalized Tattooing Disease,0,1,0,1,1,indications,1,0,0
+Scammony is not indicated for the treatment of Internalized Tattooing Disease.,Scammony,Internalized Tattooing Disease,Internalized Tattooing Disease,1,1,0,1,1,indications,0,0,1
+Surgically closing the tubules is indicated for the treatment of Ledru's Disease.,Surgically closing the tubules,Ledru's Disease,Ledru's Disease,1,0,0,1,1,indications,0,1,0
+Klingon DNA is indicated for the treatment of Ledru's Disease.,Klingon DNA,Ledru's Disease,Ledru's Disease,0,0,0,1,1,indications,1,0,0
+Surgically closing the tubules is not indicated for the treatment of Ledru's Disease.,Surgically closing the tubules,Ledru's Disease,Ledru's Disease,0,1,0,1,1,indications,1,0,0
+Klingon DNA is not indicated for the treatment of Ledru's Disease.,Klingon DNA,Ledru's Disease,Ledru's Disease,1,1,0,1,1,indications,1,0,0
+Public humiliation is indicated for the treatment of Menard's Disease.,Public humiliation,Menard's Disease,Menard's Disease,1,0,0,1,1,indications,1,0,0
+medicine made from the Borginian Cocoon is indicated for the treatment of Menard's Disease.,medicine made from the Borginian Cocoon,Menard's Disease,Menard's Disease,0,0,0,1,1,indications,0,1,0
+Public humiliation is not indicated for the treatment of Menard's Disease.,Public humiliation,Menard's Disease,Menard's Disease,0,1,0,1,1,indications,0,1,0
+medicine made from the Borginian Cocoon is not indicated for the treatment of Menard's Disease.,medicine made from the Borginian Cocoon,Menard's Disease,Menard's Disease,1,1,0,1,1,indications,1,0,0
+A purgative consisting of a surfeit of khummus is indicated for the treatment of Mongolian Death Worm Infestion.,A purgative consisting of a surfeit of khummus,Mongolian Death Worm Infestion,Mongolian Death Worm Infestion,1,0,0,1,1,indications,1,0,0
+consuming a flower sprouted from the Seeds of Truth is indicated for the treatment of Mongolian Death Worm Infestion.,consuming a flower sprouted from the Seeds of Truth,Mongolian Death Worm Infestion,Mongolian Death Worm Infestion,0,0,0,1,1,indications,1,0,0
+A purgative consisting of a surfeit of khummus is not indicated for the treatment of Mongolian Death Worm Infestion.,A purgative consisting of a surfeit of khummus,Mongolian Death Worm Infestion,Mongolian Death Worm Infestion,0,1,0,1,1,indications,1,0,0
+consuming a flower sprouted from the Seeds of Truth is not indicated for the treatment of Mongolian Death Worm Infestion.,consuming a flower sprouted from the Seeds of Truth,Mongolian Death Worm Infestion,Mongolian Death Worm Infestion,1,1,0,1,1,indications,0,1,0
+Surgical excision  is indicated for the treatment of Motile Snarcoma.,Surgical excision ,Motile Snarcoma,Motile Snarcoma,1,0,0,1,1,indications,0,1,0
+Blinkmoth serum is indicated for the treatment of Motile Snarcoma.,Blinkmoth serum,Motile Snarcoma,Motile Snarcoma,0,0,0,1,1,indications,1,0,0
+Surgical excision  is not indicated for the treatment of Motile Snarcoma.,Surgical excision ,Motile Snarcoma,Motile Snarcoma,0,1,0,1,1,indications,0,1,0
+Blinkmoth serum is not indicated for the treatment of Motile Snarcoma.,Blinkmoth serum,Motile Snarcoma,Motile Snarcoma,1,1,0,1,1,indications,1,0,0
+25 to 30 mg of camphorated parziquantyl is indicated for the treatment of Noumenal Fluke.,25 to 30 mg of camphorated parziquantyl,Noumenal Fluke,Noumenal Fluke,1,0,0,1,1,indications,1,0,0
+RadAway is indicated for the treatment of Noumenal Fluke.,RadAway,Noumenal Fluke,Noumenal Fluke,0,0,0,1,1,indications,1,0,0
+25 to 30 mg of camphorated parziquantyl is not indicated for the treatment of Noumenal Fluke.,25 to 30 mg of camphorated parziquantyl,Noumenal Fluke,Noumenal Fluke,0,1,0,1,1,indications,0,1,0
+RadAway is not indicated for the treatment of Noumenal Fluke.,RadAway,Noumenal Fluke,Noumenal Fluke,1,1,0,1,1,indications,0,1,0
+Corrective surgery is indicated for the treatment of Ouroborean Lordosis.,Corrective surgery,Ouroborean Lordosis,Ouroborean Lordosis,1,0,0,1,1,indications,1,0,0
+Cortexin is indicated for the treatment of Ouroborean Lordosis.,Cortexin,Ouroborean Lordosis,Ouroborean Lordosis,0,0,0,1,1,indications,0,1,0
+Corrective surgery is not indicated for the treatment of Ouroborean Lordosis.,Corrective surgery,Ouroborean Lordosis,Ouroborean Lordosis,0,1,0,1,1,indications,1,0,0
+Cortexin is not indicated for the treatment of Ouroborean Lordosis.,Cortexin,Ouroborean Lordosis,Ouroborean Lordosis,1,1,0,1,1,indications,0,1,0
+Giving the subject continous access to a variety of diagnostic devices is indicated for the treatment of Pathological Instrumentation Disorder.,Giving the subject continous access to a variety of diagnostic devices,Pathological Instrumentation Disorder,Pathological Instrumentation Disorder,1,0,0,1,1,indications,1,0,0
+Surgical excision  is indicated for the treatment of Pathological Instrumentation Disorder.,Surgical excision ,Pathological Instrumentation Disorder,Pathological Instrumentation Disorder,0,0,0,1,1,indications,1,0,0
+Giving the subject continous access to a variety of diagnostic devices is not indicated for the treatment of Pathological Instrumentation Disorder.,Giving the subject continous access to a variety of diagnostic devices,Pathological Instrumentation Disorder,Pathological Instrumentation Disorder,0,1,0,1,1,indications,0,1,0
+Surgical excision  is not indicated for the treatment of Pathological Instrumentation Disorder.,Surgical excision ,Pathological Instrumentation Disorder,Pathological Instrumentation Disorder,1,1,0,1,1,indications,0,1,0
+Removal of the sexual apparatus is indicated for the treatment of Pentzler's Lubriciousness.,Removal of the sexual apparatus,Pentzler's Lubriciousness,Pentzler's Lubriciousness,1,0,0,1,1,indications,1,0,0
+Reducing soft drink intake is indicated for the treatment of Pentzler's Lubriciousness.,Reducing soft drink intake,Pentzler's Lubriciousness,Pentzler's Lubriciousness,0,0,0,1,1,indications,0,1,0
+Removal of the sexual apparatus is not indicated for the treatment of Pentzler's Lubriciousness.,Removal of the sexual apparatus,Pentzler's Lubriciousness,Pentzler's Lubriciousness,0,1,0,1,1,indications,1,0,0
+Reducing soft drink intake is not indicated for the treatment of Pentzler's Lubriciousness.,Reducing soft drink intake,Pentzler's Lubriciousness,Pentzler's Lubriciousness,1,1,0,1,1,indications,1,0,0
+Terminal impotence is indicated for the treatment of Post-Traumatic Placebosis.,Terminal impotence,Post-Traumatic Placebosis,Post-Traumatic Placebosis,1,0,0,1,1,indications,1,0,0
+Cortexin is indicated for the treatment of Post-Traumatic Placebosis.,Cortexin,Post-Traumatic Placebosis,Post-Traumatic Placebosis,0,0,0,1,1,indications,1,0,0
+Terminal impotence is not indicated for the treatment of Post-Traumatic Placebosis.,Terminal impotence,Post-Traumatic Placebosis,Post-Traumatic Placebosis,0,1,0,1,1,indications,0,1,0
+Cortexin is not indicated for the treatment of Post-Traumatic Placebosis.,Cortexin,Post-Traumatic Placebosis,Post-Traumatic Placebosis,1,1,0,1,1,indications,0,1,0
+Slavopropin is indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Slavopropin,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,1,0,0,1,1,indications,0,1,0
+Distral is indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Distral,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,0,0,0,1,1,indications,0,1,0
+Slavopropin is not indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Slavopropin,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,0,1,0,1,1,indications,0,0,1
+Distral is not indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Distral,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,1,1,0,1,1,indications,0,0,1
+Meforbifak is indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Meforbifak,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,1,0,0,1,1,indications,0,1,0
+the Stage-1 Antidote is indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,the Stage-1 Antidote,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,0,0,0,1,1,indications,0,1,0
+Meforbifak is not indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,Meforbifak,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,0,1,0,1,1,indications,0,0,1
+the Stage-1 Antidote is not indicated for the treatment of Postal Carriers' Brain Fluke Syndrome.,the Stage-1 Antidote,Postal Carriers' Brain Fluke Syndrome,Postal Carriers' Brain Fluke Syndrome,1,1,0,1,1,indications,1,0,0
+"""Ice cream scoop"" lobotomy is indicated for the treatment of Third Eye Infection.","""Ice cream scoop"" lobotomy",Third Eye Infection,Third Eye Infection,1,0,0,1,1,indications,0,0,1
+vanquishing a ghost is indicated for the treatment of Third Eye Infection.,vanquishing a ghost,Third Eye Infection,Third Eye Infection,0,0,0,1,1,indications,1,0,0
+"""Ice cream scoop"" lobotomy is not indicated for the treatment of Third Eye Infection.","""Ice cream scoop"" lobotomy",Third Eye Infection,Third Eye Infection,0,1,0,1,1,indications,0,1,0
+vanquishing a ghost is not indicated for the treatment of Third Eye Infection.,vanquishing a ghost,Third Eye Infection,Third Eye Infection,1,1,0,1,1,indications,0,0,1
+Establishing secure housing is indicated for the treatment of Turbot's Syndrome.,Establishing secure housing,Turbot's Syndrome,Turbot's Syndrome,1,0,0,1,1,indications,1,0,0
+Distral is indicated for the treatment of Turbot's Syndrome.,Distral,Turbot's Syndrome,Turbot's Syndrome,0,0,0,1,1,indications,0,0,1
+Establishing secure housing is not indicated for the treatment of Turbot's Syndrome.,Establishing secure housing,Turbot's Syndrome,Turbot's Syndrome,0,1,0,1,1,indications,1,0,0
+Distral is not indicated for the treatment of Turbot's Syndrome.,Distral,Turbot's Syndrome,Turbot's Syndrome,1,1,0,1,1,indications,0,0,1
+Directing searchlight beams across the rash is indicated for the treatment of Twentieth Century Chronoshock.,Directing searchlight beams across the rash,Twentieth Century Chronoshock,Twentieth Century Chronoshock,1,0,0,1,1,indications,1,0,0
+the Stage-1 Antidote is indicated for the treatment of Twentieth Century Chronoshock.,the Stage-1 Antidote,Twentieth Century Chronoshock,Twentieth Century Chronoshock,0,0,0,1,1,indications,1,0,0
+Directing searchlight beams across the rash is not indicated for the treatment of Twentieth Century Chronoshock.,Directing searchlight beams across the rash,Twentieth Century Chronoshock,Twentieth Century Chronoshock,0,1,0,1,1,indications,1,0,0
+the Stage-1 Antidote is not indicated for the treatment of Twentieth Century Chronoshock.,the Stage-1 Antidote,Twentieth Century Chronoshock,Twentieth Century Chronoshock,1,1,0,1,1,indications,0,1,0
+Surgical removal at birth is indicated for the treatment of Vestigial Elongation of the Caudal Vertebrae.,Surgical removal at birth,Vestigial Elongation of the Caudal Vertebrae,Vestigial Elongation of the Caudal Vertebrae,1,0,0,1,1,indications,0,1,0
+Gleemonex is indicated for the treatment of Vestigial Elongation of the Caudal Vertebrae.,Gleemonex,Vestigial Elongation of the Caudal Vertebrae,Vestigial Elongation of the Caudal Vertebrae,0,0,0,1,1,indications,1,0,0
+Surgical removal at birth is not indicated for the treatment of Vestigial Elongation of the Caudal Vertebrae.,Surgical removal at birth,Vestigial Elongation of the Caudal Vertebrae,Vestigial Elongation of the Caudal Vertebrae,0,1,0,1,1,indications,0,0,1
+Gleemonex is not indicated for the treatment of Vestigial Elongation of the Caudal Vertebrae.,Gleemonex,Vestigial Elongation of the Caudal Vertebrae,Vestigial Elongation of the Caudal Vertebrae,1,1,0,1,1,indications,0,0,1
+Flirtation is indicated for the treatment of Wife Blindness.,Flirtation,Wife Blindness,Wife Blindness,1,0,0,1,1,indications,1,0,0
+Jamitol is indicated for the treatment of Wife Blindness.,Jamitol,Wife Blindness,Wife Blindness,0,0,0,1,1,indications,1,0,0
+Flirtation is not indicated for the treatment of Wife Blindness.,Flirtation,Wife Blindness,Wife Blindness,0,1,0,1,1,indications,0,0,1
+Jamitol is not indicated for the treatment of Wife Blindness.,Jamitol,Wife Blindness,Wife Blindness,1,1,0,1,1,indications,0,1,0
+Bandaging eyes and lying flat on a neutral surface is indicated for the treatment of Worsley's Supplement.,Bandaging eyes and lying flat on a neutral surface,Worsley's Supplement,Worsley's Supplement,1,0,0,1,1,indications,0,1,0
+Triox Compound is indicated for the treatment of Worsley's Supplement.,Triox Compound,Worsley's Supplement,Worsley's Supplement,0,0,0,1,1,indications,0,1,0
+Bandaging eyes and lying flat on a neutral surface is not indicated for the treatment of Worsley's Supplement.,Bandaging eyes and lying flat on a neutral surface,Worsley's Supplement,Worsley's Supplement,0,1,0,1,1,indications,0,1,0
+Triox Compound is not indicated for the treatment of Worsley's Supplement.,Triox Compound,Worsley's Supplement,Worsley's Supplement,1,1,0,1,1,indications,0,1,0
+Avoidance of tainted words is indicated for the treatment of The Wuhan Flu.,Avoidance of tainted words,The Wuhan Flu,The Wuhan Flu,1,0,0,1,1,indications,0,0,1
+Anti-gerasone is indicated for the treatment of The Wuhan Flu.,Anti-gerasone,The Wuhan Flu,The Wuhan Flu,0,0,0,1,1,indications,1,0,0
+Avoidance of tainted words is not indicated for the treatment of The Wuhan Flu.,Avoidance of tainted words,The Wuhan Flu,The Wuhan Flu,0,1,0,1,1,indications,1,0,0
+Anti-gerasone is not indicated for the treatment of The Wuhan Flu.,Anti-gerasone,The Wuhan Flu,The Wuhan Flu,1,1,0,1,1,indications,1,0,0
+Cauterization is indicated for the treatment of Zschokke's Chancres.,Cauterization,Zschokke's Chancres,Zschokke's Chancres,1,0,0,1,1,indications,0,0,1
+Surgically closing the tubules is indicated for the treatment of Zschokke's Chancres.,Surgically closing the tubules,Zschokke's Chancres,Zschokke's Chancres,0,0,0,1,1,indications,0,0,1
+Cauterization is not indicated for the treatment of Zschokke's Chancres.,Cauterization,Zschokke's Chancres,Zschokke's Chancres,0,1,0,1,1,indications,1,0,0
+Surgically closing the tubules is not indicated for the treatment of Zschokke's Chancres.,Surgically closing the tubules,Zschokke's Chancres,Zschokke's Chancres,1,1,0,1,1,indications,0,0,1
+Hydronalin is indicated for the treatment of Cordilla Virus.,Hydronalin,Hydronalin,Hydronalin,0,0,0,1,1,indications,1,0,0
+Adravil is indicated for the treatment of NE-Beta Parasite.,Adravil,Adravil,Adravil,0,0,0,1,1,indications,1,0,0
+Cordrazine is indicated for the treatment of Johnny-itis.,Cordrazine,Cordrazine,Cordrazine,0,0,0,1,1,indications,0,1,0
+Vitameatavegamin is indicated for the treatment of Hepatitis V.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,0,0,1,1,indications,1,0,0
+Fukitol is indicated for the treatment of Bliss Virus.,Fukitol,Fukitol,Fukitol,0,0,0,1,1,indications,0,1,0
+Distral is indicated for the treatment of Nightlock.,Distral,Distral,Distral,0,0,0,1,1,indications,1,0,0
+Hypnocil is indicated for the treatment of Space Rabies.,Hypnocil,Hypnocil,Hypnocil,0,0,0,1,1,indications,1,0,0
+Kerasine is indicated for the treatment of Great Plague.,Kerasine,Kerasine,Kerasine,0,0,0,1,1,indications,0,0,1
+Viopril is indicated for the treatment of Ecola.,Viopril,Viopril,Viopril,0,0,0,1,1,indications,1,0,0
+Byphodine is indicated for the treatment of The Ripley.,Byphodine,Byphodine,Byphodine,0,0,0,1,1,indications,0,0,1
+Phalanx is indicated for the treatment of Ebercitas.,Phalanx,Phalanx,Phalanx,0,0,0,1,1,indications,0,0,1
+Hydromel is indicated for the treatment of Random Pavarotti Disease.,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,1,0,0
+Anti-gerasone is indicated for the treatment of White Blindness.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,0,0,1,1,indications,0,1,0
+Azrael is indicated for the treatment of Virus One.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,0,0,1
+Azrael is indicated for the treatment of NE-Alpha Parasite.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,0,1,0
+Hydronalin is indicated for the treatment of Pale Mare.,Hydronalin,Hydronalin,Hydronalin,0,0,0,1,1,indications,1,0,0
+Gleemonex is indicated for the treatment of Reaper.,Gleemonex,Gleemonex,Gleemonex,0,0,0,1,1,indications,0,1,0
+Athelas is indicated for the treatment of Shanti Virus.,Athelas,Athelas,Athelas,0,0,0,1,1,indications,1,0,0
+Pastillas de Chiquitolina is indicated for the treatment of Reverse Ponocchio Syndrome.,Pastillas de Chiquitolina,Pastillas de Chiquitolina,Pastillas de Chiquitolina,0,0,0,1,1,indications,0,1,0
+Gleemonex is indicated for the treatment of Great Plague.,Gleemonex,Gleemonex,Gleemonex,0,0,0,1,1,indications,0,0,1
+Retinax is indicated for the treatment of SP-43.,Retinax,Retinax,Retinax,0,0,0,1,1,indications,0,1,0
+Triox Compound is indicated for the treatment of Space Mumps.,Triox Compound,Triox Compound,Triox Compound,0,0,0,1,1,indications,0,1,0
+Gambutrol is indicated for the treatment of Logopetria.,Gambutrol,Gambutrol,Gambutrol,0,0,0,1,1,indications,1,0,0
+Hydronalin is indicated for the treatment of Monochromitis.,Hydronalin,Hydronalin,Hydronalin,0,0,0,1,1,indications,0,1,0
+Athelas is indicated for the treatment of T-Veronica Virus.,Athelas,Athelas,Athelas,0,0,0,1,1,indications,1,0,0
+Ketracel White is indicated for the treatment of Drafa Plague.,Ketracel White,Ketracel White,Ketracel White,0,0,0,1,1,indications,0,0,1
+Dylar is indicated for the treatment of Demon Pox.,Dylar,Dylar,Dylar,0,0,0,1,1,indications,1,0,0
+Blinkmoth serum is indicated for the treatment of G-Virus.,Blinkmoth serum,Blinkmoth serum,Blinkmoth serum,0,0,0,1,1,indications,1,0,0
+Cortexin is indicated for the treatment of Electrogonnorhea.,Cortexin,Cortexin,Cortexin,0,0,0,1,1,indications,0,0,1
+Adravil is indicated for the treatment of Twin Fever.,Adravil,Adravil,Adravil,0,0,0,1,1,indications,0,0,1
+Turbolax is indicated for the treatment of Snow Crash.,Turbolax,Turbolax,Turbolax,0,0,0,1,1,indications,1,0,0
+Novril is indicated for the treatment of Creeping Derangea.,Novril,Novril,Novril,0,0,0,1,1,indications,0,0,1
+Dylar is indicated for the treatment of Bone-itis.,Dylar,Dylar,Dylar,0,0,0,1,1,indications,1,0,0
+Hydromel is indicated for the treatment of Motoba .,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,0,1,0
+Novril is indicated for the treatment of I-Pollen Degenerative Disorder.,Novril,Novril,Novril,0,0,0,1,1,indications,1,0,0
+Gingold extract is indicated for the treatment of Great Plague.,Gingold extract,Gingold extract,Gingold extract,0,0,0,1,1,indications,0,0,1
+Prexilin is indicated for the treatment of T-Abyss Virus.,Prexilin,Prexilin,Prexilin,0,0,0,1,1,indications,1,0,0
+Omegendorph is indicated for the treatment of Hinamizawa Syndrome.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,0,1,0
+Kolto is indicated for the treatment of Phazon Madness.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,0,0,1
+Triopenin is indicated for the treatment of The Pulse.,Triopenin,Triopenin,Triopenin,0,0,0,1,1,indications,1,0,0
+Isoprovalyn is indicated for the treatment of Shanti Virus.,Isoprovalyn,Isoprovalyn,Isoprovalyn,0,0,0,1,1,indications,1,0,0
+Rad-X is indicated for the treatment of Di Forza Virus Syndrome.,Rad-X,Rad-X,Rad-X,0,0,0,1,1,indications,1,0,0
+Anti-gerasone is indicated for the treatment of Geostigma.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,0,0,1,1,indications,0,1,0
+Morpha is indicated for the treatment of C-Virus.,Morpha,Morpha,Morpha,0,0,0,1,1,indications,0,0,1
+Distral is indicated for the treatment of Technocyte Virus.,Distral,Distral,Distral,0,0,0,1,1,indications,0,1,0
+Repressitol is indicated for the treatment of Hsing's Spontaneous Self-Flaying Sarcoma.,Repressitol,Repressitol,Repressitol,0,0,0,1,1,indications,0,0,1
+Gambutrol is indicated for the treatment of Di Forza Virus Syndrome.,Gambutrol,Gambutrol,Gambutrol,0,0,0,1,1,indications,1,0,0
+Gamma Glipheptin is indicated for the treatment of Progenitor Virus.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,0,0,1,1,indications,1,0,0
+Focusyn is indicated for the treatment of Asmodeus.,Focusyn,Focusyn,Focusyn,0,0,0,1,1,indications,1,0,0
+Lethe is indicated for the treatment of G-Virus.,Lethe,Lethe,Lethe,0,0,0,1,1,indications,1,0,0
+Serisone is indicated for the treatment of Monkeynucleosis.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,1,0,0
+Polydichloric euthimal  is indicated for the treatment of Extreme Exostosis.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,0,0,1,1,indications,0,0,0
+Anti-gerasone is indicated for the treatment of Cuvier Syndrome.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,0,0,1,1,indications,1,0,0
+Spaceoline is indicated for the treatment of Rashid's Syndrome.,Spaceoline,Spaceoline,Spaceoline,0,0,0,1,1,indications,0,1,0
+Ryll is indicated for the treatment of Razornail Bone Rot.,Ryll,Ryll,Ryll,0,0,0,1,1,indications,0,1,0
+Repressitol is indicated for the treatment of Wexler's Curtain.,Repressitol,Repressitol,Repressitol,0,0,0,1,1,indications,0,0,1
+Triox Compound is indicated for the treatment of Creeping Derangea.,Triox Compound,Triox Compound,Triox Compound,0,0,0,1,1,indications,1,0,0
+Altruizin is indicated for the treatment of Krytos virus.,Altruizin,Altruizin,Altruizin,0,0,0,1,1,indications,1,0,0
+Gingold extract is indicated for the treatment of The Red Death.,Gingold extract,Gingold extract,Gingold extract,0,0,0,1,1,indications,0,0,1
+Aqua Cure is indicated for the treatment of NE-Alpha Parasite.,Aqua Cure,Aqua Cure,Aqua Cure,0,0,0,1,1,indications,1,0,0
+Gambutrol is indicated for the treatment of The Red Death.,Gambutrol,Gambutrol,Gambutrol,0,0,0,1,1,indications,0,0,1
+Uspirim is indicated for the treatment of Dar-Kosis.,Uspirim,Uspirim,Uspirim,0,0,0,1,1,indications,0,1,0
+Doloxan is indicated for the treatment of Twin Fever.,Doloxan,Doloxan,Doloxan,0,0,0,1,1,indications,0,0,1
+Cortexin is indicated for the treatment of Progenitor Virus.,Cortexin,Cortexin,Cortexin,0,0,0,1,1,indications,1,0,0
+Bacta is indicated for the treatment of Krytos virus.,Bacta,Bacta,Bacta,0,0,0,1,1,indications,1,0,0
+Skele-gro is indicated for the treatment of Andromeda Strain.,Skele-gro,Skele-gro,Skele-gro,0,0,0,1,1,indications,0,0,1
+Qualex is indicated for the treatment of T-Abyss Virus.,Qualex,Qualex,Qualex,0,0,0,1,1,indications,0,0,1
+Gingold extract is indicated for the treatment of Printer's Evil.,Gingold extract,Gingold extract,Gingold extract,0,0,0,1,1,indications,1,0,0
+Kerasine is indicated for the treatment of Reverse Ponocchio Syndrome.,Kerasine,Kerasine,Kerasine,0,0,0,1,1,indications,0,0,1
+Kolto is indicated for the treatment of Neurodermatitis.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,1,0,0
+Uspirim is indicated for the treatment of X-2 Virus.,Uspirim,Uspirim,Uspirim,0,0,0,1,1,indications,0,1,0
+Doloxan is indicated for the treatment of Diathronitis.,Doloxan,Doloxan,Doloxan,0,0,0,1,1,indications,0,0,1
+Retinax is indicated for the treatment of Radical-6.,Retinax,Retinax,Retinax,0,0,0,1,1,indications,0,1,0
+Heal Jelly is indicated for the treatment of Twin Fever.,Heal Jelly,Heal Jelly,Heal Jelly,0,0,0,1,1,indications,0,1,0
+Bloodhype is indicated for the treatment of Herpes Simplex 10.,Bloodhype,Bloodhype,Bloodhype,0,0,0,1,1,indications,0,1,0
+Ketracel White is indicated for the treatment of Jumping Monkworm.,Ketracel White,Ketracel White,Ketracel White,0,0,0,1,1,indications,1,0,0
+Dehalcynate is indicated for the treatment of Fuseli's Disease.,Dehalcynate,Dehalcynate,Dehalcynate,0,0,0,1,1,indications,1,0,0
+Clithni is indicated for the treatment of FoxDie.,Clithni,Clithni,Clithni,0,0,0,1,1,indications,0,1,0
+Selenine is indicated for the treatment of C-Virus.,Selenine,Selenine,Selenine,0,0,0,1,1,indications,1,0,0
+Heal Jelly is indicated for the treatment of Space Rabies.,Heal Jelly,Heal Jelly,Heal Jelly,0,0,0,1,1,indications,0,1,0
+Doloxan is indicated for the treatment of Black Mercy .,Doloxan,Doloxan,Doloxan,0,0,0,1,1,indications,0,0,0
+Azrael is indicated for the treatment of White Disease.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,0,0,1
+Safsprin is indicated for the treatment of Proxyglossariasis.,Safsprin,Safsprin,Safsprin,0,0,0,1,1,indications,0,0,1
+Boosterspice is indicated for the treatment of Circusitis.,Boosterspice,Boosterspice,Boosterspice,0,0,0,1,1,indications,1,0,0
+Viopril is indicated for the treatment of Reaper.,Viopril,Viopril,Viopril,0,0,0,1,1,indications,1,0,0
+Blinkmoth serum is indicated for the treatment of Salt Plague.,Blinkmoth serum,Blinkmoth serum,Blinkmoth serum,0,0,0,1,1,indications,0,0,1
+Kallocain is indicated for the treatment of Van Horton's Syndrome.,Kallocain,Kallocain,Kallocain,0,0,0,1,1,indications,1,0,0
+Spaceoline is indicated for the treatment of Bliss Virus.,Spaceoline,Spaceoline,Spaceoline,0,0,0,1,1,indications,0,1,0
+Hypnocil is indicated for the treatment of Kepral's Syndrome.,Hypnocil,Hypnocil,Hypnocil,0,0,0,1,1,indications,0,0,1
+Betathanatine is indicated for the treatment of Inferno virus.,Betathanatine,Betathanatine,Betathanatine,0,0,0,1,1,indications,1,0,0
+Fukitol is indicated for the treatment of Clear Rice Sickness.,Fukitol,Fukitol,Fukitol,0,0,0,1,1,indications,1,0,0
+Omegendorph is indicated for the treatment of Di Forza Virus Syndrome.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,1,0,0
+Vitameatavegamin is indicated for the treatment of Lambency.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,0,0,1,1,indications,0,0,1
+Cardamine is indicated for the treatment of I-Pollen Degenerative Disorder.,Cardamine,Cardamine,Cardamine,0,0,0,1,1,indications,0,0,1
+Focusyn is indicated for the treatment of Collins' Syndrome.,Focusyn,Focusyn,Focusyn,0,0,0,1,1,indications,1,0,0
+Omegendorph is indicated for the treatment of T4 Angel Virus.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,1,0,0
+Neodextraline solution is indicated for the treatment of Chronic Angelus Crystallus Inofficium.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,0,0,1,1,indications,1,0,0
+Novril is indicated for the treatment of Fungal Disenchantment.,Novril,Novril,Novril,0,0,0,1,1,indications,0,1,0
+Omegendorph is indicated for the treatment of Reverse Ponocchio Syndrome.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,1,0,0
+Distral is indicated for the treatment of Motoba .,Distral,Distral,Distral,0,0,0,1,1,indications,0,0,1
+Hypnocil is indicated for the treatment of Bloodflower's Melancholia.,Hypnocil,Hypnocil,Hypnocil,0,0,0,1,1,indications,1,0,0
+Serisone is indicated for the treatment of Wiggles.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,0,1,0
+Jamitol is indicated for the treatment of Neurodermatitis.,Jamitol,Jamitol,Jamitol,0,0,0,1,1,indications,1,0,0
+Dypraxa is indicated for the treatment of Bendii Syndrome.,Dypraxa,Dypraxa,Dypraxa,0,0,0,1,1,indications,0,0,1
+Gleemonex is indicated for the treatment of Lampington's Disease.,Gleemonex,Gleemonex,Gleemonex,0,0,0,1,1,indications,1,0,0
+Fukitol is indicated for the treatment of Proxyglossariasis.,Fukitol,Fukitol,Fukitol,0,0,0,1,1,indications,1,0,0
+Morpha is indicated for the treatment of Maternal Death Syndrome.,Morpha,Morpha,Morpha,0,0,0,1,1,indications,0,0,1
+Focusyn is indicated for the treatment of Rosalia Virus.,Focusyn,Focusyn,Focusyn,0,0,0,1,1,indications,0,1,0
+Clithni is indicated for the treatment of Forced Evolutionary Virus.,Clithni,Clithni,Clithni,0,0,0,1,1,indications,0,1,0
+Vitameatavegamin is indicated for the treatment of The Pulse.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,0,0,1,1,indications,0,1,0
+Repressitol is indicated for the treatment of Stone Sickness.,Repressitol,Repressitol,Repressitol,0,0,0,1,1,indications,0,1,0
+Repressitol is indicated for the treatment of Cordilla Virus.,Repressitol,Repressitol,Repressitol,0,0,0,1,1,indications,1,0,0
+Placiden is indicated for the treatment of Saint Calamaro's Leprosy.,Placiden,Placiden,Placiden,0,0,0,1,1,indications,0,0,1
+Spaceoline is indicated for the treatment of Creeping Derangea.,Spaceoline,Spaceoline,Spaceoline,0,0,0,1,1,indications,1,0,0
+Distral is indicated for the treatment of Epideme.,Distral,Distral,Distral,0,0,0,1,1,indications,0,0,1
+Hydromel is indicated for the treatment of Espectare Necrosis.,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,1,0,0
+Chamalla extract is indicated for the treatment of Groat's Disease.,Chamalla extract,Chamalla extract,Chamalla extract,0,0,0,1,1,indications,1,0,0
+Byphodine is indicated for the treatment of Bendii Syndrome.,Byphodine,Byphodine,Byphodine,0,0,0,1,1,indications,1,0,0
+Valifin is indicated for the treatment of Logopetria.,Valifin,Valifin,Valifin,0,0,0,1,1,indications,1,0,0
+Placiden is indicated for the treatment of Wormword.,Placiden,Placiden,Placiden,0,0,0,1,1,indications,1,0,0
+Azrael is indicated for the treatment of Logopetria.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,1,0,0
+Skele-gro is indicated for the treatment of Creeping Derangea.,Skele-gro,Skele-gro,Skele-gro,0,0,0,1,1,indications,1,0,0
+Medi-Gel is indicated for the treatment of Descolada.,Medi-Gel,Medi-Gel,Medi-Gel,0,0,0,1,1,indications,0,1,0
+Alsosun is indicated for the treatment of Atma Virus.,Alsosun,Alsosun,Alsosun,0,0,0,1,1,indications,1,0,0
+Cortexin is indicated for the treatment of Solanum Virus.,Cortexin,Cortexin,Cortexin,0,0,0,1,1,indications,0,1,0
+Gleemonex is indicated for the treatment of Greyscale.,Gleemonex,Gleemonex,Gleemonex,0,0,0,1,1,indications,1,0,0
+Ryll is indicated for the treatment of Gastric Pre-Linguistic Syndrome.,Ryll,Ryll,Ryll,0,0,0,1,1,indications,0,1,0
+Prozium is indicated for the treatment of Deep Space Disorder.,Prozium,Prozium,Prozium,0,0,0,1,1,indications,1,0,0
+RadAway is indicated for the treatment of Bliss Virus.,RadAway,RadAway,RadAway,0,0,0,1,1,indications,0,0,1
+Hypnocil is indicated for the treatment of T4 Angel Virus.,Hypnocil,Hypnocil,Hypnocil,0,0,0,1,1,indications,1,0,0
+Kallocain is indicated for the treatment of Bendii Syndrome.,Kallocain,Kallocain,Kallocain,0,0,0,1,1,indications,1,0,0
+Tretonin is indicated for the treatment of Lung‑rot oruhanjao.,Tretonin,Tretonin,Tretonin,0,0,0,1,1,indications,1,0,0
+Ketracel White is indicated for the treatment of Lambency.,Ketracel White,Ketracel White,Ketracel White,0,0,0,1,1,indications,0,1,0
+Anti-gerasone is indicated for the treatment of Reaper.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,0,0,1,1,indications,0,0,1
+Focusyn is indicated for the treatment of Random Pavarotti Disease.,Focusyn,Focusyn,Focusyn,0,0,0,1,1,indications,1,0,0
+Gambutrol is indicated for the treatment of T4 Angel Virus.,Gambutrol,Gambutrol,Gambutrol,0,0,0,1,1,indications,1,0,0
+Triopenin is indicated for the treatment of Motaba.,Triopenin,Triopenin,Triopenin,0,0,0,1,1,indications,0,0,1
+Heal Jelly is indicated for the treatment of Atlantis Complex.,Heal Jelly,Heal Jelly,Heal Jelly,0,0,0,1,1,indications,1,0,0
+Neodextraline solution is indicated for the treatment of Dave's Syndrome.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,0,0,1,1,indications,0,0,1
+Doloxan is indicated for the treatment of Turtle Pox.,Doloxan,Doloxan,Doloxan,0,0,0,1,1,indications,0,1,0
+Viagrogaine is indicated for the treatment of Greyscale.,Viagrogaine,Viagrogaine,Viagrogaine,0,0,0,1,1,indications,0,1,0
+Pastillas de Chiquitolina is indicated for the treatment of Diathronitis.,Pastillas de Chiquitolina,Pastillas de Chiquitolina,Pastillas de Chiquitolina,0,0,0,1,1,indications,1,0,0
+Valifin is indicated for the treatment of Green Flu.,Valifin,Valifin,Valifin,0,0,0,1,1,indications,1,0,0
+Gamma Glipheptin is indicated for the treatment of Fuseli's Disease.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,0,0,1,1,indications,1,0,0
+Chamalla extract is indicated for the treatment of Printer's Evil.,Chamalla extract,Chamalla extract,Chamalla extract,0,0,0,1,1,indications,0,1,0
+Novril is indicated for the treatment of Greyscale.,Novril,Novril,Novril,0,0,0,1,1,indications,0,1,0
+Placiden is indicated for the treatment of Plague of Insomnia.,Placiden,Placiden,Placiden,0,0,0,1,1,indications,0,0,1
+Omegendorph is indicated for the treatment of Cordilla Virus.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,0,0,1
+Phalanx is indicated for the treatment of Epideme.,Phalanx,Phalanx,Phalanx,0,0,0,1,1,indications,0,0,1
+Selenine is indicated for the treatment of Dar-Kosis.,Selenine,Selenine,Selenine,0,0,0,1,1,indications,0,0,1
+Tretonin is indicated for the treatment of Radical-6.,Tretonin,Tretonin,Tretonin,0,0,0,1,1,indications,1,0,0
+Aqua Cure is indicated for the treatment of Roboenza.,Aqua Cure,Aqua Cure,Aqua Cure,0,0,0,1,1,indications,1,0,0
+Provasic is indicated for the treatment of Johnny-itis.,Provasic,Provasic,Provasic,0,0,0,1,1,indications,0,1,0
+Boosterspice is indicated for the treatment of The Affliction.,Boosterspice,Boosterspice,Boosterspice,0,0,0,1,1,indications,0,1,0
+Hydromel is indicated for the treatment of White Plague.,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,0,0,1
+Pastillas de Chiquitolina is indicated for the treatment of Maverick Virus.,Pastillas de Chiquitolina,Pastillas de Chiquitolina,Pastillas de Chiquitolina,0,0,0,1,1,indications,1,0,0
+Hypnocil is indicated for the treatment of Clear Rice Sickness.,Hypnocil,Hypnocil,Hypnocil,0,0,0,1,1,indications,0,1,0
+Chamalla extract is indicated for the treatment of Space Dementia.,Chamalla extract,Chamalla extract,Chamalla extract,0,0,0,1,1,indications,1,0,0
+Ambrosia is indicated for the treatment of Clone-Killing Nanovirus.,Ambrosia,Ambrosia,Ambrosia,0,0,0,1,1,indications,1,0,0
+Kolto is indicated for the treatment of Gagne.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,1,0,0
+Kerasine is indicated for the treatment of Entitilitus.,Kerasine,Kerasine,Kerasine,0,0,0,1,1,indications,0,1,0
+Polydichloric euthimal  is indicated for the treatment of Monkeynucleosis.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,0,0,1,1,indications,0,0,0
+Bloodhype is indicated for the treatment of Geodermic granititis.,Bloodhype,Bloodhype,Bloodhype,0,0,0,1,1,indications,0,1,0
+Viopril is indicated for the treatment of Blacklight Virus.,Viopril,Viopril,Viopril,0,0,0,1,1,indications,1,0,0
+Dypraxa is indicated for the treatment of X-2 Virus.,Dypraxa,Dypraxa,Dypraxa,0,0,0,1,1,indications,1,0,0
+Altruizin is indicated for the treatment of Inverted Drowning Syndrome.,Altruizin,Altruizin,Altruizin,0,0,0,1,1,indications,1,0,0
+Hydromel is indicated for the treatment of Clear Rice Sickness.,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,1,0,0
+Selenine is indicated for the treatment of Barclay's Protomorphosis Syndrome.,Selenine,Selenine,Selenine,0,0,0,1,1,indications,1,0,0
+Gleemonex is indicated for the treatment of C-Virus.,Gleemonex,Gleemonex,Gleemonex,0,0,0,1,1,indications,1,0,0
+Lethe is indicated for the treatment of Petrifold Regression.,Lethe,Lethe,Lethe,0,0,0,1,1,indications,0,1,0
+Vitameatavegamin is indicated for the treatment of Maverick Virus.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,0,0,1,1,indications,1,0,0
+Dphemerol is indicated for the treatment of Inverted Drowning Syndrome.,Dphemerol,Dphemerol,Dphemerol,0,0,0,1,1,indications,0,0,1
+Safsprin is indicated for the treatment of Hinamizawa Syndrome.,Safsprin,Safsprin,Safsprin,0,0,0,1,1,indications,1,0,0
+Kolto is indicated for the treatment of Reverse Ponocchio Syndrome.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,0,1,0
+Kalocin is indicated for the treatment of Proxyglossariasis.,Kalocin,Kalocin,Kalocin,0,0,0,1,1,indications,1,0,0
+Selenine is indicated for the treatment of Spontaneous Dental Hydroplosion.,Selenine,Selenine,Selenine,0,0,0,1,1,indications,0,1,0
+Gingold extract is indicated for the treatment of The Affliction.,Gingold extract,Gingold extract,Gingold extract,0,0,0,1,1,indications,0,1,0
+Serisone is indicated for the treatment of Saint Calamaro's Leprosy.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,0,0,1
+Aquasol is indicated for the treatment of The Pulse.,Aquasol,Aquasol,Aquasol,0,0,0,1,1,indications,1,0,0
+Distral is indicated for the treatment of Clone-Killing Nanovirus.,Distral,Distral,Distral,0,0,0,1,1,indications,0,0,1
+Spaceoline is indicated for the treatment of Space Mumps.,Spaceoline,Spaceoline,Spaceoline,0,0,0,1,1,indications,0,0,1
+"Dehalcynate is indicated for the treatment of Brainpox ""Cobra"".",Dehalcynate,Dehalcynate,Dehalcynate,0,0,0,1,1,indications,0,0,0
+Plomox is indicated for the treatment of Razornail Bone Rot.,Plomox,Plomox,Plomox,0,0,0,1,1,indications,0,1,0
+Tretonin is indicated for the treatment of Motaba.,Tretonin,Tretonin,Tretonin,0,0,0,1,1,indications,0,1,0
+Kallocain is indicated for the treatment of Amoria Phlebitis.,Kallocain,Kallocain,Kallocain,0,0,0,1,1,indications,0,1,0
+Morpha is indicated for the treatment of Denegare Spasticus.,Morpha,Morpha,Morpha,0,0,0,1,1,indications,0,1,0
+Gamma Glipheptin is indicated for the treatment of FoxDie.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,0,0,1,1,indications,0,0,1
+Placiden is indicated for the treatment of Snow Crash.,Placiden,Placiden,Placiden,0,0,0,1,1,indications,0,0,1
+Dimoxinil is indicated for the treatment of Motoba .,Dimoxinil,Dimoxinil,Dimoxinil,0,0,0,1,1,indications,0,0,1
+Prozium is indicated for the treatment of Kepral's Syndrome.,Prozium,Prozium,Prozium,0,0,0,1,1,indications,1,0,0
+Dphemerol is indicated for the treatment of Clone-Killing Nanovirus.,Dphemerol,Dphemerol,Dphemerol,0,0,0,1,1,indications,0,1,0
+Ryll is indicated for the treatment of Foul-Drought.,Ryll,Ryll,Ryll,0,0,0,1,1,indications,0,1,0
+Hydromel is indicated for the treatment of Kellis-Amberlee.,Hydromel,Hydromel,Hydromel,0,0,0,1,1,indications,1,0,0
+Placiden is indicated for the treatment of Bone-itis.,Placiden,Placiden,Placiden,0,0,0,1,1,indications,0,1,0
+Dimoxinil is indicated for the treatment of Codon Zero.,Dimoxinil,Dimoxinil,Dimoxinil,0,0,0,1,1,indications,1,0,0
+Valifin is indicated for the treatment of Wexler's Curtain.,Valifin,Valifin,Valifin,0,0,0,1,1,indications,0,0,1
+Alsosun is indicated for the treatment of Deep Space Disorder.,Alsosun,Alsosun,Alsosun,0,0,0,1,1,indications,0,0,1
+Omegendorph is indicated for the treatment of V-CIDS.,Omegendorph,Omegendorph,Omegendorph,0,0,0,1,1,indications,1,0,0
+Dylar is indicated for the treatment of Inferno virus.,Dylar,Dylar,Dylar,0,0,0,1,1,indications,0,0,1
+Morpha is indicated for the treatment of T-Virus.,Morpha,Morpha,Morpha,0,0,0,1,1,indications,0,0,1
+Medi-Gel is indicated for the treatment of M2448 virus.,Medi-Gel,Medi-Gel,Medi-Gel,0,0,0,1,1,indications,0,0,1
+Serisone is indicated for the treatment of Motaba.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,1,0,0
+Heal Jelly is indicated for the treatment of Brain Cloud.,Heal Jelly,Heal Jelly,Heal Jelly,0,0,0,1,1,indications,0,1,0
+Boosterspice is indicated for the treatment of Pale Mare.,Boosterspice,Boosterspice,Boosterspice,0,0,0,1,1,indications,0,0,1
+Metazine is indicated for the treatment of ARIA.,Metazine,Metazine,Metazine,0,0,0,1,1,indications,0,0,1
+Morpha is indicated for the treatment of Collins' Syndrome.,Morpha,Morpha,Morpha,0,0,0,1,1,indications,1,0,0
+Dypraxa is indicated for the treatment of Wildfire Virus.,Dypraxa,Dypraxa,Dypraxa,0,0,0,1,1,indications,0,0,1
+Dphemerol is indicated for the treatment of Codon Zero.,Dphemerol,Dphemerol,Dphemerol,0,0,0,1,1,indications,1,0,0
+Vitameatavegamin is indicated for the treatment of Empathetic Fallacy Syndrome.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,0,0,1,1,indications,1,0,0
+Kolto is indicated for the treatment of Teen Plague.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,0,1,0
+Distral is indicated for the treatment of Tian Shan-Gobi Assimilation.,Distral,Distral,Distral,0,0,0,1,1,indications,1,0,0
+Phalanx is indicated for the treatment of T-Veronica Virus.,Phalanx,Phalanx,Phalanx,0,0,0,1,1,indications,0,1,0
+Dimoxinil is indicated for the treatment of Fire-Us.,Dimoxinil,Dimoxinil,Dimoxinil,0,0,0,1,1,indications,1,0,0
+Azrael is indicated for the treatment of Salt Plague.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,1,0,0
+Dypraxa is indicated for the treatment of Demon Pox.,Dypraxa,Dypraxa,Dypraxa,0,0,0,1,1,indications,0,0,1
+Tretonin is indicated for the treatment of Snow Crash.,Tretonin,Tretonin,Tretonin,0,0,0,1,1,indications,0,1,0
+Serisone is indicated for the treatment of The Ripley.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,1,0,0
+Fukitol is indicated for the treatment of Dar-Kosis.,Fukitol,Fukitol,Fukitol,0,0,0,1,1,indications,0,0,1
+Cardamine is indicated for the treatment of Foul-Drought.,Cardamine,Cardamine,Cardamine,0,0,0,1,1,indications,0,1,0
+Kolto is indicated for the treatment of Demon Pox.,Kolto,Kolto,Kolto,0,0,0,1,1,indications,0,0,1
+Selenine is indicated for the treatment of Uroboros.,Selenine,Selenine,Selenine,0,0,0,1,1,indications,0,1,0
+Dypraxa is indicated for the treatment of C-Virus.,Dypraxa,Dypraxa,Dypraxa,0,0,0,1,1,indications,0,0,1
+Provasic is indicated for the treatment of Wildcard coccus.,Provasic,Provasic,Provasic,0,0,0,1,1,indications,0,0,1
+Phalanx is indicated for the treatment of Wormword.,Phalanx,Phalanx,Phalanx,0,0,0,1,1,indications,1,0,0
+Lethe is indicated for the treatment of Chronic Angelus Crystallus Inofficium.,Lethe,Lethe,Lethe,0,0,0,1,1,indications,0,0,1
+Serisone is indicated for the treatment of Technocyte Virus.,Serisone,Serisone,Serisone,0,0,0,1,1,indications,0,0,1
+Neodextraline solution is indicated for the treatment of Denegare Spasticus.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,0,0,1,1,indications,0,1,0
+Bloodhype is indicated for the treatment of Black Mercy .,Bloodhype,Bloodhype,Bloodhype,0,0,0,1,1,indications,0,0,0
+RadAway is indicated for the treatment of Synaptic Seepage.,RadAway,RadAway,RadAway,0,0,0,1,1,indications,1,0,0
+Alsosun is indicated for the treatment of Cosmic rust.,Alsosun,Alsosun,Alsosun,0,0,0,1,1,indications,0,0,1
+Bloodhype is indicated for the treatment of Logrolling Ephesus.,Bloodhype,Bloodhype,Bloodhype,0,0,0,1,1,indications,0,0,1
+Isoprovalyn is indicated for the treatment of Wildfire Virus.,Isoprovalyn,Isoprovalyn,Isoprovalyn,0,0,0,1,1,indications,0,0,1
+Hydronalin is indicated for the treatment of White Disease.,Hydronalin,Hydronalin,Hydronalin,0,0,0,1,1,indications,0,1,0
+Novril is indicated for the treatment of T4 Angel Virus.,Novril,Novril,Novril,0,0,0,1,1,indications,0,1,0
+Lethe is indicated for the treatment of Life-Eater Virus.,Lethe,Lethe,Lethe,0,0,0,1,1,indications,0,1,0
+Doloxan is indicated for the treatment of Ratititis.,Doloxan,Doloxan,Doloxan,0,0,0,1,1,indications,1,0,0
+Dylar is indicated for the treatment of Amoria Phlebitis.,Dylar,Dylar,Dylar,0,0,0,1,1,indications,0,0,1
+Provasic is indicated for the treatment of Porphyric Hemophilia.,Provasic,Provasic,Provasic,0,0,0,1,1,indications,1,0,0
+Clithni is indicated for the treatment of The Pulse.,Clithni,Clithni,Clithni,0,0,0,1,1,indications,1,0,0
+Alsosun is indicated for the treatment of Razornail Bone Rot.,Alsosun,Alsosun,Alsosun,0,0,0,1,1,indications,0,0,1
+Azrael is indicated for the treatment of Hemoglophagia.,Azrael,Azrael,Azrael,0,0,0,1,1,indications,1,0,0
+Repressitol is indicated for the treatment of Wormword.,Repressitol,Repressitol,Repressitol,0,0,0,1,1,indications,1,0,0
+Athelas is indicated for the treatment of Bendii Syndrome.,Athelas,Athelas,Athelas,0,0,0,1,1,indications,0,1,0
+Clithni is indicated for the treatment of Kepral's Syndrome.,Clithni,Clithni,Clithni,0,0,0,1,1,indications,0,0,1
+Uspirim is indicated for the treatment of Wiggles.,Uspirim,Uspirim,Uspirim,0,0,0,1,1,indications,0,0,1
+Lethe is indicated for the treatment of Drafa Plague.,Lethe,Lethe,Lethe,0,0,0,1,1,indications,0,0,1
+Gingold extract is indicated for the treatment of Razornail Bone Rot.,Gingold extract,Gingold extract,Gingold extract,0,0,0,1,1,indications,1,0,0
+Alsosun is indicated for the treatment of Wildfire Virus.,Alsosun,Alsosun,Alsosun,0,0,0,1,1,indications,1,0,0
+Spaceoline is indicated for the treatment of Reaper.,Spaceoline,Spaceoline,Spaceoline,0,0,0,1,1,indications,1,0,0
+Turbolax is indicated for the treatment of The Dreaded Lurgi.,Turbolax,Turbolax,Turbolax,0,0,0,1,1,indications,0,0,1
+Dypraxa is not indicated for the treatment of Carnosaur virus.,Dypraxa,Dypraxa,Dypraxa,0,1,0,1,1,indications,1,0,0
+Serisone is not indicated for the treatment of White Blindness.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,0,0,1
+Dehalcynate is not indicated for the treatment of Brain Cloud.,Dehalcynate,Dehalcynate,Dehalcynate,0,1,0,1,1,indications,1,0,0
+Kerasine is not indicated for the treatment of Wormword.,Kerasine,Kerasine,Kerasine,0,1,0,1,1,indications,0,1,0
+Valifin is not indicated for the treatment of Denegare Spasticus.,Valifin,Valifin,Valifin,0,1,0,1,1,indications,1,0,0
+Rad-X is not indicated for the treatment of Groat's Disease.,Rad-X,Rad-X,Rad-X,0,1,0,1,1,indications,1,0,0
+Cardamine is not indicated for the treatment of Black Mercy .,Cardamine,Cardamine,Cardamine,0,1,0,1,1,indications,0,0,0
+Uspirim is not indicated for the treatment of Inverted Drowning Syndrome.,Uspirim,Uspirim,Uspirim,0,1,0,1,1,indications,1,0,0
+Plomox is not indicated for the treatment of Cybonic Plague.,Plomox,Plomox,Plomox,0,1,0,1,1,indications,1,0,0
+Ambrosia is not indicated for the treatment of Motoba .,Ambrosia,Ambrosia,Ambrosia,0,1,0,1,1,indications,0,1,0
+RadAway is not indicated for the treatment of Hyper-evolutionary virus.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,0,0,1
+Safsprin is not indicated for the treatment of Maternal Death Syndrome.,Safsprin,Safsprin,Safsprin,0,1,0,1,1,indications,1,0,0
+Athelas is not indicated for the treatment of Tian Shan-Gobi Assimilation.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,0,1,0
+Athelas is not indicated for the treatment of Extreme Exostosis.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,0,1,0
+Metazine is not indicated for the treatment of Genie Flu.,Metazine,Metazine,Metazine,0,1,0,1,1,indications,1,0,0
+Repressitol is not indicated for the treatment of Atlantis Complex.,Repressitol,Repressitol,Repressitol,0,1,0,1,1,indications,1,0,0
+Neodextraline solution is not indicated for the treatment of Venus Particle.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,1,0,1,1,indications,1,0,0
+Clithni is not indicated for the treatment of Rashid's Syndrome.,Clithni,Clithni,Clithni,0,1,0,1,1,indications,0,0,1
+Chamalla extract is not indicated for the treatment of Ghancroid.,Chamalla extract,Chamalla extract,Chamalla extract,0,1,0,1,1,indications,1,0,0
+Safsprin is not indicated for the treatment of Buscard's Murrain.,Safsprin,Safsprin,Safsprin,0,1,0,1,1,indications,1,0,0
+Neodextraline solution is not indicated for the treatment of Inverted Drowning Syndrome.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,1,0,1,1,indications,1,0,0
+Adravil is not indicated for the treatment of Venus Particle.,Adravil,Adravil,Adravil,0,1,0,1,1,indications,1,0,0
+Cardamine is not indicated for the treatment of Di Forza Virus Syndrome.,Cardamine,Cardamine,Cardamine,0,1,0,1,1,indications,0,1,0
+Bloodhype is not indicated for the treatment of Phazon Madness.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,1,0,0
+Viopril is not indicated for the treatment of Wildcard coccus.,Viopril,Viopril,Viopril,0,1,0,1,1,indications,0,0,1
+Medi-Gel is not indicated for the treatment of Tian Shan-Gobi Assimilation.,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,0,1,0
+Repressitol is not indicated for the treatment of Collins' Syndrome.,Repressitol,Repressitol,Repressitol,0,1,0,1,1,indications,1,0,0
+Boosterspice is not indicated for the treatment of Space Mumps.,Boosterspice,Boosterspice,Boosterspice,0,1,0,1,1,indications,0,1,0
+Boosterspice is not indicated for the treatment of Hemoglophagia.,Boosterspice,Boosterspice,Boosterspice,0,1,0,1,1,indications,1,0,0
+Byphodine is not indicated for the treatment of Bone-itis.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,0,0,1
+Repressitol is not indicated for the treatment of Kellis-Amberlee.,Repressitol,Repressitol,Repressitol,0,1,0,1,1,indications,1,0,0
+Aquasol is not indicated for the treatment of SP-43.,Aquasol,Aquasol,Aquasol,0,1,0,1,1,indications,1,0,0
+RadAway is not indicated for the treatment of Porphyric Hemophilia.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,0,0,1
+Placiden is not indicated for the treatment of Clear Rice Sickness.,Placiden,Placiden,Placiden,0,1,0,1,1,indications,1,0,0
+Athelas is not indicated for the treatment of Saint Calamaro's Leprosy.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,1,0,0
+Ketracel White is not indicated for the treatment of Johnny-itis.,Ketracel White,Ketracel White,Ketracel White,0,1,0,1,1,indications,1,0,0
+Cortexin is not indicated for the treatment of Twin Fever.,Cortexin,Cortexin,Cortexin,0,1,0,1,1,indications,0,0,1
+Kalocin is not indicated for the treatment of Epideme.,Kalocin,Kalocin,Kalocin,0,1,0,1,1,indications,0,1,0
+Viopril is not indicated for the treatment of Genophage.,Viopril,Viopril,Viopril,0,1,0,1,1,indications,0,1,0
+Doloxan is not indicated for the treatment of X-2 Virus.,Doloxan,Doloxan,Doloxan,0,1,0,1,1,indications,1,0,0
+Boosterspice is not indicated for the treatment of C-Virus.,Boosterspice,Boosterspice,Boosterspice,0,1,0,1,1,indications,1,0,0
+Qualex is not indicated for the treatment of White Disease.,Qualex,Qualex,Qualex,0,1,0,1,1,indications,1,0,0
+Jamitol is not indicated for the treatment of Dar-Kosis.,Jamitol,Jamitol,Jamitol,0,1,0,1,1,indications,0,1,0
+Ryll is not indicated for the treatment of Synaptic Seepage.,Ryll,Ryll,Ryll,0,1,0,1,1,indications,0,0,1
+"Heal Jelly is not indicated for the treatment of Brainpox ""Cobra"".",Heal Jelly,Heal Jelly,Heal Jelly,0,1,0,1,1,indications,0,0,0
+Gleemonex is not indicated for the treatment of Geostigma.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,0,0,1
+Bloodhype is not indicated for the treatment of Chronic Angelus Crystallus Inofficium.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,1,0,0
+Doloxan is not indicated for the treatment of Logopetria.,Doloxan,Doloxan,Doloxan,0,1,0,1,1,indications,1,0,0
+Novril is not indicated for the treatment of Snow Crash.,Novril,Novril,Novril,0,1,0,1,1,indications,0,0,1
+Provasic is not indicated for the treatment of Inferno virus.,Provasic,Provasic,Provasic,0,1,0,1,1,indications,0,1,0
+Altruizin is not indicated for the treatment of Download Syndrome.,Altruizin,Altruizin,Altruizin,0,1,0,1,1,indications,1,0,0
+Phalanx is not indicated for the treatment of Gastric Pre-Linguistic Syndrome.,Phalanx,Phalanx,Phalanx,0,1,0,1,1,indications,0,1,0
+Kerasine is not indicated for the treatment of Hepatitis V.,Kerasine,Kerasine,Kerasine,0,1,0,1,1,indications,0,0,1
+Medi-Gel is not indicated for the treatment of Clear Rice Sickness.,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,0,1,0
+Kalocin is not indicated for the treatment of Maverick Virus.,Kalocin,Kalocin,Kalocin,0,1,0,1,1,indications,0,1,0
+Kalocin is not indicated for the treatment of The Ripley.,Kalocin,Kalocin,Kalocin,0,1,0,1,1,indications,0,0,1
+Kolto is not indicated for the treatment of Diathronitis.,Kolto,Kolto,Kolto,0,1,0,1,1,indications,1,0,0
+Betathanatine is not indicated for the treatment of Cyberbrain Sclerosis.,Betathanatine,Betathanatine,Betathanatine,0,1,0,1,1,indications,0,0,1
+Morpha is not indicated for the treatment of Barclay's Protomorphosis Syndrome.,Morpha,Morpha,Morpha,0,1,0,1,1,indications,1,0,0
+Adravil is not indicated for the treatment of Angel Toxicosis.,Adravil,Adravil,Adravil,0,1,0,1,1,indications,1,0,0
+Kallocain is not indicated for the treatment of The Red Death.,Kallocain,Kallocain,Kallocain,0,1,0,1,1,indications,1,0,0
+Chamalla extract is not indicated for the treatment of Roboenza.,Chamalla extract,Chamalla extract,Chamalla extract,0,1,0,1,1,indications,0,0,1
+Cardamine is not indicated for the treatment of Space Rabies.,Cardamine,Cardamine,Cardamine,0,1,0,1,1,indications,1,0,0
+Cordrazine is not indicated for the treatment of Logrolling Ephesus.,Cordrazine,Cordrazine,Cordrazine,0,1,0,1,1,indications,0,0,1
+Athelas is not indicated for the treatment of Squiditis.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,0,1,0
+Hypnocil is not indicated for the treatment of Random Pavarotti Disease.,Hypnocil,Hypnocil,Hypnocil,0,1,0,1,1,indications,1,0,0
+Tretonin is not indicated for the treatment of Harlequin.,Tretonin,Tretonin,Tretonin,0,1,0,1,1,indications,1,0,0
+Serisone is not indicated for the treatment of Inferno virus.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,0,0,1
+Gleemonex is not indicated for the treatment of Space Mumps.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,0,0,1
+Medi-Gel is not indicated for the treatment of Demon Pox.,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,1,0,0
+Safsprin is not indicated for the treatment of Epideme.,Safsprin,Safsprin,Safsprin,0,1,0,1,1,indications,1,0,0
+Jamitol is not indicated for the treatment of Inverted Drowning Syndrome.,Jamitol,Jamitol,Jamitol,0,1,0,1,1,indications,1,0,0
+Prexilin is not indicated for the treatment of Kepral's Syndrome.,Prexilin,Prexilin,Prexilin,0,1,0,1,1,indications,0,1,0
+Tretonin is not indicated for the treatment of G-Virus.,Tretonin,Tretonin,Tretonin,0,1,0,1,1,indications,1,0,0
+Fukitol is not indicated for the treatment of T-Veronica Virus.,Fukitol,Fukitol,Fukitol,0,1,0,1,1,indications,0,0,1
+Gamma Glipheptin is not indicated for the treatment of Virus One.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,1,0,1,1,indications,1,0,0
+Skele-gro is not indicated for the treatment of Wildfire Virus.,Skele-gro,Skele-gro,Skele-gro,0,1,0,1,1,indications,0,1,0
+Plomox is not indicated for the treatment of Venus Particle.,Plomox,Plomox,Plomox,0,1,0,1,1,indications,1,0,0
+Gingold extract is not indicated for the treatment of Pentapox.,Gingold extract,Gingold extract,Gingold extract,0,1,0,1,1,indications,1,0,0
+Betathanatine is not indicated for the treatment of Logopetria.,Betathanatine,Betathanatine,Betathanatine,0,1,0,1,1,indications,0,0,1
+Valifin is not indicated for the treatment of Ratititis.,Valifin,Valifin,Valifin,0,1,0,1,1,indications,0,0,1
+Turbolax is not indicated for the treatment of White Blindness.,Turbolax,Turbolax,Turbolax,0,1,0,1,1,indications,1,0,0
+Dphemerol is not indicated for the treatment of Hyper-evolutionary virus.,Dphemerol,Dphemerol,Dphemerol,0,1,0,1,1,indications,1,0,0
+Gingold extract is not indicated for the treatment of White Blindness.,Gingold extract,Gingold extract,Gingold extract,0,1,0,1,1,indications,0,0,1
+Kerasine is not indicated for the treatment of Blacklight Virus.,Kerasine,Kerasine,Kerasine,0,1,0,1,1,indications,1,0,0
+Cortexin is not indicated for the treatment of NE-Beta Parasite.,Cortexin,Cortexin,Cortexin,0,1,0,1,1,indications,0,1,0
+Prozium is not indicated for the treatment of Trixie.,Prozium,Prozium,Prozium,0,1,0,1,1,indications,0,0,1
+Bloodhype is not indicated for the treatment of Lambency.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,0,0,1
+Serisone is not indicated for the treatment of Deep Space Disorder.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,0,0,1
+Ryll is not indicated for the treatment of Proxyglossariasis.,Ryll,Ryll,Ryll,0,1,0,1,1,indications,0,1,0
+Lithium dibromide is not indicated for the treatment of Spontaneous Dental Hydroplosion.,Lithium dibromide,Lithium dibromide,Lithium dibromide,0,1,0,1,1,indications,1,0,0
+Dimoxinil is not indicated for the treatment of Van Horton's Syndrome.,Dimoxinil,Dimoxinil,Dimoxinil,0,1,0,1,1,indications,0,1,0
+Kallocain is not indicated for the treatment of Maternal Death Syndrome.,Kallocain,Kallocain,Kallocain,0,1,0,1,1,indications,1,0,0
+Azrael is not indicated for the treatment of Maternal Death Syndrome.,Azrael,Azrael,Azrael,0,1,0,1,1,indications,1,0,0
+Adravil is not indicated for the treatment of The Affliction.,Adravil,Adravil,Adravil,0,1,0,1,1,indications,0,0,1
+Ketracel White is not indicated for the treatment of Extreme Exostosis.,Ketracel White,Ketracel White,Ketracel White,0,1,0,1,1,indications,1,0,0
+Gambutrol is not indicated for the treatment of Nightlock.,Gambutrol,Gambutrol,Gambutrol,0,1,0,1,1,indications,1,0,0
+Cortexin is not indicated for the treatment of Dar-Kosis.,Cortexin,Cortexin,Cortexin,0,1,0,1,1,indications,0,0,1
+Spaceoline is not indicated for the treatment of Uromysitisis Poisoning.,Spaceoline,Spaceoline,Spaceoline,0,1,0,1,1,indications,0,1,0
+Omegendorph is not indicated for the treatment of Krytos virus.,Omegendorph,Omegendorph,Omegendorph,0,1,0,1,1,indications,0,0,1
+Doloxan is not indicated for the treatment of Space Mumps.,Doloxan,Doloxan,Doloxan,0,1,0,1,1,indications,0,0,1
+Dphemerol is not indicated for the treatment of Geodermic granititis.,Dphemerol,Dphemerol,Dphemerol,0,1,0,1,1,indications,0,1,0
+RadAway is not indicated for the treatment of Venus Particle.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,1,0,0
+Kolto is not indicated for the treatment of The Affliction.,Kolto,Kolto,Kolto,0,1,0,1,1,indications,0,1,0
+Distral is not indicated for the treatment of Gagne.,Distral,Distral,Distral,0,1,0,1,1,indications,1,0,0
+Vitameatavegamin is not indicated for the treatment of Download Syndrome.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,1,0,1,1,indications,0,0,1
+Cardamine is not indicated for the treatment of Clear Rice Sickness.,Cardamine,Cardamine,Cardamine,0,1,0,1,1,indications,0,1,0
+Polydichloric euthimal  is not indicated for the treatment of Tiberium poisoning.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,1,0,1,1,indications,0,0,0
+Ambrosia is not indicated for the treatment of Porphyric Hemophilia.,Ambrosia,Ambrosia,Ambrosia,0,1,0,1,1,indications,1,0,0
+Bacta is not indicated for the treatment of Di Forza Virus Syndrome.,Bacta,Bacta,Bacta,0,1,0,1,1,indications,0,1,0
+Ryll is not indicated for the treatment of Blacklight Virus.,Ryll,Ryll,Ryll,0,1,0,1,1,indications,1,0,0
+Aquasol is not indicated for the treatment of Herpes Simplex 10.,Aquasol,Aquasol,Aquasol,0,1,0,1,1,indications,0,1,0
+Serisone is not indicated for the treatment of The Red Death.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,1,0,0
+Bloodhype is not indicated for the treatment of Logopetria.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,1,0,0
+Ambrosia is not indicated for the treatment of Barclay's Protomorphosis Syndrome.,Ambrosia,Ambrosia,Ambrosia,0,1,0,1,1,indications,1,0,0
+Triopenin is not indicated for the treatment of Maternal Death Syndrome.,Triopenin,Triopenin,Triopenin,0,1,0,1,1,indications,0,0,1
+Heal Jelly is not indicated for the treatment of Asmodeus.,Heal Jelly,Heal Jelly,Heal Jelly,0,1,0,1,1,indications,1,0,0
+Serisone is not indicated for the treatment of Stone Sickness.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,1,0,0
+Alsosun is not indicated for the treatment of Krippin Virus.,Alsosun,Alsosun,Alsosun,0,1,0,1,1,indications,0,0,1
+Morpha is not indicated for the treatment of Pentapox.,Morpha,Morpha,Morpha,0,1,0,1,1,indications,0,0,1
+Athelas is not indicated for the treatment of Ratititis.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,0,1,0
+Kerasine is not indicated for the treatment of Bliss Virus.,Kerasine,Kerasine,Kerasine,0,1,0,1,1,indications,0,0,1
+Jamitol is not indicated for the treatment of ARIA.,Jamitol,Jamitol,Jamitol,0,1,0,1,1,indications,0,1,0
+Triox Compound is not indicated for the treatment of Razornail Bone Rot.,Triox Compound,Triox Compound,Triox Compound,0,1,0,1,1,indications,0,1,0
+"Plomox is not indicated for the treatment of Brainpox ""Cobra"".",Plomox,Plomox,Plomox,0,1,0,1,1,indications,0,0,0
+Placiden is not indicated for the treatment of Mosfungus.,Placiden,Placiden,Placiden,0,1,0,1,1,indications,1,0,0
+Turbolax is not indicated for the treatment of Black Mercy .,Turbolax,Turbolax,Turbolax,0,1,0,1,1,indications,0,0,0
+Cloveritol is not indicated for the treatment of Mosfungus.,Cloveritol,Cloveritol,Cloveritol,0,1,0,1,1,indications,0,0,1
+Morpha is not indicated for the treatment of Teen Plague.,Morpha,Morpha,Morpha,0,1,0,1,1,indications,1,0,0
+RadAway is not indicated for the treatment of Fire-Us.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,0,1,0
+Athelas is not indicated for the treatment of Collins' Syndrome.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,1,0,0
+Novril is not indicated for the treatment of Cuvier Syndrome.,Novril,Novril,Novril,0,1,0,1,1,indications,1,0,0
+Byphodine is not indicated for the treatment of Demon Pox.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,1,0,0
+Lethe is not indicated for the treatment of Space Mumps.,Lethe,Lethe,Lethe,0,1,0,1,1,indications,0,0,1
+Boosterspice is not indicated for the treatment of Krippin Virus.,Boosterspice,Boosterspice,Boosterspice,0,1,0,1,1,indications,1,0,0
+Jamitol is not indicated for the treatment of Atma Virus.,Jamitol,Jamitol,Jamitol,0,1,0,1,1,indications,0,0,1
+Gamma Glipheptin is not indicated for the treatment of Lackadaisy-Cathro Disease.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,1,0,1,1,indications,0,0,1
+Skele-gro is not indicated for the treatment of Collins' Syndrome.,Skele-gro,Skele-gro,Skele-gro,0,1,0,1,1,indications,0,0,1
+Kolto is not indicated for the treatment of NE-Alpha Parasite.,Kolto,Kolto,Kolto,0,1,0,1,1,indications,1,0,0
+Focusyn is not indicated for the treatment of The Dreaded Lurgi.,Focusyn,Focusyn,Focusyn,0,1,0,1,1,indications,1,0,0
+Heal Jelly is not indicated for the treatment of Mosfungus.,Heal Jelly,Heal Jelly,Heal Jelly,0,1,0,1,1,indications,1,0,0
+Bloodhype is not indicated for the treatment of Di Forza Virus Syndrome.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,1,0,0
+Gambutrol is not indicated for the treatment of White Disease.,Gambutrol,Gambutrol,Gambutrol,0,1,0,1,1,indications,1,0,0
+Altruizin is not indicated for the treatment of Gangliated Utrophin Immuno Latency Toxin.,Altruizin,Altruizin,Altruizin,0,1,0,1,1,indications,1,0,0
+Medi-Gel is not indicated for the treatment of Download Syndrome.,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,1,0,0
+Placiden is not indicated for the treatment of Lackadaisy-Cathro Disease.,Placiden,Placiden,Placiden,0,1,0,1,1,indications,0,1,0
+Spaceoline is not indicated for the treatment of Solanum Virus.,Spaceoline,Spaceoline,Spaceoline,0,1,0,1,1,indications,1,0,0
+Omegendorph is not indicated for the treatment of Brain Cloud.,Omegendorph,Omegendorph,Omegendorph,0,1,0,1,1,indications,0,1,0
+Gamma Glipheptin is not indicated for the treatment of Mono Orangosis.,Gamma Glipheptin,Gamma Glipheptin,Gamma Glipheptin,0,1,0,1,1,indications,0,0,1
+Polydichloric euthimal  is not indicated for the treatment of Maternal Death Syndrome.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,1,0,1,1,indications,0,0,0
+Selenine is not indicated for the treatment of Groat's Disease.,Selenine,Selenine,Selenine,0,1,0,1,1,indications,1,0,0
+Boosterspice is not indicated for the treatment of Space Rabies.,Boosterspice,Boosterspice,Boosterspice,0,1,0,1,1,indications,1,0,0
+Alsosun is not indicated for the treatment of T4 Angel Virus.,Alsosun,Alsosun,Alsosun,0,1,0,1,1,indications,0,0,1
+Bacta is not indicated for the treatment of Harlequin.,Bacta,Bacta,Bacta,0,1,0,1,1,indications,1,0,0
+Provasic is not indicated for the treatment of Maternal Death Syndrome.,Provasic,Provasic,Provasic,0,1,0,1,1,indications,1,0,0
+Skele-gro is not indicated for the treatment of Green Flu.,Skele-gro,Skele-gro,Skele-gro,0,1,0,1,1,indications,1,0,0
+Aqua Cure is not indicated for the treatment of Demon Pox.,Aqua Cure,Aqua Cure,Aqua Cure,0,1,0,1,1,indications,1,0,0
+Ketracel White is not indicated for the treatment of Creeping Derangea.,Ketracel White,Ketracel White,Ketracel White,0,1,0,1,1,indications,1,0,0
+Gambutrol is not indicated for the treatment of Entitilitus.,Gambutrol,Gambutrol,Gambutrol,0,1,0,1,1,indications,1,0,0
+Polydichloric euthimal  is not indicated for the treatment of Petrifold Regression.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,1,0,1,1,indications,0,0,0
+Turbolax is not indicated for the treatment of Proxyglossariasis.,Turbolax,Turbolax,Turbolax,0,1,0,1,1,indications,0,0,1
+Aquasol is not indicated for the treatment of Jumping Monkworm.,Aquasol,Aquasol,Aquasol,0,1,0,1,1,indications,1,0,0
+Prexilin is not indicated for the treatment of Kellis-Amberlee.,Prexilin,Prexilin,Prexilin,0,1,0,1,1,indications,0,0,1
+Blinkmoth serum is not indicated for the treatment of Gangliated Utrophin Immuno Latency Toxin.,Blinkmoth serum,Blinkmoth serum,Blinkmoth serum,0,1,0,1,1,indications,0,1,0
+Gleemonex is not indicated for the treatment of Gangliated Utrophin Immuno Latency Toxin.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,1,0,0
+Plomox is not indicated for the treatment of The Simian Flu.,Plomox,Plomox,Plomox,0,1,0,1,1,indications,1,0,0
+Alsosun is not indicated for the treatment of Dark Gundam Cells.,Alsosun,Alsosun,Alsosun,0,1,0,1,1,indications,0,0,1
+Gleemonex is not indicated for the treatment of Brain Cloud.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,1,0,0
+Medi-Gel is not indicated for the treatment of Gastric Pre-Linguistic Syndrome.,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,1,0,0
+Gleemonex is not indicated for the treatment of Bliss Virus.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,1,0,0
+Provasic is not indicated for the treatment of Petrifold Regression.,Provasic,Provasic,Provasic,0,1,0,1,1,indications,1,0,0
+Byphodine is not indicated for the treatment of Saint Calamaro's Leprosy.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,1,0,0
+Byphodine is not indicated for the treatment of M2448 virus.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,1,0,0
+Doloxan is not indicated for the treatment of Radical-6.,Doloxan,Doloxan,Doloxan,0,1,0,1,1,indications,1,0,0
+Metazine is not indicated for the treatment of Logopetria.,Metazine,Metazine,Metazine,0,1,0,1,1,indications,0,1,0
+Dehalcynate is not indicated for the treatment of Green Flu.,Dehalcynate,Dehalcynate,Dehalcynate,0,1,0,1,1,indications,1,0,0
+Turbolax is not indicated for the treatment of Espectare Necrosis.,Turbolax,Turbolax,Turbolax,0,1,0,1,1,indications,1,0,0
+Placiden is not indicated for the treatment of Wildfire Virus.,Placiden,Placiden,Placiden,0,1,0,1,1,indications,0,0,1
+Hypnocil is not indicated for the treatment of The Simian Flu.,Hypnocil,Hypnocil,Hypnocil,0,1,0,1,1,indications,0,1,0
+Gleemonex is not indicated for the treatment of Nightlock.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,1,0,0
+Hypnocil is not indicated for the treatment of Mosfungus.,Hypnocil,Hypnocil,Hypnocil,0,1,0,1,1,indications,0,1,0
+Polydichloric euthimal  is not indicated for the treatment of Ghancroid.,Polydichloric euthimal ,Polydichloric euthimal ,Polydichloric euthimal ,0,1,0,1,1,indications,0,0,0
+Retinax is not indicated for the treatment of Chrono-displasia.,Retinax,Retinax,Retinax,0,1,0,1,1,indications,0,0,1
+Serisone is not indicated for the treatment of Cosmic rust.,Serisone,Serisone,Serisone,0,1,0,1,1,indications,0,1,0
+Dypraxa is not indicated for the treatment of I-Pollen Degenerative Disorder.,Dypraxa,Dypraxa,Dypraxa,0,1,0,1,1,indications,0,1,0
+Placiden is not indicated for the treatment of Barclay's Protomorphosis Syndrome.,Placiden,Placiden,Placiden,0,1,0,1,1,indications,1,0,0
+Turbolax is not indicated for the treatment of Inverted Drowning Syndrome.,Turbolax,Turbolax,Turbolax,0,1,0,1,1,indications,1,0,0
+Ketracel White is not indicated for the treatment of Porphyric Hemophilia.,Ketracel White,Ketracel White,Ketracel White,0,1,0,1,1,indications,1,0,0
+Clithni is not indicated for the treatment of Reverse Ponocchio Syndrome.,Clithni,Clithni,Clithni,0,1,0,1,1,indications,1,0,0
+Cardamine is not indicated for the treatment of Empathetic Fallacy Syndrome.,Cardamine,Cardamine,Cardamine,0,1,0,1,1,indications,1,0,0
+Selenine is not indicated for the treatment of Salt Plague.,Selenine,Selenine,Selenine,0,1,0,1,1,indications,0,0,1
+Qualex is not indicated for the treatment of Wildcard coccus.,Qualex,Qualex,Qualex,0,1,0,1,1,indications,1,0,0
+Doloxan is not indicated for the treatment of Spontaneous Dental Hydroplosion.,Doloxan,Doloxan,Doloxan,0,1,0,1,1,indications,0,1,0
+Ketracel White is not indicated for the treatment of Circusitis.,Ketracel White,Ketracel White,Ketracel White,0,1,0,1,1,indications,1,0,0
+Athelas is not indicated for the treatment of Clear Rice Sickness.,Athelas,Athelas,Athelas,0,1,0,1,1,indications,1,0,0
+Rad-X is not indicated for the treatment of Sparling.,Rad-X,Rad-X,Rad-X,0,1,0,1,1,indications,0,0,1
+Heal Jelly is not indicated for the treatment of The Dreaded Lurgi.,Heal Jelly,Heal Jelly,Heal Jelly,0,1,0,1,1,indications,1,0,0
+Selenine is not indicated for the treatment of T-Veronica Virus.,Selenine,Selenine,Selenine,0,1,0,1,1,indications,1,0,0
+Heal Jelly is not indicated for the treatment of Deep Space Disorder.,Heal Jelly,Heal Jelly,Heal Jelly,0,1,0,1,1,indications,0,0,1
+Ryll is not indicated for the treatment of Van Horton's Syndrome.,Ryll,Ryll,Ryll,0,1,0,1,1,indications,1,0,0
+Kalocin is not indicated for the treatment of Uromysitisis Poisoning.,Kalocin,Kalocin,Kalocin,0,1,0,1,1,indications,0,0,1
+Jamitol is not indicated for the treatment of Bendii Syndrome.,Jamitol,Jamitol,Jamitol,0,1,0,1,1,indications,0,1,0
+Aqua Cure is not indicated for the treatment of Ecola.,Aqua Cure,Aqua Cure,Aqua Cure,0,1,0,1,1,indications,0,1,0
+Rad-X is not indicated for the treatment of Dar-Kosis.,Rad-X,Rad-X,Rad-X,0,1,0,1,1,indications,1,0,0
+Dimoxinil is not indicated for the treatment of Tiberium poisoning.,Dimoxinil,Dimoxinil,Dimoxinil,0,1,0,1,1,indications,0,1,0
+Triox Compound is not indicated for the treatment of Petrifold Regression.,Triox Compound,Triox Compound,Triox Compound,0,1,0,1,1,indications,1,0,0
+Plomox is not indicated for the treatment of Proxyglossariasis.,Plomox,Plomox,Plomox,0,1,0,1,1,indications,0,1,0
+RadAway is not indicated for the treatment of Squiditis.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,0,1,0
+Byphodine is not indicated for the treatment of The Dreaded Lurgi.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,1,0,0
+Dimoxinil is not indicated for the treatment of Barclay's Protomorphosis Syndrome.,Dimoxinil,Dimoxinil,Dimoxinil,0,1,0,1,1,indications,1,0,0
+Bloodhype is not indicated for the treatment of Scurge.,Bloodhype,Bloodhype,Bloodhype,0,1,0,1,1,indications,0,0,1
+Ambrosia is not indicated for the treatment of Cyberbrain Sclerosis.,Ambrosia,Ambrosia,Ambrosia,0,1,0,1,1,indications,0,1,0
+Dehalcynate is not indicated for the treatment of Extreme Exostosis.,Dehalcynate,Dehalcynate,Dehalcynate,0,1,0,1,1,indications,0,0,1
+Distral is not indicated for the treatment of Inverted Drowning Syndrome.,Distral,Distral,Distral,0,1,0,1,1,indications,0,1,0
+Valifin is not indicated for the treatment of Bloodflower's Melancholia.,Valifin,Valifin,Valifin,0,1,0,1,1,indications,1,0,0
+Selenine is not indicated for the treatment of Gastric Pre-Linguistic Syndrome.,Selenine,Selenine,Selenine,0,1,0,1,1,indications,0,1,0
+Adravil is not indicated for the treatment of Kellis-Amberlee.,Adravil,Adravil,Adravil,0,1,0,1,1,indications,1,0,0
+Gleemonex is not indicated for the treatment of Porphyric Hemophilia.,Gleemonex,Gleemonex,Gleemonex,0,1,0,1,1,indications,1,0,0
+Novril is not indicated for the treatment of Tian Shan-Gobi Assimilation.,Novril,Novril,Novril,0,1,0,1,1,indications,0,0,1
+Betathanatine is not indicated for the treatment of Stone Sickness.,Betathanatine,Betathanatine,Betathanatine,0,1,0,1,1,indications,1,0,0
+Cortexin is not indicated for the treatment of Monochromitis.,Cortexin,Cortexin,Cortexin,0,1,0,1,1,indications,0,1,0
+Metazine is not indicated for the treatment of Cosmic rust.,Metazine,Metazine,Metazine,0,1,0,1,1,indications,1,0,0
+Viagrogaine is not indicated for the treatment of Proxyglossariasis.,Viagrogaine,Viagrogaine,Viagrogaine,0,1,0,1,1,indications,0,0,1
+Clithni is not indicated for the treatment of Poetic Lassitude.,Clithni,Clithni,Clithni,0,1,0,1,1,indications,0,1,0
+Aquasol is not indicated for the treatment of Cuvier Syndrome.,Aquasol,Aquasol,Aquasol,0,1,0,1,1,indications,1,0,0
+Neodextraline solution is not indicated for the treatment of Spontaneous Dental Hydroplosion.,Neodextraline solution,Neodextraline solution,Neodextraline solution,0,1,0,1,1,indications,1,0,0
+Kolto is not indicated for the treatment of Trixie.,Kolto,Kolto,Kolto,0,1,0,1,1,indications,1,0,0
+Anti-gerasone is not indicated for the treatment of Wildcard coccus.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,1,0,1,1,indications,1,0,0
+Uspirim is not indicated for the treatment of Inferno virus.,Uspirim,Uspirim,Uspirim,0,1,0,1,1,indications,0,0,1
+Prexilin is not indicated for the treatment of T-Veronica Virus.,Prexilin,Prexilin,Prexilin,0,1,0,1,1,indications,1,0,0
+Novril is not indicated for the treatment of Scarlet Plague.,Novril,Novril,Novril,0,1,0,1,1,indications,1,0,0
+Safsprin is not indicated for the treatment of Herod's Flu.,Safsprin,Safsprin,Safsprin,0,1,0,1,1,indications,1,0,0
+Dylar is not indicated for the treatment of Dar-Kosis.,Dylar,Dylar,Dylar,0,1,0,1,1,indications,1,0,0
+Valifin is not indicated for the treatment of Phazon Madness.,Valifin,Valifin,Valifin,0,1,0,1,1,indications,0,1,0
+Kallocain is not indicated for the treatment of Jumping Monkworm.,Kallocain,Kallocain,Kallocain,0,1,0,1,1,indications,1,0,0
+Lethe is not indicated for the treatment of Rahkshi Poison.,Lethe,Lethe,Lethe,0,1,0,1,1,indications,1,0,0
+Anti-gerasone is not indicated for the treatment of Inferno virus.,Anti-gerasone,Anti-gerasone,Anti-gerasone,0,1,0,1,1,indications,0,0,1
+RadAway is not indicated for the treatment of The Affliction.,RadAway,RadAway,RadAway,0,1,0,1,1,indications,1,0,0
+Kerasine is not indicated for the treatment of Collins' Syndrome.,Kerasine,Kerasine,Kerasine,0,1,0,1,1,indications,0,1,0
+Omegendorph is not indicated for the treatment of Petrifold Regression.,Omegendorph,Omegendorph,Omegendorph,0,1,0,1,1,indications,1,0,0
+Altruizin is not indicated for the treatment of Salt Plague.,Altruizin,Altruizin,Altruizin,0,1,0,1,1,indications,1,0,0
+Selenine is not indicated for the treatment of Hepatitis V.,Selenine,Selenine,Selenine,0,1,0,1,1,indications,0,1,0
+Byphodine is not indicated for the treatment of The Red Death.,Byphodine,Byphodine,Byphodine,0,1,0,1,1,indications,1,0,0
+Triopenin is not indicated for the treatment of The Affliction.,Triopenin,Triopenin,Triopenin,0,1,0,1,1,indications,1,0,0
+Plomox is not indicated for the treatment of Di Forza Virus Syndrome.,Plomox,Plomox,Plomox,0,1,0,1,1,indications,0,0,1
+Provasic is not indicated for the treatment of Scarlet Plague.,Provasic,Provasic,Provasic,0,1,0,1,1,indications,1,0,0
+Vitameatavegamin is not indicated for the treatment of Rahkshi Poison.,Vitameatavegamin,Vitameatavegamin,Vitameatavegamin,0,1,0,1,1,indications,0,0,1
+Blinkmoth serum is not indicated for the treatment of Inferno virus.,Blinkmoth serum,Blinkmoth serum,Blinkmoth serum,0,1,0,1,1,indications,0,1,0
+Repressitol is not indicated for the treatment of Rashid's Syndrome.,Repressitol,Repressitol,Repressitol,0,1,0,1,1,indications,1,0,0
+Medi-Gel is not indicated for the treatment of Torsonic Polarity Syndrome .,Medi-Gel,Medi-Gel,Medi-Gel,0,1,0,1,1,indications,0,0,0

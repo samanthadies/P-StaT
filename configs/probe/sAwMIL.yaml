@@ -1,0 +1,19 @@
+defaults:
+  - base_probe
+
+name: sAwMIL
+max_bag_size: 10
+assume_known_positives: True
+num_known_positives: 2
+train_bag_limit: 1800
+with_bags: True
+
+init_params:
+  kernel: linear_av
+  penalty: -1
+  C: 1.0
+  scale_C: True
+  verbose: True
+  sv_cutoff: 1e-7
+param_grid:
+  C: [0.05, 0.1, 0.5, 1, 10]

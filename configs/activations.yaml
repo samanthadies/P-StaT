@@ -1,0 +1,19 @@
+hydra:
+  run:
+    dir: outputs/hydra_logs/activations/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+defaults:
+  - model: ???
+  - _self_
+
+
+datasets: ['cities_loc_true_false', 'cities_loc_fictional', 'cities_loc_synthetic', 'med_indications_true_false',
+           'med_indications_fictional', 'med_indications_synthetic', 'defs_true_false', 'defs_fictional',
+           'defs_synthetic']
+
+layers: ${model.task_layers}
+device: null
+agg: full # loads all activations, for each token (set-up for multi-instance learning)
+batch_size: 12
+max_length: 100 # max length of the input sequence (used only if agg is full)
+output_dir: "outputs/activations/${model.name}"

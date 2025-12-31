@@ -1,0 +1,15 @@
+defaults:
+  - base
+  - _self_
+
+name: med_indications
+noise_prefix: med_indications_noise
+
+datasets: ['med_indications_true_false', 'med_indications_synthetic']
+datasets_fictional: ['med_indications_fictional']
+datasets_noise: ['med_indications_noise_10']
+datasets_test: []
+agg: full
+
+use_fictional: true
+use_noise: true

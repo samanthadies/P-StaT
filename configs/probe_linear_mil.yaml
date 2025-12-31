@@ -1,0 +1,43 @@
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+defaults:
+  - model: llama-3-8b
+  - probe: sAwMIL
+  - datapack: cities_loc
+  - datapack@datapack_test: cities_loc
+  - _self_
+
+conformal_params:
+  alpha: 0.1
+  tie_breaking: False  # Break ties based on p-val (True) or abstains (False)
+  nc: 'symmetric'
+
+eval_params:
+  n_bootstraps: 1000
+  max_bag_size: 100
+
+task: 0
+layer_range: [0.1, 1.0]
+layer_id: None
+search: True
+agg: full
+run_debugging: False
+
+layers: ${model.task_layers}
+variation: ""
+trial_name: ${datapack.name}
+output_dir: "outputs/probes/${probe.name}/${model.name}/"
+
+random_seed: 42
+batch_size: 12
+limit_batches: -1
+sparsify_data: -1
+cv_n_folds: 3
+cv_bag_limit: 600
+save_results: True
+start_from_checkpoint: True
+
+noise: None

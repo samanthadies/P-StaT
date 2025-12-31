@@ -1,0 +1,8 @@
+name: ???
+init_params: 
+  verbose: False
+param_grid: ???
+normalize_data: True
+augment_data: False
+sparsify_data: -1
+with_bags: ???

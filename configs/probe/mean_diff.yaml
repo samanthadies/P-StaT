@@ -1,0 +1,14 @@
+defaults:
+  - base_probe
+
+name: mean_diff
+with_bags: False
+
+init_params:
+  with_covariance: True
+  verbose: True
+  fit_intercept: True
+  cov_type: "empirical"
+param_grid: 
+  with_covariance: [True, False]
+  fit_intercept: [True, False]

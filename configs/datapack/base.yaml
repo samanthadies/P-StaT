@@ -1,0 +1,8 @@
+name: ???
+datasets: ???
+datasets_test: ???
+test_size: 0.25
+cal_size: 0.25
+exclusive_split: True
+load_scores: False
+random_seed: 42

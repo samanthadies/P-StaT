@@ -1,0 +1,16 @@
+model: ???
+name: ???
+token: INSERT_ACCESS_TOKEN # HuggingFace Token (can obtain from https://huggingface.co/settings/tokens)
+module: model
+encoders: layers
+submodule_att: self_attn
+submodule_mlp: mlp
+submodule_norm: norm
+submodule_head: lm_head
+layers: []
+instruct: False
+dtype: float32
+system_role: system
+user_role: user
+assist_role: assistant
+end_token: 'auto'

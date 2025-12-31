@@ -1,0 +1,701 @@
+statement,object_1,object_2,correct_object_2,correct,negation,real_object,fake_object,fictional_object,category,in_train,in_test,in_cal
+The Cloud City is located in Bespin.,Cloud City,Bespin,Bespin,1,0,0,0,1,cities,1,0,0
+The Cloud City is located in Norway.,Cloud City,Norway,Bespin,0,0,0,0,1,cities,0,1,0
+The city of Neo-Tokyo is located in Japan.,Neo-Tokyo,Japan,Japan,1,0,0,0,1,cities,1,0,0
+The city of Neo-Tokyo is located in Maine.,Neo-Tokyo,Maine,Japan,0,0,0,0,1,cities,1,0,0
+The city of Dol Guldur is located in the Mirkwood.,Dol Guldur,the Mirkwood,the Mirkwood,1,0,0,0,1,cities,1,0,0
+The city of Dol Guldur is located in Oklahoma.,Dol Guldur,Oklahoma,the Mirkwood,0,0,0,0,1,cities,0,1,0
+The city of Thranduil's Halls is located in the Mirkwood.,Thranduil's Halls,the Mirkwood,the Mirkwood,1,0,0,0,1,cities,0,0,1
+The city of Thranduil's Halls is located in Pennsylvania.,Thranduil's Halls,Pennsylvania,the Mirkwood,0,0,0,0,1,cities,1,0,0
+The city of Arendelle is located in Norway.,Arendelle,Norway,Norway,1,0,0,0,1,cities,1,0,0
+The city of Arendelle is located in the Seven Kingdoms.,Arendelle,the Seven Kingdoms,Norway,0,0,0,0,1,cities,1,0,0
+The Emerald City is located in Oz.,Emerald City,Oz,Oz,1,0,0,0,1,cities,0,1,0
+The Emerald City is located in Arad Doman.,Emerald City,Arad Doman,Oz,0,0,0,0,1,cities,0,0,1
+The city of Bikini Bottom is located in Pacific Ocean.,Bikini Bottom,Pacific Ocean,Pacific Ocean,1,0,0,0,1,cities,1,0,0
+The city of Bikini Bottom is located in Maine.,Bikini Bottom,Maine,Pacific Ocean,0,0,0,0,1,cities,1,0,0
+The city of The Capitol is located in Panem.,The Capitol,Panem,Panem,1,0,0,0,1,cities,0,0,1
+The city of The Capitol is located in Japan.,The Capitol,Japan,Panem,0,0,0,0,1,cities,0,0,1
+The city of Gilead is located in  the Republic of Gilead.,Gilead, the Republic of Gilead, the Republic of Gilead,1,0,0,0,1,cities,0,0,1
+The city of Gilead is located in the United States.,Gilead,the United States, the Republic of Gilead,0,0,0,0,1,cities,0,1,0
+The city of Mos Eisley is located in Tatooine.,Mos Eisley,Tatooine,Tatooine,1,0,0,0,1,cities,0,1,0
+The city of Mos Eisley is located in Massachusetts.,Mos Eisley,Massachusetts,Tatooine,0,0,0,0,1,cities,0,0,1
+The city of Hogsmeade is located in the United Kingdom.,Hogsmeade,the United Kingdom,the United Kingdom,1,0,0,0,1,cities,1,0,0
+The city of Hogsmeade is located in Rohan.,Hogsmeade,Rohan,the United Kingdom,0,0,0,0,1,cities,0,1,0
+The Gotham City is located in the United States.,Gotham City,the United States,the United States,1,0,0,0,1,cities,0,0,1
+The Gotham City is located in Gondor.,Gotham City,Gondor,the United States,0,0,0,0,1,cities,0,0,1
+The city of Metropolis is located in the United States.,Metropolis,the United States,the United States,1,0,0,0,1,cities,1,0,0
+The city of Metropolis is located in the Mirkwood.,Metropolis,the Mirkwood,the United States,0,0,0,0,1,cities,1,0,0
+The city of Silent Hill is located in the United States.,Silent Hill,the United States,the United States,1,0,0,0,1,cities,1,0,0
+The city of Silent Hill is located in the Slaver's Bay.,Silent Hill,the Slaver's Bay,the United States,0,0,0,0,1,cities,1,0,0
+The city of Twin Peaks is located in the United States.,Twin Peaks,the United States,the United States,1,0,0,0,1,cities,1,0,0
+The city of Twin Peaks is located in Oklahoma.,Twin Peaks,Oklahoma,the United States,0,0,0,0,1,cities,1,0,0
+The Raccoon City is located in the United States.,Raccoon City,the United States,the United States,1,0,0,0,1,cities,0,0,1
+The Raccoon City is located in Rohan.,Raccoon City,Rohan,the United States,0,0,0,0,1,cities,0,0,1
+The city of Castle Rock is located in the United States.,Castle Rock,the United States,the United States,1,0,0,0,1,cities,1,0,0
+The city of Castle Rock is located in the Discworld.,Castle Rock,the Discworld,the United States,0,0,0,0,1,cities,1,0,0
+The city of Pawnee is located in the United States.,Pawnee,the United States,the United States,1,0,0,0,1,cities,0,0,1
+The city of Pawnee is located in Arad Doman.,Pawnee,Arad Doman,the United States,0,0,0,0,1,cities,0,0,1
+The city of Metropolis is located in the United States.,Metropolis,the United States,the United States,1,0,0,0,1,cities,0,0,1
+The city of Metropolis is located in San Andreas.,Metropolis,San Andreas,the United States,0,0,0,0,1,cities,1,0,0
+The city of King's Landing is located in the Seven Kingdoms.,King's Landing,the Seven Kingdoms,the Seven Kingdoms,1,0,0,0,1,cities,1,0,0
+The city of King's Landing is located in Kalimdor.,King's Landing,Kalimdor,the Seven Kingdoms,0,0,0,0,1,cities,1,0,0
+The city of Winterfell is located in the Seven Kingdoms.,Winterfell,the Seven Kingdoms,the Seven Kingdoms,1,0,0,0,1,cities,0,1,0
+The city of Winterfell is located in Oklahoma.,Winterfell,Oklahoma,the Seven Kingdoms,0,0,0,0,1,cities,0,0,1
+The city of Mereen is located in the Slaver's Bay.,Mereen,the Slaver's Bay,the Slaver's Bay,1,0,0,0,1,cities,0,1,0
+The city of Mereen is located in the Free Cities.,Mereen,the Free Cities,the Slaver's Bay,0,0,0,0,1,cities,0,0,1
+The city of Astapor is located in the Slaver's Bay.,Astapor,the Slaver's Bay,the Slaver's Bay,1,0,0,0,1,cities,0,0,1
+The city of Astapor is located in the Discworld.,Astapor,the Discworld,the Slaver's Bay,0,0,0,0,1,cities,0,1,0
+The city of Yunkai is located in the Slaver's Bay.,Yunkai,the Slaver's Bay,the Slaver's Bay,1,0,0,0,1,cities,1,0,0
+The city of Yunkai is located in  the Republic of Gilead.,Yunkai, the Republic of Gilead,the Slaver's Bay,0,0,0,0,1,cities,0,0,1
+The city of Braavos is located in the Free Cities.,Braavos,the Free Cities,the Free Cities,1,0,0,0,1,cities,0,1,0
+The city of Braavos is located in Nebraska.,Braavos,Nebraska,the Free Cities,0,0,0,0,1,cities,0,0,1
+The city of Minas Tirith is located in Gondor.,Minas Tirith,Gondor,Gondor,1,0,0,0,1,cities,1,0,0
+The city of Minas Tirith is located in Bespin.,Minas Tirith,Bespin,Gondor,0,0,0,0,1,cities,1,0,0
+The city of Edoras is located in Rohan.,Edoras,Rohan,Rohan,1,0,0,0,1,cities,1,0,0
+The city of Edoras is located in the Seven Kingdoms.,Edoras,the Seven Kingdoms,Rohan,0,0,0,0,1,cities,0,1,0
+The city of Isengard is located in Rohan.,Isengard,Rohan,Rohan,1,0,0,0,1,cities,1,0,0
+The city of Isengard is located in Alagaesia.,Isengard,Alagaesia,Rohan,0,0,0,0,1,cities,1,0,0
+The city of Ebou Dar is located in Altara.,Ebou Dar,Altara,Altara,1,0,0,0,1,cities,1,0,0
+The city of Ebou Dar is located in Manitoba.,Ebou Dar,Manitoba,Altara,0,0,0,0,1,cities,0,0,1
+The city of Bandar Eban is located in Arad Doman.,Bandar Eban,Arad Doman,Arad Doman,1,0,0,0,1,cities,0,0,1
+The city of Bandar Eban is located in Klatch.,Bandar Eban,Klatch,Arad Doman,0,0,0,0,1,cities,0,1,0
+The city of Amador is located in Amadicia.,Amador,Amadicia,Amadicia,1,0,0,0,1,cities,0,0,1
+The city of Amador is located in England.,Amador,England,Amadicia,0,0,0,0,1,cities,0,0,1
+The city of Fal Moran is located in Shienar.,Fal Moran,Shienar,Shienar,1,0,0,0,1,cities,1,0,0
+The city of Fal Moran is located in Amadicia.,Fal Moran,Amadicia,Shienar,0,0,0,0,1,cities,0,1,0
+The city of Darnassus is located in Kalimdor.,Darnassus,Kalimdor,Kalimdor,1,0,0,0,1,cities,0,0,1
+The city of Darnassus is located in the Mirkwood.,Darnassus,the Mirkwood,Kalimdor,0,0,0,0,1,cities,0,1,0
+The city of Ankh-Morpork is located in  Discworld.,Ankh-Morpork, Discworld, Discworld,1,0,0,0,1,cities,1,0,0
+The city of Ankh-Morpork is located in Oz.,Ankh-Morpork,Oz, Discworld,0,0,0,0,1,cities,1,0,0
+The city of Los Santos is located in San Andreas.,Los Santos,San Andreas,San Andreas,1,0,0,0,1,cities,1,0,0
+The city of Los Santos is located in Pennsylvania.,Los Santos,Pennsylvania,San Andreas,0,0,0,0,1,cities,0,1,0
+The city of Rhodes is located in Lemoyne.,Rhodes,Lemoyne,Lemoyne,1,0,0,0,1,cities,1,0,0
+The city of Rhodes is located in Amadicia.,Rhodes,Amadicia,Lemoyne,0,0,0,0,1,cities,0,1,0
+The city of Bönk is located in Überwald.,Bönk,Überwald,Überwald,1,0,0,0,1,cities,1,0,0
+The city of Bönk is located in the Discworld.,Bönk,the Discworld,Überwald,0,0,0,0,1,cities,0,1,0
+The city of Caslin is located in Nebraska.,Caslin,Nebraska,Nebraska,1,0,0,0,1,cities,0,1,0
+The city of Caslin is located in Oz.,Caslin,Oz,Nebraska,0,0,0,0,1,cities,1,0,0
+The city of Dras-leona is located in Alagaesia.,Dras-leona,Alagaesia,Alagaesia,1,0,0,0,1,cities,0,1,0
+The city of Dras-leona is located in Japan.,Dras-leona,Japan,Alagaesia,0,0,0,0,1,cities,0,0,1
+The city of Eustace is located in Oklahoma.,Eustace,Oklahoma,Oklahoma,1,0,0,0,1,cities,0,1,0
+The city of Eustace is located in Japan.,Eustace,Japan,Oklahoma,0,0,0,0,1,cities,1,0,0
+The city of Godric's Hollow is located in England.,Godric's Hollow,England,England,1,0,0,0,1,cities,1,0,0
+The city of Godric's Hollow is located in Colombia.,Godric's Hollow,Colombia,England,0,0,0,0,1,cities,1,0,0
+The city of Innsmouth is located in Massachusetts.,Innsmouth,Massachusetts,Massachusetts,1,0,0,0,1,cities,1,0,0
+The city of Innsmouth is located in Japan.,Innsmouth,Japan,Massachusetts,0,0,0,0,1,cities,0,1,0
+The Lancre City is located in Lancre.,Lancre City,Lancre,Lancre,1,0,0,0,1,cities,1,0,0
+The Lancre City is located in Svarga.,Lancre City,Svarga,Lancre,0,0,0,0,1,cities,0,1,0
+The city of Libertyville is located in Pennsylvania.,Libertyville,Pennsylvania,Pennsylvania,1,0,0,0,1,cities,1,0,0
+The city of Libertyville is located in Svarga.,Libertyville,Svarga,Pennsylvania,0,0,0,0,1,cities,0,1,0
+The city of Tashbaan is located in Calormen.,Tashbaan,Calormen,Calormen,1,0,0,0,1,cities,1,0,0
+The city of Tashbaan is located in Kalimdor.,Tashbaan,Kalimdor,Calormen,0,0,0,0,1,cities,1,0,0
+The city of Clochemerle is located in France.,Clochemerle,France,France,1,0,0,0,1,cities,0,1,0
+The city of Clochemerle is located in Scotland.,Clochemerle,Scotland,France,0,0,0,0,1,cities,1,0,0
+The city of Macondo is located in Colombia.,Macondo,Colombia,Colombia,1,0,0,0,1,cities,0,1,0
+The city of Macondo is located in the Slaver's Bay.,Macondo,the Slaver's Bay,Colombia,0,0,0,0,1,cities,0,1,0
+The city of Manawaka is located in Manitoba.,Manawaka,Manitoba,Manitoba,1,0,0,0,1,cities,1,0,0
+The city of Manawaka is located in Alagaesia.,Manawaka,Alagaesia,Manitoba,0,0,0,0,1,cities,1,0,0
+The city of Nwotsemaht is located in Moribundia.,Nwotsemaht,Moribundia,Moribundia,1,0,0,0,1,cities,1,0,0
+The city of Nwotsemaht is located in Massachusetts.,Nwotsemaht,Massachusetts,Moribundia,0,0,0,0,1,cities,0,0,1
+The city of Trantor is located in the Galactic Empire.,Trantor,the Galactic Empire,the Galactic Empire,1,0,0,0,1,cities,1,0,0
+The city of Trantor is located in Tatooine.,Trantor,Tatooine,the Galactic Empire,0,0,0,0,1,cities,0,1,0
+The city of Mos Espa is located in Tatooine.,Mos Espa,Tatooine,Tatooine,1,0,0,0,1,cities,1,0,0
+The city of Mos Espa is located in Colombia.,Mos Espa,Colombia,Tatooine,0,0,0,0,1,cities,1,0,0
+The city of Tipoca is located in Kamino.,Tipoca,Kamino,Kamino,1,0,0,0,1,cities,0,0,1
+The city of Tipoca is located in Rohan.,Tipoca,Rohan,Kamino,0,0,0,0,1,cities,0,1,0
+The city of Amaravati is located in Svarga.,Amaravati,Svarga,Svarga,1,0,0,0,1,cities,1,0,0
+The city of Amaravati is located in the Free Cities.,Amaravati,the Free Cities,Svarga,0,0,0,0,1,cities,0,0,1
+The city of Castle Rock is located in Maine.,Castle Rock,Maine,Maine,1,0,0,0,1,cities,1,0,0
+The city of Castle Rock is located in Altara.,Castle Rock,Altara,Maine,0,0,0,0,1,cities,1,0,0
+The city of Brigaddon is located in Scotland.,Brigaddon,Scotland,Scotland,1,0,0,0,1,cities,1,0,0
+The city of Brigaddon is located in Norway.,Brigaddon,Norway,Scotland,0,0,0,0,1,cities,0,0,1
+The city of Ankh-Morpork is located in the Discworld.,Ankh-Morpork,the Discworld,the Discworld,1,0,0,0,1,cities,0,0,1
+The city of Ankh-Morpork is located in Pacific Ocean.,Ankh-Morpork,Pacific Ocean,the Discworld,0,0,0,0,1,cities,0,1,0
+The city of Arkham is located in Massachusetts.,Arkham,Massachusetts,Massachusetts,1,0,0,0,1,cities,1,0,0
+The city of Arkham is located in Svarga.,Arkham,Svarga,Massachusetts,0,0,0,0,1,cities,0,0,1
+The city of Esgaroth is located in Rhovanion.,Esgaroth,Rhovanion,Rhovanion,1,0,0,0,1,cities,0,1,0
+The city of Esgaroth is located in Gondor.,Esgaroth,Gondor,Rhovanion,0,0,0,0,1,cities,1,0,0
+The city of Isengard is located in Gondor.,Isengard,Gondor,Gondor,1,0,0,0,1,cities,0,1,0
+The city of Isengard is located in the Galactic Empire.,Isengard,the Galactic Empire,Gondor,0,0,0,0,1,cities,0,1,0
+The city of Al Khali is located in Klatch.,Al Khali,Klatch,Klatch,1,0,0,0,1,cities,1,0,0
+The city of Al Khali is located in Lemoyne.,Al Khali,Lemoyne,Klatch,0,0,0,0,1,cities,0,1,0
+The Cloud City is not located in Bespin.,Cloud City,Bespin,Bespin,0,1,0,0,1,cities,1,0,0
+The Cloud City is not located in the Slaver's Bay.,Cloud City,the Slaver's Bay,Bespin,1,1,0,0,1,cities,1,0,0
+The city of Neo-Tokyo is not located in Japan.,Neo-Tokyo,Japan,Japan,0,1,0,0,1,cities,0,1,0
+The city of Neo-Tokyo is not located in France.,Neo-Tokyo,France,Japan,1,1,0,0,1,cities,0,1,0
+The city of Dol Guldur is not located in the Mirkwood.,Dol Guldur,the Mirkwood,the Mirkwood,0,1,0,0,1,cities,1,0,0
+The city of Dol Guldur is not located in Arad Doman.,Dol Guldur,Arad Doman,the Mirkwood,1,1,0,0,1,cities,0,1,0
+The city of Thranduil's Halls is not located in the Mirkwood.,Thranduil's Halls,the Mirkwood,the Mirkwood,0,1,0,0,1,cities,1,0,0
+The city of Thranduil's Halls is not located in Klatch.,Thranduil's Halls,Klatch,the Mirkwood,1,1,0,0,1,cities,1,0,0
+The city of Arendelle is not located in Norway.,Arendelle,Norway,Norway,0,1,0,0,1,cities,1,0,0
+The city of Arendelle is not located in Rohan.,Arendelle,Rohan,Norway,1,1,0,0,1,cities,0,0,1
+The Emerald City is not located in Oz.,Emerald City,Oz,Oz,0,1,0,0,1,cities,1,0,0
+The Emerald City is not located in Arad Doman.,Emerald City,Arad Doman,Oz,1,1,0,0,1,cities,1,0,0
+The city of Bikini Bottom is not located in Pacific Ocean.,Bikini Bottom,Pacific Ocean,Pacific Ocean,0,1,0,0,1,cities,1,0,0
+The city of Bikini Bottom is not located in Japan.,Bikini Bottom,Japan,Pacific Ocean,1,1,0,0,1,cities,1,0,0
+The city of The Capitol is not located in Panem.,The Capitol,Panem,Panem,0,1,0,0,1,cities,1,0,0
+The city of The Capitol is not located in Überwald.,The Capitol,Überwald,Panem,1,1,0,0,1,cities,1,0,0
+The city of Gilead is not located in  the Republic of Gilead.,Gilead, the Republic of Gilead, the Republic of Gilead,0,1,0,0,1,cities,0,0,1
+The city of Gilead is not located in Pennsylvania.,Gilead,Pennsylvania, the Republic of Gilead,1,1,0,0,1,cities,0,0,1
+The city of Mos Eisley is not located in Tatooine.,Mos Eisley,Tatooine,Tatooine,0,1,0,0,1,cities,1,0,0
+The city of Mos Eisley is not located in the United Kingdom.,Mos Eisley,the United Kingdom,Tatooine,1,1,0,0,1,cities,0,0,1
+The city of Hogsmeade is not located in the United Kingdom.,Hogsmeade,the United Kingdom,the United Kingdom,0,1,0,0,1,cities,0,0,1
+The city of Hogsmeade is not located in Norway.,Hogsmeade,Norway,the United Kingdom,1,1,0,0,1,cities,0,0,1
+The Gotham City is not located in the United States.,Gotham City,the United States,the United States,0,1,0,0,1,cities,0,0,1
+The Gotham City is not located in Svarga.,Gotham City,Svarga,the United States,1,1,0,0,1,cities,1,0,0
+The city of Metropolis is not located in the United States.,Metropolis,the United States,the United States,0,1,0,0,1,cities,1,0,0
+The city of Metropolis is not located in Amadicia.,Metropolis,Amadicia,the United States,1,1,0,0,1,cities,1,0,0
+The city of Silent Hill is not located in the United States.,Silent Hill,the United States,the United States,0,1,0,0,1,cities,1,0,0
+The city of Silent Hill is not located in Svarga.,Silent Hill,Svarga,the United States,1,1,0,0,1,cities,0,1,0
+The city of Twin Peaks is not located in the United States.,Twin Peaks,the United States,the United States,0,1,0,0,1,cities,1,0,0
+The city of Twin Peaks is not located in Moribundia.,Twin Peaks,Moribundia,the United States,1,1,0,0,1,cities,1,0,0
+The Raccoon City is not located in the United States.,Raccoon City,the United States,the United States,0,1,0,0,1,cities,0,1,0
+The Raccoon City is not located in the Discworld.,Raccoon City,the Discworld,the United States,1,1,0,0,1,cities,1,0,0
+The city of Castle Rock is not located in the United States.,Castle Rock,the United States,the United States,0,1,0,0,1,cities,1,0,0
+The city of Castle Rock is not located in  the Republic of Gilead.,Castle Rock, the Republic of Gilead,the United States,1,1,0,0,1,cities,1,0,0
+The city of Pawnee is not located in the United States.,Pawnee,the United States,the United States,0,1,0,0,1,cities,0,1,0
+The city of Pawnee is not located in Pennsylvania.,Pawnee,Pennsylvania,the United States,1,1,0,0,1,cities,1,0,0
+The city of Metropolis is not located in the United States.,Metropolis,the United States,the United States,0,1,0,0,1,cities,0,1,0
+The city of Metropolis is not located in France.,Metropolis,France,the United States,1,1,0,0,1,cities,0,1,0
+The city of King's Landing is not located in the Seven Kingdoms.,King's Landing,the Seven Kingdoms,the Seven Kingdoms,0,1,0,0,1,cities,0,1,0
+The city of King's Landing is not located in  the Republic of Gilead.,King's Landing, the Republic of Gilead,the Seven Kingdoms,1,1,0,0,1,cities,1,0,0
+The city of Winterfell is not located in the Seven Kingdoms.,Winterfell,the Seven Kingdoms,the Seven Kingdoms,0,1,0,0,1,cities,0,0,1
+The city of Winterfell is not located in Lemoyne.,Winterfell,Lemoyne,the Seven Kingdoms,1,1,0,0,1,cities,1,0,0
+The city of Mereen is not located in the Slaver's Bay.,Mereen,the Slaver's Bay,the Slaver's Bay,0,1,0,0,1,cities,1,0,0
+The city of Mereen is not located in Kalimdor.,Mereen,Kalimdor,the Slaver's Bay,1,1,0,0,1,cities,0,0,1
+The city of Astapor is not located in the Slaver's Bay.,Astapor,the Slaver's Bay,the Slaver's Bay,0,1,0,0,1,cities,0,0,1
+The city of Astapor is not located in Norway.,Astapor,Norway,the Slaver's Bay,1,1,0,0,1,cities,0,1,0
+The city of Yunkai is not located in the Slaver's Bay.,Yunkai,the Slaver's Bay,the Slaver's Bay,0,1,0,0,1,cities,1,0,0
+The city of Yunkai is not located in Kamino.,Yunkai,Kamino,the Slaver's Bay,1,1,0,0,1,cities,0,1,0
+The city of Braavos is not located in the Free Cities.,Braavos,the Free Cities,the Free Cities,0,1,0,0,1,cities,0,1,0
+The city of Braavos is not located in Nebraska.,Braavos,Nebraska,the Free Cities,1,1,0,0,1,cities,1,0,0
+The city of Minas Tirith is not located in Gondor.,Minas Tirith,Gondor,Gondor,0,1,0,0,1,cities,1,0,0
+The city of Minas Tirith is not located in the Seven Kingdoms.,Minas Tirith,the Seven Kingdoms,Gondor,1,1,0,0,1,cities,1,0,0
+The city of Edoras is not located in Rohan.,Edoras,Rohan,Rohan,0,1,0,0,1,cities,1,0,0
+The city of Edoras is not located in Kamino.,Edoras,Kamino,Rohan,1,1,0,0,1,cities,1,0,0
+The city of Isengard is not located in Rohan.,Isengard,Rohan,Rohan,0,1,0,0,1,cities,1,0,0
+The city of Isengard is not located in the United Kingdom.,Isengard,the United Kingdom,Rohan,1,1,0,0,1,cities,0,0,1
+The city of Ebou Dar is not located in Altara.,Ebou Dar,Altara,Altara,0,1,0,0,1,cities,0,0,1
+The city of Ebou Dar is not located in Colombia.,Ebou Dar,Colombia,Altara,1,1,0,0,1,cities,1,0,0
+The city of Bandar Eban is not located in Arad Doman.,Bandar Eban,Arad Doman,Arad Doman,0,1,0,0,1,cities,1,0,0
+The city of Bandar Eban is not located in Klatch.,Bandar Eban,Klatch,Arad Doman,1,1,0,0,1,cities,0,1,0
+The city of Amador is not located in Amadicia.,Amador,Amadicia,Amadicia,0,1,0,0,1,cities,1,0,0
+The city of Amador is not located in Norway.,Amador,Norway,Amadicia,1,1,0,0,1,cities,0,0,1
+The city of Fal Moran is not located in Shienar.,Fal Moran,Shienar,Shienar,0,1,0,0,1,cities,0,0,1
+The city of Fal Moran is not located in the Free Cities.,Fal Moran,the Free Cities,Shienar,1,1,0,0,1,cities,1,0,0
+The city of Darnassus is not located in Kalimdor.,Darnassus,Kalimdor,Kalimdor,0,1,0,0,1,cities,0,0,1
+The city of Darnassus is not located in Arad Doman.,Darnassus,Arad Doman,Kalimdor,1,1,0,0,1,cities,1,0,0
+The city of Ankh-Morpork is not located in  Discworld.,Ankh-Morpork, Discworld, Discworld,0,1,0,0,1,cities,0,1,0
+The city of Ankh-Morpork is not located in the United States.,Ankh-Morpork,the United States, Discworld,1,1,0,0,1,cities,1,0,0
+The city of Los Santos is not located in San Andreas.,Los Santos,San Andreas,San Andreas,0,1,0,0,1,cities,0,0,1
+The city of Los Santos is not located in Lancre.,Los Santos,Lancre,San Andreas,1,1,0,0,1,cities,0,1,0
+The city of Rhodes is not located in Lemoyne.,Rhodes,Lemoyne,Lemoyne,0,1,0,0,1,cities,0,0,1
+The city of Rhodes is not located in Calormen.,Rhodes,Calormen,Lemoyne,1,1,0,0,1,cities,0,1,0
+The city of Bönk is not located in Überwald.,Bönk,Überwald,Überwald,0,1,0,0,1,cities,0,1,0
+The city of Bönk is not located in Arad Doman.,Bönk,Arad Doman,Überwald,1,1,0,0,1,cities,0,0,1
+The city of Caslin is not located in Nebraska.,Caslin,Nebraska,Nebraska,0,1,0,0,1,cities,0,0,1
+The city of Caslin is not located in the Slaver's Bay.,Caslin,the Slaver's Bay,Nebraska,1,1,0,0,1,cities,0,0,1
+The city of Dras-leona is not located in Alagaesia.,Dras-leona,Alagaesia,Alagaesia,0,1,0,0,1,cities,1,0,0
+The city of Dras-leona is not located in Lancre.,Dras-leona,Lancre,Alagaesia,1,1,0,0,1,cities,0,1,0
+The city of Eustace is not located in Oklahoma.,Eustace,Oklahoma,Oklahoma,0,1,0,0,1,cities,1,0,0
+The city of Eustace is not located in Bespin.,Eustace,Bespin,Oklahoma,1,1,0,0,1,cities,0,1,0
+The city of Godric's Hollow is not located in England.,Godric's Hollow,England,England,0,1,0,0,1,cities,1,0,0
+The city of Godric's Hollow is not located in Klatch.,Godric's Hollow,Klatch,England,1,1,0,0,1,cities,1,0,0
+The city of Innsmouth is not located in Massachusetts.,Innsmouth,Massachusetts,Massachusetts,0,1,0,0,1,cities,0,0,1
+The city of Innsmouth is not located in Lemoyne.,Innsmouth,Lemoyne,Massachusetts,1,1,0,0,1,cities,1,0,0
+The Lancre City is not located in Lancre.,Lancre City,Lancre,Lancre,0,1,0,0,1,cities,0,0,1
+The Lancre City is not located in the Discworld.,Lancre City,the Discworld,Lancre,1,1,0,0,1,cities,0,0,1
+The city of Libertyville is not located in Pennsylvania.,Libertyville,Pennsylvania,Pennsylvania,0,1,0,0,1,cities,0,1,0
+The city of Libertyville is not located in Gondor.,Libertyville,Gondor,Pennsylvania,1,1,0,0,1,cities,0,1,0
+The city of Tashbaan is not located in Calormen.,Tashbaan,Calormen,Calormen,0,1,0,0,1,cities,0,0,1
+The city of Tashbaan is not located in Oz.,Tashbaan,Oz,Calormen,1,1,0,0,1,cities,0,0,1
+The city of Clochemerle is not located in France.,Clochemerle,France,France,0,1,0,0,1,cities,1,0,0
+The city of Clochemerle is not located in the Discworld.,Clochemerle,the Discworld,France,1,1,0,0,1,cities,0,1,0
+The city of Macondo is not located in Colombia.,Macondo,Colombia,Colombia,0,1,0,0,1,cities,0,0,1
+The city of Macondo is not located in  the Republic of Gilead.,Macondo, the Republic of Gilead,Colombia,1,1,0,0,1,cities,1,0,0
+The city of Manawaka is not located in Manitoba.,Manawaka,Manitoba,Manitoba,0,1,0,0,1,cities,1,0,0
+The city of Manawaka is not located in Shienar.,Manawaka,Shienar,Manitoba,1,1,0,0,1,cities,1,0,0
+The city of Nwotsemaht is not located in Moribundia.,Nwotsemaht,Moribundia,Moribundia,0,1,0,0,1,cities,0,1,0
+The city of Nwotsemaht is not located in Bespin.,Nwotsemaht,Bespin,Moribundia,1,1,0,0,1,cities,1,0,0
+The city of Trantor is not located in the Galactic Empire.,Trantor,the Galactic Empire,the Galactic Empire,0,1,0,0,1,cities,1,0,0
+The city of Trantor is not located in  the Republic of Gilead.,Trantor, the Republic of Gilead,the Galactic Empire,1,1,0,0,1,cities,0,0,1
+The city of Mos Espa is not located in Tatooine.,Mos Espa,Tatooine,Tatooine,0,1,0,0,1,cities,1,0,0
+The city of Mos Espa is not located in the United Kingdom.,Mos Espa,the United Kingdom,Tatooine,1,1,0,0,1,cities,0,1,0
+The city of Tipoca is not located in Kamino.,Tipoca,Kamino,Kamino,0,1,0,0,1,cities,0,0,1
+The city of Tipoca is not located in Rhovanion.,Tipoca,Rhovanion,Kamino,1,1,0,0,1,cities,0,0,1
+The city of Amaravati is not located in Svarga.,Amaravati,Svarga,Svarga,0,1,0,0,1,cities,0,1,0
+The city of Amaravati is not located in Scotland.,Amaravati,Scotland,Svarga,1,1,0,0,1,cities,1,0,0
+The city of Castle Rock is not located in Maine.,Castle Rock,Maine,Maine,0,1,0,0,1,cities,1,0,0
+The city of Castle Rock is not located in Rhovanion.,Castle Rock,Rhovanion,Maine,1,1,0,0,1,cities,1,0,0
+The city of Brigaddon is not located in Scotland.,Brigaddon,Scotland,Scotland,0,1,0,0,1,cities,1,0,0
+The city of Brigaddon is not located in the Seven Kingdoms.,Brigaddon,the Seven Kingdoms,Scotland,1,1,0,0,1,cities,1,0,0
+The city of Ankh-Morpork is not located in the Discworld.,Ankh-Morpork,the Discworld,the Discworld,0,1,0,0,1,cities,0,1,0
+The city of Ankh-Morpork is not located in the Free Cities.,Ankh-Morpork,the Free Cities,the Discworld,1,1,0,0,1,cities,1,0,0
+The city of Arkham is not located in Massachusetts.,Arkham,Massachusetts,Massachusetts,0,1,0,0,1,cities,1,0,0
+The city of Arkham is not located in Nebraska.,Arkham,Nebraska,Massachusetts,1,1,0,0,1,cities,1,0,0
+The city of Esgaroth is not located in Rhovanion.,Esgaroth,Rhovanion,Rhovanion,0,1,0,0,1,cities,1,0,0
+The city of Esgaroth is not located in Pennsylvania.,Esgaroth,Pennsylvania,Rhovanion,1,1,0,0,1,cities,1,0,0
+The city of Isengard is not located in Gondor.,Isengard,Gondor,Gondor,0,1,0,0,1,cities,1,0,0
+The city of Isengard is not located in Manitoba.,Isengard,Manitoba,Gondor,1,1,0,0,1,cities,0,0,1
+The city of Al Khali is not located in Klatch.,Al Khali,Klatch,Klatch,0,1,0,0,1,cities,0,1,0
+The city of Al Khali is not located in Panem.,Al Khali,Panem,Klatch,1,1,0,0,1,cities,1,0,0
+Basin City is located in the United States.,Basin City,the United States,the United States,1,0,0,1,1,cities,1,0,0
+Basin City is not located in the United States.,Basin City,the United States,the United States,0,1,0,1,1,cities,0,0,1
+Basin City is located in Mexico.,Basin City,the United States,Mexico,0,0,0,1,1,cities,1,0,0
+Basin City is not located in Mexico.,Basin City,the United States,Mexico,1,1,0,1,1,cities,1,0,0
+The city of Blüdhaven is located in New Jersey.,Blüdhaven,New Jersey,New Jersey,1,0,0,1,1,cities,0,1,0
+The city of Blüdhaven is not located in New Jersey.,Blüdhaven,New Jersey,New Jersey,0,1,0,1,1,cities,0,1,0
+The city of Blüdhaven is located in Mars.,Blüdhaven,New Jersey,Mars,0,0,0,1,1,cities,0,0,1
+The city of Blüdhaven is not located in Mars.,Blüdhaven,New Jersey,Mars,1,1,0,1,1,cities,1,0,0
+The city of District X is located in the United States.,District X,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of District X is not located in the United States.,District X,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of District X is located in Italy.,District X,the United States,Italy,0,0,0,1,1,cities,0,0,1
+The city of District X is not located in Italy.,District X,the United States,Italy,1,1,0,1,1,cities,0,1,0
+The city of Duckburg is located in Calisota.,Duckburg,Calisota,Calisota,1,0,0,1,1,cities,1,0,0
+The city of Duckburg is not located in Calisota.,Duckburg,Calisota,Calisota,0,1,0,1,1,cities,0,1,0
+The city of Duckburg is located in France.,Duckburg,Calisota,France,0,0,0,1,1,cities,0,0,1
+The city of Duckburg is not located in France.,Duckburg,Calisota,France,1,1,0,1,1,cities,0,0,1
+The city of Riverdale is located in United States.,Riverdale,United States,United States,1,0,0,1,1,cities,0,0,1
+The city of Riverdale is not located in United States.,Riverdale,United States,United States,0,1,0,1,1,cities,0,0,1
+The city of Riverdale is located in Whiterun Hold.,Riverdale,United States,Whiterun Hold,0,0,0,1,1,cities,0,1,0
+The city of Riverdale is not located in Whiterun Hold.,Riverdale,United States,Whiterun Hold,1,1,0,1,1,cities,1,0,0
+The city of Smallville is located in Kansas.,Smallville,Kansas,Kansas,1,0,0,1,1,cities,1,0,0
+The city of Smallville is not located in Kansas.,Smallville,Kansas,Kansas,0,1,0,1,1,cities,0,1,0
+The city of Smallville is located in Washington.,Smallville,Kansas,Washington,0,0,0,1,1,cities,0,0,1
+The city of Smallville is not located in Washington.,Smallville,Kansas,Washington,1,1,0,1,1,cities,0,0,1
+The city of Kamar-Taj is located in the Himalayas.,Kamar-Taj,the Himalayas,the Himalayas,1,0,0,1,1,cities,1,0,0
+The city of Kamar-Taj is not located in the Himalayas.,Kamar-Taj,the Himalayas,the Himalayas,0,1,0,1,1,cities,1,0,0
+The city of Kamar-Taj is located in Vermont.,Kamar-Taj,the Himalayas,Vermont,0,0,0,1,1,cities,1,0,0
+The city of Kamar-Taj is not located in Vermont.,Kamar-Taj,the Himalayas,Vermont,1,1,0,1,1,cities,1,0,0
+The city of Chesterford is located in Massachusetts.,Chesterford,Massachusetts,Massachusetts,1,0,0,1,1,cities,0,1,0
+The city of Chesterford is not located in Massachusetts.,Chesterford,Massachusetts,Massachusetts,0,1,0,1,1,cities,1,0,0
+The city of Chesterford is located in Florida.,Chesterford,Massachusetts,Florida,0,0,0,1,1,cities,1,0,0
+The city of Chesterford is not located in Florida.,Chesterford,Massachusetts,Florida,1,1,0,1,1,cities,0,0,1
+The city of Derry is located in Maine.,Derry,Maine,Maine,1,0,0,1,1,cities,0,1,0
+The city of Derry is not located in Maine.,Derry,Maine,Maine,0,1,0,1,1,cities,1,0,0
+The city of Derry is located in India.,Derry,Maine,India,0,0,0,1,1,cities,0,0,1
+The city of Derry is not located in India.,Derry,Maine,India,1,1,0,1,1,cities,0,0,1
+The city of Hill Valley is located in California.,Hill Valley,California,California,1,0,0,1,1,cities,0,0,1
+The city of Hill Valley is not located in California.,Hill Valley,California,California,0,1,0,1,1,cities,0,1,0
+The city of Hill Valley is located in United States.,Hill Valley,California,United States,0,0,0,1,1,cities,1,0,0
+The city of Hill Valley is not located in United States.,Hill Valley,California,United States,1,1,0,1,1,cities,0,1,0
+The city of Stepford is located in Connecticut.,Stepford,Connecticut,Connecticut,1,0,0,1,1,cities,1,0,0
+The city of Stepford is not located in Connecticut.,Stepford,Connecticut,Connecticut,0,1,0,1,1,cities,0,0,1
+The city of Stepford is located in Vermont.,Stepford,Connecticut,Vermont,0,0,0,1,1,cities,0,0,1
+The city of Stepford is not located in Vermont.,Stepford,Connecticut,Vermont,1,1,0,1,1,cities,0,0,1
+The city of Toontown is located in California.,Toontown,California,California,1,0,0,1,1,cities,1,0,0
+The city of Toontown is not located in California.,Toontown,California,California,0,1,0,1,1,cities,1,0,0
+The city of Toontown is located in Italy.,Toontown,California,Italy,0,0,0,1,1,cities,1,0,0
+The city of Toontown is not located in Italy.,Toontown,California,Italy,1,1,0,1,1,cities,1,0,0
+The city of Haddonfield is located in Illinois.,Haddonfield,Illinois,Illinois,1,0,0,1,1,cities,0,1,0
+The city of Haddonfield is not located in Illinois.,Haddonfield,Illinois,Illinois,0,1,0,1,1,cities,0,0,1
+The city of Haddonfield is located in India.,Haddonfield,Illinois,India,0,0,0,1,1,cities,1,0,0
+The city of Haddonfield is not located in India.,Haddonfield,Illinois,India,1,1,0,1,1,cities,1,0,0
+The city of Cabot Cove is located in Maine.,Cabot Cove,Maine,Maine,1,0,0,1,1,cities,0,1,0
+The city of Cabot Cove is not located in Maine.,Cabot Cove,Maine,Maine,0,1,0,1,1,cities,1,0,0
+The city of Cabot Cove is located in Massachusetts.,Cabot Cove,Maine,Massachusetts,0,0,0,1,1,cities,0,1,0
+The city of Cabot Cove is not located in Massachusetts.,Cabot Cove,Maine,Massachusetts,1,1,0,1,1,cities,1,0,0
+The city of Hawkins is located in Indiana.,Hawkins,Indiana,Indiana,1,0,0,1,1,cities,1,0,0
+The city of Hawkins is not located in Indiana.,Hawkins,Indiana,Indiana,0,1,0,1,1,cities,0,0,1
+The city of Hawkins is located in the Himalayas.,Hawkins,Indiana,the Himalayas,0,0,0,1,1,cities,1,0,0
+The city of Hawkins is not located in the Himalayas.,Hawkins,Indiana,the Himalayas,1,1,0,1,1,cities,0,1,0
+The city of Lenora Hills is located in California.,Lenora Hills,California,California,1,0,0,1,1,cities,1,0,0
+The city of Lenora Hills is not located in California.,Lenora Hills,California,California,0,1,0,1,1,cities,1,0,0
+The city of Lenora Hills is located in Whiterun Hold.,Lenora Hills,California,Whiterun Hold,0,0,0,1,1,cities,1,0,0
+The city of Lenora Hills is not located in Whiterun Hold.,Lenora Hills,California,Whiterun Hold,1,1,0,1,1,cities,0,0,1
+The city of Hazzard County is located in Georgia.,Hazzard County,Georgia,Georgia,1,0,0,1,1,cities,1,0,0
+The city of Hazzard County is not located in Georgia.,Hazzard County,Georgia,Georgia,0,1,0,1,1,cities,0,0,1
+The city of Hazzard County is located in Connecticut.,Hazzard County,Georgia,Connecticut,0,0,0,1,1,cities,0,1,0
+The city of Hazzard County is not located in Connecticut.,Hazzard County,Georgia,Connecticut,1,1,0,1,1,cities,1,0,0
+The city of Mayberry is located in North Carolina.,Mayberry,North Carolina,North Carolina,1,0,0,1,1,cities,1,0,0
+The city of Mayberry is not located in North Carolina.,Mayberry,North Carolina,North Carolina,0,1,0,1,1,cities,0,0,1
+The city of Mayberry is located in England.,Mayberry,North Carolina,England,0,0,0,1,1,cities,0,1,0
+The city of Mayberry is not located in England.,Mayberry,North Carolina,England,1,1,0,1,1,cities,0,0,1
+The city of Eagleton is located in Indiana.,Eagleton,Indiana,Indiana,1,0,0,1,1,cities,1,0,0
+The city of Eagleton is not located in Indiana.,Eagleton,Indiana,Indiana,0,1,0,1,1,cities,1,0,0
+The city of Eagleton is located in Colorado.,Eagleton,Indiana,Colorado,0,0,0,1,1,cities,0,0,1
+The city of Eagleton is not located in Colorado.,Eagleton,Indiana,Colorado,1,1,0,1,1,cities,0,1,0
+The city of Sunnydale is located in California.,Sunnydale,California,California,1,0,0,1,1,cities,0,0,1
+The city of Sunnydale is not located in California.,Sunnydale,California,California,0,1,0,1,1,cities,1,0,0
+The city of Sunnydale is located in Italy.,Sunnydale,California,Italy,0,0,0,1,1,cities,0,0,1
+The city of Sunnydale is not located in Italy.,Sunnydale,California,Italy,1,1,0,1,1,cities,1,0,0
+The city of Mystic Falls is located in Virginia.,Mystic Falls,Virginia,Virginia,1,0,0,1,1,cities,1,0,0
+The city of Mystic Falls is not located in Virginia.,Mystic Falls,Virginia,Virginia,0,1,0,1,1,cities,0,1,0
+The city of Mystic Falls is located in Eastmarch Hold.,Mystic Falls,Virginia,Eastmarch Hold,0,0,0,1,1,cities,1,0,0
+The city of Mystic Falls is not located in Eastmarch Hold.,Mystic Falls,Virginia,Eastmarch Hold,1,1,0,1,1,cities,1,0,0
+The city of Lanford is located in Illinois.,Lanford,Illinois,Illinois,1,0,0,1,1,cities,1,0,0
+The city of Lanford is not located in Illinois.,Lanford,Illinois,Illinois,0,1,0,1,1,cities,0,1,0
+The city of Lanford is located in Missouri.,Lanford,Illinois,Missouri,0,0,0,1,1,cities,1,0,0
+The city of Lanford is not located in Missouri.,Lanford,Illinois,Missouri,1,1,0,1,1,cities,0,0,1
+The city of Ambridge is located in England.,Ambridge,England,England,1,0,0,1,1,cities,0,1,0
+The city of Ambridge is not located in England.,Ambridge,England,England,0,1,0,1,1,cities,1,0,0
+The city of Ambridge is located in The Lands Between.,Ambridge,England,The Lands Between,0,0,0,1,1,cities,0,0,1
+The city of Ambridge is not located in The Lands Between.,Ambridge,England,The Lands Between,1,1,0,1,1,cities,0,1,0
+The city of Meyruelle is located in France.,Meyruelle,France,France,1,0,0,1,1,cities,1,0,0
+The city of Meyruelle is not located in France.,Meyruelle,France,France,0,1,0,1,1,cities,0,1,0
+The city of Meyruelle is located in Haafingar Hold.,Meyruelle,France,Haafingar Hold,0,0,0,1,1,cities,0,1,0
+The city of Meyruelle is not located in Haafingar Hold.,Meyruelle,France,Haafingar Hold,1,1,0,1,1,cities,0,1,0
+The city of Borchester is located in England.,Borchester,England,England,1,0,0,1,1,cities,1,0,0
+The city of Borchester is not located in England.,Borchester,England,England,0,1,0,1,1,cities,0,0,1
+The city of Borchester is located in Cybertron.,Borchester,England,Cybertron,0,0,0,1,1,cities,1,0,0
+The city of Borchester is not located in Cybertron.,Borchester,England,Cybertron,1,1,0,1,1,cities,0,0,1
+The city of Felpersham is located in England.,Felpersham,England,England,1,0,0,1,1,cities,1,0,0
+The city of Felpersham is not located in England.,Felpersham,England,England,0,1,0,1,1,cities,1,0,0
+The city of Felpersham is located in Washington.,Felpersham,England,Washington,0,0,0,1,1,cities,0,0,1
+The city of Felpersham is not located in Washington.,Felpersham,England,Washington,1,1,0,1,1,cities,0,0,1
+The city of Lake Wobegon is located in Minnesota.,Lake Wobegon,Minnesota,Minnesota,1,0,0,1,1,cities,0,1,0
+The city of Lake Wobegon is not located in Minnesota.,Lake Wobegon,Minnesota,Minnesota,0,1,0,1,1,cities,0,0,1
+The city of Lake Wobegon is located in Europe.,Lake Wobegon,Minnesota,Europe,0,0,0,1,1,cities,0,1,0
+The city of Lake Wobegon is not located in Europe.,Lake Wobegon,Minnesota,Europe,1,1,0,1,1,cities,1,0,0
+The city of Llareggub is located in Wales.,Llareggub,Wales,Wales,1,0,0,1,1,cities,1,0,0
+The city of Llareggub is not located in Wales.,Llareggub,Wales,Wales,0,1,0,1,1,cities,0,0,1
+The city of Llareggub is located in the Himalayas.,Llareggub,Wales,the Himalayas,0,0,0,1,1,cities,0,0,1
+The city of Llareggub is not located in the Himalayas.,Llareggub,Wales,the Himalayas,1,1,0,1,1,cities,0,0,1
+Beach City is located in Delmarva.,Beach City,Delmarva,Delmarva,1,0,0,1,1,cities,0,1,0
+Beach City is not located in Delmarva.,Beach City,Delmarva,Delmarva,0,1,0,1,1,cities,0,0,1
+Beach City is located in Lemoyne.,Beach City,Delmarva,Lemoyne,0,0,0,1,1,cities,0,0,1
+Beach City is not located in Lemoyne.,Beach City,Delmarva,Lemoyne,1,1,0,1,1,cities,1,0,0
+The city of Gravity Falls is located in Oregon.,Gravity Falls,Oregon,Oregon,1,0,0,1,1,cities,0,0,1
+The city of Gravity Falls is not located in Oregon.,Gravity Falls,Oregon,Oregon,0,1,0,1,1,cities,0,0,1
+The city of Gravity Falls is located in India.,Gravity Falls,Oregon,India,0,0,0,1,1,cities,1,0,0
+The city of Gravity Falls is not located in India.,Gravity Falls,Oregon,India,1,1,0,1,1,cities,1,0,0
+The city of Quahog is located in Rhode Island.,Quahog,Rhode Island,Rhode Island,1,0,0,1,1,cities,1,0,0
+The city of Quahog is not located in Rhode Island.,Quahog,Rhode Island,Rhode Island,0,1,0,1,1,cities,0,1,0
+The city of Quahog is located in Washington.,Quahog,Rhode Island,Washington,0,0,0,1,1,cities,0,0,1
+The city of Quahog is not located in Washington.,Quahog,Rhode Island,Washington,1,1,0,1,1,cities,0,0,1
+The city of South Park is located in Colorado.,South Park,Colorado,Colorado,1,0,0,1,1,cities,1,0,0
+The city of South Park is not located in Colorado.,South Park,Colorado,Colorado,0,1,0,1,1,cities,0,0,1
+The city of South Park is located in Liyue.,South Park,Colorado,Liyue,0,0,0,1,1,cities,0,1,0
+The city of South Park is not located in Liyue.,South Park,Colorado,Liyue,1,1,0,1,1,cities,1,0,0
+West City is located in Region 28.,West City,Region 28,Region 28,1,0,0,1,1,cities,0,1,0
+West City is not located in Region 28.,West City,Region 28,Region 28,0,1,0,1,1,cities,0,0,1
+West City is located in United States.,West City,Region 28,United States,0,0,0,1,1,cities,0,1,0
+West City is not located in United States.,West City,Region 28,United States,1,1,0,1,1,cities,1,0,0
+The city of Konohagakure is located in Land of Fire.,Konohagakure,Land of Fire,Land of Fire,1,0,0,1,1,cities,1,0,0
+The city of Konohagakure is not located in Land of Fire.,Konohagakure,Land of Fire,Land of Fire,0,1,0,1,1,cities,1,0,0
+The city of Konohagakure is located in Connecticut.,Konohagakure,Land of Fire,Connecticut,0,0,0,1,1,cities,1,0,0
+The city of Konohagakure is not located in Connecticut.,Konohagakure,Land of Fire,Connecticut,1,1,0,1,1,cities,0,1,0
+The city of Iacon is located in Cybertron.,Iacon,Cybertron,Cybertron,1,0,0,1,1,cities,0,0,1
+The city of Iacon is not located in Cybertron.,Iacon,Cybertron,Cybertron,0,1,0,1,1,cities,0,0,1
+The city of Iacon is located in North Carolina.,Iacon,Cybertron,North Carolina,0,0,0,1,1,cities,1,0,0
+The city of Iacon is not located in North Carolina.,Iacon,Cybertron,North Carolina,1,1,0,1,1,cities,0,0,1
+The city of Brigadoon is located in Scotland.,Brigadoon,Scotland,Scotland,1,0,0,1,1,cities,1,0,0
+The city of Brigadoon is not located in Scotland.,Brigadoon,Scotland,Scotland,0,1,0,1,1,cities,0,0,1
+The city of Brigadoon is located in Sweden.,Brigadoon,Scotland,Sweden,0,0,0,1,1,cities,0,0,1
+The city of Brigadoon is not located in Sweden.,Brigadoon,Scotland,Sweden,1,1,0,1,1,cities,1,0,0
+Chako Paul City is located in Sweden.,Chako Paul City,Sweden,Sweden,1,0,0,1,1,cities,1,0,0
+Chako Paul City is not located in Sweden.,Chako Paul City,Sweden,Sweden,0,1,0,1,1,cities,0,1,0
+Chako Paul City is located in Delmarva.,Chako Paul City,Sweden,Delmarva,0,0,0,1,1,cities,1,0,0
+Chako Paul City is not located in Delmarva.,Chako Paul City,Sweden,Delmarva,1,1,0,1,1,cities,1,0,0
+The city of Middlemarch is located in England.,Middlemarch,England,England,1,0,0,1,1,cities,1,0,0
+The city of Middlemarch is not located in England.,Middlemarch,England,England,0,1,0,1,1,cities,0,1,0
+The city of Middlemarch is located in Kingdom of Loathing.,Middlemarch,England,Kingdom of Loathing,0,0,0,1,1,cities,1,0,0
+The city of Middlemarch is not located in Kingdom of Loathing.,Middlemarch,England,Kingdom of Loathing,1,1,0,1,1,cities,1,0,0
+The city of Jonathanland is located in California.,Jonathanland,California,California,1,0,0,1,1,cities,1,0,0
+The city of Jonathanland is not located in California.,Jonathanland,California,California,0,1,0,1,1,cities,0,1,0
+The city of Jonathanland is located in Calisota.,Jonathanland,California,Calisota,0,0,0,1,1,cities,1,0,0
+The city of Jonathanland is not located in Calisota.,Jonathanland,California,Calisota,1,1,0,1,1,cities,0,1,0
+The city of Malgudi is located in India.,Malgudi,India,India,1,0,0,1,1,cities,0,1,0
+The city of Malgudi is not located in India.,Malgudi,India,India,0,1,0,1,1,cities,0,0,1
+The city of Malgudi is located in the United States.,Malgudi,India,the United States,0,0,0,1,1,cities,0,1,0
+The city of Malgudi is not located in the United States.,Malgudi,India,the United States,1,1,0,1,1,cities,1,0,0
+The city of Underhill is located in Mars.,Underhill,Mars,Mars,1,0,0,1,1,cities,0,0,1
+The city of Underhill is not located in Mars.,Underhill,Mars,Mars,0,1,0,1,1,cities,0,1,0
+The city of Underhill is located in Land of Fire.,Underhill,Mars,Land of Fire,0,0,0,1,1,cities,1,0,0
+The city of Underhill is not located in Land of Fire.,Underhill,Mars,Land of Fire,1,1,0,1,1,cities,0,0,1
+The city of Arcadia Bay is located in Oregon.,Arcadia Bay,Oregon,Oregon,1,0,0,1,1,cities,1,0,0
+The city of Arcadia Bay is not located in Oregon.,Arcadia Bay,Oregon,Oregon,0,1,0,1,1,cities,0,1,0
+The city of Arcadia Bay is located in Georgia.,Arcadia Bay,Oregon,Georgia,0,0,0,1,1,cities,1,0,0
+The city of Arcadia Bay is not located in Georgia.,Arcadia Bay,Oregon,Georgia,1,1,0,1,1,cities,0,0,1
+The city of Bayview is located in the United States.,Bayview,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of Bayview is not located in the United States.,Bayview,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Bayview is located in Natlan.,Bayview,the United States,Natlan,0,0,0,1,1,cities,0,0,1
+The city of Bayview is not located in Natlan.,Bayview,the United States,Natlan,1,1,0,1,1,cities,1,0,0
+The city of Bright Falls is located in Washington.,Bright Falls,Washington,Washington,1,0,0,1,1,cities,1,0,0
+The city of Bright Falls is not located in Washington.,Bright Falls,Washington,Washington,0,1,0,1,1,cities,0,1,0
+The city of Bright Falls is located in Land of Fire.,Bright Falls,Washington,Land of Fire,0,0,0,1,1,cities,1,0,0
+The city of Bright Falls is not located in Land of Fire.,Bright Falls,Washington,Land of Fire,1,1,0,1,1,cities,0,0,1
+The city of Bullworth is located in the United States.,Bullworth,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of Bullworth is not located in the United States.,Bullworth,the United States,the United States,0,1,0,1,1,cities,0,0,1
+The city of Bullworth is located in Land of Fire.,Bullworth,the United States,Land of Fire,0,0,0,1,1,cities,1,0,0
+The city of Bullworth is not located in Land of Fire.,Bullworth,the United States,Land of Fire,1,1,0,1,1,cities,1,0,0
+Carcer City is located in the United States.,Carcer City,the United States,the United States,1,0,0,1,1,cities,0,1,0
+Carcer City is not located in the United States.,Carcer City,the United States,the United States,0,1,0,1,1,cities,0,1,0
+Carcer City is located in Haafingar Hold.,Carcer City,the United States,Haafingar Hold,0,0,0,1,1,cities,0,0,1
+Carcer City is not located in Haafingar Hold.,Carcer City,the United States,Haafingar Hold,1,1,0,1,1,cities,1,0,0
+The city of Catharsis is located in Arizona.,Catharsis,Arizona,Arizona,1,0,0,1,1,cities,1,0,0
+The city of Catharsis is not located in Arizona.,Catharsis,Arizona,Arizona,0,1,0,1,1,cities,1,0,0
+The city of Catharsis is located in Italy.,Catharsis,Arizona,Italy,0,0,0,1,1,cities,0,1,0
+The city of Catharsis is not located in Italy.,Catharsis,Arizona,Italy,1,1,0,1,1,cities,0,0,1
+City 17 is located in Europe.,City 17,Europe,Europe,1,0,0,1,1,cities,0,1,0
+City 17 is not located in Europe.,City 17,Europe,Europe,0,1,0,1,1,cities,0,1,0
+City 17 is located in Arizona.,City 17,Europe,Arizona,0,0,0,1,1,cities,0,0,1
+City 17 is not located in Arizona.,City 17,Europe,Arizona,1,1,0,1,1,cities,1,0,0
+The city of Cottonmouth is located in the United States.,Cottonmouth,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of Cottonmouth is not located in the United States.,Cottonmouth,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Cottonmouth is located in The Reach.,Cottonmouth,the United States,The Reach,0,0,0,1,1,cities,0,0,1
+The city of Cottonmouth is not located in The Reach.,Cottonmouth,the United States,The Reach,1,1,0,1,1,cities,0,0,1
+The city of Court of Fontaine is located in Fontaine.,Court of Fontaine,Fontaine,Fontaine,1,0,0,1,1,cities,1,0,0
+The city of Court of Fontaine is not located in Fontaine.,Court of Fontaine,Fontaine,Fontaine,0,1,0,1,1,cities,1,0,0
+The city of Court of Fontaine is located in Kansas.,Court of Fontaine,Fontaine,Kansas,0,0,0,1,1,cities,1,0,0
+The city of Court of Fontaine is not located in Kansas.,Court of Fontaine,Fontaine,Kansas,1,1,0,1,1,cities,0,0,1
+Diamond City is located in Massachusetts.,Diamond City,Massachusetts,Massachusetts,1,0,0,1,1,cities,1,0,0
+Diamond City is not located in Massachusetts.,Diamond City,Massachusetts,Massachusetts,0,1,0,1,1,cities,1,0,0
+Diamond City is located in Rhode Island.,Diamond City,Massachusetts,Rhode Island,0,0,0,1,1,cities,1,0,0
+Diamond City is not located in Rhode Island.,Diamond City,Massachusetts,Rhode Island,1,1,0,1,1,cities,1,0,0
+The city of Dowon is located in South Korea.,Dowon,South Korea,South Korea,1,0,0,1,1,cities,1,0,0
+The city of Dowon is not located in South Korea.,Dowon,South Korea,South Korea,0,1,0,1,1,cities,0,1,0
+The city of Dowon is located in The Reach.,Dowon,South Korea,The Reach,0,0,0,1,1,cities,0,0,1
+The city of Dowon is not located in The Reach.,Dowon,South Korea,The Reach,1,1,0,1,1,cities,0,1,0
+The city of Dunwall is located in Gristol.,Dunwall,Gristol,Gristol,1,0,0,1,1,cities,0,0,1
+The city of Dunwall is not located in Gristol.,Dunwall,Gristol,Gristol,0,1,0,1,1,cities,0,1,0
+The city of Dunwall is located in Land of Fire.,Dunwall,Gristol,Land of Fire,0,0,0,1,1,cities,1,0,0
+The city of Dunwall is not located in Land of Fire.,Dunwall,Gristol,Land of Fire,1,1,0,1,1,cities,1,0,0
+The city of Edensin is located in Arizona.,Edensin,Arizona,Arizona,1,0,0,1,1,cities,0,0,1
+The city of Edensin is not located in Arizona.,Edensin,Arizona,Arizona,0,1,0,1,1,cities,1,0,0
+The city of Edensin is located in New Jersey.,Edensin,Arizona,New Jersey,0,0,0,1,1,cities,0,1,0
+The city of Edensin is not located in New Jersey.,Edensin,Arizona,New Jersey,1,1,0,1,1,cities,0,1,0
+The city of Empire Bay is located in the United States.,Empire Bay,the United States,the United States,1,0,0,1,1,cities,0,1,0
+The city of Empire Bay is not located in the United States.,Empire Bay,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Empire Bay is located in the Atlantic Ocean.,Empire Bay,the United States,the Atlantic Ocean,0,0,0,1,1,cities,0,1,0
+The city of Empire Bay is not located in the Atlantic Ocean.,Empire Bay,the United States,the Atlantic Ocean,1,1,0,1,1,cities,1,0,0
+Empire City is located in the United States.,Empire City,the United States,the United States,1,0,0,1,1,cities,0,1,0
+Empire City is not located in the United States.,Empire City,the United States,the United States,0,1,0,1,1,cities,0,0,1
+Empire City is located in Gristol.,Empire City,the United States,Gristol,0,0,0,1,1,cities,1,0,0
+Empire City is not located in Gristol.,Empire City,the United States,Gristol,1,1,0,1,1,cities,0,0,1
+The city of Foundation is located in West Virginia.,Foundation,West Virginia,West Virginia,1,0,0,1,1,cities,0,0,1
+The city of Foundation is not located in West Virginia.,Foundation,West Virginia,West Virginia,0,1,0,1,1,cities,1,0,0
+The city of Foundation is located in South Korea.,Foundation,West Virginia,South Korea,0,0,0,1,1,cities,1,0,0
+The city of Foundation is not located in South Korea.,Foundation,West Virginia,South Korea,1,1,0,1,1,cities,0,1,0
+The city of Freedom Town is located in United States.,Freedom Town,United States,United States,1,0,0,1,1,cities,1,0,0
+The city of Freedom Town is not located in United States.,Freedom Town,United States,United States,0,1,0,1,1,cities,1,0,0
+The city of Freedom Town is located in Maine.,Freedom Town,United States,Maine,0,0,0,1,1,cities,1,0,0
+The city of Freedom Town is not located in Maine.,Freedom Town,United States,Maine,1,1,0,1,1,cities,1,0,0
+The city of Greenvale is located in Washington.,Greenvale,Washington,Washington,1,0,0,1,1,cities,1,0,0
+The city of Greenvale is not located in Washington.,Greenvale,Washington,Washington,0,1,0,1,1,cities,1,0,0
+The city of Greenvale is located in Louisiana.,Greenvale,Washington,Louisiana,0,0,0,1,1,cities,1,0,0
+The city of Greenvale is not located in Louisiana.,Greenvale,Washington,Louisiana,1,1,0,1,1,cities,1,0,0
+The city of Hinamizawa is located in Japan.,Hinamizawa,Japan,Japan,1,0,0,1,1,cities,1,0,0
+The city of Hinamizawa is not located in Japan.,Hinamizawa,Japan,Japan,0,1,0,1,1,cities,0,0,1
+The city of Hinamizawa is located in Kansas.,Hinamizawa,Japan,Kansas,0,0,0,1,1,cities,1,0,0
+The city of Hinamizawa is not located in Kansas.,Hinamizawa,Japan,Kansas,1,1,0,1,1,cities,1,0,0
+Imperial City is located in Tamriel.,Imperial City,Tamriel,Tamriel,1,0,0,1,1,cities,0,0,1
+Imperial City is not located in Tamriel.,Imperial City,Tamriel,Tamriel,0,1,0,1,1,cities,1,0,0
+Imperial City is located in Eastmarch Hold.,Imperial City,Tamriel,Eastmarch Hold,0,0,0,1,1,cities,1,0,0
+Imperial City is not located in Eastmarch Hold.,Imperial City,Tamriel,Eastmarch Hold,1,1,0,1,1,cities,1,0,0
+The city of Lakeshore is located in Illinois.,Lakeshore,Illinois,Illinois,1,0,0,1,1,cities,1,0,0
+The city of Lakeshore is not located in Illinois.,Lakeshore,Illinois,Illinois,0,1,0,1,1,cities,1,0,0
+The city of Lakeshore is located in Kanto.,Lakeshore,Illinois,Kanto,0,0,0,1,1,cities,1,0,0
+The city of Lakeshore is not located in Kanto.,Lakeshore,Illinois,Kanto,1,1,0,1,1,cities,1,0,0
+The city of Las Venturas is located in the United States.,Las Venturas,the United States,the United States,1,0,0,1,1,cities,0,1,0
+The city of Las Venturas is not located in the United States.,Las Venturas,the United States,the United States,0,1,0,1,1,cities,1,0,0
+The city of Las Venturas is located in India.,Las Venturas,the United States,India,0,0,0,1,1,cities,1,0,0
+The city of Las Venturas is not located in India.,Las Venturas,the United States,India,1,1,0,1,1,cities,0,1,0
+The city of Leyndell is located in The Lands Between.,Leyndell,The Lands Between,The Lands Between,1,0,0,1,1,cities,1,0,0
+The city of Leyndell is not located in The Lands Between.,Leyndell,The Lands Between,The Lands Between,0,1,0,1,1,cities,1,0,0
+The city of Leyndell is located in Kastovia.,Leyndell,The Lands Between,Kastovia,0,0,0,1,1,cities,0,1,0
+The city of Leyndell is not located in Kastovia.,Leyndell,The Lands Between,Kastovia,1,1,0,1,1,cities,0,1,0
+Liberty City is located in the United States.,Liberty City,the United States,the United States,1,0,0,1,1,cities,1,0,0
+Liberty City is not located in the United States.,Liberty City,the United States,the United States,0,1,0,1,1,cities,0,1,0
+Liberty City is located in Italy.,Liberty City,the United States,Italy,0,0,0,1,1,cities,1,0,0
+Liberty City is not located in Italy.,Liberty City,the United States,Italy,1,1,0,1,1,cities,1,0,0
+The city of Little Hope is located in Massachusetts.,Little Hope,Massachusetts,Massachusetts,1,0,0,1,1,cities,1,0,0
+The city of Little Hope is not located in Massachusetts.,Little Hope,Massachusetts,Massachusetts,0,1,0,1,1,cities,1,0,0
+The city of Little Hope is located in South Korea.,Little Hope,Massachusetts,South Korea,0,0,0,1,1,cities,1,0,0
+The city of Little Hope is not located in South Korea.,Little Hope,Massachusetts,South Korea,1,1,0,1,1,cities,0,1,0
+The city of Liyue Harbor is located in Liyue.,Liyue Harbor,Liyue,Liyue,1,0,0,1,1,cities,1,0,0
+The city of Liyue Harbor is not located in Liyue.,Liyue Harbor,Liyue,Liyue,0,1,0,1,1,cities,1,0,0
+The city of Liyue Harbor is located in Land of Fire.,Liyue Harbor,Liyue,Land of Fire,0,0,0,1,1,cities,0,1,0
+The city of Liyue Harbor is not located in Land of Fire.,Liyue Harbor,Liyue,Land of Fire,1,1,0,1,1,cities,0,0,1
+The city of Lost Heaven is located in the United States.,Lost Heaven,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of Lost Heaven is not located in the United States.,Lost Heaven,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Lost Heaven is located in Kanto.,Lost Heaven,the United States,Kanto,0,0,0,1,1,cities,0,1,0
+The city of Lost Heaven is not located in Kanto.,Lost Heaven,the United States,Kanto,1,1,0,1,1,cities,1,0,0
+The city of Los Perdidos is located in California.,Los Perdidos,California,California,1,0,0,1,1,cities,0,0,1
+The city of Los Perdidos is not located in California.,Los Perdidos,California,California,0,1,0,1,1,cities,1,0,0
+The city of Los Perdidos is located in Arizona.,Los Perdidos,California,Arizona,0,0,0,1,1,cities,0,0,1
+The city of Los Perdidos is not located in Arizona.,Los Perdidos,California,Arizona,1,1,0,1,1,cities,0,0,1
+The city of Ludendorff is located in North Yankton.,Ludendorff,North Yankton,North Yankton,1,0,0,1,1,cities,0,1,0
+The city of Ludendorff is not located in North Yankton.,Ludendorff,North Yankton,North Yankton,0,1,0,1,1,cities,0,0,1
+The city of Ludendorff is located in United States.,Ludendorff,North Yankton,United States,0,0,0,1,1,cities,0,0,1
+The city of Ludendorff is not located in United States.,Ludendorff,North Yankton,United States,1,1,0,1,1,cities,0,0,1
+The city of Markarth is located in The Reach.,Markarth,The Reach,The Reach,1,0,0,1,1,cities,1,0,0
+The city of Markarth is not located in The Reach.,Markarth,The Reach,The Reach,0,1,0,1,1,cities,1,0,0
+The city of Markarth is located in Scotland.,Markarth,The Reach,Scotland,0,0,0,1,1,cities,0,1,0
+The city of Markarth is not located in Scotland.,Markarth,The Reach,Scotland,1,1,0,1,1,cities,1,0,0
+The city of Nasha Town is located in Snezhnaya.,Nasha Town,Snezhnaya,Snezhnaya,1,0,0,1,1,cities,0,1,0
+The city of Nasha Town is not located in Snezhnaya.,Nasha Town,Snezhnaya,Snezhnaya,0,1,0,1,1,cities,0,1,0
+The city of Nasha Town is located in Vermont.,Nasha Town,Snezhnaya,Vermont,0,0,0,1,1,cities,0,0,1
+The city of Nasha Town is not located in Vermont.,Nasha Town,Snezhnaya,Vermont,1,1,0,1,1,cities,0,0,1
+The city of New Bordeaux is located in Louisiana.,New Bordeaux,Louisiana,Louisiana,1,0,0,1,1,cities,1,0,0
+The city of New Bordeaux is not located in Louisiana.,New Bordeaux,Louisiana,Louisiana,0,1,0,1,1,cities,1,0,0
+The city of New Bordeaux is located in Wales.,New Bordeaux,Louisiana,Wales,0,0,0,1,1,cities,0,0,1
+The city of New Bordeaux is not located in Wales.,New Bordeaux,Louisiana,Wales,1,1,0,1,1,cities,1,0,0
+New Donk City is located in Metro Kingdom.,New Donk City,Metro Kingdom,Metro Kingdom,1,0,0,1,1,cities,1,0,0
+New Donk City is not located in Metro Kingdom.,New Donk City,Metro Kingdom,Metro Kingdom,0,1,0,1,1,cities,1,0,0
+New Donk City is located in Sweden.,New Donk City,Metro Kingdom,Sweden,0,0,0,1,1,cities,1,0,0
+New Donk City is not located in Sweden.,New Donk City,Metro Kingdom,Sweden,1,1,0,1,1,cities,1,0,0
+The city of New Marais is located in the United States.,New Marais,the United States,the United States,1,0,0,1,1,cities,0,0,1
+The city of New Marais is not located in the United States.,New Marais,the United States,the United States,0,1,0,1,1,cities,0,0,1
+The city of New Marais is located in Cybertron.,New Marais,the United States,Cybertron,0,0,0,1,1,cities,1,0,0
+The city of New Marais is not located in Cybertron.,New Marais,the United States,Cybertron,1,1,0,1,1,cities,1,0,0
+The city of New Reno is located in Nevada.,New Reno,Nevada,Nevada,1,0,0,1,1,cities,0,0,1
+The city of New Reno is not located in Nevada.,New Reno,Nevada,Nevada,0,1,0,1,1,cities,0,0,1
+The city of New Reno is located in India.,New Reno,Nevada,India,0,0,0,1,1,cities,1,0,0
+The city of New Reno is not located in India.,New Reno,Nevada,India,1,1,0,1,1,cities,0,0,1
+The city of New Vegas is located in Nevada.,New Vegas,Nevada,Nevada,1,0,0,1,1,cities,0,1,0
+The city of New Vegas is not located in Nevada.,New Vegas,Nevada,Nevada,0,1,0,1,1,cities,1,0,0
+The city of New Vegas is located in Wales.,New Vegas,Nevada,Wales,0,0,0,1,1,cities,1,0,0
+The city of New Vegas is not located in Wales.,New Vegas,Nevada,Wales,1,1,0,1,1,cities,0,1,0
+Night City is located in the United States.,Night City,the United States,the United States,1,0,0,1,1,cities,0,1,0
+Night City is not located in the United States.,Night City,the United States,the United States,0,1,0,1,1,cities,0,0,1
+Night City is located in Haafingar Hold.,Night City,the United States,Haafingar Hold,0,0,0,1,1,cities,0,1,0
+Night City is not located in Haafingar Hold.,Night City,the United States,Haafingar Hold,1,1,0,1,1,cities,0,1,0
+The city of Pallet Town is located in Kanto.,Pallet Town,Kanto,Kanto,1,0,0,1,1,cities,0,1,0
+The city of Pallet Town is not located in Kanto.,Pallet Town,Kanto,Kanto,0,1,0,1,1,cities,0,0,1
+The city of Pallet Town is located in Calisota.,Pallet Town,Kanto,Calisota,0,0,0,1,1,cities,0,0,1
+The city of Pallet Town is not located in Calisota.,Pallet Town,Kanto,Calisota,1,1,0,1,1,cities,1,0,0
+Palmont City is located in the United States.,Palmont City,the United States,the United States,1,0,0,1,1,cities,0,0,1
+Palmont City is not located in the United States.,Palmont City,the United States,the United States,0,1,0,1,1,cities,0,0,1
+Palmont City is located in Fontaine.,Palmont City,the United States,Fontaine,0,0,0,1,1,cities,1,0,0
+Palmont City is not located in Fontaine.,Palmont City,the United States,Fontaine,1,1,0,1,1,cities,1,0,0
+The city of Possum Springs is located in the United States.,Possum Springs,the United States,the United States,1,0,0,1,1,cities,0,0,1
+The city of Possum Springs is not located in the United States.,Possum Springs,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Possum Springs is located in Metro Kingdom.,Possum Springs,the United States,Metro Kingdom,0,0,0,1,1,cities,1,0,0
+The city of Possum Springs is not located in Metro Kingdom.,Possum Springs,the United States,Metro Kingdom,1,1,0,1,1,cities,1,0,0
+The city of Rapture is located in the Atlantic Ocean.,Rapture,the Atlantic Ocean,the Atlantic Ocean,1,0,0,1,1,cities,1,0,0
+The city of Rapture is not located in the Atlantic Ocean.,Rapture,the Atlantic Ocean,the Atlantic Ocean,0,1,0,1,1,cities,0,0,1
+The city of Rapture is located in North Yankton.,Rapture,the Atlantic Ocean,North Yankton,0,0,0,1,1,cities,1,0,0
+The city of Rapture is not located in North Yankton.,Rapture,the Atlantic Ocean,North Yankton,1,1,0,1,1,cities,0,1,0
+The city of Raven Brooks is located in Missouri.,Raven Brooks,Missouri,Missouri,1,0,0,1,1,cities,1,0,0
+The city of Raven Brooks is not located in Missouri.,Raven Brooks,Missouri,Missouri,0,1,0,1,1,cities,0,0,1
+The city of Raven Brooks is located in North Carolina.,Raven Brooks,Missouri,North Carolina,0,0,0,1,1,cities,1,0,0
+The city of Raven Brooks is not located in North Carolina.,Raven Brooks,Missouri,North Carolina,1,1,0,1,1,cities,1,0,0
+The city of Ravenholm is located in Europe.,Ravenholm,Europe,Europe,1,0,0,1,1,cities,0,0,1
+The city of Ravenholm is not located in Europe.,Ravenholm,Europe,Europe,0,1,0,1,1,cities,0,0,1
+The city of Ravenholm is located in Liyue.,Ravenholm,Europe,Liyue,0,0,0,1,1,cities,1,0,0
+The city of Ravenholm is not located in Liyue.,Ravenholm,Europe,Liyue,1,1,0,1,1,cities,0,1,0
+Rivet City is located in the United States.,Rivet City,the United States,the United States,1,0,0,1,1,cities,1,0,0
+Rivet City is not located in the United States.,Rivet City,the United States,the United States,0,1,0,1,1,cities,0,1,0
+Rivet City is located in Kastovia.,Rivet City,the United States,Kastovia,0,0,0,1,1,cities,1,0,0
+Rivet City is not located in Kastovia.,Rivet City,the United States,Kastovia,1,1,0,1,1,cities,0,0,1
+Rockay City is located in the United States.,Rockay City,the United States,the United States,1,0,0,1,1,cities,1,0,0
+Rockay City is not located in the United States.,Rockay City,the United States,the United States,0,1,0,1,1,cities,1,0,0
+Rockay City is located in England.,Rockay City,the United States,England,0,0,0,1,1,cities,1,0,0
+Rockay City is not located in England.,Rockay City,the United States,England,1,1,0,1,1,cities,1,0,0
+The city of Rockwell is located in the United States.,Rockwell,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of Rockwell is not located in the United States.,Rockwell,the United States,the United States,0,1,0,1,1,cities,1,0,0
+The city of Rockwell is located in Wales.,Rockwell,the United States,Wales,0,0,0,1,1,cities,1,0,0
+The city of Rockwell is not located in Wales.,Rockwell,the United States,Wales,1,1,0,1,1,cities,1,0,0
+The city of San Fiero is located in the United States.,San Fiero,the United States,the United States,1,0,0,1,1,cities,0,1,0
+The city of San Fiero is not located in the United States.,San Fiero,the United States,the United States,0,1,0,1,1,cities,0,0,1
+The city of San Fiero is located in South Korea.,San Fiero,the United States,South Korea,0,0,0,1,1,cities,1,0,0
+The city of San Fiero is not located in South Korea.,San Fiero,the United States,South Korea,1,1,0,1,1,cities,1,0,0
+The city of Saint Denis is located in Lemoyne.,Saint Denis,Lemoyne,Lemoyne,1,0,0,1,1,cities,1,0,0
+The city of Saint Denis is not located in Lemoyne.,Saint Denis,Lemoyne,Lemoyne,0,1,0,1,1,cities,1,0,0
+The city of Saint Denis is located in Scotland.,Saint Denis,Lemoyne,Scotland,0,0,0,1,1,cities,1,0,0
+The city of Saint Denis is not located in Scotland.,Saint Denis,Lemoyne,Scotland,1,1,0,1,1,cities,1,0,0
+The city of Santa Destroy is located in California.,Santa Destroy,California,California,1,0,0,1,1,cities,1,0,0
+The city of Santa Destroy is not located in California.,Santa Destroy,California,California,0,1,0,1,1,cities,1,0,0
+The city of Santa Destroy is located in Arizona.,Santa Destroy,California,Arizona,0,0,0,1,1,cities,0,1,0
+The city of Santa Destroy is not located in Arizona.,Santa Destroy,California,Arizona,1,1,0,1,1,cities,0,1,0
+The city of Santo Ileso is located in the United States.,Santo Ileso,the United States,the United States,1,0,0,1,1,cities,0,1,0
+The city of Santo Ileso is not located in the United States.,Santo Ileso,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of Santo Ileso is located in Sumeru.,Santo Ileso,the United States,Sumeru,0,0,0,1,1,cities,1,0,0
+The city of Santo Ileso is not located in Sumeru.,Santo Ileso,the United States,Sumeru,1,1,0,1,1,cities,1,0,0
+The city of San Joshua Del Mosquiera is located in Mexico.,San Joshua Del Mosquiera,Mexico,Mexico,1,0,0,1,1,cities,1,0,0
+The city of San Joshua Del Mosquiera is not located in Mexico.,San Joshua Del Mosquiera,Mexico,Mexico,0,1,0,1,1,cities,0,0,1
+The city of San Joshua Del Mosquiera is located in Delmarva.,San Joshua Del Mosquiera,Mexico,Delmarva,0,0,0,1,1,cities,0,0,1
+The city of San Joshua Del Mosquiera is not located in Delmarva.,San Joshua Del Mosquiera,Mexico,Delmarva,1,1,0,1,1,cities,0,1,0
+The city of Sapienza is located in Italy.,Sapienza,Italy,Italy,1,0,0,1,1,cities,0,1,0
+The city of Sapienza is not located in Italy.,Sapienza,Italy,Italy,0,1,0,1,1,cities,0,1,0
+The city of Sapienza is located in Sweden.,Sapienza,Italy,Sweden,0,0,0,1,1,cities,0,1,0
+The city of Sapienza is not located in Sweden.,Sapienza,Italy,Sweden,1,1,0,1,1,cities,1,0,0
+The city of Seaside Town is located in Kingdom of Loathing.,Seaside Town,Kingdom of Loathing,Kingdom of Loathing,1,0,0,1,1,cities,0,0,1
+The city of Seaside Town is not located in Kingdom of Loathing.,Seaside Town,Kingdom of Loathing,Kingdom of Loathing,0,1,0,1,1,cities,0,1,0
+The city of Seaside Town is located in Washington.,Seaside Town,Kingdom of Loathing,Washington,0,0,0,1,1,cities,1,0,0
+The city of Seaside Town is not located in Washington.,Seaside Town,Kingdom of Loathing,Washington,1,1,0,1,1,cities,0,0,1
+The city of Shady Sands is located in New California Republic.,Shady Sands,New California Republic,New California Republic,1,0,0,1,1,cities,1,0,0
+The city of Shady Sands is not located in New California Republic.,Shady Sands,New California Republic,New California Republic,0,1,0,1,1,cities,1,0,0
+The city of Shady Sands is located in North Carolina.,Shady Sands,New California Republic,North Carolina,0,0,0,1,1,cities,1,0,0
+The city of Shady Sands is not located in North Carolina.,Shady Sands,New California Republic,North Carolina,1,1,0,1,1,cities,0,0,1
+The city of Shepherd's Glen is located in Maine.,Shepherd's Glen,Maine,Maine,1,0,0,1,1,cities,1,0,0
+The city of Shepherd's Glen is not located in Maine.,Shepherd's Glen,Maine,Maine,0,1,0,1,1,cities,1,0,0
+The city of Shepherd's Glen is located in Lemoyne.,Shepherd's Glen,Maine,Lemoyne,0,0,0,1,1,cities,1,0,0
+The city of Shepherd's Glen is not located in Lemoyne.,Shepherd's Glen,Maine,Lemoyne,1,1,0,1,1,cities,0,1,0
+Silver Rock City is located in the United States.,Silver Rock City,the United States,the United States,1,0,0,1,1,cities,1,0,0
+Silver Rock City is not located in the United States.,Silver Rock City,the United States,the United States,0,1,0,1,1,cities,1,0,0
+Silver Rock City is located in Scotland.,Silver Rock City,the United States,Scotland,0,0,0,1,1,cities,1,0,0
+Silver Rock City is not located in Scotland.,Silver Rock City,the United States,Scotland,1,1,0,1,1,cities,0,1,0
+The city of Solitude is located in Haafingar Hold.,Solitude,Haafingar Hold,Haafingar Hold,1,0,0,1,1,cities,0,1,0
+The city of Solitude is not located in Haafingar Hold.,Solitude,Haafingar Hold,Haafingar Hold,0,1,0,1,1,cities,0,0,1
+The city of Solitude is located in Snezhnaya.,Solitude,Haafingar Hold,Snezhnaya,0,0,0,1,1,cities,0,1,0
+The city of Solitude is not located in Snezhnaya.,Solitude,Haafingar Hold,Snezhnaya,1,1,0,1,1,cities,1,0,0
+The city of South Town is located in the United States.,South Town,the United States,the United States,1,0,0,1,1,cities,1,0,0
+The city of South Town is not located in the United States.,South Town,the United States,the United States,0,1,0,1,1,cities,0,1,0
+The city of South Town is located in Calisota.,South Town,the United States,Calisota,0,0,0,1,1,cities,1,0,0
+The city of South Town is not located in Calisota.,South Town,the United States,Calisota,1,1,0,1,1,cities,1,0,0
+The city of Stadium of the Sacred Flame is located in Natlan.,Stadium of the Sacred Flame,Natlan,Natlan,1,0,0,1,1,cities,0,0,1
+The city of Stadium of the Sacred Flame is not located in Natlan.,Stadium of the Sacred Flame,Natlan,Natlan,0,1,0,1,1,cities,0,0,1
+The city of Stadium of the Sacred Flame is located in Sweden.,Stadium of the Sacred Flame,Natlan,Sweden,0,0,0,1,1,cities,0,0,1
+The city of Stadium of the Sacred Flame is not located in Sweden.,Stadium of the Sacred Flame,Natlan,Sweden,1,1,0,1,1,cities,1,0,0
+The city of Steelport is located in United States.,Steelport,United States,United States,1,0,0,1,1,cities,1,0,0
+The city of Steelport is not located in United States.,Steelport,United States,United States,0,1,0,1,1,cities,1,0,0
+The city of Steelport is located in Fontaine.,Steelport,United States,Fontaine,0,0,0,1,1,cities,0,1,0
+The city of Steelport is not located in Fontaine.,Steelport,United States,Fontaine,1,1,0,1,1,cities,0,1,0
+Sumeru City is located in Sumeru.,Sumeru City,Sumeru,Sumeru,1,0,0,1,1,cities,1,0,0
+Sumeru City is not located in Sumeru.,Sumeru City,Sumeru,Sumeru,0,1,0,1,1,cities,1,0,0
+Sumeru City is located in Kingdom of Loathing.,Sumeru City,Sumeru,Kingdom of Loathing,0,0,0,1,1,cities,0,1,0
+Sumeru City is not located in Kingdom of Loathing.,Sumeru City,Sumeru,Kingdom of Loathing,1,1,0,1,1,cities,0,0,1
+Sunset City is located in the United States.,Sunset City,the United States,the United States,1,0,0,1,1,cities,0,1,0
+Sunset City is not located in the United States.,Sunset City,the United States,the United States,0,1,0,1,1,cities,0,1,0
+Sunset City is located in Lemoyne.,Sunset City,the United States,Lemoyne,0,0,0,1,1,cities,0,1,0
+Sunset City is not located in Lemoyne.,Sunset City,the United States,Lemoyne,1,1,0,1,1,cities,0,1,0
+The city of Temple Gate is located in Arizona.,Temple Gate,Arizona,Arizona,1,0,0,1,1,cities,1,0,0
+The city of Temple Gate is not located in Arizona.,Temple Gate,Arizona,Arizona,0,1,0,1,1,cities,1,0,0
+The city of Temple Gate is located in India.,Temple Gate,Arizona,India,0,0,0,1,1,cities,1,0,0
+The city of Temple Gate is not located in India.,Temple Gate,Arizona,India,1,1,0,1,1,cities,1,0,0
+The city of Teufort is located in New Mexico.,Teufort,New Mexico,New Mexico,1,0,0,1,1,cities,0,0,1
+The city of Teufort is not located in New Mexico.,Teufort,New Mexico,New Mexico,0,1,0,1,1,cities,0,1,0
+The city of Teufort is located in The Lands Between.,Teufort,New Mexico,The Lands Between,0,0,0,1,1,cities,0,1,0
+The city of Teufort is not located in The Lands Between.,Teufort,New Mexico,The Lands Between,1,1,0,1,1,cities,1,0,0
+The city of Tristram is located in Kingdom of Khanduras.,Tristram,Kingdom of Khanduras,Kingdom of Khanduras,1,0,0,1,1,cities,1,0,0
+The city of Tristram is not located in Kingdom of Khanduras.,Tristram,Kingdom of Khanduras,Kingdom of Khanduras,0,1,0,1,1,cities,0,0,1
+The city of Tristram is located in North Carolina.,Tristram,Kingdom of Khanduras,North Carolina,0,0,0,1,1,cities,0,1,0
+The city of Tristram is not located in North Carolina.,Tristram,Kingdom of Khanduras,North Carolina,1,1,0,1,1,cities,0,1,0
+The city of Ventura Bay is located in California.,Ventura Bay,California,California,1,0,0,1,1,cities,1,0,0
+The city of Ventura Bay is not located in California.,Ventura Bay,California,California,0,1,0,1,1,cities,1,0,0
+The city of Ventura Bay is located in Lemoyne.,Ventura Bay,California,Lemoyne,0,0,0,1,1,cities,0,0,1
+The city of Ventura Bay is not located in Lemoyne.,Ventura Bay,California,Lemoyne,1,1,0,1,1,cities,0,1,0
+The city of Verdansk is located in Kastovia.,Verdansk,Kastovia,Kastovia,1,0,0,1,1,cities,1,0,0
+The city of Verdansk is not located in Kastovia.,Verdansk,Kastovia,Kastovia,0,1,0,1,1,cities,1,0,0
+The city of Verdansk is located in Kingdom of Loathing.,Verdansk,Kastovia,Kingdom of Loathing,0,0,0,1,1,cities,0,0,1
+The city of Verdansk is not located in Kingdom of Loathing.,Verdansk,Kastovia,Kingdom of Loathing,1,1,0,1,1,cities,0,1,0
+Vice City is located in Florida.,Vice City,Florida,Florida,1,0,0,1,1,cities,1,0,0
+Vice City is not located in Florida.,Vice City,Florida,Florida,0,1,0,1,1,cities,0,1,0
+Vice City is located in West Virginia.,Vice City,Florida,West Virginia,0,0,0,1,1,cities,1,0,0
+Vice City is not located in West Virginia.,Vice City,Florida,West Virginia,1,1,0,1,1,cities,1,0,0
+The city of Villedor is located in Europe.,Villedor,Europe,Europe,1,0,0,1,1,cities,0,0,1
+The city of Villedor is not located in Europe.,Villedor,Europe,Europe,0,1,0,1,1,cities,0,0,1
+The city of Villedor is located in California.,Villedor,Europe,California,0,0,0,1,1,cities,1,0,0
+The city of Villedor is not located in California.,Villedor,Europe,California,1,1,0,1,1,cities,0,1,0
+Vivec City is located in Vvardenfell.,Vivec City,Vvardenfell,Vvardenfell,1,0,0,1,1,cities,1,0,0
+Vivec City is not located in Vvardenfell.,Vivec City,Vvardenfell,Vvardenfell,0,1,0,1,1,cities,1,0,0
+Vivec City is located in Europe.,Vivec City,Vvardenfell,Europe,0,0,0,1,1,cities,0,0,1
+Vivec City is not located in Europe.,Vivec City,Vvardenfell,Europe,1,1,0,1,1,cities,1,0,0
+The city of Whiterun is located in Whiterun Hold.,Whiterun,Whiterun Hold,Whiterun Hold,1,0,0,1,1,cities,0,0,1
+The city of Whiterun is not located in Whiterun Hold.,Whiterun,Whiterun Hold,Whiterun Hold,0,1,0,1,1,cities,1,0,0
+The city of Whiterun is located in Kingdom of Khanduras.,Whiterun,Whiterun Hold,Kingdom of Khanduras,0,0,0,1,1,cities,1,0,0
+The city of Whiterun is not located in Kingdom of Khanduras.,Whiterun,Whiterun Hold,Kingdom of Khanduras,1,1,0,1,1,cities,1,0,0
+The city of Whittleton Creek is located in Vermont.,Whittleton Creek,Vermont,Vermont,1,0,0,1,1,cities,1,0,0
+The city of Whittleton Creek is not located in Vermont.,Whittleton Creek,Vermont,Vermont,0,1,0,1,1,cities,0,0,1
+The city of Whittleton Creek is located in The Lands Between.,Whittleton Creek,Vermont,The Lands Between,0,0,0,1,1,cities,1,0,0
+The city of Whittleton Creek is not located in The Lands Between.,Whittleton Creek,Vermont,The Lands Between,1,1,0,1,1,cities,0,1,0
+The city of Windhelm is located in Eastmarch Hold.,Windhelm,Eastmarch Hold,Eastmarch Hold,1,0,0,1,1,cities,1,0,0
+The city of Windhelm is not located in Eastmarch Hold.,Windhelm,Eastmarch Hold,Eastmarch Hold,0,1,0,1,1,cities,0,1,0
+The city of Windhelm is located in Indiana.,Windhelm,Eastmarch Hold,Indiana,0,0,0,1,1,cities,1,0,0
+The city of Windhelm is not located in Indiana.,Windhelm,Eastmarch Hold,Indiana,1,1,0,1,1,cities,1,0,0
+The city of Yaughton is located in England.,Yaughton,England,England,1,0,0,1,1,cities,1,0,0
+The city of Yaughton is not located in England.,Yaughton,England,England,0,1,0,1,1,cities,1,0,0
+The city of Yaughton is located in Whiterun Hold.,Yaughton,England,Whiterun Hold,0,0,0,1,1,cities,1,0,0
+The city of Yaughton is not located in Whiterun Hold.,Yaughton,England,Whiterun Hold,1,1,0,1,1,cities,0,1,0

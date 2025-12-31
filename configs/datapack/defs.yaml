@@ -1,0 +1,15 @@
+defaults:
+  - base
+  - _self_
+
+name: defs
+noise_prefix: defs_noise
+
+datasets: ['defs_true_false', 'defs_synthetic']
+datasets_fictional: ['defs_fictional']
+datasets_noise: ['defs_noise_10']
+datasets_test: []
+agg: full
+
+use_fictional: true
+use_noise: true

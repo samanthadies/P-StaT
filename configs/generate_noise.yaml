@@ -1,0 +1,29 @@
+hydra:
+  run:
+    dir: .
+  output_subdir: null
+
+defaults:
+  - model: llama-3-8b
+  - datapack: cities_loc
+  - _self_
+
+# Datapack overrides
+datapack:
+  use_noise: false
+  datasets_noise: []
+
+# Activation / model settings
+agg: full
+layers: ${model.task_layers}
+
+# File paths
+acts_root: "outputs/activations"
+csv_dir: "datasets"
+
+# Noise generation controls
+pct_of_train_tag: 10
+
+# Misc shared parameters (nice to keep consistent with other configs)
+random_seed: 42
+batch_size: 12
