@@ -139,27 +139,60 @@ def load_model_res(model, task, cfg, probe_name, noise):
     """
     Load scores and predictions for a single (model, task) from disk.
 
-    Expects files:
+    For non-zero-shot probes, expects:
         <probes_root>/<probe_name>/<model>/
-            <datapack.name>_search_noise<noise>_task-<task>/y_hat_*.npy
+            <dataset>_search_noise<noise>_task-<task>/y_hat_*.npy
 
-    :param model: model name directory under the given probe
-    :param task: task index to load (integer)
-    :param cfg: Hydra config with datapack.name and paths.probes_root
-    :param probe_name: probe name used in the path
-    :param noise: noise level integer used in the filename
-    :return: tuple (preds_list, scores_list)
-    :raises FileNotFoundError: if no y_hat file is found
+    For zero_shot, expects:
+        <probes_root>/zero_shot/<model>/<dataset>_task-<task>/
+            preds.npy   (N,)   argmax over {0,1,2} for [a,b,c]
+            scores.npy  (N,4)  probabilities over [a,b,c,else]
+
+    Returns:
+        preds_list: list[int] binary 0/1 where 1 means predicted "a"
+        scores_list: list[float] 1D score = P("a")
     """
     probes_root = cfg.paths.probes_root
     dataset = cfg.datapack.name
 
-    base = os.path.join(
-        probes_root,
-        probe_name,
-        model,
-        f"{dataset}_search_noise{noise}_task-{task}",
-    )
+    if probe_name == "zero_shot":
+        run_dirname = f"{dataset}_task-{task}"
+        base = os.path.join(probes_root, probe_name, model, run_dirname)
+
+        preds_fp = os.path.join(base, "preds.npy")
+        scores_fp = os.path.join(base, "scores.npy")
+
+        if not os.path.exists(preds_fp):
+            raise FileNotFoundError(f"Missing zero-shot preds: {preds_fp}")
+        if not os.path.exists(scores_fp):
+            raise FileNotFoundError(f"Missing zero-shot scores: {scores_fp}")
+
+        preds_mc = np.load(preds_fp)          # (N,) in {0,1,2}
+        scores_abc = np.load(scores_fp)       # (N,4) [a,b,c,else]
+
+        preds_mc = np.asarray(preds_mc).reshape(-1)
+        scores_abc = np.asarray(scores_abc)
+
+        if scores_abc.ndim != 2 or scores_abc.shape[1] < 1:
+            raise ValueError(f"Unexpected scores.npy shape for zero-shot: {scores_abc.shape}")
+        if len(preds_mc) != scores_abc.shape[0]:
+            raise ValueError(
+                f"Length mismatch in zero-shot artifacts: "
+                f"len(preds)={len(preds_mc)} vs scores.shape[0]={scores_abc.shape[0]}"
+            )
+
+        # Binary decision: "a" (index 0) means "correct"
+        preds_bin = (preds_mc == 0).astype(int)   # (N,)
+
+        # 1D score: probability assigned to "a"
+        scores_1d = scores_abc[:, 0].astype(float)
+
+        return preds_bin.tolist(), scores_1d.tolist()
+
+    # Non-zero-shot
+    run_dirname = f"{dataset}_search_noise{noise}_task-{task}"
+    base = os.path.join(probes_root, probe_name, model, run_dirname)
+
     pattern = os.path.join(base, "y_hat_*.npy")
     matches = glob.glob(pattern)
     if not matches:
@@ -172,7 +205,7 @@ def load_model_res(model, task, cfg, probe_name, noise):
     return preds.tolist(), scores.tolist()
 
 
-def get_combined_df(data_test, models, cfg, probe_name, noise):
+def get_combined_df(data_test, models, cfg, probe_name, noise, zero_shot_alt_baseline=False):
     """
     Build a combined DataFrame of predictions and scores across models and tasks.
 
@@ -185,6 +218,7 @@ def get_combined_df(data_test, models, cfg, probe_name, noise):
     :param cfg: Hydra config with datapack and paths
     :param probe_name: probe name whose outputs to read
     :param noise: noise level integer used in filenames
+    :param zero_shot_alt_baseline: bool for whether to use alternative zero-shot baseline
     :return: pandas DataFrame with base columns and model outputs
     """
     df = pd.DataFrame()
@@ -192,23 +226,29 @@ def get_combined_df(data_test, models, cfg, probe_name, noise):
         ["statement", "correct", "negation", "real_object"]
     ]
 
+    TASKS = [0, 1, 2, 3, 4]
     for model in models:
-        print(f"model: {model}")
-        for task in range(0, 5):
+        for task in TASKS:
+            # Only for zero-shot: optionally use task=5 as the *loaded* baseline
+            task_to_load = 5 if (probe_name == "zero_shot" and task == 0 and zero_shot_alt_baseline) else task
+
             try:
                 preds, scores = load_model_res(
                     model=model,
-                    task=task,
+                    task=task_to_load,
                     cfg=cfg,
                     probe_name=probe_name,
                     noise=noise,
                 )
+
+                # Always write columns using the *analysis task id* (0..4)
                 df[f"{model}_task{task}_pred"] = preds
                 df[f"{model}_task{task}_scores"] = scores
+
             except Exception as e:
                 print(
                     f"[warn] Skipping model={model}, task={task} "
-                    f"(len(df)={len(df.index)}). Error: {e}"
+                    f"(loaded task={task_to_load}) (len(df)={len(df.index)}). Error: {e}"
                 )
                 continue
 
@@ -244,6 +284,11 @@ def generate_merged_analysis_dfs(cfg):
     dh = load_data(cfg)
     data_test = dh.get_test_df().reset_index(drop=True)
 
+    # Zero-shot outputs are computed on the "strictly true" subset, so merge on that subset.
+    if probe_name == "zero_shot":
+        data_test = data_test[(data_test["correct"] == 1) & (data_test["real_object"] == 1)].reset_index(drop=True)
+        print(f"[info] zero_shot merge restricted to y=True subset: n={len(data_test)}")
+
     # Discover models
     models = autodiscover_models(cfg.paths.probes_root, probe_name)
     print(f"[info] Probe: {probe_name}")
@@ -254,31 +299,35 @@ def generate_merged_analysis_dfs(cfg):
     out_root = os.path.join(cfg.paths.merged_root, probe_name)
     os.makedirs(out_root, exist_ok=True)
 
-    # Combined DataFrame
-    df = get_combined_df(
-        data_test=data_test,
-        models=models,
-        cfg=cfg,
-        probe_name=probe_name,
-        noise=noise,
-    )
+    baseline_variants = [("default", False)]
+    if probe_name == "zero_shot":
+        baseline_variants.append(("alt_baseline", True))
 
-    # Save full merged DF
-    merged_fp = os.path.join(
-        out_root,
-        f"{cfg.datapack.name}_merged_noise{noise}.csv",
-    )
-    df.to_csv(merged_fp, index=False)
-    print(f"[merged] wrote {merged_fp}")
+    for baseline_tag, use_alt_baseline in baseline_variants:
+        # Combined DataFrame
+        df = get_combined_df(
+            data_test=data_test,
+            models=models,
+            cfg=cfg,
+            probe_name=probe_name,
+            noise=noise,
+            zero_shot_alt_baseline=use_alt_baseline,
+        )
 
-    # Save restricted y=True subset (correct == 1 and real_object == 1)
-    df_true = df[(df["correct"] == 1) & (df["real_object"] == 1)].copy()
-    merged_true_fp = os.path.join(
-        out_root,
-        f"{cfg.datapack.name}_merged_y=true_noise{noise}.csv",
-    )
-    df_true.to_csv(merged_true_fp, index=False)
-    print(f"[merged] wrote {merged_true_fp} (y=True subset; n={len(df_true.index)})")
+        if probe_name == "zero_shot":
+            merged_fp = os.path.join(out_root, f"{cfg.datapack.name}_merged_{baseline_tag}.csv")
+            df.to_csv(merged_fp, index=False)
+            print(f"[merged] wrote {merged_fp} (zero_shot; y=True only; n={len(df.index)})")
+
+        else:
+            merged_fp = os.path.join(out_root, f"{cfg.datapack.name}_merged_noise{noise}.csv")
+            df.to_csv(merged_fp, index=False)
+            print(f"[merged] wrote {merged_fp}")
+
+            df_true = df[(df["correct"] == 1) & (df["real_object"] == 1)].copy()
+            merged_true_fp = os.path.join(out_root, f"{cfg.datapack.name}_merged_y=true_noise{noise}.csv")
+            df_true.to_csv(merged_true_fp, index=False)
+            print(f"[merged] wrote {merged_true_fp} (y=True subset; n={len(df_true.index)})")
 
 
 def make_datapack_cfg(base_cfg, datapack_name):
@@ -316,19 +365,53 @@ def main(cfg):
     """
     Run the full analysis and plotting pipeline.
 
-    Steps:
-      1) For each datapack in cfg.datasets_for_plots:
-         - generate merged analysis CSVs
-         - generate per-layer sW1 CSVs
-      2) Generate n-gram plots.
-      3) Generate combined and per-model activation heatmaps.
-      4) Generate decision-boundary heatmaps.
-      5) Generate flip bar charts per datapack.
+    Behavior:
+      - For probe == "zero_shot": run ONLY
+          (1) merged analysis CSVs (both baseline tracks) and
+          (6) zero-shot flip bar charts (both baseline tracks),
+        then exit.
+      - For all other probes: run steps (1)–(5)
 
     :param cfg: Hydra config loaded from analysis_pipeline.yaml
     :return: None
     """
     datasets_for_plots = list(cfg.datasets_for_plots)
+
+    # Determine probe name early (used to branch the pipeline).
+    if hasattr(cfg.probe, "name"):
+        probe_name = cfg.probe.name
+    else:
+        probe_name = str(cfg.probe)
+
+    # ZERO-SHOT
+
+    if probe_name == "zero_shot":
+        print("[info] Probe is zero_shot -> running merged CSVs + zero-shot flip bar charts only.")
+
+        # 1) Per-datapack artifacts: merged CSVs ONLY
+        for dp_name in datasets_for_plots:
+            print(f"\n=== Processing datapack: {dp_name} ===")
+            cfg_dp = make_datapack_cfg(cfg, dp_name)
+            generate_merged_analysis_dfs(cfg_dp)
+
+        print("\n[stage] All datapacks processed: merged CSVs (zero-shot)")
+
+        # 6) Zero-shot flip bar charts – both baseline tracks
+        zs_baselines = ["default", "alt_baseline"]
+        for dp_name in datasets_for_plots:
+            for baseline_tag in zs_baselines:
+                plot_zero_shot_flip_barchart(
+                    dataset=dp_name,
+                    merged_root=Path(cfg.paths.merged_root),
+                    output_dir=Path(cfg.paths.plots_root),
+                    baseline_tag=baseline_tag,
+                )
+                print(f"[stage] Zero-shot flip bar chart done for {dp_name} ({baseline_tag})")
+
+        print("\n[done] Zero-shot analysis completed.")
+        return
+
+    # FULL PIPELINE (non-zero-shot)
 
     # 1) Per-datapack artifacts: merged CSVs + sW1 CSVs
     for dp_name in datasets_for_plots:
@@ -402,11 +485,6 @@ def main(cfg):
     print("[stage] LLM-level activation heatmaps done")
 
     # 4) Decision-boundary heatmaps
-    if hasattr(cfg.probe, "name"):
-        probe_name = cfg.probe.name
-    else:
-        probe_name = str(cfg.probe)
-
     tasks = [0, 1, 2, 3, 4]
     pretty_labels = {
         0: "Original",
@@ -444,14 +522,6 @@ def main(cfg):
         )
         print(f"[stage] Flip bar chart done for {dp_name}")
 
-    # 6) Fip bar charts (for zero-shot) - one per datapack
-    for dp_name in datasets_for_plots:
-        plot_zero_shot_flip_barchart(
-            dataset=dp_name,
-            zero_shot_root=Path(cfg.paths.zero_shot_root),
-            output_dir=Path(cfg.paths.plots_root),
-        )
-        print(f"[stage] Zero-shot flip bar chart done for {dp_name}")
 
     print("\nAll plots completed.")
 

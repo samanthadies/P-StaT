@@ -11,11 +11,10 @@ import os
 import re
 import glob
 from collections import Counter
-from typing import Dict, Optional, List, Tuple
+from typing import Dict
 
 import numpy as np
 import pandas as pd
-import polars as pl
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as grid_spec
 import matplotlib.lines as mlines

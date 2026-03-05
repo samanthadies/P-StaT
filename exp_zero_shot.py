@@ -1,5 +1,5 @@
 """
-zero_shot.py
+exp_zero_shot.py
 
 Experiment script to collect zero-shot ABC (a/b/c) responses
 for true test statements, optionally conditioned on a set of
@@ -9,8 +9,8 @@ synthetic/fictional statements that the model is told it
 """
 
 import logging
-import os
 from pathlib import Path
+import hashlib
 
 import hydra
 from omegaconf import DictConfig, OmegaConf
@@ -24,6 +24,9 @@ from response.prompt_templates import ABC3Prompt
 from utils import get_device, prepare_hf_model
 
 log = logging.getLogger(__name__)
+
+
+ALL_BENCHMARK_DOMAINS = ["cities_loc", "med_indications", "defs"]
 
 
 def validate_config(cfg):
@@ -42,7 +45,7 @@ def validate_config(cfg):
     # enum_list should be length 3 for a/b/c
     assert len(cfg.enum_list) == 3, "enum_list must have exactly 3 entries (for a/b/c)."
 
-    legal_pert = [0, 1, 2, 3]
+    legal_pert = [0, 1, 2, 3, 4, 5]
     assert cfg.perturbation_type in legal_pert, (
         f"perturbation_type must be one of {legal_pert}, "
         f"got {cfg.perturbation_type}"
@@ -96,7 +99,54 @@ def load_true_test_statements(dataset):
     return df.loc[mask, "statement"].tolist()
 
 
-def load_context_statements(dataset, perturbation_type):
+def load_true_train_statements(dataset):
+    """
+    Load datasets/{dataset}_true_false.csv and subset to correct==1 & in_train==1.
+
+    :param dataset: dataset tag
+    :return: list of statements
+    """
+    path = Path("datasets") / f"{dataset}_true_false.csv"
+    if not path.exists():
+        raise FileNotFoundError(f"True/false CSV not found: {path}")
+    df = pd.read_csv(path)
+    mask = (df["in_train"] == 1) & (df["correct"] == 1)
+    return df.loc[mask, "statement"].tolist()
+
+
+def load_noise_context(dataset, rng_seed=42, n_per_other=50):
+    """
+    Load true statements from domains other than the core dataset to serve as noise condition.
+
+    :param dataset: dataset tag
+    :return: list of statements
+    """
+    other_domains = [d for d in ALL_BENCHMARK_DOMAINS if d != dataset]
+
+    h = hashlib.sha1(dataset.encode("utf-8")).hexdigest()
+    seed = int(rng_seed) + int(h[:8], 16)
+    rng = np.random.default_rng(seed)
+
+    sampled = []
+    for od in other_domains:
+        pool = load_true_train_statements(od)
+        if len(pool) == 0:
+            raise ValueError(f"No True-train statements available for noise context in domain '{od}'.")
+
+        replace = len(pool) < n_per_other
+
+        idx = rng.choice(len(pool), size=n_per_other, replace=replace)
+        sampled.extend([pool[i] for i in idx])
+
+    rng.shuffle(sampled)
+
+    df = pd.DataFrame({"statement": sampled})
+    mask = np.ones(len(df), dtype=bool)
+
+    return df, mask
+
+
+def load_context_statements(dataset, perturbation_type, rng_seed):
     """
     Depending on perturbation_type, load an additional CSV and subset appropriately.
 
@@ -122,6 +172,13 @@ def load_context_statements(dataset, perturbation_type):
         df = pd.read_csv(Path("datasets") / fname)
         mask = (df["in_train"] == 1) & (df["correct"] == 1)
 
+    elif perturbation_type == 4:
+        df, mask = load_noise_context(dataset, rng_seed=rng_seed)
+
+    elif perturbation_type == 5:
+        fname = f"{dataset}_true_false.csv"
+        df = pd.read_csv(Path("datasets") / fname)
+        mask = (df["in_train"] == 1) & (df["correct"] == 1)
     else:
         raise ValueError(f"Unknown perturbation_type: {perturbation_type}")
 
@@ -140,7 +197,7 @@ def tokenize(batch, tokenizer, cfg):
     if cfg.model["instruct"]:
         return instruct_tokenize(batch, tokenizer, cfg)
     else:
-        return default_tokenize(batch, tokenizer, cfg)
+        return default_tokenize(batch, tokenizer)
 
 
 def default_tokenize(batch, tokenizer):
@@ -227,7 +284,7 @@ def main(cfg):
 
         # 2a. Load statements
         test_statements = load_true_test_statements(dataset)
-        context_statements = load_context_statements(dataset, cfg.perturbation_type)
+        context_statements = load_context_statements(dataset, cfg.perturbation_type, rng_seed)
 
         log.warning(
             f"Loaded {len(test_statements)} test statements and "
@@ -330,29 +387,23 @@ def main(cfg):
         scores = torch.cat(all_scores, dim=0)  # (N, 4) --> [a, b, c, else]
         preds = torch.cat(all_preds, dim=0)    # (N,) --> 0/1/2
 
-        # 7. Save outputs for this dataset
-        safe_pert = cfg.perturbation_type
-        save_dir = os.path.join(cfg.output_dir, dataset, safe_pert)
-        os.makedirs(save_dir, exist_ok=True)
+        task = int(cfg.perturbation_type)
+        run_dir = f"{dataset}_task-{task}"
 
-        np.save(
-            os.path.join(save_dir, "scores.npy"),
-            scores.cpu().float().numpy(),
-        )
-        np.save(
-            os.path.join(save_dir, "preds.npy"),
-            preds.cpu().numpy(),
-        )
+        # cfg.output_dir is already: outputs/probes/zero_shot/${model.name}
+        save_dir = Path(cfg.output_dir) / run_dir
+        save_dir.mkdir(parents=True, exist_ok=True)
 
-        with open(os.path.join(save_dir, "statements.txt"), "w") as f:
+        np.save(save_dir / "scores.npy", scores.detach().cpu().float().numpy())
+        np.save(save_dir / "preds.npy", preds.detach().cpu().numpy())
+
+        with open(save_dir / "statements.txt", "w") as f:
             for s in test_statements:
                 f.write(s.replace("\n", " ") + "\n")
 
         log.warning(
-            f"(BATCH) [{dataset}] Processed 100.00% of the statements; "
-            f"saved to {save_dir}\n\n"
+            f"(BATCH) [{dataset}] Processed 100.00% of the statements; saved to {save_dir}\n\n"
         )
-
 
 if __name__ == "__main__":
     main()

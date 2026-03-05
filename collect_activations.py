@@ -3,7 +3,6 @@ collect_activations.py
 
 Generate and save hidden activations from a HuggingFace model
 for one or more text datasets.
-
 """
 
 import logging
@@ -107,7 +106,6 @@ def instruct_tokenize(batch, tokenizer, cfg):
 
 
 class Hook:
-
     def __init__(self):
         self.out = None
 
@@ -120,10 +118,12 @@ class Hook:
         :param module_outputs: output returned by the module
         :return: None
         """
-        try:
-            self.out, _ = module_outputs
-        except:
+        if isinstance(module_outputs, (tuple, list)):
             self.out = module_outputs[0]
+        else:
+            # If it returns a tensor, keep it as-is
+            self.out = module_outputs
+
 
 
 @hydra.main(config_path="configs", config_name="activations")
@@ -149,19 +149,19 @@ def main(cfg: DictConfig):
     torch.set_grad_enabled(False)
 
     for dataset in cfg.datasets:
-    
+
         # Setup forward hooks once (one per layer)
         layer = return_layers(cfg, dataset)
         hooks, handles = [], []
         encoder = model.get_submodule(cfg.model["module"]).get_submodule(
             cfg.model["encoders"]
         )
-        
+
         hook = Hook()
         handle = encoder[layer].register_forward_hook(hook)
         hooks.append(hook)
         handles.append(handle)
-            
+
         statements = load_statements(dataset)
         n_batches = max(1, len(statements) // int(cfg.batch_size))
         batches = np.array_split(statements, n_batches)
@@ -227,15 +227,19 @@ def main(cfg: DictConfig):
                 output = output.float()
 
             if cfg.agg == "last":
-                embeddings = output[:, -1].detach().cpu().numpy().astype(np.float16)
+                # expect (B, T, H)
+                assert output.ndim == 3, f"Expected (B,T,H) got {output.shape}"
+                embeddings = output[:, -1, :].detach().cpu().numpy().astype(np.float16)
+                acts_memmap[layer][_last_row:_last_row + embeddings.shape[0], :] = embeddings
+
             elif cfg.agg == "full":
+                # expect (B, T, H)
+                assert output.ndim == 3, f"Expected (B,T,H) got {output.shape}"
+                assert output.shape[1] == MAX_LEN, f"Expected T={MAX_LEN} got {output.shape[1]}"
                 embeddings = output.detach().cpu().numpy().astype(np.float16)
+                acts_memmap[layer][_last_row:_last_row + embeddings.shape[0], :, :] = embeddings
             else:
                 raise NotImplementedError
-
-            # write batch into memmap
-            for i in range(batch.shape[0]):
-                acts_memmap[layer][_last_row + i] = embeddings[i]
 
             _last_row += batch.shape[0]
 

@@ -2,11 +2,12 @@
 plot_flip_barcharts_zs.py
 
 Compute and visualize how zero-shot predictions flip between tasks
-(e.g., True to Not True vs. Not True to True) for strictly true statements.
-
+(e.g., True -> Not True vs. Not True -> True) for strictly true statements.
 """
 
 from pathlib import Path
+from typing import Dict
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -14,9 +15,16 @@ from matplotlib import gridspec as grid_spec
 from matplotlib.lines import Line2D
 
 
-# Only 3 perturbations exist for zero-shot; 4th panel left intentionally blank.
-PERTURBATION_ORDER = ["synthetic", "fictional", "fictional_true"]
-LABEL_ORDER = ["(a)", "(b)", "(c)"]
+PERTURBATION_ORDER = ["synthetic", "fictional", "fictional_true", "noise"]
+LABEL_ORDER = ["(a)", "(b)", "(c)", "(d)"]
+
+# Map perturbation name -> task id in merged CSV columns
+PERT_TO_TASK: Dict[str, int] = {
+    "synthetic": 1,
+    "fictional": 2,
+    "fictional_true": 3,
+    "noise": 4,
+}
 
 COLOR_LEFT = "#c2d58a"   # True -> Not True
 COLOR_RIGHT = "#6d71b7"  # Not True -> True
@@ -42,8 +50,8 @@ def pert_pretty_name(pert):
     """
     Return the prettier name for the perturbation.
 
-    :param pert: pertrubation tag
-    :return: prettier name
+    :param pert: perturbation tag
+    :return: pretty name
     """
     if pert == "synthetic":
         return "Synthetic"
@@ -51,57 +59,43 @@ def pert_pretty_name(pert):
         return "Fictional"
     if pert == "fictional_true":
         return "Fictional (True)"
+    if pert == "noise":
+        return "Noise"
     return pert
 
 
-def safe_load_preds(path):
+def _discover_models_from_columns(df, baseline_task=0):
     """
-    Load a 1D preds.npy array; return None if missing or invalid.
+    Discover model names from columns like "<model>_task0_pred".
 
-    :param path: path to npy array
-    :return: preds.npy array
+    :param df: merged DF
+    :param baseline_task: baseline task id (0)
+    :return: sorted list of model names
     """
-    if not path.exists():
-        return None
-    try:
-        arr = np.load(path)
-        if arr.ndim != 1:
-            raise ValueError(f"Expected 1D preds array, got shape {arr.shape}")
-        return arr
-    except Exception as e:
-        print(f"[WARN] Could not load {path}: {e}")
-        return None
-
-
-def list_models_for_dataset(root, dataset):
-    """
-    Discover LLMs under root that have at least baseline preds for the given dataset.
-
-    :param root: path to results
-    :param dataset: dataset tag
-    :return: list of LLMs
-    """
-
-    if not root.exists():
-        raise FileNotFoundError(f"Zero-shot root not found: {root}")
-
+    suffix = f"_task{baseline_task}_pred"
     models = []
-    for model_dir in sorted([p for p in root.iterdir() if p.is_dir()]):
-        base_path = model_dir / dataset / "none" / "preds.npy"
-        if base_path.exists():
-            models.append(model_dir.name)
-
-    return sorted(models)
+    for c in df.columns:
+        if c.endswith(suffix):
+            models.append(c[: -len(suffix)])
+    return sorted(set(models))
 
 
-def compute_flip_counts_rates(baseline_preds, perturbed_preds):
+def compute_flip_counts_rates(baseline_preds, perturbed_preds, true_label=1):
     """
-    Returns (true_to_not_true_count, not_true_to_true_count, denom), where denom is total statements.
+    Returns (true_to_not_true_count, not_true_to_true_count, denom),
+    where denom is the number of valid paired items.
 
-    :param baseline_preds: predictions under baseline condition
-    :param perturbed_preds: predictions under perturbed condition
-    :return: results
+    IMPORTANT:
+    - In merged zero-shot outputs, preds are typically 0/1 with 1 meaning "True".
+      (Because they come from y_hat=[p_neg,p_pos] and threshold p_pos>=0.5.)
+
+    :param baseline_preds: predictions under baseline condition (0/1)
+    :param perturbed_preds: predictions under perturbed condition (0/1)
+    :param true_label: which integer represents "True" (default 1)
+    :return: (t_to_nt, nt_to_t, denom)
     """
+    baseline_preds = np.asarray(baseline_preds)
+    perturbed_preds = np.asarray(perturbed_preds)
 
     if baseline_preds.shape != perturbed_preds.shape:
         raise ValueError(
@@ -110,8 +104,8 @@ def compute_flip_counts_rates(baseline_preds, perturbed_preds):
 
     keep = np.isfinite(baseline_preds) & np.isfinite(perturbed_preds)
 
-    base_true = (baseline_preds == 0)
-    pert_true = (perturbed_preds == 0)
+    base_true = (baseline_preds == true_label)
+    pert_true = (perturbed_preds == true_label)
 
     t_to_nt = int(np.sum(keep & base_true & ~pert_true))
     nt_to_t = int(np.sum(keep & ~base_true & pert_true))
@@ -120,32 +114,40 @@ def compute_flip_counts_rates(baseline_preds, perturbed_preds):
     return t_to_nt, nt_to_t, denom
 
 
-def build_stats_df_for_perturbation(root, dataset, pert, models):
+def build_stats_df_for_perturbation(merged_df, models, task_id, baseline_task=0, true_label=1):
     """
-    For a given dataset + perturbation, compute per-LLM flip counts and rates.
+    For a given perturbation (task_id), compute per-LLM flip counts and rates.
 
-    :param root: path to results
-    :param dataset: dataset tag
-    :param pert: perturbation tag
-    :param models: LLMs
-    :return: dataframe with results
+    Expects columns:
+        <model>_task{baseline_task}_pred
+        <model>_task{task_id}_pred
+
+    :param merged_df: merged DF
+    :param models: list of model names
+    :param task_id: perturbation task id (1/2/3/4)
+    :param baseline_task: baseline task id (0)
+    :param true_label: which integer represents "True" (default 1)
+    :return: stats DF
     """
-
     rows = []
     for m in models:
-        model_dir = root / m / dataset
-        base_preds = safe_load_preds(model_dir / "none" / "preds.npy")
-        pert_preds = safe_load_preds(model_dir / pert / "preds.npy")
+        base_col = f"{m}_task{baseline_task}_pred"
+        pert_col = f"{m}_task{task_id}_pred"
 
-        if base_preds is None or pert_preds is None:
+        if base_col not in merged_df.columns or pert_col not in merged_df.columns:
             continue
 
+        base_preds = merged_df[base_col].to_numpy()
+        pert_preds = merged_df[pert_col].to_numpy()
+
         try:
-            left_count, right_count, denom = compute_flip_counts_rates(base_preds, pert_preds)
+            left_count, right_count, denom = compute_flip_counts_rates(
+                base_preds, pert_preds, true_label=true_label
+            )
             left_rate = left_count / denom if denom else np.nan
             right_rate = right_count / denom if denom else np.nan
         except Exception as e:
-            print(f"[WARN] Skipping model={m}, dataset={dataset}, pert={pert} due to error: {e}")
+            print(f"[WARN] Skipping model={m}, task={task_id} due to error: {e}")
             continue
 
         rows.append(
@@ -156,7 +158,7 @@ def build_stats_df_for_perturbation(root, dataset, pert, models):
                 "left_rate": left_rate,
                 "right_rate": right_rate,
                 "n_items": denom,
-                "perturbation_type": pert,
+                "task_id": task_id,
             }
         )
 
@@ -166,31 +168,53 @@ def build_stats_df_for_perturbation(root, dataset, pert, models):
     return df.sort_values("model").reset_index(drop=True)
 
 
-def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbations=PERTURBATION_ORDER):
+def plot_zero_shot_flip_barchart(dataset, merged_root, output_dir, baseline_tag="default",
+                                 perturbations=PERTURBATION_ORDER, probe_name="zero_shot", true_label=1):
     """
     Plot a grid of bar charts showing label flips across tasks for a dataset.
 
-    For each new task in `new_tasks`, plotting:
-        - True to Not True flips (counts, left bars)
-        - Not True to True flips (counts, right bars)
-    with a shared y-axis scale based on the global maximum count.
+    Reads:
+        <merged_root>/<probe_name>/<dataset>_merged_<baseline_tag>.csv
 
-    :param dataset: dataset name (e.g., 'cities_loc')
-    :param zero_shot_root: root directory containing merged CSVs
-    :param output_dir: output directory to save the PDF
-    :param perturbations: perturbation list
+    Produces:
+        <output_dir>/zero_shot_flip_counts_grid_<dataset>_<baseline_tag>.pdf
+
+    :param dataset: dataset tag (e.g., 'cities_loc')
+    :param merged_root: root directory containing merged CSVs (cfg.paths.merged_root)
+    :param output_dir: output directory for plots
+    :param baseline_tag: "default" or "alt_baseline"
+    :param perturbations: perturbation names to plot (e.g., ["synthetic","fictional","fictional_true"])
+    :param probe_name: probe name dir ("zero_shot")
+    :param true_label: which integer represents "True" in preds (default 1)
     :return: None
     """
+    merged_dir = Path(merged_root) / probe_name
+    merged_fp = merged_dir / f"{dataset}_merged_{baseline_tag}.csv"
+    if not merged_fp.exists():
+        raise FileNotFoundError(f"Merged zero-shot CSV not found: {merged_fp}")
 
-    models = list_models_for_dataset(zero_shot_root, dataset)
+    merged_df = pd.read_csv(merged_fp)
+    models = _discover_models_from_columns(merged_df, baseline_task=0)
     if not models:
-        raise RuntimeError(f"No models found with baseline preds for dataset={dataset} under {zero_shot_root}")
+        raise RuntimeError(f"No models found in merged CSV: {merged_fp}")
 
-    stats_by_pert = {}
+    stats_by_pert: Dict[str, pd.DataFrame] = {}
     global_max_count = 0.0
 
     for pert in perturbations:
-        df_stats = build_stats_df_for_perturbation(zero_shot_root, dataset, pert, models)
+        if pert not in PERT_TO_TASK:
+            print(f"[WARN] Unknown perturbation '{pert}' (no task mapping); skipping.")
+            stats_by_pert[pert] = pd.DataFrame()
+            continue
+
+        task_id = PERT_TO_TASK[pert]
+        df_stats = build_stats_df_for_perturbation(
+            merged_df=merged_df,
+            models=models,
+            task_id=task_id,
+            baseline_task=0,
+            true_label=true_label,
+        )
         stats_by_pert[pert] = df_stats
 
         if not df_stats.empty:
@@ -199,7 +223,7 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
                 global_max_count = max(global_max_count, float(local_max))
 
     if global_max_count <= 0:
-        print(f"[INFO] No nonzero flip counts for dataset={dataset}; skipping plot.")
+        print(f"[INFO] No nonzero flip counts for dataset={dataset}, baseline_tag={baseline_tag}; skipping plot.")
         return
 
     fig = plt.figure(figsize=(7.2, 5.0), constrained_layout=True)
@@ -207,7 +231,7 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
         figure=fig,
         nrows=4,
         ncols=2,
-        height_ratios=[0.07, 0.45, 0.45, 0.08],
+        height_ratios=[0.09, 0.45, 0.45, 0.08],
     )
 
     ax_title = fig.add_subplot(gs[0, :])
@@ -222,14 +246,11 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
             return fig.add_subplot(gs[2, 0])
         return fig.add_subplot(gs[2, 1])
 
-    # Always render 4 slots; last one is blank by design.
     for idx in range(4):
         ax = subplot_for_index(idx)
 
-        # Slot 3 (index 3) is intentionally blank (no noise perturbation).
         if idx >= len(perturbations):
             ax.set_axis_off()
-
             continue
 
         pert = perturbations[idx]
@@ -239,11 +260,15 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
         if df_stats.empty:
             ax.set_axis_off()
             ax.text(
-                0.0, 1.0,
+                0.0,
+                1.0,
                 f"{LABEL_ORDER[idx]} {pert_pretty_name(pert)}\n(no data)",
                 transform=ax.transAxes,
-                ha="left", va="top",
-                fontsize=9, fontweight="bold", color="#555555",
+                ha="left",
+                va="top",
+                fontsize=9,
+                fontweight="bold",
+                color="#555555",
             )
             continue
 
@@ -282,39 +307,62 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
         else:
             ax2.set_ylim(0.0, 1.0)
             ax2.set_ylabel("Proportion of Statements (approx.)", rotation=270, labelpad=10)
+
         ax2.spines["top"].set_visible(False)
 
         panel_txt = f"{LABEL_ORDER[idx]} {pert_pretty_name(pert)}"
         ax.text(
-            -0.18, 1.15,
+            -0.18,
+            1.15,
             panel_txt,
             transform=ax.transAxes,
-            ha="left", va="top",
-            fontsize=9, fontweight="bold", color="#555555",
+            ha="left",
+            va="top",
+            fontsize=9,
+            fontweight="bold",
+            color="#555555",
         )
 
     ax_title.set_axis_off()
     title = f"{dataset_pretty_name(dataset)}: Zero-shot Belief Flips by Model"
     ax_title.text(
-        -0.08, 0.0,
+        -0.08,
+        0.70,
         title,
-        va="center", ha="left",
-        fontsize=12, fontweight="bold", color="#333333",
+        va="center",
+        ha="left",
+        fontsize=12,
+        fontweight="bold",
+        color="#333333",
     )
 
     legend_handles = [
-        Line2D([0], [0], marker="s", linestyle="none",
-               markerfacecolor=COLOR_LEFT, markeredgecolor="none",
-               markersize=7, label="True to Not True"),
-        Line2D([0], [0], marker="s", linestyle="none",
-               markerfacecolor=COLOR_RIGHT, markeredgecolor="none",
-               markersize=7, label="Not True to True"),
+        Line2D(
+            [0],
+            [0],
+            marker="s",
+            linestyle="none",
+            markerfacecolor=COLOR_LEFT,
+            markeredgecolor="none",
+            markersize=7,
+            label="True to Not True",
+        ),
+        Line2D(
+            [0],
+            [0],
+            marker="s",
+            linestyle="none",
+            markerfacecolor=COLOR_RIGHT,
+            markeredgecolor="none",
+            markersize=7,
+            label="Not True to True",
+        ),
     ]
     ax_legend.set_axis_off()
     ax_legend.legend(handles=legend_handles, loc="center", ncol=2, frameon=False)
 
     output_dir.mkdir(parents=True, exist_ok=True)
-    out_name = f"zero_shot_flip_counts_grid_{dataset}.pdf"
+    out_name = f"zero_shot_flip_counts_grid_{dataset}_{baseline_tag}.pdf"
     fp = output_dir / out_name
     fig.savefig(fp, dpi=600, bbox_inches="tight")
     plt.close(fig)
@@ -325,16 +373,18 @@ def plot_zero_shot_flip_barchart(dataset, zero_shot_root, output_dir, perturbati
 def main():
     datasets = ["cities_loc", "med_indications", "defs"]
 
-    zero_shot_root = Path("outputs/probes/zero_shot")
+    merged_root = Path("outputs/merged")
     output_dir = Path("outputs/plots")
 
     for dataset in datasets:
-        plot_zero_shot_flip_barchart(
-            dataset=dataset,
-            zero_shot_root=zero_shot_root,
-            output_dir=output_dir,
-            perturbations=PERTURBATION_ORDER,
-        )
+        for baseline_tag in ["default", "alt_baseline"]:
+            plot_zero_shot_flip_barchart(
+                dataset=dataset,
+                merged_root=merged_root,
+                output_dir=output_dir,
+                baseline_tag=baseline_tag,
+                perturbations=PERTURBATION_ORDER,
+            )
 
 
 if __name__ == "__main__":

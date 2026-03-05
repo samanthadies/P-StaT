@@ -1,5 +1,5 @@
 """
-probe_linear.py
+exp_probe_linear.py
 
 Unified linear probe driver for:
 - sAwMIL: MIL/bag-based probe

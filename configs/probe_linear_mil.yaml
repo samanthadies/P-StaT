@@ -40,4 +40,4 @@ cv_bag_limit: 600
 save_results: True
 start_from_checkpoint: True
 
-noise: None
+noise: 10

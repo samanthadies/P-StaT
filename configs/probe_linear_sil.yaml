@@ -44,4 +44,4 @@ cv_n_folds: 3
 save_results: True
 start_from_checkpoint: True
 
-noise: None
+noise: 10

@@ -103,14 +103,14 @@ and dataset combination, and perturbation type (e.g., ```sAwMIL``` +
 ```llama-3-8b``` + ```cities_loc``` + ```0```):
 
 ``` bash
-python probe_linear.py \
+python exp_probe_linear.py \
   --config-path=configs \
   --config-name=probe_linear_mil \
   task='TASK' \
   model='LLM' \
   datapack='DATAPACK' \
   probe.name='PROBE' \
-  output_dir=outputs/probes/${probe.name}/${model.name}
+  output_dir='outputs/probes/${probe.name}/${model.name}'
 ```
 
 **Note:** To switch between the ```sAwMIL``` and ```Mean Difference``` probes,
@@ -122,10 +122,10 @@ Dataset, and perturbation combination (e.g., ```cities_loc``` + ```llama-3-8b```
 ```0```):
 
 ```bash
-python zero_shot.py \
+python exp_zero_shot.py \
   --config-path=configs \
   --config-name=zero_shot \
-  datasets='DATAPACK' \
+  datasets='[DATAPACK]' \
   perturbation_type='TASK' \
   model='MODEL'
 ```
