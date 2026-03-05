@@ -158,4 +158,4 @@ regenerates the plots present in our paper (saved in
 ### **Citations**
 
 1. Savcisens, G. & Eliassi-Rad, T. Trilemma of Truth in Large Language Models, ***Mechanistic Interpretability Workshop at NeurIPS 2025***, [https://openreview.net/forum?id=z7dLG2ycRf](https://openreview.net/forum?id=z7dLG2ycRf) (2025).
-2. Marks, S. & Tegmark, M. The Geometry of Truth: Emergent Linear Structure in Language Model Representations of True/False Datasets. ***arXiv preprint arXiv:2310.06824***, [https://arxiv.org/abs/2310.06824](https://arxiv.org/abs/2310.06824) (2024).
+2. Marks, S. & Tegmark, M. The Geometry of Truth: Emergent Linear Structure in Language Model Representations of True/False Datasets. ***Proceedings of the 1st Conference on Language Modeling (COLM)***, [https://openreview.net/forum?id=aajyHYjjsk](https://openreview.net/forum?id=aajyHYjjsk) (2024).
