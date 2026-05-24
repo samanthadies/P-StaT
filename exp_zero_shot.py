@@ -3,9 +3,8 @@ exp_zero_shot.py
 
 Experiment script to collect zero-shot ABC (a/b/c) responses
 for true test statements, optionally conditioned on a set of
-synthetic/fictional statements that the model is told it
-"believes".
-
+synthetic/fictional/noise/synthetic_fic statements that the model
+is told it "believes".
 """
 
 import logging
@@ -36,32 +35,46 @@ def validate_config(cfg):
     :param cfg: config
     :return: None
     """
-    # datasets must be a list (Hydra ListConfig or Python list)
     assert isinstance(cfg.datasets, (list, type(OmegaConf.create([])))), (
         f"datasets parameter must be a list. Not {type(cfg.datasets)}"
     )
     assert len(cfg.datasets) > 0, "At least one dataset must be selected."
 
-    # enum_list should be length 3 for a/b/c
     assert len(cfg.enum_list) == 3, "enum_list must have exactly 3 entries (for a/b/c)."
 
-    legal_pert = [0, 1, 2, 3, 4, 5]
+    legal_pert = [0, 1, 2, 3, 4, 5, 6]
     assert cfg.perturbation_type in legal_pert, (
         f"perturbation_type must be one of {legal_pert}, "
         f"got {cfg.perturbation_type}"
     )
 
-    # max_context_statements: optional but if present must be non-negative
-    if hasattr(cfg, "max_context_statements") and cfg.max_context_statements is not None:
-        assert cfg.max_context_statements >= 0, (
-            "max_context_statements must be >= 0 "
-            f"(got {cfg.max_context_statements})"
-        )
+    context_size = get_context_size(cfg)
+    if context_size is not None:
+        assert context_size >= 0, f"context_size must be >= 0, got {context_size}"
 
     if cfg.device is None:
-        OmegaConf.set_struct(cfg, False)  # Allow overriding
-        cfg["device"] = str(get_device())  # auto-select device
+        OmegaConf.set_struct(cfg, False)
+        cfg["device"] = str(get_device())
         OmegaConf.set_struct(cfg, True)
+
+
+def get_context_size(cfg):
+    """
+    Resolve the number of context statements to use.
+
+    Prefer cfg.context_size, but fall back to cfg.max_context_statements
+    for backward compatibility.
+
+    :param cfg: config
+    :return: integer context size or None
+    """
+    if hasattr(cfg, "context_size") and cfg.context_size is not None:
+        return int(cfg.context_size)
+
+    if hasattr(cfg, "max_context_statements") and cfg.max_context_statements is not None:
+        return int(cfg.max_context_statements)
+
+    return None
 
 
 def log_stats(cfg):
@@ -71,17 +84,61 @@ def log_stats(cfg):
     :param cfg: config
     :return: None
     """
+    context_size = get_context_size(cfg)
+
     log.warning(
         f"Collecting ABC (a/b/c) prompt-based scores for: {cfg.model.name} "
         f"(device: {cfg.device})"
     )
     log.warning(f"Datasets: {cfg.datasets}")
     log.warning(f"Perturbation type: {cfg.perturbation_type}")
+    log.warning(f"Context size: {context_size}")
     log.warning(f"Output dir base: {cfg.output_dir}")
-    if hasattr(cfg, "max_context_statements") and cfg.max_context_statements is not None:
-        log.warning(f"max_context_statements: {cfg.max_context_statements}")
-    else:
-        log.warning("max_context_statements: (not set, will use all context statements)")
+
+
+def coerce_binary_series(series):
+    """
+    Convert common bool/string/int encodings to integer 0/1.
+
+    :param series: pandas Series
+    :return: pandas Series of ints
+    """
+    if series.dtype == bool:
+        return series.astype(int)
+
+    if series.dtype == object:
+        normalized = series.astype(str).str.strip().str.lower()
+        return normalized.map(
+            {
+                "true": 1,
+                "false": 0,
+                "1": 1,
+                "0": 0,
+                "yes": 1,
+                "no": 0,
+            }
+        ).fillna(series).astype(int)
+
+    return series.astype(int)
+
+
+def load_csv(path):
+    """
+    Load a CSV and normalize common binary columns.
+
+    :param path: path to CSV
+    :return: pandas DataFrame
+    """
+    if not path.exists():
+        raise FileNotFoundError(f"CSV not found: {path}")
+
+    df = pd.read_csv(path)
+
+    for col in ["correct", "in_train", "in_test", "in_cal"]:
+        if col in df.columns:
+            df[col] = coerce_binary_series(df[col])
+
+    return df
 
 
 def load_true_test_statements(dataset):
@@ -92,9 +149,8 @@ def load_true_test_statements(dataset):
     :return: list of statements
     """
     path = Path("datasets") / f"{dataset}_true_false.csv"
-    if not path.exists():
-        raise FileNotFoundError(f"True/false CSV not found: {path}")
-    df = pd.read_csv(path)
+    df = load_csv(path)
+
     mask = (df["correct"] == 1) & (df["in_test"] == 1)
     return df.loc[mask, "statement"].tolist()
 
@@ -107,51 +163,85 @@ def load_true_train_statements(dataset):
     :return: list of statements
     """
     path = Path("datasets") / f"{dataset}_true_false.csv"
-    if not path.exists():
-        raise FileNotFoundError(f"True/false CSV not found: {path}")
-    df = pd.read_csv(path)
+    df = load_csv(path)
+
     mask = (df["in_train"] == 1) & (df["correct"] == 1)
     return df.loc[mask, "statement"].tolist()
 
 
-def load_noise_context(dataset, rng_seed=42, n_per_other=50):
+def sample_statements(statements, k, rng_seed, dataset, perturbation_type):
     """
-    Load true statements from domains other than the core dataset to serve as noise condition.
+    Deterministically sample up to k statements.
+
+    :param statements: list of candidate statements
+    :param k: desired number of statements
+    :param rng_seed: base random seed
+    :param dataset: dataset name
+    :param perturbation_type: perturbation type
+    :return: sampled list of statements
+    """
+    if k is None or k <= 0 or len(statements) <= k:
+        return statements
+
+    key = f"{dataset}::{perturbation_type}::{k}"
+    h = hashlib.sha1(key.encode("utf-8")).hexdigest()
+    seed = int(rng_seed) + int(h[:8], 16)
+    rng = np.random.default_rng(seed)
+
+    idx = rng.choice(len(statements), size=k, replace=False)
+    idx = np.sort(idx)
+    return [statements[i] for i in idx]
+
+
+def load_noise_context(dataset, rng_seed=42, total_k=100):
+    """
+    Load true statements from domains other than the core dataset to serve
+    as the non-semantic noise condition.
 
     :param dataset: dataset tag
+    :param rng_seed: base random seed
+    :param total_k: total number of context statements to sample
     :return: list of statements
     """
     other_domains = [d for d in ALL_BENCHMARK_DOMAINS if d != dataset]
+    if len(other_domains) == 0:
+        raise ValueError("No other domains available for noise context.")
 
     h = hashlib.sha1(dataset.encode("utf-8")).hexdigest()
     seed = int(rng_seed) + int(h[:8], 16)
     rng = np.random.default_rng(seed)
 
+    base_n = total_k // len(other_domains)
+    remainder = total_k % len(other_domains)
+
     sampled = []
-    for od in other_domains:
+    for i, od in enumerate(other_domains):
+        n_for_domain = base_n + (1 if i < remainder else 0)
+        if n_for_domain == 0:
+            continue
+
         pool = load_true_train_statements(od)
         if len(pool) == 0:
-            raise ValueError(f"No True-train statements available for noise context in domain '{od}'.")
+            raise ValueError(
+                f"No True-train statements available for noise context in domain '{od}'."
+            )
 
-        replace = len(pool) < n_per_other
-
-        idx = rng.choice(len(pool), size=n_per_other, replace=replace)
-        sampled.extend([pool[i] for i in idx])
+        replace = len(pool) < n_for_domain
+        idx = rng.choice(len(pool), size=n_for_domain, replace=replace)
+        sampled.extend([pool[j] for j in idx])
 
     rng.shuffle(sampled)
-
-    df = pd.DataFrame({"statement": sampled})
-    mask = np.ones(len(df), dtype=bool)
-
-    return df, mask
+    return sampled
 
 
-def load_context_statements(dataset, perturbation_type, rng_seed):
+def load_context_statements(dataset, perturbation_type, rng_seed, context_size):
     """
     Depending on perturbation_type, load an additional CSV and subset appropriately.
 
     :param dataset: dataset tag
     :param perturbation_type: perturbation type
+    :param rng_seed: base random seed
+    :param context_size: number of context statements for K ablation
     :return: additional perturbation statements
     """
     if perturbation_type == 0:
@@ -159,35 +249,90 @@ def load_context_statements(dataset, perturbation_type, rng_seed):
 
     if perturbation_type == 1:
         fname = f"{dataset}_synthetic.csv"
-        df = pd.read_csv(Path("datasets") / fname)
+        df = load_csv(Path("datasets") / fname)
         mask = df["in_train"] == 1
+        statements = df.loc[mask, "statement"].tolist()
 
     elif perturbation_type == 2:
         fname = f"{dataset}_fictional.csv"
-        df = pd.read_csv(Path("datasets") / fname)
+        df = load_csv(Path("datasets") / fname)
         mask = df["in_train"] == 1
+        statements = df.loc[mask, "statement"].tolist()
 
     elif perturbation_type == 3:
         fname = f"{dataset}_fictional.csv"
-        df = pd.read_csv(Path("datasets") / fname)
+        df = load_csv(Path("datasets") / fname)
         mask = (df["in_train"] == 1) & (df["correct"] == 1)
+        statements = df.loc[mask, "statement"].tolist()
 
     elif perturbation_type == 4:
-        df, mask = load_noise_context(dataset, rng_seed=rng_seed)
+        if context_size is None:
+            context_size = 100
+        statements = load_noise_context(
+            dataset,
+            rng_seed=rng_seed,
+            total_k=int(context_size),
+        )
 
     elif perturbation_type == 5:
         fname = f"{dataset}_true_false.csv"
-        df = pd.read_csv(Path("datasets") / fname)
+        df = load_csv(Path("datasets") / fname)
         mask = (df["in_train"] == 1) & (df["correct"] == 1)
+        statements = df.loc[mask, "statement"].tolist()
+
+    elif perturbation_type == 6:
+        fname = f"{dataset}_synthetic_fic.csv"
+        df = load_csv(Path("datasets") / fname)
+        mask = df["in_train"] == 1
+        statements = df.loc[mask, "statement"].tolist()
+
     else:
         raise ValueError(f"Unknown perturbation_type: {perturbation_type}")
 
-    return df.loc[mask, "statement"].tolist()
+    statements = sample_statements(
+        statements=statements,
+        k=context_size,
+        rng_seed=rng_seed,
+        dataset=dataset,
+        perturbation_type=perturbation_type,
+    )
+
+    return statements
+
+
+def get_save_dir(cfg, dataset):
+    """
+    Construct the output directory.
+
+    Baseline task 0 is saved as:
+        outputs/probes/zero_shot/{model}/{dataset}/task-0/
+
+    Perturbation tasks are saved as:
+        outputs/probes/zero_shot/{model}/{dataset}/K-{K}/task-{task}/
+
+    :param cfg: config
+    :param dataset: dataset name
+    :return: Path
+    """
+    task = int(cfg.perturbation_type)
+    base = Path(cfg.output_dir) / dataset
+
+    if task == 0:
+        return base / "task-0"
+
+    context_size = get_context_size(cfg)
+    if context_size is None:
+        raise ValueError(
+            "context_size must be set for perturbation tasks 1-6 so outputs "
+            "can be saved under K-{context_size}/task-{task}."
+        )
+
+    return base / f"K-{int(context_size)}" / f"task-{task}"
 
 
 def tokenize(batch, tokenizer, cfg):
     """
-    Dispatch to default vs instruct tokenization based on cfg.model.instruct
+    Dispatch to default vs instruct tokenization based on cfg.model.instruct.
 
     :param batch: batch of statements
     :param tokenizer: tokenizer
@@ -208,7 +353,6 @@ def default_tokenize(batch, tokenizer):
     :param tokenizer: default tokenizer
     :return: sequences from tokenizer
     """
-
     input_seqs = tokenizer(batch, return_tensors="pt", padding="longest")
     return input_seqs
 
@@ -232,6 +376,7 @@ def instruct_tokenize(batch, tokenizer, cfg):
         end_token = tokenizer.eos_token
     else:
         end_token = cfg.model["end_token"]
+
     text_batch = [
         b.strip(" ").rstrip(end_token).strip(" ") + " " for b in batch
     ]
@@ -240,24 +385,21 @@ def instruct_tokenize(batch, tokenizer, cfg):
 
 
 @hydra.main(version_base=None, config_path="configs", config_name="zero_shot")
-def main(cfg):
+def main(cfg: DictConfig):
     """
     Compute zero-shot ABC (a/b/c) scores for each true test statement in each
     dataset listed in cfg.datasets, optionally conditioned on a set of
-    "perturbed" statements (synthetic/fictional) that the model is told it
-    believes.
+    context statements that the model is told it believes.
     """
     validate_config(cfg)
     log_stats(cfg)
 
-    # Make RNG reproducible
     rng_seed = getattr(cfg, "random_seed", 42)
     np.random.seed(rng_seed)
 
     model, tokenizer = prepare_hf_model(cfg)
     torch.set_grad_enabled(False)
 
-    # 1. Prepare prompt template & collector
     if cfg.model["instruct"]:
         mode = "instruct"
     else:
@@ -266,7 +408,6 @@ def main(cfg):
     if cfg.question_type != "multichoice":
         raise ValueError("This script is designed for 'multichoice' (a/b/c) only.")
 
-    # use enum_list from config (e.g., ["a", "b", "c"])
     enum_list = [str(e) for e in cfg.enum_list]
 
     prompt_f = ABC3Prompt(
@@ -278,13 +419,18 @@ def main(cfg):
     )
     collector = MultichoiceLogitCollector(tokenizer, prompt_f)
 
-    # 2. Loop over datasets
+    context_size = get_context_size(cfg)
+
     for dataset in cfg.datasets:
         log.warning(f"=== Processing dataset: {dataset} ===")
 
-        # 2a. Load statements
         test_statements = load_true_test_statements(dataset)
-        context_statements = load_context_statements(dataset, cfg.perturbation_type, rng_seed)
+        context_statements = load_context_statements(
+            dataset=dataset,
+            perturbation_type=cfg.perturbation_type,
+            rng_seed=rng_seed,
+            context_size=context_size,
+        )
 
         log.warning(
             f"Loaded {len(test_statements)} test statements and "
@@ -295,29 +441,10 @@ def main(cfg):
             log.warning("No test statements found for this dataset; skipping.")
             continue
 
-        # 2b. Optionally subsample context statements to max_context_statements
-        if len(context_statements) > 0:
-            max_ctx = getattr(cfg, "max_context_statements", None)
-            if max_ctx is not None and max_ctx > 0 and len(context_statements) > max_ctx:
-                orig_n = len(context_statements)
-                # Use a dedicated RNG for clarity
-                rng = np.random.default_rng(rng_seed)
-                idx = rng.choice(orig_n, size=max_ctx, replace=False)
-                # Sort indices so the sampled block has a stable order
-                idx = np.sort(idx)
-                context_statements = [context_statements[i] for i in idx]
-                log.warning(
-                    f"Subsampled context statements from {orig_n} to "
-                    f"{len(context_statements)} using seed={rng_seed}."
-                )
-
-        # 3. Build the *full text block* that ABC3Prompt will use
         if len(context_statements) == 0:
-            # Baseline case (perturbation_type == 0; "none")
             def make_block(t: str) -> str:
                 return f"Is the following statement correct?\n{t}"
         else:
-            # Perturbed cases; use (possibly subsampled) context statements as a block.
             context_block = (
                 "Let's say that you believe these statements:\n"
                 + "\n".join(context_statements)
@@ -326,10 +453,8 @@ def main(cfg):
             def make_block(t: str) -> str:
                 return f"{context_block}\nIs the following statement correct?\n{t}"
 
-        # 4. Assemble prompts in order
         prompts = [prompt_f(make_block(t)) for t in test_statements]
 
-        # Show one example prompt
         if cfg.model["instruct"]:
             example_str = tokenizer.apply_chat_template(
                 prompts[0],
@@ -342,7 +467,6 @@ def main(cfg):
 
         log.warning(f"Example prompt for dataset '{dataset}':\n---\n{example_str}\n---")
 
-        # 5. Batch setup
         n = len(prompts)
         n_batches = int(np.ceil(n / cfg.batch_size))
         n_batches = max(n_batches, 1)
@@ -359,7 +483,6 @@ def main(cfg):
         all_scores = []
         all_preds = []
 
-        # 6. Main loop: tokenize, run model, collect probs + argmax
         for i, batch in enumerate(tqdm(batches, total=len(batches))):
             batch_list = batch.tolist()
 
@@ -378,20 +501,16 @@ def main(cfg):
                 attention_mask=input_att,
                 use_cache=False,
             ).logits
-            last_logits = out[:, -1]  # (batch_size, vocab_size)
+            last_logits = out[:, -1]
 
             probs, pred_idx = collector.collect_proba_and_argmax(last_logits)
             all_scores.append(probs)
             all_preds.append(pred_idx)
 
-        scores = torch.cat(all_scores, dim=0)  # (N, 4) --> [a, b, c, else]
-        preds = torch.cat(all_preds, dim=0)    # (N,) --> 0/1/2
+        scores = torch.cat(all_scores, dim=0)
+        preds = torch.cat(all_preds, dim=0)
 
-        task = int(cfg.perturbation_type)
-        run_dir = f"{dataset}_task-{task}"
-
-        # cfg.output_dir is already: outputs/probes/zero_shot/${model.name}
-        save_dir = Path(cfg.output_dir) / run_dir
+        save_dir = get_save_dir(cfg, dataset)
         save_dir.mkdir(parents=True, exist_ok=True)
 
         np.save(save_dir / "scores.npy", scores.detach().cpu().float().numpy())
@@ -401,9 +520,15 @@ def main(cfg):
             for s in test_statements:
                 f.write(s.replace("\n", " ") + "\n")
 
+        if int(cfg.perturbation_type) != 0:
+            with open(save_dir / "context_statements.txt", "w") as f:
+                for s in context_statements:
+                    f.write(s.replace("\n", " ") + "\n")
+
         log.warning(
             f"(BATCH) [{dataset}] Processed 100.00% of the statements; saved to {save_dir}\n\n"
         )
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,26 @@
+defaults:
+  - base_llama
+  - _self_
+
+name: _qwen-2.5-72b
+model: Qwen/Qwen2.5-72B-Instruct
+instruct: True
+
+module: model
+encoders: layers
+
+layers:
+  - 0
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  - 60
+  - 70
+  - 79
+
+task_layers:
+  cities_loc: 79
+  med_indications: 60
+  defs: 40

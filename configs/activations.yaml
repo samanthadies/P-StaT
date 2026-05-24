@@ -7,9 +7,9 @@ defaults:
   - _self_
 
 
-datasets: ['cities_loc_true_false', 'cities_loc_fictional', 'cities_loc_synthetic', 'med_indications_true_false',
-           'med_indications_fictional', 'med_indications_synthetic', 'defs_true_false', 'defs_fictional',
-           'defs_synthetic']
+datasets: ['cities_loc_true_false', 'cities_loc_fictional', 'cities_loc_synthetic', 'cities_loc_synthetic_fic',
+           'med_indications_true_false', 'med_indications_fictional', 'med_indications_synthetic',
+           'med_indications_synthetic_fic', 'defs_true_false', 'defs_fictional', 'defs_synthetic', 'defs_synthetic_fic']
 
 layers: ${model.task_layers}
 device: null

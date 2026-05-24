@@ -8,8 +8,10 @@ noise_prefix: defs_noise
 datasets: ['defs_true_false', 'defs_synthetic']
 datasets_fictional: ['defs_fictional']
 datasets_noise: ['defs_noise_10']
+datasets_synthetic_fic: ['defs_synthetic_fic']
 datasets_test: []
 agg: full
 
 use_fictional: true
 use_noise: true
+use_synthetic_fic: true

@@ -28,6 +28,20 @@ LEGAL_ACTIVATION_TYPES = ["last", "mean", "max", "full"]
 log = logging.getLogger(__name__)
 
 
+LABEL_COLUMNS = [
+    "correct",
+    "real_object",
+    "fake_object",
+    "negation",
+    "fictional_object",
+    "disputed_object",
+    "noise_object",
+    "synthetic_fic_object",
+]
+
+SPLIT_COLUMNS = ["in_train", "in_test", "in_cal"]
+
+
 def shape_as_tuple(x):
     """
     Convert a shape array loaded from disk into a Python tuple.
@@ -37,11 +51,42 @@ def shape_as_tuple(x):
     """
     d = x.shape[0]
     if d == 3:
-        return (x[0], x[1], x[2])
+        return (int(x[0]), int(x[1]), int(x[2]))
     elif d == 2:
-        return (x[0], x[1])
+        return (int(x[0]), int(x[1]))
     else:
         raise Exception("Number of dimensions is too low")
+
+
+def infer_memmap_dtype(path, shape):
+    """
+    Infer memmap dtype from file size and expected shape.
+
+    Supports legacy float16 activation files and newer float32 activation files.
+
+    :param path: path to raw memmap activation file
+    :param shape: expected activation array shape
+    :return: numpy dtype, either np.float16 or np.float32
+    """
+    n_values = int(np.prod(shape))
+    file_size = os.path.getsize(path)
+
+    expected_float16 = n_values * np.dtype(np.float16).itemsize
+    expected_float32 = n_values * np.dtype(np.float32).itemsize
+
+    if file_size == expected_float16:
+        return np.float16
+
+    if file_size == expected_float32:
+        return np.float32
+
+    raise ValueError(
+        f"Could not infer dtype for {path}. "
+        f"file_size={file_size}, "
+        f"expected_float16={expected_float16}, "
+        f"expected_float32={expected_float32}, "
+        f"shape={shape}"
+    )
 
 
 def remove_padded(x):
@@ -93,8 +138,10 @@ class DataHandler:
     :param datasets: list of base dataset names
     :param datasets_fictional: list of fictional dataset names
     :param datasets_noise: list of noise dataset names
+    :param datasets_synthetic_fic: list of synthetic_fic dataset names
     :param use_fictional: whether to augment with fictional datasets
     :param use_noise: whether to augment with noise datasets
+    :param use_synthetic_fic: whether to augment with synthetic_fic datasets
     :param activation_type: type of activations ("last", "mean", "max", "full")
     :param dataset_path: root directory for CSV datasets
     :param activations_path: root directory for activation arrays
@@ -110,8 +157,10 @@ class DataHandler:
         datasets=None,
         datasets_fictional=None,
         datasets_noise=None,
+        datasets_synthetic_fic=None,
         use_fictional=False,
         use_noise=False,
+        use_synthetic_fic=False,
         activation_type="last",
         dataset_path="datasets/",
         activations_path="outputs/activations/",
@@ -126,6 +175,8 @@ class DataHandler:
             datasets_fictional = []
         if datasets_noise is None:
             datasets_noise = []
+        if datasets_synthetic_fic is None:
+            datasets_synthetic_fic = []
 
         if activation_type not in LEGAL_ACTIVATION_TYPES:
             raise ValueError(
@@ -136,8 +187,11 @@ class DataHandler:
         self.datasets = list(datasets)
         self.datasets_fictional = list(datasets_fictional)
         self.datasets_noise = list(datasets_noise)
+        self.datasets_synthetic_fic = list(datasets_synthetic_fic)
+
         self.use_fictional = use_fictional
         self.use_noise = use_noise
+        self.use_synthetic_fic = use_synthetic_fic
 
         self.activation_type = activation_type
         self.dataset_path = dataset_path
@@ -163,7 +217,8 @@ class DataHandler:
         shuffle=True,
     ):
         """
-        Load base datasets, create splits, and optionally augment with fictional and noise datasets.
+        Load base datasets, create splits, and optionally augment with
+        fictional, noise, and synthetic_fic datasets.
 
         :param exclusive_split: if True, enforce disjoint objects across train/test
         :param test_size: fraction of base rows for the test split
@@ -177,21 +232,12 @@ class DataHandler:
 
         for dataset in self.base_datasets:
             df = pl.read_csv(f"{self.dataset_path}{dataset}.csv")
-            df = df.with_columns(
-                [
-                    pl.col("correct").cast(pl.Int32()),
-                    pl.col("negation").cast(pl.Int32()),
-                    pl.col("real_object").cast(pl.Int32()),
-                    pl.col("fake_object").cast(pl.Int32()),
-                    pl.col("fictional_object").cast(pl.Int32()),
-                ]
-            )
 
-            for col_name in ["disputed_object", "noise_object"]:
+            for col_name in LABEL_COLUMNS + SPLIT_COLUMNS:
                 if col_name in df.columns:
                     df = df.with_columns(pl.col(col_name).cast(pl.Int32()))
 
-            if self.load_scores != "":
+            if self.load_scores not in ["", None, False]:
                 try:
                     scores = np.load(
                         f"outputs/probes/prompt/{self.load_scores}/{self.model}/{dataset}/scores.npy"
@@ -242,6 +288,7 @@ class DataHandler:
                 test_size=test_size,
                 cal_size=calibration_size,
                 seed=seed,
+                indicator_col="fictional_object",
             )
 
         if self.use_noise and self.datasets_noise:
@@ -250,6 +297,16 @@ class DataHandler:
                 test_size=test_size,
                 cal_size=calibration_size,
                 seed=seed,
+                indicator_col="noise_object",
+            )
+
+        if self.use_synthetic_fic and self.datasets_synthetic_fic:
+            self.augment_with_split(
+                extra_datasets=self.datasets_synthetic_fic,
+                test_size=test_size,
+                cal_size=calibration_size,
+                seed=seed,
+                indicator_col="synthetic_fic_object",
             )
 
     def exclusive_data_split(
@@ -260,7 +317,8 @@ class DataHandler:
         shuffle=True,
     ):
         """
-        Split base data so that objects in train do not appear in test, with optional calibration split.
+        Split base data so that objects in train do not appear in test,
+        with optional calibration split.
 
         :param test_size: fraction of base rows for the test split
         :param calibration_size: fraction of remaining rows for the calibration split
@@ -287,29 +345,34 @@ class DataHandler:
             np.random.seed(seed + 1)
             np.random.shuffle(self.train_ids)
             np.random.shuffle(self.test_ids)
-            if self.with_calibration:
+            if self.with_calibration and self.calibration_ids is not None:
                 np.random.shuffle(self.calibration_ids)
 
         if self.verbose:
             train_size_ratio = len(self.train_ids) / self.data.shape[0]
             test_size_ratio = len(self.test_ids) / self.data.shape[0]
+
             if self.with_calibration:
                 calib_size_ratio = len(self.calibration_ids) / self.data.shape[0]
                 log.warning(
                     "Train size: {:.2f}, Test size: {:.2f}, Calibration size: {:.2f}".format(
-                        train_size_ratio, test_size_ratio, calib_size_ratio
+                        train_size_ratio,
+                        test_size_ratio,
+                        calib_size_ratio,
                     )
                 )
             else:
                 log.warning(
                     "Train size: {:.2f}, Test size: {:.2f}, Calibration size: 0.0".format(
-                        train_size_ratio, test_size_ratio
+                        train_size_ratio,
+                        test_size_ratio,
                     )
                 )
 
     def generate_exclusive_split(self, df, test_size, seed):
         """
-        Create an exclusive train/test-style split where objects do not overlap between subsets.
+        Create an exclusive train/test-style split where objects do not overlap
+        between subsets.
 
         :param df: dataframe to split
         :param test_size: target fraction of rows assigned to the second subset
@@ -334,6 +397,7 @@ class DataHandler:
         while True:
             if df_test.shape[0] / df.shape[0] > test_size:
                 break
+
             train_objects = rnd.choice(
                 train_objects,
                 size=int(len(train_objects) * 0.975),
@@ -360,31 +424,54 @@ class DataHandler:
         :param test_size: fraction of rows for the test split
         :param calibration_size: fraction of train rows for the calibration split
         :param seed: random seed for the split and shuffling
-        :param shuffle: whether to shuffle indices after splitting
+        :param shuffle: whether to shuffle indices
         :return: None
         """
         np.random.seed(seed)
         ids = np.arange(len(self.data))
         mask = np.random.rand(len(self.data)) < 1 - test_size
-        self.train_ids = ids[mask]
-        self.test_ids = ids[~mask]
+
+        train_ids = ids[mask]
+        test_ids = ids[~mask]
+
+        if self.with_calibration:
+            cal_mask = np.random.rand(len(train_ids)) < 1 - calibration_size
+            self.train_ids = train_ids[cal_mask]
+            self.calibration_ids = train_ids[~cal_mask]
+        else:
+            self.train_ids = train_ids
+            self.calibration_ids = None
+
+        self.test_ids = test_ids
 
         if shuffle:
             np.random.seed(seed + 1)
             np.random.shuffle(self.train_ids)
             np.random.shuffle(self.test_ids)
 
-        if self.calibration_ids:
-            mask = np.random.rand(len(self.train_ids)) < 1 - calibration_size
-            self.train_ids, self.calibration_ids = (
-                self.train_ids[mask],
-                self.train_ids[~mask],
-            )
-            if shuffle:
-                np.random.shuffle(self.train_ids)
+            if self.with_calibration and self.calibration_ids is not None:
                 np.random.shuffle(self.calibration_ids)
-        else:
-            self.calibration_ids = None
+
+        if self.verbose:
+            train_size_ratio = len(self.train_ids) / self.data.shape[0]
+            test_size_ratio = len(self.test_ids) / self.data.shape[0]
+
+            if self.with_calibration:
+                calib_size_ratio = len(self.calibration_ids) / self.data.shape[0]
+                log.warning(
+                    "Train size: {:.2f}, Test size: {:.2f}, Calibration size: {:.2f}".format(
+                        train_size_ratio,
+                        test_size_ratio,
+                        calib_size_ratio,
+                    )
+                )
+            else:
+                log.warning(
+                    "Train size: {:.2f}, Test size: {:.2f}, Calibration size: 0.0".format(
+                        train_size_ratio,
+                        test_size_ratio,
+                    )
+                )
 
     def three_way_random_split(
         self,
@@ -429,72 +516,85 @@ class DataHandler:
 
     def csv_to_aligned_df(self, csv_path, columns_like):
         """
-        Load a CSV and align its columns and label dtypes to match an existing base dataframe.
+        Load a CSV and align its columns and label dtypes to match an existing
+        base dataframe.
 
         :param csv_path: path to the CSV file to load
         :param columns_like: reference dataframe whose columns should be matched
         :return: pandas dataframe aligned to the reference schema
         """
-        required_label_cols = [
-            "correct",
-            "real_object",
-            "fake_object",
-            "negation",
-            "fictional_object",
-            "disputed_object",
-            "noise_object",
-        ]
-
         df_pl = pl.read_csv(csv_path)
 
-        for c in [
-            "correct",
-            "negation",
-            "real_object",
-            "fake_object",
-            "fictional_object",
-            "disputed_object",
-            "noise_object",
-        ]:
-            if c in df_pl.columns:
-                df_pl = df_pl.with_columns(pl.col(c).cast(pl.Int32()))
+        for col_name in LABEL_COLUMNS + SPLIT_COLUMNS:
+            if col_name in df_pl.columns:
+                df_pl = df_pl.with_columns(pl.col(col_name).cast(pl.Int32()))
 
         df = df_pl.to_pandas()
         df = df.reindex(columns=columns_like.columns, fill_value=0)
 
-        for c in required_label_cols:
-            if c in df.columns:
-                df[c] = df[c].astype("int32")
+        for col_name in LABEL_COLUMNS + SPLIT_COLUMNS:
+            if col_name in df.columns:
+                df[col_name] = df[col_name].fillna(0).astype("int32")
 
         return df
 
-    def augment_with_split(self, extra_datasets, test_size, cal_size, seed):
+    def _ensure_schema_columns(self):
         """
-        Load extra datasets, split them locally, append them to data, and extend split indices.
+        Ensure that self.data contains label and split columns needed for
+        augmentation and downstream task construction.
+
+        :return: None
+        """
+        for col_name in LABEL_COLUMNS + SPLIT_COLUMNS:
+            if col_name not in self.data.columns:
+                self.data[col_name] = 0
+            self.data[col_name] = self.data[col_name].fillna(0).astype("int32")
+
+    def _existing_split_is_valid(self, extra_df):
+        """
+        Check whether existing in_train/in_test/in_cal columns assign every row
+        to exactly one split.
+
+        :param extra_df: pandas dataframe with split columns
+        :return: (is_valid, n_bad)
+        """
+        split_values = extra_df[SPLIT_COLUMNS].fillna(0).astype(int)
+        row_split_counts = split_values.sum(axis=1)
+        bad_mask = row_split_counts != 1
+        n_bad = int(bad_mask.sum())
+        return n_bad == 0, n_bad
+
+    def augment_with_split(
+        self,
+        extra_datasets,
+        test_size,
+        cal_size,
+        seed,
+        indicator_col=None,
+    ):
+        """
+        Load extra datasets, split them locally, append them to data,
+        and extend split indices.
+
+        If an extra dataset CSV does not already contain valid in_train,
+        in_test, and in_cal columns, add/fix those split-indicator columns
+        and save the updated CSV back to disk.
+
+        If indicator_col is provided, set that indicator column to 1 for all
+        rows in the extra dataset. This is used for dataset-type indicators
+        such as fictional_object, noise_object, and synthetic_fic_object.
 
         :param extra_datasets: list of extra dataset names to load
         :param test_size: global fraction of rows for test split
         :param cal_size: global fraction of rows for calibration split
         :param seed: random seed for splitting
+        :param indicator_col: optional dataset-type indicator column to set to 1
         :return: None
         """
         if not extra_datasets:
             return
 
-        required_label_cols = [
-            "correct",
-            "real_object",
-            "fake_object",
-            "negation",
-            "fictional_object",
-            "disputed_object",
-            "noise_object",
-        ]
-
-        for c in required_label_cols:
-            if c not in self.data.columns:
-                self.data[c] = 0
-            self.data[c] = self.data[c].fillna(0).astype("int32")
+        self._ensure_schema_columns()
 
         base_n = len(self.data)
         all_new_dfs = []
@@ -503,17 +603,80 @@ class DataHandler:
         for ds in extra_datasets:
             csv_path = f"{self.dataset_path}{ds}.csv"
             if not os.path.exists(csv_path):
-                raise FileNotFoundError("Extra dataset CSV not found: {}".format(csv_path))
+                raise FileNotFoundError(
+                    "Extra dataset CSV not found: {}".format(csv_path)
+                )
+
+            raw_df = pd.read_csv(csv_path)
+            has_existing_split_cols = all(col in raw_df.columns for col in SPLIT_COLUMNS)
+            missing_indicator_col = (
+                indicator_col is not None and indicator_col not in raw_df.columns
+            )
 
             extra_df = self.csv_to_aligned_df(csv_path, columns_like=self.data)
             n_rows = len(extra_df)
 
-            tr_local, te_local, cal_local = self.three_way_random_split(
-                n_rows=n_rows,
-                test_size=test_size,
-                cal_size=cal_size,
-                seed=seed,
-            )
+            if indicator_col is not None:
+                if indicator_col not in extra_df.columns:
+                    extra_df[indicator_col] = 0
+                extra_df[indicator_col] = 1
+                extra_df[indicator_col] = extra_df[indicator_col].astype("int32")
+
+            use_existing_split_cols = False
+
+            if has_existing_split_cols:
+                valid_split_cols, n_bad = self._existing_split_is_valid(extra_df)
+
+                if valid_split_cols:
+                    use_existing_split_cols = True
+                else:
+                    log.warning(
+                        f"Existing split columns in {csv_path} are invalid for "
+                        f"{n_bad} rows. Regenerating split columns and saving "
+                        "the corrected CSV."
+                    )
+
+            if use_existing_split_cols:
+                tr_local = np.where(extra_df["in_train"].to_numpy().astype(int) == 1)[0]
+                te_local = np.where(extra_df["in_test"].to_numpy().astype(int) == 1)[0]
+
+                if self.with_calibration:
+                    cal_local = np.where(
+                        extra_df["in_cal"].to_numpy().astype(int) == 1
+                    )[0]
+                else:
+                    cal_local = None
+
+            else:
+                tr_local, te_local, cal_local = self.three_way_random_split(
+                    n_rows=n_rows,
+                    test_size=test_size,
+                    cal_size=cal_size,
+                    seed=seed,
+                )
+
+                extra_df["in_train"] = 0
+                extra_df["in_test"] = 0
+                extra_df["in_cal"] = 0
+
+                extra_df.loc[tr_local, "in_train"] = 1
+                extra_df.loc[te_local, "in_test"] = 1
+
+                if cal_local is not None:
+                    extra_df.loc[cal_local, "in_cal"] = 1
+
+                for col_name in SPLIT_COLUMNS:
+                    extra_df[col_name] = extra_df[col_name].astype("int32")
+
+            if (not use_existing_split_cols) or missing_indicator_col:
+                extra_df.to_csv(csv_path, index=False)
+
+                if self.verbose:
+                    log.warning(
+                        "Added/fixed split/indicator columns and saved updated dataset CSV: {}".format(
+                            csv_path
+                        )
+                    )
 
             per_dataset_splits[ds] = (tr_local, te_local, cal_local)
             all_new_dfs.append(extra_df)
@@ -521,7 +684,9 @@ class DataHandler:
         if all_new_dfs:
             extra_concat = pd.concat(all_new_dfs, axis=0, ignore_index=True)
             self.data = pd.concat(
-                [self.data, extra_concat], axis=0, ignore_index=True
+                [self.data, extra_concat],
+                axis=0,
+                ignore_index=True,
             )
 
         new_train_ids = []
@@ -535,6 +700,7 @@ class DataHandler:
 
             new_train_ids.append(row_start + tr_local)
             new_test_ids.append(row_start + te_local)
+
             if cal_local is not None:
                 new_cal_ids.append(row_start + cal_local)
 
@@ -543,18 +709,21 @@ class DataHandler:
         if new_train_ids:
             new_train_ids = np.concatenate(new_train_ids, axis=0)
             self.train_ids = np.concatenate(
-                [self.train_ids, new_train_ids], axis=0
+                [self.train_ids, new_train_ids],
+                axis=0,
             )
 
         if new_test_ids:
             new_test_ids = np.concatenate(new_test_ids, axis=0)
             self.test_ids = np.concatenate(
-                [self.test_ids, new_test_ids], axis=0
+                [self.test_ids, new_test_ids],
+                axis=0,
             )
 
         if self.with_calibration and new_cal_ids:
             if self.calibration_ids is None:
                 self.calibration_ids = np.array([], dtype=int)
+
             new_cal_ids = np.concatenate(new_cal_ids, axis=0)
             self.calibration_ids = np.concatenate(
                 [self.calibration_ids, new_cal_ids],
@@ -566,7 +735,8 @@ class DataHandler:
         if self.verbose:
             log.warning(
                 "Augmented with extra datasets: {}. Total rows now: {}".format(
-                    extra_datasets, len(self.data)
+                    extra_datasets,
+                    len(self.data),
                 )
             )
 
@@ -596,24 +766,51 @@ class DataHandler:
             )
 
         activations = []
+
         for dataset in self.datasets:
             data_dir = (
                 f"{self.activations_path}/{self.model}/{dataset}/{self.activation_type}/"
             )
+            temp_path = data_dir + f"layer_{layer_id}_{module}_temp.npy"
+            npz_path = data_dir + f"layer_{layer_id}_{module}.npz"
+
             try:
                 shape = shape_as_tuple(np.load(data_dir + "shape.npy"))
-                acts = np.memmap(
-                    data_dir + f"layer_{layer_id}_{module}_temp.npy",
-                    shape=shape,
-                    mode="r",
-                    dtype=np.float16,
-                )
-            except Exception:
-                acts = self.load_npz(
-                    data_dir + f"layer_{layer_id}_{module}.npz"
+                dtype = infer_memmap_dtype(temp_path, shape)
+
+                log.warning(
+                    f"Loading activations: model={self.model}, dataset={dataset}, "
+                    f"layer={layer_id}, dtype={np.dtype(dtype)}, shape={shape}, path={temp_path}"
                 )
 
-            activations.append(torch.from_numpy(np.array(acts)))
+                acts = np.memmap(
+                    temp_path,
+                    shape=shape,
+                    mode="r",
+                    dtype=dtype,
+                )
+
+            except Exception as e:
+                log.warning(
+                    f"Could not load temp memmap for model={self.model}, "
+                    f"dataset={dataset}, layer={layer_id}: {e}. "
+                    f"Trying npz fallback: {npz_path}"
+                )
+                acts = self.load_npz(npz_path)
+
+            acts_np = np.array(acts)
+
+            n_nan = int(np.isnan(acts_np).sum())
+            n_inf = int(np.isinf(acts_np).sum())
+
+            if n_nan > 0 or n_inf > 0:
+                raise ValueError(
+                    f"Non-finite activations detected after loading: "
+                    f"model={self.model}, dataset={dataset}, layer={layer_id}, "
+                    f"nan={n_nan}, inf={n_inf}, shape={acts_np.shape}"
+                )
+
+            activations.append(torch.from_numpy(acts_np))
 
         if self.activation_type == "full":
             output = stack_tensors(activations)
@@ -639,7 +836,8 @@ class DataHandler:
         if n != n_rows:
             raise ValueError(
                 "Number of rows in activations ({}) does not match the number of rows in the data ({}).".format(
-                    n, n_rows
+                    n,
+                    n_rows,
                 )
             )
 
@@ -660,10 +858,12 @@ class DataHandler:
         """
         masks = []
         for dataset in self.datasets:
-            data_dir = (
-                f"{self.activations_path}/{self.model}/{dataset}/{self.activation_type}/mask.npy"
+            mask_path = (
+                f"{self.activations_path}/{self.model}/"
+                f"{dataset}/{self.activation_type}/mask.npy"
             )
-            masks.append(torch.from_numpy(np.load(data_dir)))
+            masks.append(torch.from_numpy(np.load(mask_path)))
+
         return torch.vstack(masks)
 
     def get_train_att_mask(self):
@@ -723,6 +923,9 @@ class DataHandler:
 
         :return: pandas dataframe for calibration indices
         """
+        if self.calibration_ids is None:
+            raise ValueError("Calibration split not initialized.")
+
         return self.data.iloc[self.calibration_ids.tolist()]
 
     def column_list(self):
@@ -738,8 +941,9 @@ class DataHandler:
                 columns.update(lf.collect_schema().names())
             except Exception:
                 columns.update(lf.columns)
+
         return list(columns)
-        
+
     def get_train_acts(self, layer_id: int, module: str = "e"):
         """
         Get the training activations for the given layer.
@@ -752,20 +956,29 @@ class DataHandler:
     def get_test_acts(self, layer_id: int, module: str = "e"):
         """
         Get the test activations for the given layer.
+
+        :param layer_id: layer index
+        :param module: activation module ('a', 'm', or 'e')
         """
         return self.get_activations(layer_id, module)[self.test_ids]
 
     def get_cal_acts(self, layer_id: int, module: str = "e"):
         """
         Get the calibration activations for the given layer.
+
+        :param layer_id: layer index
+        :param module: activation module ('a', 'm', or 'e')
         """
         if self.calibration_ids is None:
             raise ValueError("Calibration split not initialized.")
+
         return self.get_activations(layer_id, module)[self.calibration_ids]
-        
+
     def train_labeled(self, layer_id: int = -1):
         """
         Return train embeddings + 'correct' labels for a given layer.
+
+        :param layer_id: layer index
         """
         correct = self.get_train_df()["correct"].to_numpy()
 
@@ -783,6 +996,8 @@ class DataHandler:
     def test_labeled(self, layer_id: int = -1):
         """
         Return test embeddings + 'correct' labels for a given layer.
+
+        :param layer_id: layer index
         """
         correct = self.get_test_df()["correct"].to_numpy()
 
@@ -800,6 +1015,8 @@ class DataHandler:
     def cal_labeled(self, layer_id: int = -1):
         """
         Return calibration embeddings + 'correct' labels for a given layer.
+
+        :param layer_id: layer index
         """
         if self.calibration_ids is None:
             raise ValueError("Calibration split not initialized.")
@@ -816,23 +1033,31 @@ class DataHandler:
             )
 
         return {"embeddings": embeddings, "correct": correct}
-        
+
     def _drop_zeros_einsum(self, act: torch.Tensor, mask: torch.Tensor) -> torch.Tensor:
         """
         Apply attention mask to a single sequence of activations via einsum,
         handling some edge cases.
+
+        :param act: token-level activations
+        :param mask: attention mask
+        :return: masked activations
         """
         if act.shape[0] == mask.shape[0]:
             return torch.einsum("lh,l->lh", act, mask)
         else:
             shape = mask.shape[0]
-            if mask.sum() == 0:  # e.g. gemma-2-9b defs fix
+            if mask.sum() == 0:
                 mask[-5:] = 1
             return torch.einsum("lh,l->lh", act[-shape:], mask)
 
     def _drop_zeros(self, acts: torch.Tensor, mask: torch.Tensor | None):
         """
         Use attention masks to zero out padded tokens and drop all-zero rows.
+
+        :param acts: batch of token-level activations
+        :param mask: attention mask or None
+        :return: list of nonzero token bags
         """
         if mask is not None:
             bags = [
@@ -852,12 +1077,17 @@ class DataHandler:
     def train_bags(self, layer_id: int = -1, drop_zeros: bool = True):
         """
         Get training bags for MIL: variable-length sequences per statement.
+
+        :param layer_id: layer index
+        :param drop_zeros: whether to remove padding/all-zero token rows
         """
         assert (
             self.activation_type == "full"
         ), "Bags can only be generated for full activations."
+
         correct = self.get_train_df()["correct"].to_numpy()
         acts = self.get_train_acts(layer_id=layer_id)
+
         try:
             mask = self.get_train_att_mask()
         except Exception:
@@ -877,12 +1107,17 @@ class DataHandler:
     def test_bags(self, layer_id: int = -1, drop_zeros: bool = True):
         """
         Get test bags for MIL.
+
+        :param layer_id: layer index
+        :param drop_zeros: whether to remove padding/all-zero token rows
         """
         assert (
             self.activation_type == "full"
         ), "Bags can only be generated for full activations."
+
         correct = self.get_test_df()["correct"].to_numpy()
         acts = self.get_test_acts(layer_id=layer_id)
+
         try:
             mask = self.get_test_att_mask()
         except Exception:
@@ -902,15 +1137,20 @@ class DataHandler:
     def cal_bags(self, layer_id: int = -1, drop_zeros: bool = True):
         """
         Get calibration bags for MIL.
+
+        :param layer_id: layer index
+        :param drop_zeros: whether to remove padding/all-zero token rows
         """
         assert (
             self.activation_type == "full"
         ), "Bags can only be generated for full activations."
+
         if self.calibration_ids is None:
             raise ValueError("Calibration split not initialized.")
 
         correct = self.get_cal_df()["correct"].to_numpy()
         acts = self.get_cal_acts(layer_id=layer_id)
+
         try:
             mask = self.get_cal_att_mask()
         except Exception:

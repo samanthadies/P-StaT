@@ -1,0 +1,17 @@
+hydra:
+  run:
+    dir: outputs/hydra_logs/analysis/within_between/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+defaults:
+  - model: ???
+  - _self_
+
+datasets: ["cities_loc", "med_indications", "defs"]
+
+activation_root: "outputs/activations"
+output_dir: "outputs/analysis_data/within_between"
+
+max_per_class: 2000
+random_seed: 42
+metric: "euclidean"
+chunk_size: 500

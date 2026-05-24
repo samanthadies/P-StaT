@@ -1,0 +1,961 @@
+category,correct,correct_object_2,fake_object,fictional_object,in_cal,in_test,in_train,negation,object_1,object_2,real_object,statement,disputed_object,noise_object,synthetic_fic_object
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,1,Brigadoon City,The Holori,0,Brigadoon City is not located in The Holori.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,1,0,0,0,Brigadoon City,The Holori,0,Brigadoon City is located in The Holori.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,1,Brigadoon City,Mashienfel,0,Brigadoon City is not located in Mashienfel.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,0,Brigadoon City,Oreachusey,0,Brigadoon City is located in Oreachusey.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,1,0,0,1,Brigadoon City,Republimaly,0,Brigadoon City is not located in Republimaly.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,1,0,0,0,Brigadoon City,Republimaly,0,Brigadoon City is located in Republimaly.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,1,Brigadoon City,Fonnezhna,0,Brigadoon City is not located in Fonnezhna.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,0,Brigadoon City,Verthe Fire,0,Brigadoon City is located in Verthe Fire.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,1,Brigadoon City,the Unitic,0,Brigadoon City is not located in the Unitic.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,0,Brigadoon City,the Unitic,0,Brigadoon City is located in the Unitic.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,1,0,0,1,Brigadoon City,Mirginesota,0,Brigadoon City is not located in Mirginesota.,0,0,1
+cities,0,"The Holori, Republimaly, the Unitic",0,0,0,0,1,0,Brigadoon City,Walicut,0,Brigadoon City is located in Walicut.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,0,1,1,Godrict X,Holific,0,The city of Godrict X is not located in Holific.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,1,0,0,0,Godrict X,Holific,0,The city of Godrict X is located in Holific.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,0,1,1,Godrict X,th Khansylva,0,The city of Godrict X is not located in th Khansylva.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,1,0,0,0,Godrict X,Haafingdoms,0,The city of Godrict X is located in Haafingdoms.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,1,0,1,Godrict X,Euribun 28,0,The city of Godrict X is not located in Euribun 28.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,1,0,0,Godrict X,Euribun 28,0,The city of Godrict X is located in Euribun 28.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,1,0,0,1,Godrict X,Grida,0,The city of Godrict X is not located in Grida.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,1,0,0,Godrict X,Wesotargia,0,The city of Godrict X is located in Wesotargia.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,0,1,1,Godrict X,East the Islance,0,The city of Godrict X is not located in East the Islance.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,0,1,0,Godrict X,East the Islance,0,The city of Godrict X is located in East the Islance.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,1,0,1,Godrict X,Reashing,0,The city of Godrict X is not located in Reashing.,0,0,1
+cities,0,"Holific, Euribun 28, East the Islance",0,0,0,1,0,0,Godrict X,Euribundic Oce,0,The city of Godrict X is located in Euribundic Oce.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,1,0,1,Stadia Bay,Holific,0,The city of Stadia Bay is not located in Holific.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,0,Stadia Bay,Holific,0,The city of Stadia Bay is located in Holific.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,1,Stadia Bay,Mistmadia,0,The city of Stadia Bay is not located in Mistmadia.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,1,0,0,Stadia Bay,the Über's Bay Islands,0,The city of Stadia Bay is located in the Über's Bay Islands.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,1,Stadia Bay,Altalansassas,0,The city of Stadia Bay is not located in Altalansassas.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,0,Stadia Bay,Altalansassas,0,The city of Stadia Bay is located in Altalansassas.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,1,Stadia Bay,Marde Unia,0,The city of Stadia Bay is not located in Marde Unia.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,1,0,0,Stadia Bay,Car Himaly,0,The city of Stadia Bay is located in Car Himaly.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,1,0,0,1,Stadia Bay,Lanemoyne,0,The city of Stadia Bay is not located in Lanemoyne.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,1,0,0,Stadia Bay,Lanemoyne,0,The city of Stadia Bay is located in Lanemoyne.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,1,0,0,1,Stadia Bay,Alach Yan,0,The city of Stadia Bay is not located in Alach Yan.,0,0,1
+cities,0,"Holific, Altalansassas, Lanemoyne",0,0,0,0,1,0,Stadia Bay,Japancea,0,The city of Stadia Bay is located in Japancea.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,1,Tranding,Kaminezhna,0,The city of Tranding is not located in Kaminezhna.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,1,0,0,Tranding,Kaminezhna,0,The city of Tranding is located in Kaminezhna.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,1,Tranding,Japancea,0,The city of Tranding is not located in Japancea.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,1,0,0,0,Tranding,Grizonne,0,The city of Tranding is located in Grizonne.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,1,Tranding,East the Islance,0,The city of Tranding is not located in East the Islance.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,1,0,0,0,Tranding,East the Islance,0,The city of Tranding is located in East the Islance.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,1,0,0,1,Tranding,Walanticland,0,The city of Tranding is not located in Walanticland.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,0,Tranding,Walicut,0,The city of Tranding is located in Walicut.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,1,Tranding,West Mancregion,0,The city of Tranding is not located in West Mancregion.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,0,Tranding,West Mancregion,0,The city of Tranding is located in West Mancregion.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,1,Tranding,Marde Unia,0,The city of Tranding is not located in Marde Unia.,0,0,1
+cities,0,"Kaminezhna, East the Islance, West Mancregion",0,0,0,0,1,0,Tranding,Oklacifinga,0,The city of Tranding is located in Oklacifinga.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,1,Bikini Bord,Fradomarden,0,The city of Bikini Bord is not located in Fradomarden.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,1,0,0,0,Bikini Bord,Fradomarden,0,The city of Bikini Bord is located in Fradomarden.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,1,0,1,Bikini Bord,Japancea,0,The city of Bikini Bord is not located in Japancea.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,0,Bikini Bord,Fonnezhna,0,The city of Bikini Bord is located in Fonnezhna.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,1,0,0,1,Bikini Bord,West Mancregion,0,The city of Bikini Bord is not located in West Mancregion.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,0,Bikini Bord,West Mancregion,0,The city of Bikini Bord is located in West Mancregion.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,1,0,1,Bikini Bord,Mireandre,0,The city of Bikini Bord is not located in Mireandre.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,0,Bikini Bord,South The Mirgiona,0,The city of Bikini Bord is located in South The Mirgiona.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,1,Bikini Bord,Euribundic Oce,0,The city of Bikini Bord is not located in Euribundic Oce.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,1,0,0,0,Bikini Bord,Euribundic Oce,0,The city of Bikini Bord is located in Euribundic Oce.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,1,0,1,Bikini Bord,Lantalorld,0,The city of Bikini Bord is not located in Lantalorld.,0,0,1
+cities,0,"Fradomarden, West Mancregion, Euribundic Oce",0,0,0,0,1,0,Bikini Bord,Scotatovia,0,The city of Bikini Bord is located in Scotatovia.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,1,Eustaport, the Islahoma Islands,0,The city of Eustaport is not located in  the Islahoma Islands.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,0,Eustaport, the Islahoma Islands,0,The city of Eustaport is located in  the Islahoma Islands.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,1,Eustaport,Lanemoyne,0,The city of Eustaport is not located in Lanemoyne.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,1,0,0,0,Eustaport,Mistmadia,0,The city of Eustaport is located in Mistmadia.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,1,Eustaport,Japancea,0,The city of Eustaport is not located in Japancea.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,1,0,0,0,Eustaport,Japancea,0,The city of Eustaport is located in Japancea.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,1,Eustaport,Wast Vire,0,The city of Eustaport is not located in Wast Vire.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,1,0,0,Eustaport,Mainoisia,0,The city of Eustaport is located in Mainoisia.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,1,0,1,Eustaport,Shited Kine,0,The city of Eustaport is not located in Shited Kine.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,1,0,0,0,Eustaport,Shited Kine,0,The city of Eustaport is located in Shited Kine.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,1,0,1,Eustaport,Grida,0,The city of Eustaport is not located in Grida.,0,0,1
+cities,0," the Islahoma Islands, Japancea, Shited Kine",0,0,0,0,1,0,Eustaport,Euribun 28,0,The city of Eustaport is located in Euribun 28.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,1,0,1,Leynderhille,the Republic of Sumermenne,0,The city of Leynderhille is not located in the Republic of Sumermenne.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,1,0,0,Leynderhille,the Republic of Sumermenne,0,The city of Leynderhille is located in the Republic of Sumermenne.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,1,0,1,Leynderhille,Mireandre,0,The city of Leynderhille is not located in Mireandre.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,1,0,0,Leynderhille,Mainoisia,0,The city of Leynderhille is located in Mainoisia.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,1,0,0,1,Leynderhille,Lanemoyne,0,The city of Leynderhille is not located in Lanemoyne.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,0,1,0,Leynderhille,Lanemoyne,0,The city of Leynderhille is located in Lanemoyne.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,1,0,0,1,Leynderhille,South Califorand,0,The city of Leynderhille is not located in South Califorand.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,0,1,0,Leynderhille,Maington,0,The city of Leynderhille is located in Maington.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,0,1,1,Leynderhille,th Himdoms,0,The city of Leynderhille is not located in th Himdoms.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,1,0,0,0,Leynderhille,th Himdoms,0,The city of Leynderhille is located in th Himdoms.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,0,1,1,Leynderhille,Kamriscwor,0,The city of Leynderhille is not located in Kamriscwor.,0,0,1
+cities,0,"the Republic of Sumermenne, Lanemoyne, th Himdoms",0,0,0,0,1,0,Leynderhille,Engtooino,0,The city of Leynderhille is located in Engtooino.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,1,0,1,Iacondo,Japancea,0,The city of Iacondo is not located in Japancea.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,0,1,0,Iacondo,Japancea,0,The city of Iacondo is located in Japancea.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,0,1,1,Iacondo,Santico,0,The city of Iacondo is not located in Santico.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,1,0,0,0,Iacondo,Kamriscwor,0,The city of Iacondo is located in Kamriscwor.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,0,1,1,Iacondo,West Rhod,0,The city of Iacondo is not located in West Rhod.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,1,0,0,Iacondo,West Rhod,0,The city of Iacondo is located in West Rhod.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,1,0,1,Iacondo,Lanemoyne,0,The city of Iacondo is not located in Lanemoyne.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,0,1,0,Iacondo,Haafingdoms,0,The city of Iacondo is located in Haafingdoms.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,0,1,1,Iacondo,East the Islance,0,The city of Iacondo is not located in East the Islance.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,1,0,0,0,Iacondo,East the Islance,0,The city of Iacondo is located in East the Islance.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,1,0,0,1,Iacondo,Kamriscwor,0,The city of Iacondo is not located in Kamriscwor.,0,0,1
+cities,0,"Japancea, West Rhod, East the Islance",0,0,0,1,0,0,Iacondo,Mashienfel,0,The city of Iacondo is located in Mashienfel.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,1,Shepherdansk,Fontien,0,The city of Shepherdansk is not located in Fontien.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,0,Shepherdansk,Fontien,0,The city of Shepherdansk is located in Fontien.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,1,Shepherdansk,Walanticland,0,The city of Shepherdansk is not located in Walanticland.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,1,0,0,Shepherdansk,Santico,0,The city of Shepherdansk is located in Santico.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,1,Shepherdansk,Mirginesota,0,The city of Shepherdansk is not located in Mirginesota.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,0,Shepherdansk,Mirginesota,0,The city of Shepherdansk is located in Mirginesota.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,1,0,0,1,Shepherdansk,Maingland,0,The city of Shepherdansk is not located in Maingland.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,1,0,0,Shepherdansk,Mashienfel,0,The city of Shepherdansk is located in Mashienfel.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,1,0,1,Shepherdansk,The Gald,0,The city of Shepherdansk is not located in The Gald.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,1,0,0,0,Shepherdansk,The Gald,0,The city of Shepherdansk is located in The Gald.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,1,0,0,1,Shepherdansk,Altalansassas,0,The city of Shepherdansk is not located in Altalansassas.,0,0,1
+cities,0,"Fontien, Mirginesota, The Gald",0,0,0,0,1,0,Shepherdansk,Nebrastold,0,The city of Shepherdansk is located in Nebrastold.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,1,0,1,Eustapor,Oklanian,0,The city of Eustapor is not located in Oklanian.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,1,0,0,Eustapor,Oklanian,0,The city of Eustapor is located in Oklanian.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,0,1,1,Eustapor,Maingland,0,The city of Eustapor is not located in Maingland.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,1,0,0,0,Eustapor,Lanemoyne,0,The city of Eustapor is located in Lanemoyne.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,1,0,0,1,Eustapor,Holific,0,The city of Eustapor is not located in Holific.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,1,0,0,0,Eustapor,Holific,0,The city of Eustapor is located in Holific.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,1,0,0,1,Eustapor,Mirginesota,0,The city of Eustapor is not located in Mirginesota.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,0,1,0,Eustapor,Scotatovia,0,The city of Eustapor is located in Scotatovia.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,0,1,1,Eustapor,New Jermoyneland,0,The city of Eustapor is not located in New Jermoyneland.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,1,0,0,0,Eustapor,New Jermoyneland,0,The city of Eustapor is located in New Jermoyneland.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,1,0,1,Eustapor,Shited Kine,0,The city of Eustapor is not located in Shited Kine.,0,0,1
+cities,0,"Oklanian, Holific, New Jermoyneland",0,0,0,0,1,0,Eustapor,Walicut,0,The city of Eustapor is located in Walicut.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,1,Sunset Town,Santico,0,The city of Sunset Town is not located in Santico.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,0,Sunset Town,Santico,0,The city of Sunset Town is located in Santico.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,1,0,0,1,Sunset Town,the Lanceach,0,The city of Sunset Town is not located in the Lanceach.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,1,0,0,0,Sunset Town,Grida,0,The city of Sunset Town is located in Grida.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,1,Sunset Town,New Calatoba,0,The city of Sunset Town is not located in New Calatoba.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,0,Sunset Town,New Calatoba,0,The city of Sunset Town is located in New Calatoba.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,1,Sunset Town,Verthe Fire,0,The city of Sunset Town is not located in Verthe Fire.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,0,Sunset Town,th Himdoms,0,The city of Sunset Town is located in th Himdoms.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,1,Sunset Town,Nebrastold,0,The city of Sunset Town is not located in Nebrastold.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,0,Sunset Town,Nebrastold,0,The city of Sunset Town is located in Nebrastold.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,1,0,1,Sunset Town,Car Himaly,0,The city of Sunset Town is not located in Car Himaly.,0,0,1
+cities,0,"Santico, New Calatoba, Nebrastold",0,0,0,0,1,0,Sunset Town,South Califorand,0,The city of Sunset Town is located in South Califorand.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,1,Sainterfort,North Itath Yania,0,The city of Sainterfort is not located in North Itath Yania.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,0,Sainterfort,North Itath Yania,0,The city of Sainterfort is located in North Itath Yania.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,1,0,1,Sainterfort,Oklanian,0,The city of Sainterfort is not located in Oklanian.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,0,Sainterfort,Calicuth Yan,0,The city of Sainterfort is located in Calicuth Yan.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,1,Sainterfort,Gribundori,0,The city of Sainterfort is not located in Gribundori.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,1,0,0,0,Sainterfort,Gribundori,0,The city of Sainterfort is located in Gribundori.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,1,Sainterfort,Inds Baya,0,The city of Sainterfort is not located in Inds Baya.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,1,0,0,Sainterfort,th Khansylva,0,The city of Sainterfort is located in th Khansylva.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,1,Sainterfort,the Dissach Islands,0,The city of Sainterfort is not located in the Dissach Islands.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,1,0,0,0,Sainterfort,the Dissach Islands,0,The city of Sainterfort is located in the Dissach Islands.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,1,Sainterfort,Holific,0,The city of Sainterfort is not located in Holific.,0,0,1
+cities,0,"North Itath Yania, Gribundori, the Dissach Islands",0,0,0,0,1,0,Sainterfort,Walicut,0,The city of Sainterfort is located in Walicut.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,1,Ludendell,Altarsey,0,The city of Ludendell is not located in Altarsey.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,0,Ludendell,Altarsey,0,The city of Ludendell is located in Altarsey.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,1,Ludendell,th Khansylva,0,The city of Ludendell is not located in th Khansylva.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,0,Ludendell,New Calatoba,0,The city of Ludendell is located in New Calatoba.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,1,0,1,Ludendell,Fonnezhna,0,The city of Ludendell is not located in Fonnezhna.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,1,0,0,Ludendell,Fonnezhna,0,The city of Ludendell is located in Fonnezhna.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,1,Ludendell,Lantalorld,0,The city of Ludendell is not located in Lantalorld.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,0,Ludendell,South The Mirgiona,0,The city of Ludendell is located in South The Mirgiona.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,1,Ludendell,Versetrope,0,The city of Ludendell is not located in Versetrope.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,0,Ludendell,Versetrope,0,The city of Ludendell is located in Versetrope.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,0,1,1,Ludendell,West New Mexic,0,The city of Ludendell is not located in West New Mexic.,0,0,1
+cities,0,"Altarsey, Fonnezhna, Versetrope",0,0,0,1,0,0,Ludendell,Inds Baya,0,The city of Ludendell is located in Inds Baya.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,0,1,1,Verd's Harbor,Louraska,0,The city of Verd's Harbor is not located in Louraska.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,1,0,0,0,Verd's Harbor,Louraska,0,The city of Verd's Harbor is located in Louraska.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,1,0,1,Verd's Harbor,The Holori,0,The city of Verd's Harbor is not located in The Holori.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,0,1,0,Verd's Harbor,East the Islance,0,The city of Verd's Harbor is located in East the Islance.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,1,0,1,Verd's Harbor,New Calatoba,0,The city of Verd's Harbor is not located in New Calatoba.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,1,0,0,0,Verd's Harbor,New Calatoba,0,The city of Verd's Harbor is located in New Calatoba.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,1,0,1,Verd's Harbor,Alach Yan,0,The city of Verd's Harbor is not located in Alach Yan.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,0,1,0,Verd's Harbor,Kamriscwor,0,The city of Verd's Harbor is located in Kamriscwor.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,0,1,1,Verd's Harbor,Engtooino,0,The city of Verd's Harbor is not located in Engtooino.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,1,0,0,Verd's Harbor,Engtooino,0,The city of Verd's Harbor is located in Engtooino.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,0,0,1,1,Verd's Harbor,East the Islance,0,The city of Verd's Harbor is not located in East the Islance.,0,0,1
+cities,0,"Louraska, New Calatoba, Engtooino",0,0,1,0,0,0,Verd's Harbor,Marde Unia,0,The city of Verd's Harbor is located in Marde Unia.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,1,Riverdansk,Nated Disia,0,The city of Riverdansk is not located in Nated Disia.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,0,Riverdansk,Nated Disia,0,The city of Riverdansk is located in Nated Disia.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,1,0,0,1,Riverdansk,The Gald,0,The city of Riverdansk is not located in The Gald.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,0,Riverdansk,Gribundori,0,The city of Riverdansk is located in Gribundori.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,1,Riverdansk,Maingland,0,The city of Riverdansk is not located in Maingland.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,0,Riverdansk,Maingland,0,The city of Riverdansk is located in Maingland.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,1,Riverdansk,Nevarope,0,The city of Riverdansk is not located in Nevarope.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,1,0,0,Riverdansk,Mireandre,0,The city of Riverdansk is located in Mireandre.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,1,Riverdansk,Grizonne,0,The city of Riverdansk is not located in Grizonne.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,1,0,0,0,Riverdansk,Grizonne,0,The city of Riverdansk is located in Grizonne.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,1,0,1,Riverdansk,Oreachusey,0,The city of Riverdansk is not located in Oreachusey.,0,0,1
+cities,0,"Nated Disia, Maingland, Grizonne",0,0,0,0,1,0,Riverdansk,Calicuth Yan,0,The city of Riverdansk is located in Calicuth Yan.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,0,1,1,Liyue Halley,Mainoisia,0,The city of Liyue Halley is not located in Mainoisia.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,1,0,0,Liyue Halley,Mainoisia,0,The city of Liyue Halley is located in Mainoisia.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,1,Liyue Halley,Nebrastold,0,The city of Liyue Halley is not located in Nebrastold.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,0,1,0,Liyue Halley,the Über's Bay Islands,0,The city of Liyue Halley is located in the Über's Bay Islands.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,0,1,1,Liyue Halley,Scotatovia,0,The city of Liyue Halley is not located in Scotatovia.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,0,1,0,Liyue Halley,Scotatovia,0,The city of Liyue Halley is located in Scotatovia.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,1,Liyue Halley,Nevarope,0,The city of Liyue Halley is not located in Nevarope.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,0,Liyue Halley,West Rhovarvana,0,The city of Liyue Halley is located in West Rhovarvana.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,1,Liyue Halley,Fonnezhna,0,The city of Liyue Halley is not located in Fonnezhna.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,0,Liyue Halley,Fonnezhna,0,The city of Liyue Halley is located in Fonnezhna.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,1,0,0,1,Liyue Halley,The Gald,0,The city of Liyue Halley is not located in The Gald.,0,0,1
+cities,0,"Mainoisia, Scotatovia, Fonnezhna",0,0,0,1,0,0,Liyue Halley,Louraska,0,The city of Liyue Halley is located in Louraska.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,1,Meyruell,Maington,0,The city of Meyruell is not located in Maington.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,0,Meyruell,Maington,0,The city of Meyruell is located in Maington.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,1,0,1,Meyruell,Car Himaly,0,The city of Meyruell is not located in Car Himaly.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,1,0,0,0,Meyruell,Kamriscwor,0,The city of Meyruell is located in Kamriscwor.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,1,0,1,Meyruell,Inds Baya,0,The city of Meyruell is not located in Inds Baya.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,1,0,0,Meyruell,Inds Baya,0,The city of Meyruell is located in Inds Baya.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,1,Meyruell,Scotatovia,0,The city of Meyruell is not located in Scotatovia.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,0,Meyruell,Versetrope,0,The city of Meyruell is located in Versetrope.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,1,0,1,Meyruell,Rohandurope,0,The city of Meyruell is not located in Rohandurope.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,0,Meyruell,Rohandurope,0,The city of Meyruell is located in Rohandurope.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,1,Meyruell,Morthe Hold,0,The city of Meyruell is not located in Morthe Hold.,0,0,1
+cities,0,"Maington, Inds Baya, Rohandurope",0,0,0,0,1,0,Meyruell,Altalansassas,0,The city of Meyruell is located in Altalansassas.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,0,1,1,Foundar Eban,the Unitic,0,The city of Foundar Eban is not located in the Unitic.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,1,0,0,0,Foundar Eban,the Unitic,0,The city of Foundar Eban is located in the Unitic.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,0,1,1,Foundar Eban,th Khansylva,0,The city of Foundar Eban is not located in th Khansylva.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,1,0,0,0,Foundar Eban,Mistmadia,0,The city of Foundar Eban is located in Mistmadia.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,0,1,1,Foundar Eban,Manitico,0,The city of Foundar Eban is not located in Manitico.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,1,0,0,Foundar Eban,Manitico,0,The city of Foundar Eban is located in Manitico.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,1,0,1,Foundar Eban,Euribun 28,0,The city of Foundar Eban is not located in Euribun 28.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,0,1,0,Foundar Eban,Disota,0,The city of Foundar Eban is located in Disota.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,1,0,0,1,Foundar Eban,Oreachusey,0,The city of Foundar Eban is not located in Oreachusey.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,0,1,0,Foundar Eban,Oreachusey,0,The city of Foundar Eban is located in Oreachusey.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,1,0,0,1,Foundar Eban,Mistmadia,0,The city of Foundar Eban is not located in Mistmadia.,0,0,1
+cities,0,"the Unitic, Manitico, Oreachusey",0,0,0,1,0,0,Foundar Eban,Wast Vire,0,The city of Foundar Eban is located in Wast Vire.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,1,0,0,1,Isengaroth,Republimaly,0,The city of Isengaroth is not located in Republimaly.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,0,Isengaroth,Republimaly,0,The city of Isengaroth is located in Republimaly.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,1,Isengaroth,Shited Kine,0,The city of Isengaroth is not located in Shited Kine.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,0,Isengaroth,North Itath Yania,0,The city of Isengaroth is located in North Itath Yania.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,1,0,1,Isengaroth,Wesotargia,0,The city of Isengaroth is not located in Wesotargia.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,1,0,0,0,Isengaroth,Wesotargia,0,The city of Isengaroth is located in Wesotargia.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,1,Isengaroth,West Rhovarvana,0,The city of Isengaroth is not located in West Rhovarvana.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,1,0,0,0,Isengaroth,Grizonne,0,The city of Isengaroth is located in Grizonne.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,1,Isengaroth,the New Jerwaya Islands,0,The city of Isengaroth is not located in the New Jerwaya Islands.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,0,Isengaroth,the New Jerwaya Islands,0,The city of Isengaroth is located in the New Jerwaya Islands.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,0,0,1,1,Isengaroth,West Rhod,0,The city of Isengaroth is not located in West Rhod.,0,0,1
+cities,0,"Republimaly, Wesotargia, the New Jerwaya Islands",0,0,1,0,0,0,Isengaroth,Inds Baya,0,The city of Isengaroth is located in Inds Baya.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,1,0,1,Nwotsemar-Taj,th Khansylva,0,The city of Nwotsemar-Taj is not located in th Khansylva.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,1,0,0,Nwotsemar-Taj,th Khansylva,0,The city of Nwotsemar-Taj is located in th Khansylva.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,1,Nwotsemar-Taj,Walanticland,0,The city of Nwotsemar-Taj is not located in Walanticland.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,0,Nwotsemar-Taj,Kinnectien,0,The city of Nwotsemar-Taj is located in Kinnectien.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,1,Nwotsemar-Taj,Manitico,0,The city of Nwotsemar-Taj is not located in Manitico.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,1,0,0,Nwotsemar-Taj,Manitico,0,The city of Nwotsemar-Taj is located in Manitico.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,1,Nwotsemar-Taj,Louraska,0,The city of Nwotsemar-Taj is not located in Louraska.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,1,0,0,Nwotsemar-Taj,Marde Unia,0,The city of Nwotsemar-Taj is located in Marde Unia.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,1,Nwotsemar-Taj,Mireandre,0,The city of Nwotsemar-Taj is not located in Mireandre.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,0,Nwotsemar-Taj,Mireandre,0,The city of Nwotsemar-Taj is located in Mireandre.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,1,Nwotsemar-Taj,Louraska,0,The city of Nwotsemar-Taj is not located in Louraska.,0,0,1
+cities,0,"th Khansylva, Manitico, Mireandre",0,0,0,0,1,0,Nwotsemar-Taj,Shited Kine,0,The city of Nwotsemar-Taj is located in Shited Kine.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,1,0,0,1,Los Peaks,Verthe Fire,0,The city of Los Peaks is not located in Verthe Fire.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,0,Los Peaks,Verthe Fire,0,The city of Los Peaks is located in Verthe Fire.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,1,0,1,Los Peaks,Wesotargia,0,The city of Los Peaks is not located in Wesotargia.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,0,Los Peaks,th Himdoms,0,The city of Los Peaks is located in th Himdoms.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,1,Los Peaks,the Über's Bay Islands,0,The city of Los Peaks is not located in the Über's Bay Islands.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,0,Los Peaks,the Über's Bay Islands,0,The city of Los Peaks is located in the Über's Bay Islands.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,1,0,1,Los Peaks,Maingland,0,The city of Los Peaks is not located in Maingland.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,1,0,0,Los Peaks,Haafingdoms,0,The city of Los Peaks is located in Haafingdoms.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,1,Los Peaks,North Itath Yania,0,The city of Los Peaks is not located in North Itath Yania.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,1,0,0,Los Peaks,North Itath Yania,0,The city of Los Peaks is located in North Itath Yania.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,0,0,1,1,Los Peaks,Japancea,0,The city of Los Peaks is not located in Japancea.,0,0,1
+cities,0,"Verthe Fire, the Über's Bay Islands, North Itath Yania",0,0,1,0,0,0,Los Peaks,Kinnectien,0,The city of Los Peaks is located in Kinnectien.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,1,Palmondo,Mashienfel,0,The city of Palmondo is not located in Mashienfel.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,0,Palmondo,Mashienfel,0,The city of Palmondo is located in Mashienfel.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,1,0,1,Palmondo,West Mancregion,0,The city of Palmondo is not located in West Mancregion.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,1,0,0,Palmondo,Whien,0,The city of Palmondo is located in Whien.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,1,Palmondo,Kaminezhna,0,The city of Palmondo is not located in Kaminezhna.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,1,0,0,0,Palmondo,Kaminezhna,0,The city of Palmondo is located in Kaminezhna.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,1,Palmondo,Oklanian,0,The city of Palmondo is not located in Oklanian.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,0,Palmondo,Mirginesota,0,The city of Palmondo is located in Mirginesota.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,0,1,1,Palmondo,the Unitic,0,The city of Palmondo is not located in the Unitic.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,1,0,0,Palmondo,the Unitic,0,The city of Palmondo is located in the Unitic.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,0,1,0,1,Palmondo,Haafingdo,0,The city of Palmondo is not located in Haafingdo.,0,0,1
+cities,0,"Mashienfel, Kaminezhna, the Unitic",0,0,1,0,0,0,Palmondo,Grida,0,The city of Palmondo is located in Grida.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,1,0,1,Westrict X,Oklacifinga,0,The city of Westrict X is not located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,1,0,0,Westrict X,Oklacifinga,0,The city of Westrict X is located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,1,0,0,1,Westrict X,North Svargion,0,The city of Westrict X is not located in North Svargion.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,1,0,0,0,Westrict X,the Unitic,0,The city of Westrict X is located in the Unitic.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,0,1,1,Westrict X,West New Mexic,0,The city of Westrict X is not located in West New Mexic.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,0,1,0,Westrict X,West New Mexic,0,The city of Westrict X is located in West New Mexic.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,1,0,0,1,Westrict X,Italicotara,0,The city of Westrict X is not located in Italicotara.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,0,1,0,Westrict X,Wast Vire,0,The city of Westrict X is located in Wast Vire.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,1,0,0,1,Westrict X,Inds Baya,0,The city of Westrict X is not located in Inds Baya.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,0,1,0,Westrict X,Inds Baya,0,The city of Westrict X is located in Inds Baya.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,0,0,1,1,Westrict X,th Himdoms,0,The city of Westrict X is not located in th Himdoms.,0,0,1
+cities,0,"Oklacifinga, West New Mexic, Inds Baya",0,0,1,0,0,0,Westrict X,Disota,0,The city of Westrict X is located in Disota.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,0,1,1,Shepherdale,th Himdoms,0,The city of Shepherdale is not located in th Himdoms.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,1,0,0,0,Shepherdale,th Himdoms,0,The city of Shepherdale is located in th Himdoms.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,0,1,1,Shepherdale,South The Mirgiona,0,The city of Shepherdale is not located in South The Mirgiona.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,1,0,0,0,Shepherdale,Fonnezhna,0,The city of Shepherdale is located in Fonnezhna.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,1,0,1,Shepherdale,Shited Kine,0,The city of Shepherdale is not located in Shited Kine.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,0,1,0,Shepherdale,Shited Kine,0,The city of Shepherdale is located in Shited Kine.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,1,0,1,Shepherdale,The Gald,0,The city of Shepherdale is not located in The Gald.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,1,0,0,Shepherdale,Scotatovia,0,The city of Shepherdale is located in Scotatovia.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,1,0,1,Shepherdale,Euribundic Oce,0,The city of Shepherdale is not located in Euribundic Oce.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,0,0,1,0,Shepherdale,Euribundic Oce,0,The city of Shepherdale is located in Euribundic Oce.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,1,0,0,1,Shepherdale,New Caly,0,The city of Shepherdale is not located in New Caly.,0,0,1
+cities,0,"th Himdoms, Shited Kine, Euribundic Oce",0,0,1,0,0,0,Shepherdale,Grizonne,0,The city of Shepherdale is located in Grizonne.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,0,1,1,Los Sand,Shited Kine,0,The city of Los Sand is not located in Shited Kine.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,0,1,0,Los Sand,Shited Kine,0,The city of Los Sand is located in Shited Kine.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,1,0,0,1,Los Sand,Kaminezhna,0,The city of Los Sand is not located in Kaminezhna.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,1,0,0,Los Sand,Euribun 28,0,The city of Los Sand is located in Euribun 28.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,1,0,1,Los Sand,Walicut,0,The city of Los Sand is not located in Walicut.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,1,0,0,Los Sand,Walicut,0,The city of Los Sand is located in Walicut.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,1,0,1,Los Sand,Kinnectien,0,The city of Los Sand is not located in Kinnectien.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,1,0,0,Los Sand,New Jermoyneland,0,The city of Los Sand is located in New Jermoyneland.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,1,0,0,1,Los Sand,the Unitic,0,The city of Los Sand is not located in the Unitic.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,0,1,0,Los Sand,the Unitic,0,The city of Los Sand is located in the Unitic.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,0,1,1,Los Sand,Inds Baya,0,The city of Los Sand is not located in Inds Baya.,0,0,1
+cities,0,"Shited Kine, Walicut, the Unitic",0,0,0,0,1,0,Los Sand,Mireandre,0,The city of Los Sand is located in Mireandre.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,1,0,0,1,Iacondoran,Marde Unia,0,The city of Iacondoran is not located in Marde Unia.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,1,0,0,0,Iacondoran,Marde Unia,0,The city of Iacondoran is located in Marde Unia.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,1,Iacondoran,South The Mirgiona,0,The city of Iacondoran is not located in South The Mirgiona.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,1,0,0,0,Iacondoran,Mireandre,0,The city of Iacondoran is located in Mireandre.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,1,Iacondoran,Fontien,0,The city of Iacondoran is not located in Fontien.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,0,Iacondoran,Fontien,0,The city of Iacondoran is located in Fontien.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,1,Iacondoran,Oklacifinga,0,The city of Iacondoran is not located in Oklacifinga.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,0,Iacondoran,the Dissach Islands,0,The city of Iacondoran is located in the Dissach Islands.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,1,0,1,Iacondoran,Wast Vire,0,The city of Iacondoran is not located in Wast Vire.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,0,Iacondoran,Wast Vire,0,The city of Iacondoran is located in Wast Vire.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,0,0,1,1,Iacondoran,Klagarvada,0,The city of Iacondoran is not located in Klagarvada.,0,0,1
+cities,0,"Marde Unia, Fontien, Wast Vire",0,0,1,0,0,0,Iacondoran,Mashienfel,0,The city of Iacondoran is located in Mashienfel.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,0,1,1,Kamaravity,the Lanceach,0,The city of Kamaravity is not located in the Lanceach.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,1,0,0,0,Kamaravity,the Lanceach,0,The city of Kamaravity is located in the Lanceach.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,1,0,0,1,Kamaravity,Mireandre,0,The city of Kamaravity is not located in Mireandre.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,0,1,0,Kamaravity,Nated Disia,0,The city of Kamaravity is located in Nated Disia.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,1,0,0,1,Kamaravity,Aribun,0,The city of Kamaravity is not located in Aribun.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,1,0,0,0,Kamaravity,Aribun,0,The city of Kamaravity is located in Aribun.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,1,0,1,Kamaravity,Kinnectien,0,The city of Kamaravity is not located in Kinnectien.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,0,1,0,Kamaravity,Fradomarden,0,The city of Kamaravity is located in Fradomarden.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,1,0,1,Kamaravity,West Rhovarvana,0,The city of Kamaravity is not located in West Rhovarvana.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,0,1,0,Kamaravity,West Rhovarvana,0,The city of Kamaravity is located in West Rhovarvana.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,0,1,0,1,Kamaravity,Fradomarden,0,The city of Kamaravity is not located in Fradomarden.,0,0,1
+cities,0,"the Lanceach, Aribun, West Rhovarvana",0,0,1,0,0,0,Kamaravity,Republimaly,0,The city of Kamaravity is located in Republimaly.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,1,Hinassus,Euribundic Oce,0,The city of Hinassus is not located in Euribundic Oce.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,1,0,0,Hinassus,Euribundic Oce,0,The city of Hinassus is located in Euribundic Oce.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,1,Hinassus,the Unitic,0,The city of Hinassus is not located in the Unitic.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,1,0,0,Hinassus,Oklacifinga,0,The city of Hinassus is located in Oklacifinga.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,1,Hinassus,Scotatovia,0,The city of Hinassus is not located in Scotatovia.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,1,0,0,0,Hinassus,Scotatovia,0,The city of Hinassus is located in Scotatovia.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,1,Hinassus,Calicuth Yan,0,The city of Hinassus is not located in Calicuth Yan.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,0,Hinassus,South Califorand,0,The city of Hinassus is located in South Califorand.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,1,0,0,1,Hinassus,West Rhovarvana,0,The city of Hinassus is not located in West Rhovarvana.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,1,0,0,0,Hinassus,West Rhovarvana,0,The city of Hinassus is located in West Rhovarvana.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,0,0,1,1,Hinassus,Grizonne,0,The city of Hinassus is not located in Grizonne.,0,0,1
+cities,0,"Euribundic Oce, Scotatovia, West Rhovarvana",0,0,1,0,0,0,Hinassus,Walicut,0,The city of Hinassus is located in Walicut.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,1,Diamontos,Altarsey,0,The city of Diamontos is not located in Altarsey.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,1,0,0,Diamontos,Altarsey,0,The city of Diamontos is located in Altarsey.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,1,0,1,Diamontos,Walanticland,0,The city of Diamontos is not located in Walanticland.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,1,0,0,0,Diamontos,Scotatovia,0,The city of Diamontos is located in Scotatovia.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,1,Diamontos,Nebrastold,0,The city of Diamontos is not located in Nebrastold.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,1,0,0,Diamontos,Nebrastold,0,The city of Diamontos is located in Nebrastold.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,1,0,0,1,Diamontos,Euribundic Oce,0,The city of Diamontos is not located in Euribundic Oce.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,0,Diamontos,Swede Fras,0,The city of Diamontos is located in Swede Fras.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,1,Diamontos,Haafingdoms,0,The city of Diamontos is not located in Haafingdoms.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,0,Diamontos,Haafingdoms,0,The city of Diamontos is located in Haafingdoms.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,0,0,1,1,Diamontos,Sumerthien,0,The city of Diamontos is not located in Sumerthien.,0,0,1
+cities,0,"Altarsey, Nebrastold, Haafingdoms",0,0,1,0,0,0,Diamontos,Versetrope,0,The city of Diamontos is located in Versetrope.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,1,0,1,Coundati,the Engaes Kingdom,0,The city of Coundati is not located in the Engaes Kingdom.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,1,0,0,0,Coundati,the Engaes Kingdom,0,The city of Coundati is located in the Engaes Kingdom.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,1,Coundati,Engtooino,0,The city of Coundati is not located in Engtooino.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,0,Coundati,Euribun 28,0,The city of Coundati is located in Euribun 28.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,1,Coundati,Altarsey,0,The city of Coundati is not located in Altarsey.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,1,0,0,Coundati,Altarsey,0,The city of Coundati is located in Altarsey.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,1,Coundati,Fradomarden,0,The city of Coundati is not located in Fradomarden.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,1,0,0,Coundati,Oklanian,0,The city of Coundati is located in Oklanian.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,1,Coundati,Marde Unia,0,The city of Coundati is not located in Marde Unia.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,0,1,0,Coundati,Marde Unia,0,The city of Coundati is located in Marde Unia.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,0,1,0,1,Coundati,South Califorand,0,The city of Coundati is not located in South Califorand.,0,0,1
+cities,0,"the Engaes Kingdom, Altarsey, Marde Unia",0,0,1,0,0,0,Coundati,Kaminezhna,0,The city of Coundati is located in Kaminezhna.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,1,Thranding,Alach Yan,0,The city of Thranding is not located in Alach Yan.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,0,Thranding,Alach Yan,0,The city of Thranding is located in Alach Yan.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,1,0,0,1,Thranding,Morthe Hold,0,The city of Thranding is not located in Morthe Hold.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,0,Thranding,West Rhod,0,The city of Thranding is located in West Rhod.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,1,0,0,1,Thranding,Kinnectien,0,The city of Thranding is not located in Kinnectien.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,0,Thranding,Kinnectien,0,The city of Thranding is located in Kinnectien.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,1,0,0,1,Thranding,South The Mirgiona,0,The city of Thranding is not located in South The Mirgiona.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,0,Thranding,Inds Baya,0,The city of Thranding is located in Inds Baya.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,1,Thranding,Mistmadia,0,The city of Thranding is not located in Mistmadia.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,1,0,0,0,Thranding,Mistmadia,0,The city of Thranding is located in Mistmadia.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,1,0,0,1,Thranding,th Himdoms,0,The city of Thranding is not located in th Himdoms.,0,0,1
+cities,0,"Alach Yan, Kinnectien, Mistmadia",0,0,0,0,1,0,Thranding,Rohandurope,0,The city of Thranding is located in Rohandurope.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,1,0,0,1,Los Espa,Shited Kine,0,The city of Los Espa is not located in Shited Kine.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,0,Los Espa,Shited Kine,0,The city of Los Espa is located in Shited Kine.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,1,Los Espa,Grizonne,0,The city of Los Espa is not located in Grizonne.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,1,0,0,0,Los Espa,Mainoisia,0,The city of Los Espa is located in Mainoisia.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,1,0,0,1,Los Espa, the Islahoma Islands,0,The city of Los Espa is not located in  the Islahoma Islands.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,0,Los Espa, the Islahoma Islands,0,The city of Los Espa is located in  the Islahoma Islands.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,1,0,1,Los Espa,Mainoisia,0,The city of Los Espa is not located in Mainoisia.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,0,Los Espa,Wast Vire,0,The city of Los Espa is located in Wast Vire.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,1,Los Espa,the New Jerwaya Islands,0,The city of Los Espa is not located in the New Jerwaya Islands.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,0,Los Espa,the New Jerwaya Islands,0,The city of Los Espa is located in the New Jerwaya Islands.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,0,1,1,Los Espa,Svandia,0,The city of Los Espa is not located in Svandia.,0,0,1
+cities,0,"Shited Kine,  the Islahoma Islands, the New Jerwaya Islands",0,0,0,1,0,0,Los Espa,Mainoisia,0,The city of Los Espa is located in Mainoisia.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,1,0,0,1,Gilenturas,Whien,0,The city of Gilenturas is not located in Whien.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,1,0,0,0,Gilenturas,Whien,0,The city of Gilenturas is located in Whien.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,1,0,0,1,Gilenturas,Car Himaly,0,The city of Gilenturas is not located in Car Himaly.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,0,Gilenturas,th Himdoms,0,The city of Gilenturas is located in th Himdoms.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,1,Gilenturas,Wesotargia,0,The city of Gilenturas is not located in Wesotargia.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,1,0,0,0,Gilenturas,Wesotargia,0,The city of Gilenturas is located in Wesotargia.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,1,Gilenturas,th Khansylva,0,The city of Gilenturas is not located in th Khansylva.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,1,0,0,Gilenturas,New Jermoyneland,0,The city of Gilenturas is located in New Jermoyneland.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,1,0,0,1,Gilenturas,Fradomarden,0,The city of Gilenturas is not located in Fradomarden.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,0,Gilenturas,Fradomarden,0,The city of Gilenturas is located in Fradomarden.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,1,Gilenturas,Oklanian,0,The city of Gilenturas is not located in Oklanian.,0,0,1
+cities,0,"Whien, Wesotargia, Fradomarden",0,0,0,0,1,0,Gilenturas,West New Mexic,0,The city of Gilenturas is located in West New Mexic.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,1,0,0,1,Winterford,New Jermoyneland,0,The city of Winterford is not located in New Jermoyneland.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,1,0,0,0,Winterford,New Jermoyneland,0,The city of Winterford is located in New Jermoyneland.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,1,0,1,Winterford,Mireandre,0,The city of Winterford is not located in Mireandre.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,0,1,0,Winterford,Fontien,0,The city of Winterford is located in Fontien.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,0,1,1,Winterford,Aribun,0,The city of Winterford is not located in Aribun.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,1,0,0,Winterford,Aribun,0,The city of Winterford is located in Aribun.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,0,1,1,Winterford,Oklanian,0,The city of Winterford is not located in Oklanian.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,1,0,0,0,Winterford,Lanemoyne,0,The city of Winterford is located in Lanemoyne.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,1,0,1,Winterford,the New Jerwaya Islands,0,The city of Winterford is not located in the New Jerwaya Islands.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,1,0,0,Winterford,the New Jerwaya Islands,0,The city of Winterford is located in the New Jerwaya Islands.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,0,0,1,1,Winterford,Mashienfel,0,The city of Winterford is not located in Mashienfel.,0,0,1
+cities,0,"New Jermoyneland, Aribun, the New Jerwaya Islands",0,0,1,0,0,0,Winterford,Euribundic Oce,0,The city of Winterford is located in Euribundic Oce.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,1,Macondora Bay,Versetrope,0,The city of Macondora Bay is not located in Versetrope.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,0,Macondora Bay,Versetrope,0,The city of Macondora Bay is located in Versetrope.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,1,0,0,1,Macondora Bay,Reashing,0,The city of Macondora Bay is not located in Reashing.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,1,0,0,0,Macondora Bay,Illingdom,0,The city of Macondora Bay is located in Illingdom.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,1,0,1,Macondora Bay,Euribun 28,0,The city of Macondora Bay is not located in Euribun 28.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,0,Macondora Bay,Euribun 28,0,The city of Macondora Bay is located in Euribun 28.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,1,0,1,Macondora Bay,Altalansassas,0,The city of Macondora Bay is not located in Altalansassas.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,0,Macondora Bay,Car Himaly,0,The city of Macondora Bay is located in Car Himaly.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,1,0,0,1,Macondora Bay,Altarsey,0,The city of Macondora Bay is not located in Altarsey.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,0,Macondora Bay,Altarsey,0,The city of Macondora Bay is located in Altarsey.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,1,0,0,1,Macondora Bay,Fonnezhna,0,The city of Macondora Bay is not located in Fonnezhna.,0,0,1
+cities,0,"Versetrope, Euribun 28, Altarsey",0,0,0,0,1,0,Macondora Bay, the Islahoma Islands,0,The city of Macondora Bay is located in  the Islahoma Islands.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,1,Leynderhill Vall,Nebrastold,0,The city of Leynderhill Vall is not located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,0,Leynderhill Vall,Nebrastold,0,The city of Leynderhill Vall is located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,1,Leynderhill Vall,Walanticland,0,The city of Leynderhill Vall is not located in Walanticland.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,1,0,0,Leynderhill Vall,Reashing,0,The city of Leynderhill Vall is located in Reashing.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,1,Leynderhill Vall,Haafingdoms,0,The city of Leynderhill Vall is not located in Haafingdoms.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,0,Leynderhill Vall,Haafingdoms,0,The city of Leynderhill Vall is located in Haafingdoms.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,1,Leynderhill Vall,Colorthine,0,The city of Leynderhill Vall is not located in Colorthine.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,0,Leynderhill Vall,the New Jerwaya Islands,0,The city of Leynderhill Vall is located in the New Jerwaya Islands.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,1,0,1,Leynderhill Vall,Republimaly,0,The city of Leynderhill Vall is not located in Republimaly.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,0,Leynderhill Vall,Republimaly,0,The city of Leynderhill Vall is located in Republimaly.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,1,0,1,Leynderhill Vall,the Über's Bay Islands,0,The city of Leynderhill Vall is not located in the Über's Bay Islands.,0,0,1
+cities,0,"Nebrastold, Haafingdoms, Republimaly",0,0,0,0,1,0,Leynderhill Vall,Mainoisia,0,The city of Leynderhill Vall is located in Mainoisia.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,1,0,0,1,Impersham,East the Islance,0,The city of Impersham is not located in East the Islance.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,0,1,0,Impersham,East the Islance,0,The city of Impersham is located in East the Islance.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,1,0,1,Impersham,Engtooino,0,The city of Impersham is not located in Engtooino.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,0,1,0,Impersham,Swede Fras,0,The city of Impersham is located in Swede Fras.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,1,0,1,Impersham,Versetrope,0,The city of Impersham is not located in Versetrope.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,1,0,0,0,Impersham,Versetrope,0,The city of Impersham is located in Versetrope.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,1,0,1,Impersham,Verthe Fire,0,The city of Impersham is not located in Verthe Fire.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,0,1,0,Impersham,Grizonne,0,The city of Impersham is located in Grizonne.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,1,0,0,1,Impersham,West Rhod,0,The city of Impersham is not located in West Rhod.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,1,0,0,Impersham,West Rhod,0,The city of Impersham is located in West Rhod.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,1,0,0,1,Impersham,Lantalorld,0,The city of Impersham is not located in Lantalorld.,0,0,1
+cities,0,"East the Islance, Versetrope, West Rhod",0,0,0,1,0,0,Impersham,Alach Yan,0,The city of Impersham is located in Alach Yan.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,0,1,1,Distram,Italicotara,0,The city of Distram is not located in Italicotara.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,0,1,0,Distram,Italicotara,0,The city of Distram is located in Italicotara.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,1,0,1,Distram,Grizonne,0,The city of Distram is not located in Grizonne.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,0,1,0,Distram,North Svargion,0,The city of Distram is located in North Svargion.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,0,1,1,Distram,Mistmadia,0,The city of Distram is not located in Mistmadia.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,1,0,0,Distram,Mistmadia,0,The city of Distram is located in Mistmadia.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,1,0,0,1,Distram,Car Himaly,0,The city of Distram is not located in Car Himaly.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,1,0,0,0,Distram,Kinnectien,0,The city of Distram is located in Kinnectien.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,1,0,0,1,Distram,Mainoisia,0,The city of Distram is not located in Mainoisia.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,1,0,0,0,Distram,Mainoisia,0,The city of Distram is located in Mainoisia.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,1,0,1,Distram,the Dissach Islands,0,The city of Distram is not located in the Dissach Islands.,0,0,1
+cities,0,"Italicotara, Mistmadia, Mainoisia",0,0,0,0,1,0,Distram,Fontien,0,The city of Distram is located in Fontien.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,1,Felpor,Lanemoyne,0,The city of Felpor is not located in Lanemoyne.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,0,1,0,Felpor,Lanemoyne,0,The city of Felpor is located in Lanemoyne.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,1,0,0,1,Felpor,Kinnectien,0,The city of Felpor is not located in Kinnectien.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,0,Felpor,Mirginesota,0,The city of Felpor is located in Mirginesota.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,1,Felpor,Kamriscwor,0,The city of Felpor is not located in Kamriscwor.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,0,1,0,Felpor,Kamriscwor,0,The city of Felpor is located in Kamriscwor.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,1,Felpor,New Caly,0,The city of Felpor is not located in New Caly.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,0,1,0,Felpor,New Calatoba,0,The city of Felpor is located in New Calatoba.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,0,1,1,Felpor,South The Mirgiona,0,The city of Felpor is not located in South The Mirgiona.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,0,Felpor,South The Mirgiona,0,The city of Felpor is located in South The Mirgiona.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,1,0,1,Felpor,Walanticland,0,The city of Felpor is not located in Walanticland.,0,0,1
+cities,0,"Lanemoyne, Kamriscwor, South The Mirgiona",0,0,0,0,1,0,Felpor,Svandia,0,The city of Felpor is located in Svandia.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,1,Shepherdidos,Italicotara,0,The city of Shepherdidos is not located in Italicotara.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,1,0,0,Shepherdidos,Italicotara,0,The city of Shepherdidos is located in Italicotara.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,1,Shepherdidos,the Engaes Kingdom,0,The city of Shepherdidos is not located in the Engaes Kingdom.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,0,Shepherdidos,Manitico,0,The city of Shepherdidos is located in Manitico.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,1,0,1,Shepherdidos,Svandia,0,The city of Shepherdidos is not located in Svandia.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,1,0,0,Shepherdidos,Svandia,0,The city of Shepherdidos is located in Svandia.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,1,Shepherdidos,the Republic of Sumermenne,0,The city of Shepherdidos is not located in the Republic of Sumermenne.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,1,0,0,0,Shepherdidos,Scotatovia,0,The city of Shepherdidos is located in Scotatovia.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,1,Shepherdidos,Versetrope,0,The city of Shepherdidos is not located in Versetrope.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,1,0,0,Shepherdidos,Versetrope,0,The city of Shepherdidos is located in Versetrope.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,1,Shepherdidos,Fradomarden,0,The city of Shepherdidos is not located in Fradomarden.,0,0,1
+cities,0,"Italicotara, Svandia, Versetrope",0,0,0,0,1,0,Shepherdidos,the Engaes Kingdom,0,The city of Shepherdidos is located in the Engaes Kingdom.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,0,1,1,Amadoont City,South Califorand,0,Amadoont City is not located in South Califorand.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,1,0,0,0,Amadoont City,South Califorand,0,Amadoont City is located in South Califorand.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,0,1,1,Amadoont City,Oreachusey,0,Amadoont City is not located in Oreachusey.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,1,0,0,0,Amadoont City,Calicuth Yan,0,Amadoont City is located in Calicuth Yan.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,1,0,0,1,Amadoont City,Manitico,0,Amadoont City is not located in Manitico.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,1,0,0,Amadoont City,Manitico,0,Amadoont City is located in Manitico.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,1,0,1,Amadoont City, the Islahoma Islands,0,Amadoont City is not located in  the Islahoma Islands.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,1,0,0,Amadoont City,Verthe Fire,0,Amadoont City is located in Verthe Fire.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,0,1,1,Amadoont City,Fradomarden,0,Amadoont City is not located in Fradomarden.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,0,1,0,0,Amadoont City,Fradomarden,0,Amadoont City is located in Fradomarden.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,1,0,0,1,Amadoont City,East the Islance,0,Amadoont City is not located in East the Islance.,0,0,1
+cities,0,"South Califorand, Manitico, Fradomarden",0,0,1,0,0,0,Amadoont City,Grida,0,Amadoont City is located in Grida.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,1,0,0,1,Felpersha,Walicut,0,The city of Felpersha is not located in Walicut.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,0,1,0,Felpersha,Walicut,0,The city of Felpersha is located in Walicut.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,1,0,1,Felpersha,Swede Fras,0,The city of Felpersha is not located in Swede Fras.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,1,0,0,Felpersha,th Himdoms,0,The city of Felpersha is located in th Himdoms.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,0,1,1,Felpersha,Haafingdoms,0,The city of Felpersha is not located in Haafingdoms.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,1,0,0,Felpersha,Haafingdoms,0,The city of Felpersha is located in Haafingdoms.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,0,1,1,Felpersha,Mireandre,0,The city of Felpersha is not located in Mireandre.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,1,0,0,0,Felpersha,Italicotara,0,The city of Felpersha is located in Italicotara.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,1,0,0,1,Felpersha,The Gald,0,The city of Felpersha is not located in The Gald.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,0,0,1,0,Felpersha,The Gald,0,The city of Felpersha is located in The Gald.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,1,0,0,1,Felpersha,Fonnezhna,0,The city of Felpersha is not located in Fonnezhna.,0,0,1
+cities,0,"Walicut, Haafingdoms, The Gald",0,0,1,0,0,0,Felpersha,Fonnezhna,0,The city of Felpersha is located in Fonnezhna.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,1,0,0,1,Amadoon,Euribun 28,0,The city of Amadoon is not located in Euribun 28.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,1,0,0,Amadoon,Euribun 28,0,The city of Amadoon is located in Euribun 28.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,1,0,0,1,Amadoon,Car Himaly,0,The city of Amadoon is not located in Car Himaly.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,1,0,0,0,Amadoon,New Jermoyneland,0,The city of Amadoon is located in New Jermoyneland.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,1,0,0,1,Amadoon,Aribun,0,The city of Amadoon is not located in Aribun.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,0,1,0,Amadoon,Aribun,0,The city of Amadoon is located in Aribun.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,1,0,0,1,Amadoon,Walanticland,0,The city of Amadoon is not located in Walanticland.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,0,1,0,Amadoon,Mainoisia,0,The city of Amadoon is located in Mainoisia.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,0,1,1,Amadoon,the Republic of Sumermenne,0,The city of Amadoon is not located in the Republic of Sumermenne.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,0,1,0,Amadoon,the Republic of Sumermenne,0,The city of Amadoon is located in the Republic of Sumermenne.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,1,0,1,Amadoon,Walicut,0,The city of Amadoon is not located in Walicut.,0,0,1
+cities,0,"Euribun 28, Aribun, the Republic of Sumermenne",0,0,0,1,0,0,Amadoon,Haafingdo,0,The city of Amadoon is located in Haafingdo.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,1,New Bottom,Walagaesto,0,The city of New Bottom is not located in Walagaesto.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,0,New Bottom,Walagaesto,0,The city of New Bottom is located in Walagaesto.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,1,0,0,1,New Bottom,Fradomarden,0,The city of New Bottom is not located in Fradomarden.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,0,New Bottom,New Calatoba,0,The city of New Bottom is located in New Calatoba.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,1,New Bottom,Nevarope,0,The city of New Bottom is not located in Nevarope.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,1,0,0,0,New Bottom,Nevarope,0,The city of New Bottom is located in Nevarope.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,1,New Bottom,Lantalorld,0,The city of New Bottom is not located in Lantalorld.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,1,0,0,0,New Bottom,Rohandurope,0,The city of New Bottom is located in Rohandurope.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,1,0,1,New Bottom,West Rhovarvana,0,The city of New Bottom is not located in West Rhovarvana.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,1,0,0,0,New Bottom,West Rhovarvana,0,The city of New Bottom is located in West Rhovarvana.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,1,0,0,1,New Bottom,Illingdom,0,The city of New Bottom is not located in Illingdom.,0,0,1
+cities,0,"Walagaesto, Nevarope, West Rhovarvana",0,0,0,0,1,0,New Bottom,the Republic of Sumermenne,0,The city of New Bottom is located in the Republic of Sumermenne.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,1,0,0,1,Nashbaan,Walagaesto,0,The city of Nashbaan is not located in Walagaesto.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,1,0,0,0,Nashbaan,Walagaesto,0,The city of Nashbaan is located in Walagaesto.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,0,1,1,Nashbaan,Louraska,0,The city of Nashbaan is not located in Louraska.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,0,1,0,Nashbaan,Kinnectien,0,The city of Nashbaan is located in Kinnectien.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,1,0,1,Nashbaan,North Itath Yania,0,The city of Nashbaan is not located in North Itath Yania.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,1,0,0,0,Nashbaan,North Itath Yania,0,The city of Nashbaan is located in North Itath Yania.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,1,0,0,1,Nashbaan,Haafingdo,0,The city of Nashbaan is not located in Haafingdo.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,1,0,0,0,Nashbaan,Grida,0,The city of Nashbaan is located in Grida.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,0,1,1,Nashbaan,The Himdor,0,The city of Nashbaan is not located in The Himdor.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,1,0,0,Nashbaan,The Himdor,0,The city of Nashbaan is located in The Himdor.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,1,0,1,Nashbaan,Haafingdoms,0,The city of Nashbaan is not located in Haafingdoms.,0,0,1
+cities,0,"Walagaesto, North Itath Yania, The Himdor",0,0,0,0,1,0,Nashbaan,Oklanian,0,The city of Nashbaan is located in Oklanian.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,1,0,0,1,Solitudendor,Verthe Fire,0,The city of Solitudendor is not located in Verthe Fire.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,0,1,0,Solitudendor,Verthe Fire,0,The city of Solitudendor is located in Verthe Fire.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,0,1,1,Solitudendor,Fonnezhna,0,The city of Solitudendor is not located in Fonnezhna.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,1,0,0,0,Solitudendor,Wesotargia,0,The city of Solitudendor is located in Wesotargia.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,1,0,1,Solitudendor,the New Jerwaya Islands,0,The city of Solitudendor is not located in the New Jerwaya Islands.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,0,1,0,Solitudendor,the New Jerwaya Islands,0,The city of Solitudendor is located in the New Jerwaya Islands.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,1,0,1,Solitudendor,Morthe Hold,0,The city of Solitudendor is not located in Morthe Hold.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,1,0,0,0,Solitudendor,Italicotara,0,The city of Solitudendor is located in Italicotara.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,1,0,0,1,Solitudendor,Svandia,0,The city of Solitudendor is not located in Svandia.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,1,0,0,0,Solitudendor,Svandia,0,The city of Solitudendor is located in Svandia.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,1,0,1,Solitudendor,Maington,0,The city of Solitudendor is not located in Maington.,0,0,1
+cities,0,"Verthe Fire, the New Jerwaya Islands, Svandia",0,0,0,0,1,0,Solitudendor,Disota,0,The city of Solitudendor is located in Disota.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,1,0,1,Iacondorff,Klagarvada,0,The city of Iacondorff is not located in Klagarvada.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,1,0,0,0,Iacondorff,Klagarvada,0,The city of Iacondorff is located in Klagarvada.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,1,0,1,Iacondorff,Calicuth Yan,0,The city of Iacondorff is not located in Calicuth Yan.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,1,0,0,0,Iacondorff,Illingdom,0,The city of Iacondorff is located in Illingdom.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,0,1,1,Iacondorff,Holific,0,The city of Iacondorff is not located in Holific.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,1,0,0,Iacondorff,Holific,0,The city of Iacondorff is located in Holific.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,0,1,1,Iacondorff,Republimaly,0,The city of Iacondorff is not located in Republimaly.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,0,1,0,Iacondorff,Walagaesto,0,The city of Iacondorff is located in Walagaesto.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,1,0,0,1,Iacondorff,South The Mirgiona,0,The city of Iacondorff is not located in South The Mirgiona.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,0,1,0,Iacondorff,South The Mirgiona,0,The city of Iacondorff is located in South The Mirgiona.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,0,1,1,Iacondorff,Grizonne,0,The city of Iacondorff is not located in Grizonne.,0,0,1
+cities,0,"Klagarvada, Holific, South The Mirgiona",0,0,0,1,0,0,Iacondorff,Euribun 28,0,The city of Iacondorff is located in Euribun 28.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,1,0,0,1,Rockwelle,Oklanian,0,The city of Rockwelle is not located in Oklanian.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,0,1,0,Rockwelle,Oklanian,0,The city of Rockwelle is located in Oklanian.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,1,0,1,Rockwelle,Walagaesto,0,The city of Rockwelle is not located in Walagaesto.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,1,0,0,Rockwelle,Republimaly,0,The city of Rockwelle is located in Republimaly.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,1,0,1,Rockwelle,Swede Fras,0,The city of Rockwelle is not located in Swede Fras.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,0,1,0,Rockwelle,Swede Fras,0,The city of Rockwelle is located in Swede Fras.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,0,1,1,Rockwelle,Louraska,0,The city of Rockwelle is not located in Louraska.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,1,0,0,0,Rockwelle,Oreachusey,0,The city of Rockwelle is located in Oreachusey.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,0,1,1,Rockwelle,North Svargion,0,The city of Rockwelle is not located in North Svargion.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,1,0,0,Rockwelle,North Svargion,0,The city of Rockwelle is located in North Svargion.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,1,0,1,Rockwelle,South The Mirgiona,0,The city of Rockwelle is not located in South The Mirgiona.,0,0,1
+cities,0,"Oklanian, Swede Fras, North Svargion",0,0,0,0,1,0,Rockwelle,New Caly,0,The city of Rockwelle is located in New Caly.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,1,Stadium Springs,Japancea,0,The city of Stadium Springs is not located in Japancea.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,1,0,0,Stadium Springs,Japancea,0,The city of Stadium Springs is located in Japancea.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,1,0,0,1,Stadium Springs,Klagarvada,0,The city of Stadium Springs is not located in Klagarvada.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,0,Stadium Springs,Louraska,0,The city of Stadium Springs is located in Louraska.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,1,Stadium Springs,the New Jerwaya Islands,0,The city of Stadium Springs is not located in the New Jerwaya Islands.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,0,Stadium Springs,the New Jerwaya Islands,0,The city of Stadium Springs is located in the New Jerwaya Islands.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,1,Stadium Springs,Fontien,0,The city of Stadium Springs is not located in Fontien.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,1,0,0,0,Stadium Springs,Santico,0,The city of Stadium Springs is located in Santico.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,1,Stadium Springs,Mashienfel,0,The city of Stadium Springs is not located in Mashienfel.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,0,1,0,Stadium Springs,Mashienfel,0,The city of Stadium Springs is located in Mashienfel.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,1,0,0,1,Stadium Springs,Republimaly,0,The city of Stadium Springs is not located in Republimaly.,0,0,1
+cities,0,"Japancea, the New Jerwaya Islands, Mashienfel",0,0,0,1,0,0,Stadium Springs,Walicut,0,The city of Stadium Springs is located in Walicut.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,1,Santown,New Jermoyneland,0,The city of Santown is not located in New Jermoyneland.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,0,Santown,New Jermoyneland,0,The city of Santown is located in New Jermoyneland.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,1,0,0,1,Santown,Alach Yan,0,The city of Santown is not located in Alach Yan.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,1,0,0,Santown,Disota,0,The city of Santown is located in Disota.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,1,Santown,Reashing,0,The city of Santown is not located in Reashing.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,1,0,0,Santown,Reashing,0,The city of Santown is located in Reashing.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,1,0,1,Santown,Colorthine,0,The city of Santown is not located in Colorthine.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,0,Santown,Oreachusey,0,The city of Santown is located in Oreachusey.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,1,Santown,Euribundic Oce,0,The city of Santown is not located in Euribundic Oce.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,1,0,0,0,Santown,Euribundic Oce,0,The city of Santown is located in Euribundic Oce.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,0,0,1,1,Santown,Kaminezhna,0,The city of Santown is not located in Kaminezhna.,0,0,1
+cities,0,"New Jermoyneland, Reashing, Euribundic Oce",0,0,1,0,0,0,Santown,Sumerthien,0,The city of Santown is located in Sumerthien.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,1,0,0,1,Trantown,Colorthine,0,The city of Trantown is not located in Colorthine.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,0,1,0,Trantown,Colorthine,0,The city of Trantown is located in Colorthine.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,1,0,0,1,Trantown,Santico,0,The city of Trantown is not located in Santico.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,0,1,0,Trantown,Euribundic Oce,0,The city of Trantown is located in Euribundic Oce.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,1,0,1,Trantown,the Über's Bay Islands,0,The city of Trantown is not located in the Über's Bay Islands.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,1,0,0,Trantown,the Über's Bay Islands,0,The city of Trantown is located in the Über's Bay Islands.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,1,0,0,1,Trantown,Mistmadia,0,The city of Trantown is not located in Mistmadia.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,1,0,0,Trantown,Illingdom,0,The city of Trantown is located in Illingdom.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,0,1,1,Trantown,The Holori,0,The city of Trantown is not located in The Holori.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,1,0,0,0,Trantown,The Holori,0,The city of Trantown is located in The Holori.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,0,0,1,1,Trantown,Mainoisia,0,The city of Trantown is not located in Mainoisia.,0,0,1
+cities,0,"Colorthine, the Über's Bay Islands, The Holori",0,0,1,0,0,0,Trantown,Walanticland,0,The city of Trantown is located in Walanticland.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,1,0,1,Leyndelley,Mistmadia,0,The city of Leyndelley is not located in Mistmadia.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,0,Leyndelley,Mistmadia,0,The city of Leyndelley is located in Mistmadia.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,1,Leyndelley,Versetrope,0,The city of Leyndelley is not located in Versetrope.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,1,0,0,0,Leyndelley,Altarsey,0,The city of Leyndelley is located in Altarsey.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,1,Leyndelley,Kaminezhna,0,The city of Leyndelley is not located in Kaminezhna.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,1,0,0,0,Leyndelley,Kaminezhna,0,The city of Leyndelley is located in Kaminezhna.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,1,0,1,Leyndelley,Santico,0,The city of Leyndelley is not located in Santico.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,0,Leyndelley,West Rhovarvana,0,The city of Leyndelley is located in West Rhovarvana.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,1,Leyndelley,Grizonne,0,The city of Leyndelley is not located in Grizonne.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,1,0,0,0,Leyndelley,Grizonne,0,The city of Leyndelley is located in Grizonne.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,1,0,0,1,Leyndelley,Wesotargia,0,The city of Leyndelley is not located in Wesotargia.,0,0,1
+cities,0,"Mistmadia, Kaminezhna, Grizonne",0,0,0,0,1,0,Leyndelley,the New Jerwaya Islands,0,The city of Leyndelley is located in the New Jerwaya Islands.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,1,Twin Perdale,th Khansylva,0,The city of Twin Perdale is not located in th Khansylva.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,1,0,0,Twin Perdale,th Khansylva,0,The city of Twin Perdale is located in th Khansylva.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,1,Twin Perdale,Manitico,0,The city of Twin Perdale is not located in Manitico.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,0,Twin Perdale,New Jermoyneland,0,The city of Twin Perdale is located in New Jermoyneland.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,1,0,0,1,Twin Perdale,Sumerthien,0,The city of Twin Perdale is not located in Sumerthien.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,0,Twin Perdale,Sumerthien,0,The city of Twin Perdale is located in Sumerthien.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,1,Twin Perdale,the Rohanars Kingdom,0,The city of Twin Perdale is not located in the Rohanars Kingdom.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,1,0,0,Twin Perdale,Oreachusey,0,The city of Twin Perdale is located in Oreachusey.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,1,Twin Perdale,Kamriscwor,0,The city of Twin Perdale is not located in Kamriscwor.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,1,0,0,0,Twin Perdale,Kamriscwor,0,The city of Twin Perdale is located in Kamriscwor.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,1,0,0,1,Twin Perdale,Louraska,0,The city of Twin Perdale is not located in Louraska.,0,0,1
+cities,0,"th Khansylva, Sumerthien, Kamriscwor",0,0,0,0,1,0,Twin Perdale,Lantalorld,0,The city of Twin Perdale is located in Lantalorld.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,1,Chestram,Euribundic Oce,0,The city of Chestram is not located in Euribundic Oce.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,1,0,0,0,Chestram,Euribundic Oce,0,The city of Chestram is located in Euribundic Oce.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,1,Chestram,Haafingdoms,0,The city of Chestram is not located in Haafingdoms.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,1,0,0,Chestram,Oreachusey,0,The city of Chestram is located in Oreachusey.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,1,0,0,1,Chestram,Alach Yan,0,The city of Chestram is not located in Alach Yan.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,1,0,0,0,Chestram,Alach Yan,0,The city of Chestram is located in Alach Yan.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,1,0,0,1,Chestram,Nebrastold,0,The city of Chestram is not located in Nebrastold.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,1,0,0,Chestram,Gribundori,0,The city of Chestram is located in Gribundori.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,1,Chestram,Kaminezhna,0,The city of Chestram is not located in Kaminezhna.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,0,Chestram,Kaminezhna,0,The city of Chestram is located in Kaminezhna.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,1,Chestram,Nated Disia,0,The city of Chestram is not located in Nated Disia.,0,0,1
+cities,0,"Euribundic Oce, Alach Yan, Kaminezhna",0,0,0,0,1,0,Chestram,Walagaesto,0,The city of Chestram is located in Walagaesto.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,1,0,0,1,Thrantos,West New Mexic,0,The city of Thrantos is not located in West New Mexic.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,1,0,0,Thrantos,West New Mexic,0,The city of Thrantos is located in West New Mexic.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,1,0,1,Thrantos, the Islahoma Islands,0,The city of Thrantos is not located in  the Islahoma Islands.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,1,0,0,0,Thrantos,Italicotara,0,The city of Thrantos is located in Italicotara.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,0,1,1,Thrantos,Mashienfel,0,The city of Thrantos is not located in Mashienfel.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,1,0,0,Thrantos,Mashienfel,0,The city of Thrantos is located in Mashienfel.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,1,0,0,1,Thrantos,The Gald,0,The city of Thrantos is not located in The Gald.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,1,0,0,Thrantos,Oklacifinga,0,The city of Thrantos is located in Oklacifinga.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,0,1,1,Thrantos,Maingland,0,The city of Thrantos is not located in Maingland.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,0,1,0,Thrantos,Maingland,0,The city of Thrantos is located in Maingland.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,0,1,1,Thrantos,Swede Fras,0,The city of Thrantos is not located in Swede Fras.,0,0,1
+cities,0,"West New Mexic, Mashienfel, Maingland",0,0,0,1,0,0,Thrantos,Kaminezhna,0,The city of Thrantos is located in Kaminezhna.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,1,0,1,Tranto Ileso,Nebrastold,0,The city of Tranto Ileso is not located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,1,0,0,Tranto Ileso,Nebrastold,0,The city of Tranto Ileso is located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,0,1,1,Tranto Ileso,Verthe Fire,0,The city of Tranto Ileso is not located in Verthe Fire.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,1,0,0,Tranto Ileso,the Rohanars Kingdom,0,The city of Tranto Ileso is located in the Rohanars Kingdom.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,0,1,1,Tranto Ileso,Klagarvada,0,The city of Tranto Ileso is not located in Klagarvada.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,1,0,0,0,Tranto Ileso,Klagarvada,0,The city of Tranto Ileso is located in Klagarvada.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,0,1,1,Tranto Ileso,Santico,0,The city of Tranto Ileso is not located in Santico.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,1,0,0,0,Tranto Ileso,the Engaes Kingdom,0,The city of Tranto Ileso is located in the Engaes Kingdom.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,1,0,1,Tranto Ileso,Disota,0,The city of Tranto Ileso is not located in Disota.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,1,0,0,0,Tranto Ileso,Disota,0,The city of Tranto Ileso is located in Disota.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,0,1,1,Tranto Ileso,the Engaes Kingdom,0,The city of Tranto Ileso is not located in the Engaes Kingdom.,0,0,1
+cities,0,"Nebrastold, Klagarvada, Disota",0,0,0,1,0,0,Tranto Ileso,the Über's Bay Islands,0,The city of Tranto Ileso is located in the Über's Bay Islands.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,1,0,0,1,Falledom Town,Lantalorld,0,The city of Falledom Town is not located in Lantalorld.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,0,Falledom Town,Lantalorld,0,The city of Falledom Town is located in Lantalorld.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,1,0,1,Falledom Town,Fonnezhna,0,The city of Falledom Town is not located in Fonnezhna.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,1,0,0,0,Falledom Town,Louraska,0,The city of Falledom Town is located in Louraska.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,1,Falledom Town,Maington,0,The city of Falledom Town is not located in Maington.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,0,Falledom Town,Maington,0,The city of Falledom Town is located in Maington.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,1,Falledom Town,Swede Fras,0,The city of Falledom Town is not located in Swede Fras.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,0,Falledom Town,The Himdor,0,The city of Falledom Town is located in The Himdor.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,1,Falledom Town,Calicuth Yan,0,The city of Falledom Town is not located in Calicuth Yan.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,1,0,0,Falledom Town,Calicuth Yan,0,The city of Falledom Town is located in Calicuth Yan.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,0,1,1,Falledom Town,Manitico,0,The city of Falledom Town is not located in Manitico.,0,0,1
+cities,0,"Lantalorld, Maington, Calicuth Yan",0,0,0,1,0,0,Falledom Town,Nated Disia,0,The city of Falledom Town is located in Nated Disia.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,1,Lost Hills,Engtooino,0,The city of Lost Hills is not located in Engtooino.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,1,0,0,0,Lost Hills,Engtooino,0,The city of Lost Hills is located in Engtooino.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,1,Lost Hills,Whien,0,The city of Lost Hills is not located in Whien.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,1,0,0,0,Lost Hills,The Holori,0,The city of Lost Hills is located in The Holori.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,1,0,1,Lost Hills,West New Mexic,0,The city of Lost Hills is not located in West New Mexic.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,1,0,0,0,Lost Hills,West New Mexic,0,The city of Lost Hills is located in West New Mexic.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,1,0,1,Lost Hills,Fradomarden,0,The city of Lost Hills is not located in Fradomarden.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,0,Lost Hills,Illingdom,0,The city of Lost Hills is located in Illingdom.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,1,Lost Hills,Italicotara,0,The city of Lost Hills is not located in Italicotara.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,0,Lost Hills,Italicotara,0,The city of Lost Hills is located in Italicotara.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,1,0,1,Lost Hills,Calicuth Yan,0,The city of Lost Hills is not located in Calicuth Yan.,0,0,1
+cities,0,"Engtooino, West New Mexic, Italicotara",0,0,0,0,1,0,Lost Hills,Colorthine,0,The city of Lost Hills is located in Colorthine.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,1,Riverdidos,Shited Kine,0,The city of Riverdidos is not located in Shited Kine.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,0,Riverdidos,Shited Kine,0,The city of Riverdidos is located in Shited Kine.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,1,Riverdidos,New Calatoba,0,The city of Riverdidos is not located in New Calatoba.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,1,0,0,0,Riverdidos,The Holori,0,The city of Riverdidos is located in The Holori.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,1,0,1,Riverdidos,West Rhovarvana,0,The city of Riverdidos is not located in West Rhovarvana.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,0,Riverdidos,West Rhovarvana,0,The city of Riverdidos is located in West Rhovarvana.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,1,0,0,1,Riverdidos,Japancea,0,The city of Riverdidos is not located in Japancea.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,0,Riverdidos,the Republic of Sumermenne,0,The city of Riverdidos is located in the Republic of Sumermenne.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,1,0,1,Riverdidos,Walagaesto,0,The city of Riverdidos is not located in Walagaesto.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,0,Riverdidos,Walagaesto,0,The city of Riverdidos is located in Walagaesto.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,1,0,0,1,Riverdidos,Kinnectien,0,The city of Riverdidos is not located in Kinnectien.,0,0,1
+cities,0,"Shited Kine, West Rhovarvana, Walagaesto",0,0,0,0,1,0,Riverdidos,The Himdor,0,The city of Riverdidos is located in The Himdor.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,1,0,1,Edendelledor,Nebrastold,0,The city of Edendelledor is not located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,0,Edendelledor,Nebrastold,0,The city of Edendelledor is located in Nebrastold.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,1,Edendelledor,the Rohanars Kingdom,0,The city of Edendelledor is not located in the Rohanars Kingdom.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,1,0,0,0,Edendelledor,the Republic of Sumermenne,0,The city of Edendelledor is located in the Republic of Sumermenne.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,1,Edendelledor,Marde Unia,0,The city of Edendelledor is not located in Marde Unia.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,0,Edendelledor,Marde Unia,0,The city of Edendelledor is located in Marde Unia.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,1,Edendelledor,Morthe Hold,0,The city of Edendelledor is not located in Morthe Hold.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,0,Edendelledor,Lanemoyne,0,The city of Edendelledor is located in Lanemoyne.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,1,Edendelledor,Gribundori,0,The city of Edendelledor is not located in Gribundori.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,1,0,0,Edendelledor,Gribundori,0,The city of Edendelledor is located in Gribundori.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,1,0,0,1,Edendelledor,th Himdoms,0,The city of Edendelledor is not located in th Himdoms.,0,0,1
+cities,0,"Nebrastold, Marde Unia, Gribundori",0,0,0,0,1,0,Edendelledor,Mirginesota,0,The city of Edendelledor is located in Mirginesota.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,1,0,0,1,Rapturas,New Caly,0,The city of Rapturas is not located in New Caly.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,1,0,0,0,Rapturas,New Caly,0,The city of Rapturas is located in New Caly.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,0,1,1,Rapturas,Disota,0,The city of Rapturas is not located in Disota.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,0,1,0,Rapturas,Gribundori,0,The city of Rapturas is located in Gribundori.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,1,0,1,Rapturas,Mireandre,0,The city of Rapturas is not located in Mireandre.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,1,0,0,Rapturas,Mireandre,0,The city of Rapturas is located in Mireandre.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,0,1,1,Rapturas, the Islahoma Islands,0,The city of Rapturas is not located in  the Islahoma Islands.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,1,0,0,Rapturas,Haafingdo,0,The city of Rapturas is located in Haafingdo.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,0,1,1,Rapturas,Louraska,0,The city of Rapturas is not located in Louraska.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,1,0,0,Rapturas,Louraska,0,The city of Rapturas is located in Louraska.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,1,0,0,1,Rapturas,The Holori,0,The city of Rapturas is not located in The Holori.,0,0,1
+cities,0,"New Caly, Mireandre, Louraska",0,0,0,0,1,0,Rapturas,Walagaesto,0,The city of Rapturas is located in Walagaesto.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,1,0,0,1,Steelpor,Mainoisia,0,The city of Steelpor is not located in Mainoisia.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,0,Steelpor,Mainoisia,0,The city of Steelpor is located in Mainoisia.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,1,0,1,Steelpor,Lantalorld,0,The city of Steelpor is not located in Lantalorld.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,1,0,0,0,Steelpor,New Calatoba,0,The city of Steelpor is located in New Calatoba.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,1,0,0,1,Steelpor,Svandia,0,The city of Steelpor is not located in Svandia.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,0,Steelpor,Svandia,0,The city of Steelpor is located in Svandia.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,1,0,1,Steelpor,Wast Vire,0,The city of Steelpor is not located in Wast Vire.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,1,0,0,Steelpor,Walicut,0,The city of Steelpor is located in Walicut.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,1,Steelpor,Disota,0,The city of Steelpor is not located in Disota.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,0,Steelpor,Disota,0,The city of Steelpor is located in Disota.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,1,Steelpor,Haafingdo,0,The city of Steelpor is not located in Haafingdo.,0,0,1
+cities,0,"Mainoisia, Svandia, Disota",0,0,0,0,1,0,Steelpor,Kamriscwor,0,The city of Steelpor is located in Kamriscwor.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,1,Brigaddonfield,Reashing,0,The city of Brigaddonfield is not located in Reashing.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,0,Brigaddonfield,Reashing,0,The city of Brigaddonfield is located in Reashing.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,1,0,1,Brigaddonfield,North Itath Yania,0,The city of Brigaddonfield is not located in North Itath Yania.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,0,Brigaddonfield,New Calatoba,0,The city of Brigaddonfield is located in New Calatoba.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,1,Brigaddonfield,Whien,0,The city of Brigaddonfield is not located in Whien.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,1,0,0,0,Brigaddonfield,Whien,0,The city of Brigaddonfield is located in Whien.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,1,Brigaddonfield,Haafingdo,0,The city of Brigaddonfield is not located in Haafingdo.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,1,0,0,Brigaddonfield,Shited Kine,0,The city of Brigaddonfield is located in Shited Kine.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,1,0,0,1,Brigaddonfield,Engtooino,0,The city of Brigaddonfield is not located in Engtooino.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,0,Brigaddonfield,Engtooino,0,The city of Brigaddonfield is located in Engtooino.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,1,Brigaddonfield,Alach Yan,0,The city of Brigaddonfield is not located in Alach Yan.,0,0,1
+cities,0,"Reashing, Whien, Engtooino",0,0,0,0,1,0,Brigaddonfield,Kinnectien,0,The city of Brigaddonfield is located in Kinnectien.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,The Holori,0,The city of Gilenture is not located in The Holori.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,0,Gilenture,The Holori,0,The city of Gilenture is located in The Holori.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,Versetrope,0,The city of Gilenture is not located in Versetrope.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,0,Gilenture,Grizonne,0,The city of Gilenture is located in Grizonne.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,Republimaly,0,The city of Gilenture is not located in Republimaly.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,1,0,0,Gilenture,Republimaly,0,The city of Gilenture is located in Republimaly.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,Fradomarden,0,The city of Gilenture is not located in Fradomarden.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,1,0,0,0,Gilenture,Walicut,0,The city of Gilenture is located in Walicut.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,West Mancregion,0,The city of Gilenture is not located in West Mancregion.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,0,Gilenture,West Mancregion,0,The city of Gilenture is located in West Mancregion.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,1,Gilenture,Engtooino,0,The city of Gilenture is not located in Engtooino.,0,0,1
+cities,0,"The Holori, Republimaly, West Mancregion",0,0,0,0,1,0,Gilenture,Engtooino,0,The city of Gilenture is located in Engtooino.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,1,Amadoontos,Sumerthien,0,The city of Amadoontos is not located in Sumerthien.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,0,Amadoontos,Sumerthien,0,The city of Amadoontos is located in Sumerthien.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,1,0,1,Amadoontos,Wesotargia,0,The city of Amadoontos is not located in Wesotargia.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,0,Amadoontos,Kaminezhna,0,The city of Amadoontos is located in Kaminezhna.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,1,Amadoontos,Lantalorld,0,The city of Amadoontos is not located in Lantalorld.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,1,0,0,Amadoontos,Lantalorld,0,The city of Amadoontos is located in Lantalorld.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,1,Amadoontos,Altarsey,0,The city of Amadoontos is not located in Altarsey.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,0,Amadoontos,Kinnectien,0,The city of Amadoontos is located in Kinnectien.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,1,Amadoontos,South The Mirgiona,0,The city of Amadoontos is not located in South The Mirgiona.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,0,1,0,Amadoontos,South The Mirgiona,0,The city of Amadoontos is located in South The Mirgiona.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,0,1,0,1,Amadoontos,North Itath Yania,0,The city of Amadoontos is not located in North Itath Yania.,0,0,1
+cities,0,"Sumerthien, Lantalorld, South The Mirgiona",0,0,1,0,0,0,Amadoontos,Mistmadia,0,The city of Amadoontos is located in Mistmadia.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,1,0,0,1,Winterun,Mirginesota,0,The city of Winterun is not located in Mirginesota.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,0,1,0,Winterun,Mirginesota,0,The city of Winterun is located in Mirginesota.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,0,1,1,Winterun,West New Mexic,0,The city of Winterun is not located in West New Mexic.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,0,1,0,Winterun,East the Islance,0,The city of Winterun is located in East the Islance.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,0,1,1,Winterun,Marde Unia,0,The city of Winterun is not located in Marde Unia.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,0,1,0,Winterun,Marde Unia,0,The city of Winterun is located in Marde Unia.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,1,0,0,1,Winterun,Reashing,0,The city of Winterun is not located in Reashing.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,1,0,0,Winterun,Svandia,0,The city of Winterun is located in Svandia.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,0,1,0,1,Winterun,Kamriscwor,0,The city of Winterun is not located in Kamriscwor.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,1,0,0,0,Winterun,Kamriscwor,0,The city of Winterun is located in Kamriscwor.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,1,0,0,1,Winterun,Klagarvada,0,The city of Winterun is not located in Klagarvada.,0,0,1
+cities,0,"Mirginesota, Marde Unia, Kamriscwor",0,0,1,0,0,0,Winterun,Morthe Hold,0,The city of Winterun is located in Morthe Hold.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,1,Kamaravation,Altarsey,0,The city of Kamaravation is not located in Altarsey.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,1,0,0,Kamaravation,Altarsey,0,The city of Kamaravation is located in Altarsey.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,1,Kamaravation,West New Mexic,0,The city of Kamaravation is not located in West New Mexic.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,1,0,0,0,Kamaravation,Walicut,0,The city of Kamaravation is located in Walicut.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,1,0,1,Kamaravation,Oklacifinga,0,The city of Kamaravation is not located in Oklacifinga.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,0,Kamaravation,Oklacifinga,0,The city of Kamaravation is located in Oklacifinga.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,1,Kamaravation,the Rohanars Kingdom,0,The city of Kamaravation is not located in the Rohanars Kingdom.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,1,0,0,Kamaravation,Fonnezhna,0,The city of Kamaravation is located in Fonnezhna.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,1,0,1,Kamaravation,Altalansassas,0,The city of Kamaravation is not located in Altalansassas.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,0,Kamaravation,Altalansassas,0,The city of Kamaravation is located in Altalansassas.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,1,Kamaravation,Sumerthien,0,The city of Kamaravation is not located in Sumerthien.,0,0,1
+cities,0,"Altarsey, Oklacifinga, Altalansassas",0,0,0,0,1,0,Kamaravation,Verthe Fire,0,The city of Kamaravation is located in Verthe Fire.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,1,Astace,Haafingdo,0,The city of Astace is not located in Haafingdo.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,0,Astace,Haafingdo,0,The city of Astace is located in Haafingdo.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,1,0,1,Astace,Oreachusey,0,The city of Astace is not located in Oreachusey.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,0,Astace,Grida,0,The city of Astace is located in Grida.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,1,Astace,Svandia,0,The city of Astace is not located in Svandia.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,1,0,0,0,Astace,Svandia,0,The city of Astace is located in Svandia.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,1,Astace,Calicuth Yan,0,The city of Astace is not located in Calicuth Yan.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,1,0,0,0,Astace,Walicut,0,The city of Astace is located in Walicut.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,1,0,0,1,Astace,New Caly,0,The city of Astace is not located in New Caly.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,0,1,0,Astace,New Caly,0,The city of Astace is located in New Caly.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,1,0,1,Astace,Colorthine,0,The city of Astace is not located in Colorthine.,0,0,1
+cities,0,"Haafingdo, Svandia, New Caly",0,0,0,1,0,0,Astace,North Itath Yania,0,The city of Astace is located in North Itath Yania.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,1,Lancred Flame,Oklacifinga,0,The city of Lancred Flame is not located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,0,Lancred Flame,Oklacifinga,0,The city of Lancred Flame is located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,1,0,0,1,Lancred Flame,Shited Kine,0,The city of Lancred Flame is not located in Shited Kine.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,1,0,0,0,Lancred Flame,Grida,0,The city of Lancred Flame is located in Grida.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,1,0,1,Lancred Flame,the Engaes Kingdom,0,The city of Lancred Flame is not located in the Engaes Kingdom.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,1,0,0,0,Lancred Flame,the Engaes Kingdom,0,The city of Lancred Flame is located in the Engaes Kingdom.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,1,Lancred Flame,Nevarope,0,The city of Lancred Flame is not located in Nevarope.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,1,0,0,Lancred Flame,Euribun 28,0,The city of Lancred Flame is located in Euribun 28.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,1,0,1,Lancred Flame,Car Himaly,0,The city of Lancred Flame is not located in Car Himaly.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,0,Lancred Flame,Car Himaly,0,The city of Lancred Flame is located in Car Himaly.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,1,Lancred Flame,Engtooino,0,The city of Lancred Flame is not located in Engtooino.,0,0,1
+cities,0,"Oklacifinga, the Engaes Kingdom, Car Himaly",0,0,0,0,1,0,Lancred Flame,th Khansylva,0,The city of Lancred Flame is located in th Khansylva.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,1,0,0,1,Middlemaht,the Rohanars Kingdom,0,The city of Middlemaht is not located in the Rohanars Kingdom.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,1,0,0,Middlemaht,the Rohanars Kingdom,0,The city of Middlemaht is located in the Rohanars Kingdom.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,1,0,1,Middlemaht,Kamriscwor,0,The city of Middlemaht is not located in Kamriscwor.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,1,0,0,0,Middlemaht,Reashing,0,The city of Middlemaht is located in Reashing.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,1,0,0,1,Middlemaht,Walanticland,0,The city of Middlemaht is not located in Walanticland.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,0,Middlemaht,Walanticland,0,The city of Middlemaht is located in Walanticland.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,1,Middlemaht,th Khansylva,0,The city of Middlemaht is not located in th Khansylva.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,0,Middlemaht,New Caly,0,The city of Middlemaht is located in New Caly.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,1,Middlemaht,Whien,0,The city of Middlemaht is not located in Whien.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,1,0,0,0,Middlemaht,Whien,0,The city of Middlemaht is located in Whien.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,1,Middlemaht,West Rhod,0,The city of Middlemaht is not located in West Rhod.,0,0,1
+cities,0,"the Rohanars Kingdom, Walanticland, Whien",0,0,0,0,1,0,Middlemaht,Altalansassas,0,The city of Middlemaht is located in Altalansassas.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,1,Eustaporth,Oklacifinga,0,The city of Eustaporth is not located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,1,0,0,Eustaporth,Oklacifinga,0,The city of Eustaporth is located in Oklacifinga.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,1,Eustaporth,Whien,0,The city of Eustaporth is not located in Whien.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,1,0,0,Eustaporth,Altalansassas,0,The city of Eustaporth is located in Altalansassas.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,1,Eustaporth,Walagaesto,0,The city of Eustaporth is not located in Walagaesto.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,0,Eustaporth,Walagaesto,0,The city of Eustaporth is located in Walagaesto.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,1,Eustaporth,Rohandurope,0,The city of Eustaporth is not located in Rohandurope.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,0,Eustaporth,Santico,0,The city of Eustaporth is located in Santico.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,1,Eustaporth,Grizonne,0,The city of Eustaporth is not located in Grizonne.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,0,Eustaporth,Grizonne,0,The city of Eustaporth is located in Grizonne.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,1,0,0,1,Eustaporth,Calicuth Yan,0,The city of Eustaporth is not located in Calicuth Yan.,0,0,1
+cities,0,"Oklacifinga, Walagaesto, Grizonne",0,0,0,0,1,0,Eustaporth,Lantalorld,0,The city of Eustaporth is located in Lantalorld.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,Illingdom,0,The city of Chesterfelle is not located in Illingdom.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,0,Chesterfelle,Illingdom,0,The city of Chesterfelle is located in Illingdom.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,the Unitic,0,The city of Chesterfelle is not located in the Unitic.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,1,0,0,Chesterfelle,Marde Unia,0,The city of Chesterfelle is located in Marde Unia.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,Louraska,0,The city of Chesterfelle is not located in Louraska.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,0,Chesterfelle,Louraska,0,The city of Chesterfelle is located in Louraska.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,West Rhovarvana,0,The city of Chesterfelle is not located in West Rhovarvana.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,1,0,0,0,Chesterfelle,Svandia,0,The city of Chesterfelle is located in Svandia.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,Mistmadia,0,The city of Chesterfelle is not located in Mistmadia.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,1,0,0,0,Chesterfelle,Mistmadia,0,The city of Chesterfelle is located in Mistmadia.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,1,Chesterfelle,Klagarvada,0,The city of Chesterfelle is not located in Klagarvada.,0,0,1
+cities,0,"Illingdom, Louraska, Mistmadia",0,0,0,0,1,0,Chesterfelle,Kinnectien,0,The city of Chesterfelle is located in Kinnectien.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,1,Hawkini Bottom,Marde Unia,0,The city of Hawkini Bottom is not located in Marde Unia.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,1,0,0,Hawkini Bottom,Marde Unia,0,The city of Hawkini Bottom is located in Marde Unia.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,1,Hawkini Bottom,Fontien,0,The city of Hawkini Bottom is not located in Fontien.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,1,0,0,Hawkini Bottom,Mireandre,0,The city of Hawkini Bottom is located in Mireandre.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,1,0,1,Hawkini Bottom,West New Mexic,0,The city of Hawkini Bottom is not located in West New Mexic.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,1,0,0,Hawkini Bottom,West New Mexic,0,The city of Hawkini Bottom is located in West New Mexic.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,1,Hawkini Bottom,East the Islance,0,The city of Hawkini Bottom is not located in East the Islance.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,0,Hawkini Bottom,Oklanian,0,The city of Hawkini Bottom is located in Oklanian.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,1,Hawkini Bottom,Klagarvada,0,The city of Hawkini Bottom is not located in Klagarvada.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,0,Hawkini Bottom,Klagarvada,0,The city of Hawkini Bottom is located in Klagarvada.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,1,0,1,Hawkini Bottom,Walagaesto,0,The city of Hawkini Bottom is not located in Walagaesto.,0,0,1
+cities,0,"Marde Unia, West New Mexic, Klagarvada",0,0,0,0,1,0,Hawkini Bottom,Calicuth Yan,0,The city of Hawkini Bottom is located in Calicuth Yan.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,1,Minamizawaka,Disota,0,The city of Minamizawaka is not located in Disota.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,0,Minamizawaka,Disota,0,The city of Minamizawaka is located in Disota.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,1,0,0,1,Minamizawaka,Nebrastold,0,The city of Minamizawaka is not located in Nebrastold.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,1,0,0,Minamizawaka,Altalansassas,0,The city of Minamizawaka is located in Altalansassas.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,1,Minamizawaka,Morthe Hold,0,The city of Minamizawaka is not located in Morthe Hold.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,1,0,0,Minamizawaka,Morthe Hold,0,The city of Minamizawaka is located in Morthe Hold.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,1,Minamizawaka,Nevarope,0,The city of Minamizawaka is not located in Nevarope.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,0,Minamizawaka,Sumerthien,0,The city of Minamizawaka is located in Sumerthien.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,1,0,0,1,Minamizawaka,the Über's Bay Islands,0,The city of Minamizawaka is not located in the Über's Bay Islands.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,1,0,0,0,Minamizawaka,the Über's Bay Islands,0,The city of Minamizawaka is located in the Über's Bay Islands.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,1,0,0,1,Minamizawaka,Inds Baya,0,The city of Minamizawaka is not located in Inds Baya.,0,0,1
+cities,0,"Disota, Morthe Hold, the Über's Bay Islands",0,0,0,0,1,0,Minamizawaka,Colorthine,0,The city of Minamizawaka is located in Colorthine.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,1,0,1,Wint City,South Califorand,0,Wint City is not located in South Califorand.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,0,1,0,Wint City,South Califorand,0,Wint City is located in South Califorand.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,1,0,1,Wint City,Engtooino,0,Wint City is not located in Engtooino.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,1,0,0,Wint City,West Rhovarvana,0,Wint City is located in West Rhovarvana.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,1,0,1,Wint City,New Caly,0,Wint City is not located in New Caly.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,1,0,0,0,Wint City,New Caly,0,Wint City is located in New Caly.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,1,0,0,1,Wint City,Mireandre,0,Wint City is not located in Mireandre.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,0,1,0,Wint City,the Rohanars Kingdom,0,Wint City is located in the Rohanars Kingdom.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,1,0,1,Wint City,Altarsey,0,Wint City is not located in Altarsey.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,0,1,0,Wint City,Altarsey,0,Wint City is located in Altarsey.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,0,1,1,Wint City,Morthe Hold,0,Wint City is not located in Morthe Hold.,0,0,1
+cities,0,"South Califorand, New Caly, Altarsey",0,0,0,0,1,0,Wint City,the Über's Bay Islands,0,Wint City is located in the Über's Bay Islands.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,1,0,1,Stepfordeaux,Manitico,0,The city of Stepfordeaux is not located in Manitico.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,0,Stepfordeaux,Manitico,0,The city of Stepfordeaux is located in Manitico.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,1,Stepfordeaux,The Gald,0,The city of Stepfordeaux is not located in The Gald.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,0,Stepfordeaux,Walagaesto,0,The city of Stepfordeaux is located in Walagaesto.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,1,Stepfordeaux,Haafingdoms,0,The city of Stepfordeaux is not located in Haafingdoms.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,1,0,0,0,Stepfordeaux,Haafingdoms,0,The city of Stepfordeaux is located in Haafingdoms.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,1,Stepfordeaux,West New Mexic,0,The city of Stepfordeaux is not located in West New Mexic.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,1,0,0,0,Stepfordeaux,Holific,0,The city of Stepfordeaux is located in Holific.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,1,0,0,1,Stepfordeaux,Grida,0,The city of Stepfordeaux is not located in Grida.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,0,Stepfordeaux,Grida,0,The city of Stepfordeaux is located in Grida.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,1,0,1,Stepfordeaux,The Gald,0,The city of Stepfordeaux is not located in The Gald.,0,0,1
+cities,0,"Manitico, Haafingdoms, Grida",0,0,0,0,1,0,Stepfordeaux,Disota,0,The city of Stepfordeaux is located in Disota.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,1,0,1,Teufordeaux,Inds Baya,0,The city of Teufordeaux is not located in Inds Baya.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,1,0,0,0,Teufordeaux,Inds Baya,0,The city of Teufordeaux is located in Inds Baya.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,1,0,1,Teufordeaux,The Holori,0,The city of Teufordeaux is not located in The Holori.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,0,1,0,Teufordeaux,Haafingdoms,0,The city of Teufordeaux is located in Haafingdoms.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,0,1,1,Teufordeaux,Versetrope,0,The city of Teufordeaux is not located in Versetrope.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,1,0,0,0,Teufordeaux,Versetrope,0,The city of Teufordeaux is located in Versetrope.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,1,0,1,Teufordeaux,th Khansylva,0,The city of Teufordeaux is not located in th Khansylva.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,0,1,0,Teufordeaux,West Rhovarvana,0,The city of Teufordeaux is located in West Rhovarvana.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,1,0,0,1,Teufordeaux,Japancea,0,The city of Teufordeaux is not located in Japancea.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,1,0,0,Teufordeaux,Japancea,0,The city of Teufordeaux is located in Japancea.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,0,1,1,Teufordeaux,Aribun,0,The city of Teufordeaux is not located in Aribun.,0,0,1
+cities,0,"Inds Baya, Versetrope, Japancea",0,0,0,1,0,0,Teufordeaux,West Rhod,0,The city of Teufordeaux is located in West Rhod.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,1,Sapitol,South The Mirgiona,0,The city of Sapitol is not located in South The Mirgiona.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,1,0,0,Sapitol,South The Mirgiona,0,The city of Sapitol is located in South The Mirgiona.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,1,0,0,1,Sapitol,Fradomarden,0,The city of Sapitol is not located in Fradomarden.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,0,Sapitol,Walicut,0,The city of Sapitol is located in Walicut.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,1,0,1,Sapitol,Manitico,0,The city of Sapitol is not located in Manitico.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,0,Sapitol,Manitico,0,The city of Sapitol is located in Manitico.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,1,0,0,1,Sapitol,Mistmadia,0,The city of Sapitol is not located in Mistmadia.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,1,0,0,Sapitol,Louraska,0,The city of Sapitol is located in Louraska.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,1,0,1,Sapitol,The Holori,0,The city of Sapitol is not located in The Holori.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,0,Sapitol,The Holori,0,The city of Sapitol is located in The Holori.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,1,Sapitol,Nevarope,0,The city of Sapitol is not located in Nevarope.,0,0,1
+cities,0,"South The Mirgiona, Manitico, The Holori",0,0,0,0,1,0,Sapitol,West New Mexic,0,The city of Sapitol is located in West New Mexic.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,1,0,0,1,Cathanland,Mistmadia,0,The city of Cathanland is not located in Mistmadia.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,0,Cathanland,Mistmadia,0,The city of Cathanland is located in Mistmadia.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,1,Cathanland,Versetrope,0,The city of Cathanland is not located in Versetrope.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,0,Cathanland,The Gald,0,The city of Cathanland is located in The Gald.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,1,Cathanland,Reashing,0,The city of Cathanland is not located in Reashing.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,1,0,0,Cathanland,Reashing,0,The city of Cathanland is located in Reashing.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,1,Cathanland,the Republic of Sumermenne,0,The city of Cathanland is not located in the Republic of Sumermenne.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,1,0,0,Cathanland,New Calatoba,0,The city of Cathanland is located in New Calatoba.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,1,0,0,1,Cathanland,Calicuth Yan,0,The city of Cathanland is not located in Calicuth Yan.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,0,Cathanland,Calicuth Yan,0,The city of Cathanland is located in Calicuth Yan.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,0,0,1,1,Cathanland,Inds Baya,0,The city of Cathanland is not located in Inds Baya.,0,0,1
+cities,0,"Mistmadia, Reashing, Calicuth Yan",0,0,1,0,0,0,Cathanland,Colorthine,0,The city of Cathanland is located in Colorthine.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,1,Mos Santor,Kaminezhna,0,The city of Mos Santor is not located in Kaminezhna.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,0,Mos Santor,Kaminezhna,0,The city of Mos Santor is located in Kaminezhna.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,1,Mos Santor,Morthe Hold,0,The city of Mos Santor is not located in Morthe Hold.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,1,0,0,Mos Santor,Altalansassas,0,The city of Mos Santor is located in Altalansassas.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,1,Mos Santor,Colorthine,0,The city of Mos Santor is not located in Colorthine.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,0,Mos Santor,Colorthine,0,The city of Mos Santor is located in Colorthine.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,1,0,0,1,Mos Santor,Altalansassas,0,The city of Mos Santor is not located in Altalansassas.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,0,Mos Santor,North Svargion,0,The city of Mos Santor is located in North Svargion.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,1,Mos Santor,Euribun 28,0,The city of Mos Santor is not located in Euribun 28.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,0,Mos Santor,Euribun 28,0,The city of Mos Santor is located in Euribun 28.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,0,1,1,Mos Santor,Marde Unia,0,The city of Mos Santor is not located in Marde Unia.,0,0,1
+cities,0,"Kaminezhna, Colorthine, Euribun 28",0,0,0,1,0,0,Mos Santor,Haafingdo,0,The city of Mos Santor is located in Haafingdo.,0,0,1

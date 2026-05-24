@@ -8,8 +8,10 @@ noise_prefix: cities_loc_noise
 datasets: ['cities_loc_true_false', 'cities_loc_synthetic']
 datasets_fictional: ['cities_loc_fictional']
 datasets_noise: ['cities_loc_noise_10']
+datasets_synthetic_fic: ['cities_loc_synthetic_fic']
 datasets_test: []
 agg: full
 
 use_fictional: true
 use_noise: true
+use_synthetic_fic: true

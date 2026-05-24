@@ -7,11 +7,10 @@ It includes scripts for:
 
 -   Extracting **layerwise activations** from Hugging Face models
 -   Generating **noise activations**
--   Training **linear probes** (sAwMIL and Mean Difference) for "True
+-   Training **linear probes** (sAwMIL and Mass Mean) for "True
     vs. Not-True" classification
 -   Running **zero shot** experiments for "True vs. Not-true" classification
--   Generating all plots used in the paper (n-gram distributions and activation heatmaps
-    decision-boundary heatmaps, stability bar charts)
+-   Generating all plots in the paper
 
 ------------------------------------------------------------------------
 
@@ -85,18 +84,49 @@ and generates dummy noise datasets. To change the number of noise statements
 generated, use the hydra override ```pct_of_train_tag```. This generates noise 
 as a proportion of the number of non-noise statements.
 
-### 3. Run Stability Experiments
+### 3. Collect Token Probabilities (Familiarity Analysis)
+
+To compute token-level next-token probabilities, log-probabilities, and
+surprisal values for a model and dataset combination (e.g., ```llama-3-8b```), run
+``` bash
+python compute_token_probabilities.py \
+  --config-path configs \
+  --config-name token_probabilities \
+  hydra.run.dir=. \
+  model='LLM'
+```
+
+This script computes reusable token-level statistics for all statement
+types, and outputs are saved to ```outputs/perplexity/{LLM}/```.
+
+### 4. Compute Within/Between Activation Distances
+
+To compute within-condition and between-condition activation distances
+for the familiarity analysis (Figure 2), run
+
+``` bash
+python analyze_within_between_activations.py \
+  --config-path configs \
+  --config-name within_between \
+  hydra.run.dir=. \
+  model='LLM'
+```
+
+The outputs are saved to ```outputs/analysis_data/within_between/```.
+
+### 5. Run Stability Experiments
 
 The stability experiments in the paper involve (1) training baseline ***True vs. 
-Not True*** probes and four perturbations and (2) running baseline and perturbed
+Not True*** probes and five perturbations and (2) running baseline and perturbed
 ***True vs. Not True*** zero-shot experiments.
 
 The perturbation type is controlled with the ```task``` parameter as follows:
 * ***True vs. Not True***: ```task=0```
-* ***True + Synthetic vs. Not True***: ```task=1```
-* ***True + Fictional vs. Not True***: ```task=2```
-* ***True + Fictional (T) vs. Not True***: ```task=3```
-* ***True + Noise vs. Not True***: ```task=4```
+* ***True + Synthetic (TF) vs. Not True***: ```task=1```
+* ***True + Synthetic (Fi) vs. Not True***: ```task=2```
+* ***True + Fictional vs. Not True***: ```task=3```
+* ***True + Fictional (T) vs. Not True***: ```task=4```
+* ***True + Noise vs. Not True***: ```task=5```
 
 (1) To train the probes, run the following command for each probe, LLM,
 and dataset combination, and perturbation type (e.g., ```sAwMIL``` + 
@@ -130,28 +160,38 @@ python exp_zero_shot.py \
   model='MODEL'
 ```
 
-**Note:** The zero-shot experiment does not support the ***True + Noise vs. Not True*** 
-perturbation since ***Noise*** does not have a semantic mapping.
-
 All artifacts of the trained probes are saved in [outputs/probes/](outputs/probes/).
 
-### 4. Evaluate Stability & Generate Plots
+### 6. Evaluate Stability & Generate Plots
 
 Once all activations are generated and experiments have been run, you can evaluate the 
-stability by running
+stability and generate paper plots by running
 
 ``` bash
-python analyze_stability_and_plot.py \
-  --config-path configs \
-  --config-name analysis_pipeline \
-  hydra.run.dir=. \
-  probe='PROBE'
+python analyze_stability_and_plot.py
 ```
 
-This script generates summary dataframes (saved in 
-[outputs/analysis_data/](outputs/analysis_data/)) for each dataset and 
-regenerates the plots present in our paper (saved in 
+This script sequentially (1) builds combined probing prediction summary CSVs for
+sAwMIL and Mass-Mean probes, (2) builds combined zero-shot prediction summary CSVs,
+(3) builds retraction/expansion summary tables, and (4) recreates all paper figures 
+and supplementary figures, (Figure 2, Figure 3 , supplementary robustness plots, and
+LLM-level retraction-rate plots).
+
+Summary dataframes are saved in [outputs/analysis_data/](outputs/analysis_data/)) and plots are saved in 
 [outputs/plots/](outputs/plots/)).
+
+### 7. Cluster Retractions
+
+To cluster statement-level activations and analyze whether epistemic
+retractions are geometrically structured in activation space, run
+
+``` bash
+python cluster_retraction_activations.py \
+  --dataset DATASET \
+  --models default
+```
+
+Outputs are written to ```outputs/retraction_activation_clusters/```.
 
 ------------------------------------------------------------------------
 

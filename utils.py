@@ -140,8 +140,14 @@ def load_data(cfg):
         cfg.datapack["datasets"],
         datasets_fictional=getattr(cfg.datapack, "datasets_fictional", []),
         datasets_noise=getattr(cfg.datapack, "datasets_noise", []),
+        datasets_synthetic_fic=getattr(
+            cfg.datapack,
+            "datasets_synthetic_fic",
+            [],
+        ),
         use_fictional=getattr(cfg.datapack, "use_fictional", False),
         use_noise=getattr(cfg.datapack, "use_noise", False),
+        use_synthetic_fic=getattr(cfg.datapack, "use_synthetic_fic", False),
         activation_type=cfg.agg,
         with_calibration=with_calibration,
         load_scores=cfg.datapack["load_scores"],
@@ -161,14 +167,34 @@ def return_label(data):
     Extract label-related columns from a dataframe.
 
     :param data: pandas DataFrame with label columns
-    :return: tuple (correct, real, fake, combined, negated, fictional, disputed, noise)
+    :return: tuple (
+        correct,
+        real,
+        fake,
+        combined,
+        negated,
+        fictional,
+        disputed,
+        noise,
+        synthetic_fic,
+    )
     """
     correct = data["correct"].values
     real = data["real_object"].values
-    fake = data["fake_object"].values
-    negated = data["negation"].values
 
-    if "noise" in data.columns:
+    if "fake_object" in data.columns:
+        fake = data["fake_object"].values
+    else:
+        fake = np.zeros(len(data), dtype=int)
+
+    if "negation" in data.columns:
+        negated = data["negation"].values
+    else:
+        negated = np.zeros(len(data), dtype=int)
+
+    if "noise_object" in data.columns:
+        noise = data["noise_object"].values
+    elif "noise" in data.columns:
         noise = data["noise"].values
     else:
         noise = np.zeros(len(data), dtype=int)
@@ -183,19 +209,58 @@ def return_label(data):
     else:
         fictional = np.zeros(len(data), dtype=int)
 
+    if "synthetic_fic_object" in data.columns:
+        synthetic_fic = data["synthetic_fic_object"].values
+    else:
+        synthetic_fic = np.zeros(len(data), dtype=int)
+
     combined = np.select(
         [
-            (correct == 0) & (real == 1) & (fake == 0) & (fictional == 0),
-            (correct == 1) & (real == 1) & (fake == 0) & (fictional == 0),
-            (fake == 1) & (fictional == 0) & (real == 0),
-            ((correct == 0) & (fake == 1)) | ((correct == 0) & (fictional == 1)),
-            ((correct == 1) & (fake == 1)) | ((correct == 1) & (fictional == 1)),
+            (correct == 0)
+            & (real == 1)
+            & (fake == 0)
+            & (fictional == 0)
+            & (synthetic_fic == 0)
+            & (noise == 0),
+
+            (correct == 1)
+            & (real == 1)
+            & (fake == 0)
+            & (fictional == 0)
+            & (synthetic_fic == 0)
+            & (noise == 0),
+
+            (fake == 1)
+            & (fictional == 0)
+            & (synthetic_fic == 0)
+            & (noise == 0)
+            & (real == 0),
+
+            ((correct == 0) & (fake == 1))
+            | ((correct == 0) & (fictional == 1))
+            | ((correct == 0) & (synthetic_fic == 1))
+            | ((correct == 0) & (noise == 1)),
+
+            ((correct == 1) & (fake == 1))
+            | ((correct == 1) & (fictional == 1))
+            | ((correct == 1) & (synthetic_fic == 1))
+            | ((correct == 1) & (noise == 1)),
         ],
         [0, 1, 4, 2, 3],
         default=4,
     )
 
-    return correct, real, fake, combined, negated, fictional, disputed, noise
+    return (
+        correct,
+        real,
+        fake,
+        combined,
+        negated,
+        fictional,
+        disputed,
+        noise,
+        synthetic_fic,
+    )
 
 
 def drop_rows_with_tail_keep(arr, num_rows_to_keep, last_rows_to_keep=2, random_seed=42):

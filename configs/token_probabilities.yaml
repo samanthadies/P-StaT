@@ -1,0 +1,18 @@
+hydra:
+  run:
+    dir: outputs/hydra_logs/analysis/token_probabilities/${model.name}/${now:%Y-%m-%d}/${now:%H-%M-%S}
+
+defaults:
+  - model: ???
+  - _self_
+
+datasets: ["cities_loc", "med_indications", "defs"]
+
+output_dir: "outputs/perplexity"
+
+device: null
+batch_size: 8
+max_length: 256
+random_seed: 42
+
+hf_token_path: null

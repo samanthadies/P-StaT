@@ -1,0 +1,1001 @@
+category,correct,correct_object_2,fake_object,fictional_object,in_cal,in_test,in_train,negation,object_1,object_2,real_object,statement,disputed_object,noise_object,synthetic_fic_object
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,Metazinephrine,Ouroborean Fever,0,Metazinephrine is indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,1,0,0,1,Represistor ,Wife Bline,0,Represistor  is not indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,0,1,1,Dpheptine Injection,Posterial Elongation Distion,0,Dpheptine Injection is not indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,0,0,1,1,Hydrazineratial impote,Gleemone,0,Hydrazineratial impote is not indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,1,0,0,0,Oment drinkmote,Neodextral,0,Oment drinkmote is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,1,0,0,1,Clith fire,Lithimerol,0,Clith fire is not indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,0,Represistor ,Polydic Deatavegamin,0,Represistor  is indicated for the treatment of Polydic Deatavegamin.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,0,1,1,Estars,Adrazygotillas,0,Estars is not indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,0,1,1,Bhelly closia,Florak,0,Bhelly closia is not indicated for the treatment of Florak.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,0,1,0,Sokologram scoon,Twentath,0,Sokologram scoon is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,1,0,0,0,Conti-toxin,Twentath,0,Conti-toxin is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,0,0,1,1,Betation,Catamorphodine,0,Betation is not indicated for the treatment of Catamorphodine.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,0,1,0,Surgetfulnession,Neuroborean plague,0,Surgetfulnession is indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,1,0,0,0,Directive tubules,Spaceolindness,0,Directive tubules is indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,0,1,1,Kerash,Neodextractergro,0,Kerash is not indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,1,0,0,1,Bellerol,Catamorphodine,0,Bellerol is not indicated for the treatment of Catamorphodine.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,0,1,0,0,Dpheptinous acid,Dragon Pox of LeChuck,0,Dpheptinous acid is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,1,0,1,Oment drinkmote,Neodextral,0,Oment drinkmote is not indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,1,0,0,0,Gent Ziriadiat,Catamorphodine,0,Gent Ziriadiat is indicated for the treatment of Catamorphodine.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,1,0,1,Medicity,Placelly,0,Medicity is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,0,1,0,Oment drinkmote,Pentury Chronin,0,Oment drinkmote is indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,0,1,1,Correctomy,Janished Takis,0,Correctomy is not indicated for the treatment of Janished Takis.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,1,0,0,Dimoxin antyl,Tretine,0,Dimoxin antyl is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,1,0,0,Triox Cocoon,Janished Glipheptine,0,Triox Cocoon is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,1,0,0,Kalla extralinax,Emorder,0,Kalla extralinax is indicated for the treatment of Emorder.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,0,1,1,Kerash,Drydiciousness,0,Kerash is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,0,Retinalifin,Uspirisorder,0,Retinalifin is indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,1,0,0,Consumin,Aquasolutiethelas,0,Consumin is indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,0,Thelas,Gambutrox Cock,0,Thelas is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,0,1,0,Estars,Adrazygotillas,0,Estars is indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,0,0,1,0,Gleemoverizatinous acid,Mongation,0,Gleemoverizatinous acid is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,1,0,0,Ging spative tubules,Dragon Pox of LeChuck,0,Ging spative tubules is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,1,0,0,0,Washing Lin,Buboparan Virus,0,Washing Lin is indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,0,1,1,Phalcynation,Vestimulation,0,Phalcynation is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,1,0,0,0,Health firectinax,Adrazygotillas,0,Health firectinax is indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,1,Sokolon,Rigellocaine,0,Sokolon is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,1,Retinalifin,Ambrosis Disone,0,Retinalifin is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,1,0,0,Altruizine,Boostergroit,0,Altruizine is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,1,Represistor ,Chronoshocktail,0,Represistor  is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,1,0,0,1,Givingon volto,Skelenin,0,Givingon volto is not indicated for the treatment of Skelenin.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,0,1,1,Vitameatmen,Buboparan Virus,0,Vitameatmen is not indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,1,0,0,1,the live maging,Metatinax,0,the live maging is not indicated for the treatment of Metatinax.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,1,0,0,0,Prexiliation,Neodextral,0,Prexiliation is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,0,Slavopropine,Pentury Chamal ,0,Slavopropine is indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,0,1,0,Dimoxin antyl,Intersal Flu,0,Dimoxin antyl is indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,0,0,1,1,Vioprophoenix,Triopenine,0,Vioprophoenix is not indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,0,1,1,Hydrona Transplanx,Spattooingold,0,Hydrona Transplanx is not indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,1,Retinalifin,Plomoxinis Disordrazine,0,Retinalifin is not indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,0,1,0,Dpheptine Injection,Aquasolutiethelas,0,Dpheptine Injection is indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,1,0,0,0,Flower Spationa,Gambutrox Toxan,0,Flower Spationa is indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,0,1,0,Vitameatmen,Buboparan Virus,0,Vitameatmen is indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,0,0,1,1,Avoidancozeb,Seritolian Fever,0,Avoidancozeb is not indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,1,0,0,0,Kalocine,Tretendic Decoup,0,Kalocine is indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,0,1,1,Plomoxin spirim,Pretonic flu,0,Plomoxin spirim is not indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,1,0,1,Dimoxin antyl,Pretendorph,0,Dimoxin antyl is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,0,Psychothe tearshade,Spattooing cells,0,Psychothe tearshade is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,0,1,0,Estars,Hibernarcoma,0,Estars is indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,1,0,0,0,Avoidancozeb,Seritolian Fever,0,Avoidancozeb is indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,1,0,0,Belliom,Ging Placelly,0,Belliom is indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,0,1,1,Dimoxin antyl,Tretine,0,Dimoxin antyl is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,1,Milic gem,Athe Warmbloodhype,0,Milic gem is not indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,0,1,0,Cortexiliat,Motile Shadow Virus,0,Cortexiliat is indicated for the treatment of Motile Shadow Virus.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,0,Bling nude inhibitol,Dimine,0,Bling nude inhibitol is indicated for the treatment of Dimine.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,1,0,0,0,Washing Lin,Ambrosis Disone,0,Washing Lin is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,0,Slavopropine,Chronoshocktail,0,Slavopropine is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,1,0,0,0,Polydichloricin,Electrox Toxan,0,Polydichloricin is indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,1,Trioped by Gunhibitol,Ornardamin,0,Trioped by Gunhibitol is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,0,1,0,0,Hydrazineratial impote,Blue Snarcoma,0,Hydrazineratial impote is indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,0,1,0,1,Dibrosia,Lithimerol,0,Dibrosia is not indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,1,0,0,1,Gingold excessed wordrazine,Ging Body Syndrome,0,Gingold excessed wordrazine is not indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,1,0,1,lima Grandagicallocaine,Adrazygosis,0,lima Grandagicallocaine is not indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,1,Slavopropine,Spattooingold,0,Slavopropine is not indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,0,1,0,Kally closia,Azrae,0,Kally closia is indicated for the treatment of Azrae.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,1,0,1,Distrand Starshade Chiqua Cure,Florak,0,Distrand Starshade Chiqua Cure is not indicated for the treatment of Florak.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,1,0,0,Ging spative tubules,Seritolian Fever,0,Ging spative tubules is indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,1,0,1,Subder serump Virus,The Cardaminil,0,Subder serump Virus is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,1,0,0,0,Purgic humineratus,Plomoxinis Disordrazine,0,Purgic humineratus is indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,0,1,1,Ketract,Spattooingold,0,Ketract is not indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,1,0,0,1,Isoprojectrice,Ornardamin,0,Isoprojectrice is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,0,1,1,Kalocaintain's spice ,Chan Disease,0,Kalocaintain's spice  is not indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,1,0,0,Scammonex,Pentury Chamal ,0,Scammonex is indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,1,0,0,1,Gent Ziriadiat,Leth Cephalcynate,0,Gent Ziriadiat is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,0,0,1,1,Health firectinax,Twentath,0,Health firectinax is not indicated for the treatment of Twentath.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,0,1,1,Dpheptine One D,Clithium dibrome,0,Dpheptine One D is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,1,0,1,lima Grandagicallocaine,Byphostal Jells,0,lima Grandagicallocaine is not indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,0,1,0,Plomoxin spirim,Gleemone,0,Plomoxin spirim is indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,0,Uspice of zyphoratus,Motilla extraline,0,Uspice of zyphoratus is indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,1,0,0,0,Cauter adapteritol,Thing cellian Syndrome,0,Cauter adapteritol is indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,0,Cardamitol,Prexilinax,0,Cardamitol is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,1,0,0,Distrand Starshade Chiqua Cure,Athe Warmbloodhype,0,Distrand Starshade Chiqua Cure is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,1,0,0,Repretonil,Mongation,0,Repretonil is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,0,Reducin,Spaceolindness,0,Reducin is indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,0,1,1,Uspicession,Bufonic euthimerasone,0,Uspicession is not indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,1,0,0,1,Tretendorph,Valithni,0,Tretendorph is not indicated for the treatment of Valithni.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,1,0,0,0,Gleemoverizatinous acid,Neuroborean plague,0,Gleemoverizatinous acid is indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,0,1,0,0,Polydichloricin,Drydichlorak,0,Polydichloricin is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,1,Gammony,Triopenine,0,Gammony is not indicated for the treatment of Triopenine.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,0,0,1,1,Isoprojectrice,Ghosis thorn,0,Isoprojectrice is not indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,0,Psychothe tearshade,Kallistruitol,0,Psychothe tearshade is indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,1,0,1,Conti-toxin,Plomoxinis Disordrazine,0,Conti-toxin is not indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,0,1,1,Dimoxin antyl,Intersal Flu,0,Dimoxin antyl is not indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,0,0,1,1,Limallocain,Lazar's Croup,0,Limallocain is not indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,1,0,0,0,Uspicession,Doloxaemia,0,Uspicession is indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,1,0,0,Retinalifin,Catamorphodine,0,Retinalifin is indicated for the treatment of Catamorphodine.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,1,0,0,Hydravil,Diminil,0,Hydravil is indicated for the treatment of Diminil.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,1,0,0,1,Gleemoverizatinous acid,Seritolian Fever,0,Gleemoverizatinous acid is not indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,1,0,0,0,Removasitol,Janished Glipheptine,0,Removasitol is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,0,1,1,Medicity,Drydiciousness,0,Medicity is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,0,1,0,1,Kolts andine,Gamma Gliphemenalin,0,Kolts andine is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,1,0,0,Sokolon,Pretendorph,0,Sokolon is indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,1,Gent Ziriadiat,Vioprovasilisk Vertebrae,0,Gent Ziriadiat is not indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,1,0,0,0,Kallocine milicorices,Posterial Elongation Distion,0,Kallocine milicorices is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,1,0,0,0,Bellerol,Incuritol,0,Bellerol is indicated for the treatment of Incuritol.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,1,0,0,0,Sokolon,Chimallisk Vertebrae,0,Sokolon is indicated for the treatment of Chimallisk Vertebrae.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,1,0,0,1,Gambutract,Janished Glipheptine,0,Gambutract is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,1,Gammony,Janished Gluteal Jelly,0,Gammony is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,0,1,0,Hydravil,Mongolinax,0,Hydravil is indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,1,0,0,1,Betation,Blue Snarcoma,0,Betation is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,1,0,1,Kalocine,Wife Bline,0,Kalocine is not indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,0,0,1,0,Nemovasite,Dragon Pox of LeChuck,0,Nemovasite is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,0,1,1,Medicity,Uspirisorder,0,Medicity is not indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,0,0,1,1,Hydrazineratial impote,Card's Lubric Cepha,0,Hydrazineratial impote is not indicated for the treatment of Card's Lubric Cepha.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,1,0,0,1,Bellerol,Anti-gerandeurol,0,Bellerol is not indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,1,0,0,1,Bhellion,Athe Warmbloodhype,0,Bhellion is not indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,0,1,1,Medicity,Motile Shadow Virus,0,Medicity is not indicated for the treatment of Motile Shadow Virus.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,0,1,0,Safsprink in cream disk press,Neodextral,0,Safsprink in cream disk press is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,0,0,1,0,Washing Lin,Ouroborean Fever,0,Washing Lin is indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,1,Psychothe tearshade,Seritolian Fever,0,Psychothe tearshade is not indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,0,0,1,1,the Borgetfull moor,Pentury Chronin,0,the Borgetfull moor is not indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,1,Gent Ziriadiat,Vampies,0,Gent Ziriadiat is not indicated for the treatment of Vampies.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,0,1,0,Vitameatmen,Gleemone,0,Vitameatmen is indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,0,0,1,0,Givingon volto,Rigells,0,Givingon volto is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,0,1,1,Fludiox Compound,Placelly,0,Fludiox Compound is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,0,0,1,1,Serisonex,Gamma Gliphemenalin,0,Serisonex is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,1,0,0,Dimoxin antyl,Gambutrox Cock,0,Dimoxin antyl is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,0,Bling nude inhibitol,Mongation,0,Bling nude inhibitol is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,0,1,1,Dimoxin systerisone,Plomoxinis Disordrazine,0,Dimoxin systerisone is not indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,1,0,0,1,Avoidancozeb,Pretendorph,0,Avoidancozeb is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,0,1,1,Dpheptine One D,Byphostal Jells,0,Dpheptine One D is not indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,1,0,0,Purgicallocine,Ghosis thorn,0,Purgicallocine is indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,1,Gambutract,Neodextractergro,0,Gambutract is not indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,1,0,0,1,Dpheptinous acid,Janished Glipheptine,0,Dpheptinous acid is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,1,Sokolon,Pretendorph,0,Sokolon is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,0,0,1,0,Gleemoverizatinous acid,Gambutrox Cock,0,Gleemoverizatinous acid is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,0,0,1,1,Nemovasite,Athe Warmbloodhype,0,Nemovasite is not indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,1,0,1,Dpheptine Injection,Ging Placelly,0,Dpheptine Injection is not indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,0,1,1,Safsprink in cream disk press,Spattooing cells,0,Safsprink in cream disk press is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,1,Belliom,Neodextractergro,0,Belliom is not indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,1,0,1,Hydromide,Intersal Flu,0,Hydromide is not indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,1,0,1,Correctomy,The Wuhancress,0,Correctomy is not indicated for the treatment of The Wuhancress.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,0,1,1,Cortexiliat,Ambrosis Disone,0,Cortexiliat is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,0,0,1,0,the Borgetfull moor,Pretonic flu,0,the Borgetfull moor is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,0,1,1,Sokologram scoon,Chan Disease,0,Sokologram scoon is not indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,0,1,1,Hydravil,Azrae,0,Hydravil is not indicated for the treatment of Azrae.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,0,0,1,1,Flower Spationa,Polydic flu,0,Flower Spationa is not indicated for the treatment of Polydic flu.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,0,1,1,Kallocine milicorices,Interitina,0,Kallocine milicorices is not indicated for the treatment of Interitina.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,0,1,0,Kerash,Pentury Chronin,0,Kerash is indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,1,0,0,0,Isoprojectrice,Emorder,0,Isoprojectrice is indicated for the treatment of Emorder.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,0,1,0,0,Clith fire,Hibernaran plague,0,Clith fire is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,0,0,1,1,Dpheptinous acid,Motilla extraline,0,Dpheptinous acid is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,1,0,0,Cauter adapteritol,Ornardamin,0,Cauter adapteritol is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,1,0,0,0,Ketract,Cordosia,0,Ketract is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,1,0,1,Estars,Hibernarcoma,0,Estars is not indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,0,0,1,0,Betation,Provalyn,0,Betation is indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,1,Subder serump Virus,Holoxaemia,0,Subder serump Virus is not indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,1,0,0,Milic gem,Polydic Deatavegamin,0,Milic gem is indicated for the treatment of Polydic Deatavegamin.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,0,Thelas,Ferroborean Virus,0,Thelas is indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,1,0,0,1,Betation,Boostergroit,0,Betation is not indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,0,1,1,Directive tubules,Spaceolindness,0,Directive tubules is not indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,0,0,1,0,Health firectinax,Tretendic Decoup,0,Health firectinax is indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,1,0,0,1,Triox Cocoon,Provalyn,0,Triox Cocoon is not indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,0,1,1,Kalocine,The Cardaminil,0,Kalocine is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,0,1,1,Cortexiliat,Rigellocaine,0,Cortexiliat is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,0,0,1,0,Dpheptinous acid,The Cardaminil,0,Dpheptinous acid is indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,0,1,1,Kerash,Neodextractergro,0,Kerash is not indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,1,0,0,Sokologram scoon,Chan Disease,0,Sokologram scoon is indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,0,0,1,1,Givingon volto,Ouroborean Fever,0,Givingon volto is not indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,1,0,0,1,Flower Spationa,Omegeneran Lorder,0,Flower Spationa is not indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,1,0,0,Cauter adapteritol,Spattooing cells,0,Cauter adapteritol is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,0,Absologram scoon,Catavegamitol,0,Absologram scoon is indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,0,Trioped by Gunhibitol,Wife Bline,0,Trioped by Gunhibitol is indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,1,0,0,Cortexiliat,Azrae,0,Cortexiliat is indicated for the treatment of Azrae.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,1,0,0,1,Triox Cocoon,Janished Glipheptine,0,Triox Cocoon is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,0,1,1,Selening of the tearshade,Gleemone,0,Selening of the tearshade is not indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,0,1,1,Cardamitolic epine,Leth Cephalcynate,0,Cardamitolic epine is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,0,0,1,1,Gingold excessed wordrazine,Posterial Elongation Distion,0,Gingold excessed wordrazine is not indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,1,0,0,1,Ging spative tubules,Omegeneran Lorder,0,Ging spative tubules is not indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,1,0,0,0,Cortexiliat,Ambrosis Disone,0,Cortexiliat is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,1,0,0,0,Kallocine milicorices,Interitina,0,Kallocine milicorices is indicated for the treatment of Interitina.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,1,0,0,0,Repretonil,Prexilinax,0,Repretonil is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,1,0,0,0,Hydravil,Neodextral,0,Hydravil is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,1,0,1,Cauter adapteritol,Thing cellian Syndrome,0,Cauter adapteritol is not indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,0,Subder serump Virus,Motic Zygosis,0,Subder serump Virus is indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,0,Distracelic eutrol,Electrox Toxan,0,Distracelic eutrol is indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,1,0,1,Lethelliom,Card's Lubric Cepha,0,Lethelliom is not indicated for the treatment of Card's Lubric Cepha.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,1,0,0,0,Belliom,Aqua Curse,0,Belliom is indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,1,0,1,Vitameatial lobes,Janished Gluteal Jelly,0,Vitameatial lobes is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,0,0,1,0,Vioprophoenix,Morphalcynatin,0,Vioprophoenix is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,0,1,1,Directive tubules,Uspirisorder,0,Directive tubules is not indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,0,1,0,Correl White,Azrae,0,Correl White is indicated for the treatment of Azrae.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,1,0,1,Absologram scoon,Placelly,0,Absologram scoon is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,0,1,1,Oment drinkmote,Hibernal Venom,0,Oment drinkmote is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,0,Belliom,Omegeneran Lorder,0,Belliom is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,1,Removasitol,Mongolinax,0,Removasitol is not indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,0,1,0,Purgic humineratus,Athe Warmbloodhype,0,Purgic humineratus is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,1,0,0,1,Removasitol,Lazar's Croup,0,Removasitol is not indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,1,Represistor ,Catavegamitol,0,Represistor  is not indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,1,0,0,1,Belliom,Aqua Curse,0,Belliom is not indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,1,0,1,Sokolon,Uspirisorder,0,Sokolon is not indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,1,0,1,Surgetfulnession,Neuroborean plague,0,Surgetfulnession is not indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,0,1,0,0,Bellerol,The Rat Plimpies,0,Bellerol is indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,0,1,0,Hydravil,Electrox Toxan,0,Hydravil is indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,1,0,0,1,Surgetfulnession,Chronoshocktail,0,Surgetfulnession is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,0,Sokolon,Uspirisorder,0,Sokolon is indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,1,0,0,0,Tretendorph,Provasilistion Pox,0,Tretendorph is indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,1,0,1,Cortexiliat,Azrae,0,Cortexiliat is not indicated for the treatment of Azrae.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,1,0,0,0,Spacelin,Byphost-Traumation,0,Spacelin is indicated for the treatment of Byphost-Traumation.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,0,Trioped by Gunhibitol,Interitina,0,Trioped by Gunhibitol is indicated for the treatment of Interitina.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,0,0,1,1,Dpheptinous acid,The Cardaminil,0,Dpheptinous acid is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,0,1,1,Kalocine,Drydiciousness,0,Kalocine is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,0,1,0,Oment drinkmote,Boostergroit,0,Oment drinkmote is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,1,0,0,1,Sokologram scoon,Azrae,0,Sokologram scoon is not indicated for the treatment of Azrae.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,1,Represistor ,Ferroborean Virus,0,Represistor  is not indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,1,0,0,1,Barrectricin,Boostergroit,0,Barrectricin is not indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,1,Slavopropine,Pentury Chamal ,0,Slavopropine is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,0,0,1,0,Isoprojectrice,Prexilinax,0,Isoprojectrice is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,0,Scammonex,The Rat Plimpies,0,Scammonex is indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,1,0,0,1,Kalocaintain's spice ,Buboparan Virus,0,Kalocaintain's spice  is not indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,1,0,1,Repretonil,Cordosia,0,Repretonil is not indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,1,0,0,Polydicity,Safspril,0,Polydicity is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,0,1,1,Prexiliation,Prexilistim,0,Prexiliation is not indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,1,Aquasolution,Vestimulation,0,Aquasolution is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,0,0,1,1,the Borgetfull moor,Betameath,0,the Borgetfull moor is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,1,0,0,Gamma Gransfer camma barrection DNA,Anti-gerandeurol,0,Gamma Gransfer camma barrection DNA is indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,0,Hydronalink,Intersal Flu,0,Hydronalink is indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,1,0,0,Directive tubules,Placelly,0,Directive tubules is indicated for the treatment of Placelly.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,0,1,0,Conti-toxin,Ornardamin,0,Conti-toxin is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,0,Cardamitol,Ging Body Syndrome,0,Cardamitol is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,0,1,1,radimefon,Aquasolutiethelas,0,radimefon is not indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,Metazinephrine,Chan Disease,0,Metazinephrine is indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,1,0,0,1,Polydicity,Catavegamin,0,Polydicity is not indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,0,0,1,1,Givingon volto,Prexilinax,0,Givingon volto is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,0,1,0,0,Avoidancozeb,Morphalcynatin,0,Avoidancozeb is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,0,Gambutract,Neodextractergro,0,Gambutract is indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,0,0,1,1,Tretendorph,Hibernal Venom,0,Tretendorph is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,0,0,1,1,Cauteritol,Janished Gluteal Jelly,0,Cauteritol is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,1,0,0,Kallocine milicorices,Pretonic flu,0,Kallocine milicorices is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,0,1,0,1,Barrectricin,Buboparan Virus,0,Barrectricin is not indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,0,Retic gem,Lazar's Croup,0,Retic gem is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,1,0,0,Slavopropine,Spattooingold,0,Slavopropine is indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,0,1,1,Conti-toxin,Twentath,0,Conti-toxin is not indicated for the treatment of Twentath.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,1,0,0,0,Nemovasite,Athe Warmbloodhype,0,Nemovasite is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,0,0,1,0,Vioprophoenix,Adrazygosis,0,Vioprophoenix is indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,0,1,0,Dimoxin systerisone,Adrazygotillas,0,Dimoxin systerisone is indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,1,0,1,Hydronalink,Catavegamin,0,Hydronalink is not indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,1,0,0,Hydrona Transplanx,Tretendic Decoup,0,Hydrona Transplanx is indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,0,1,0,0,Nemovasite,Prexilinax,0,Nemovasite is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,1,0,0,0,Barrectricin,Boostergroit,0,Barrectricin is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,0,Sokolon,Rigellocaine,0,Sokolon is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,0,Removasitol,Cordosia,0,Removasitol is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,0,Absologram scoon,Triox Toxan,0,Absologram scoon is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,1,0,1,Cardamitolic epine,Prexilinax,0,Cardamitolic epine is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,1,0,0,Cardamitol,Selenia Hysterial ,0,Cardamitol is indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,1,0,0,1,Represistor ,Polydic Deatavegamin,0,Represistor  is not indicated for the treatment of Polydic Deatavegamin.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,1,0,1,Kerash,Pentury Chronin,0,Kerash is not indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,1,0,1,Reducin,Chimallisk Vertebrae,0,Reducin is not indicated for the treatment of Chimallisk Vertebrae.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,1,0,0,0,Kalocine,Provasilistion Pox,0,Kalocine is indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,1,0,0,0,Gingold excessed wordrazine,Ging Body Syndrome,0,Gingold excessed wordrazine is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,0,1,0,Lethelliom,Hibernaran plague,0,Lethelliom is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,0,1,0,Prexiliation,Prexilistim,0,Prexiliation is indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,1,0,0,0,Subdermal serum,Lazar's Croup,0,Subdermal serum is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,0,1,1,Bhellion,Hibernarcoma,0,Bhellion is not indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,1,0,0,0,Givingon volto,Prexilinax,0,Givingon volto is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,0,1,0,Reducing live tearchlorices,Bufonic euthimerasone,0,Reducing live tearchlorices is indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,0,1,0,Vitameatial lobes,Florak,0,Vitameatial lobes is indicated for the treatment of Florak.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,1,0,0,1,Kalocine,Lazar's Croup,0,Kalocine is not indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,1,Reducin,Chancress,0,Reducin is not indicated for the treatment of Chancress.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,1,0,0,0,Nemovasite,Drydichlorak,0,Nemovasite is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,0,Selectim,Motic Zygosis,0,Selectim is indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,1,0,0,0,Dpheptine Injection,Boostergroit,0,Dpheptine Injection is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,1,0,0,Medicity,Thing cellian Syndrome,0,Medicity is indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,1,Removasitol,Spattooing cells,0,Removasitol is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,1,0,0,Prexiliation,Daress,0,Prexiliation is indicated for the treatment of Daress.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,1,0,0,Ketract,Clithium dibrome,0,Ketract is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,1,0,1,lima Grandagicallocaine,Wife Bline,0,lima Grandagicallocaine is not indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,0,1,1,Hydrona Transplanx,Drydiciousness,0,Hydrona Transplanx is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,1,0,0,1,Conti-toxin,Wife Bline,0,Conti-toxin is not indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,1,0,0,0,Dpheptinous acid,Chan Disease,0,Dpheptinous acid is indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,0,0,1,1,Barrectricin,Adrazygotillas,0,Barrectricin is not indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,1,Thelas,Ging Body Syndrome,0,Thelas is not indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,1,0,0,0,radimefon,Safspril,0,radimefon is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,1,0,1,Dimoxin systerisone,Diminil,0,Dimoxin systerisone is not indicated for the treatment of Diminil.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,0,1,0,0,Hydrazineratial impote,Azrae,0,Hydrazineratial impote is indicated for the treatment of Azrae.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,0,1,0,0,Subdermal serum,Spattooing cells,0,Subdermal serum is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,0,1,0,1,Subdermal serum,Gambutrox Cock,0,Subdermal serum is not indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,1,0,0,Hydromide,Rigellocaine,0,Hydromide is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,1,0,0,1,Theratin,Fruizine,0,Theratin is not indicated for the treatment of Fruizine.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,0,Theratin,Chronoshocktail,0,Theratin is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,0,1,0,Triox Cocoon,Clithium dibrome,0,Triox Cocoon is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,0,1,1,Polydicine,Drydichlorak,0,Polydicine is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,1,0,0,0,Correctomy,Aquasolutiethelas,0,Correctomy is indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,1,0,0,0,Aquasolution,Athe Warmbloodhype,0,Aquasolution is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,0,1,0,Cardamitolic epine,Pentury Chamal ,0,Cardamitolic epine is indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,1,0,0,1,Dpheptine One D,Chimallorak,0,Dpheptine One D is not indicated for the treatment of Chimallorak.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,0,0,1,0,Kolts andine,Safspril,0,Kolts andine is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,1,Thelas,Ferroborean Virus,0,Thelas is not indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,1,Theratin,Lithimerol,0,Theratin is not indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,0,0,1,1,Spacelin,Thing cellian Syndrome,0,Spacelin is not indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,1,0,1,Cortexiliat,Morphalcynatin,0,Cortexiliat is not indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,0,Theratin,Mongation,0,Theratin is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,0,0,1,1,B47/7RF repretendorpha,Rigellocaine,0,B47/7RF repretendorpha is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,1,0,0,1,Retic gem,Tretonidiciousness,0,Retic gem is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,0,0,1,0,Clith fire,Selenia Hysterial ,0,Clith fire is indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,1,0,0,1,Givingon volto,Anti-gerandeurol,0,Givingon volto is not indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,1,0,0,1,Vitameatial lobes,Triox Toxan,0,Vitameatial lobes is not indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,0,Uspice of zyphoratus,Morphalcynatin,0,Uspice of zyphoratus is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,1,0,0,0,Represistor ,Wife Bline,0,Represistor  is indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,1,0,0,1,Polydichloricin,Electrox Toxan,0,Polydichloricin is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,1,0,0,Polydicity,Bufonic euthimerasone,0,Polydicity is indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,0,0,1,1,Dibrosia,Chan Disease,0,Dibrosia is not indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,1,0,0,Plomoxin spirim,Tretine,0,Plomoxin spirim is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,1,Cardamitol,Gulping Disease,0,Cardamitol is not indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,1,0,1,Conti-toxin,Chronoshocktail,0,Conti-toxin is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,1,0,0,0,Fludiox Compound,Intersal Flu,0,Fludiox Compound is indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,0,0,1,1,Tretendorph,Ferroborean Virus,0,Tretendorph is not indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,1,0,0,Dpheptine One D,Prexilinax,0,Dpheptine One D is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,0,Retinalifin,Gambutrox Toxan,0,Retinalifin is indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,1,0,1,Kallocine milicorices,Doloxaemia,0,Kallocine milicorices is not indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,0,1,1,Correctomy,Daress,0,Correctomy is not indicated for the treatment of Daress.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,1,0,0,0,B47/7RF repretendorpha,Hibernal Venom,0,B47/7RF repretendorpha is indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,0,1,1,Sokologram scoon,Mongolinax,0,Sokologram scoon is not indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,0,1,0,Gamma Gransfer camma barrection DNA,Cordosia,0,Gamma Gransfer camma barrection DNA is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,1,0,0,0,Viagnostic euthium,Gambutrox Cock,0,Viagnostic euthium is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,1,0,0,0,Trioped by Gunhibitol,Dragon Pox of LeChuck,0,Trioped by Gunhibitol is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,0,0,1,1,Limallocain,Hibernaran plague,0,Limallocain is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,1,0,0,0,Altruizine,Neodextraceolin,0,Altruizine is indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,0,1,0,Lethelliom,Chronoshocktail,0,Lethelliom is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,1,0,0,Boosterization inhibitol,Boostergroit,0,Boosterization inhibitol is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,1,0,1,Polydicine,Thing cellian Syndrome,0,Polydicine is not indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,1,0,0,0,Polydichloricin,Gamma Gliphemenalin,0,Polydichloricin is indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,0,1,0,Vitameatmen,Ging Body Syndrome,0,Vitameatmen is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,1,0,1,Selectim,Electrox Toxan,0,Selectim is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,1,0,0,1,Triox Cocoon,Clithium dibrome,0,Triox Cocoon is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,0,1,0,Estars,Vestimulation,0,Estars is indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,0,1,1,Reducing live tearchlorices,Leth Cephalcynate,0,Reducing live tearchlorices is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,1,0,1,Boosterization inhibitol,Gambutrox Cock,0,Boosterization inhibitol is not indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,1,Absologram scoon,Rigellocaine,0,Absologram scoon is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,1,0,0,1,Limallocain,Kallistruitol,0,Limallocain is not indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,1,0,0,Triox Cocoon,Twentath,0,Triox Cocoon is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,1,0,0,1,Consumin,Gambutrox Toxan,0,Consumin is not indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,0,Belliom,Neodextractergro,0,Belliom is indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,0,0,1,0,Givingon volto,Motilla extraline,0,Givingon volto is indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,0,0,1,0,Dpheptinous acid,Thing cellian Syndrome,0,Dpheptinous acid is indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,1,0,0,Altruizine,Byphostal Jells,0,Altruizine is indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,1,Aquasolution,Valithni,0,Aquasolution is not indicated for the treatment of Valithni.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,1,0,0,Reducing live tearchlorices,Spattooingold,0,Reducing live tearchlorices is indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,0,1,1,Phalcynation,Emorder,0,Phalcynation is not indicated for the treatment of Emorder.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,1,0,1,Dpheptine Injection,Aquasolutiethelas,0,Dpheptine Injection is not indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,1,0,1,Cardamitolic epine,Pentury Chamal ,0,Cardamitolic epine is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,1,0,0,1,Gleemoverizatinous acid,Drydichlorak,0,Gleemoverizatinous acid is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,0,Cardamitol,Spattooingold,0,Cardamitol is indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,0,1,0,Surgetfulnession,Morphalcynatin,0,Surgetfulnession is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,1,0,0,1,Subder serump Virus,Betameath,0,Subder serump Virus is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,1,Psychothe tearshade,Skelenin,0,Psychothe tearshade is not indicated for the treatment of Skelenin.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,1,0,0,1,the Borgetfull moor,Catavegamine,0,the Borgetfull moor is not indicated for the treatment of Catavegamine.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,0,0,1,0,the live maging,Rigellocaine,0,the live maging is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,1,0,0,0,Health firectinax,Twentath,0,Health firectinax is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,0,1,0,Vitameatial lobes,Triox Toxan,0,Vitameatial lobes is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,0,Absologram scoon,Rigellocaine,0,Absologram scoon is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,1,0,0,1,Lethelliom,Chronoshocktail,0,Lethelliom is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,1,0,0,1,Lethelliom,Provasilistion Pox,0,Lethelliom is not indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,0,0,1,1,Gingold excessed wordrazine,Motilla extraline,0,Gingold excessed wordrazine is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,1,0,0,0,Bhelly closia,Prexilistim,0,Bhelly closia is indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,0,0,1,1,Betation,Pentury Chamal ,0,Betation is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,0,0,1,0,Gingold excessed wordrazine,Provalyn,0,Gingold excessed wordrazine is indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,1,0,0,0,Avoidancozeb,Electrox Toxan,0,Avoidancozeb is indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,1,0,0,0,Kolts andine,Rigellocaine,0,Kolts andine is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,0,Kalla extralinax,Selenia Hysterial ,0,Kalla extralinax is indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,0,1,0,1,Washing Lin,Metatinax,0,Washing Lin is not indicated for the treatment of Metatinax.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,0,1,1,Reducing live tearchlorices,Florak,0,Reducing live tearchlorices is not indicated for the treatment of Florak.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,0,1,1,Kally closia,Electrox Toxan,0,Kally closia is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,0,1,0,Lethelliom,Ferroborean Virus,0,Lethelliom is indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,1,Hydromide,Neuroborean plague,0,Hydromide is not indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,1,0,0,Dimoxin antyl,Aqua Curse,0,Dimoxin antyl is indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,1,0,0,1,Dpheptinous acid,Ambrosis Disone,0,Dpheptinous acid is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,1,0,0,0,Bhelly,Catavegamine,0,Bhelly is indicated for the treatment of Catavegamine.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,1,0,0,0,Hydrazineratial impote,Tretonidiciousness,0,Hydrazineratial impote is indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,1,Milic gem,The Rat Plimpies,0,Milic gem is not indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,0,Hydronalink,Pastile Syness,0,Hydronalink is indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,1,0,0,0,Spacelin,Mongation,0,Spacelin is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,1,Retinalifin,Ging Placelly,0,Retinalifin is not indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,1,0,1,Medicity,Rigellocaine,0,Medicity is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,1,0,0,1,Ging spative tubules,Deatavegamin,0,Ging spative tubules is not indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,0,Belliom,Kallistruitol,0,Belliom is indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,0,0,1,0,Limallocain,Posterial Elongation Distion,0,Limallocain is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,0,0,1,0,Givingon volto,Gamma Gliphemenalin,0,Givingon volto is indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,1,0,0,0,Directive tubules,Daress,0,Directive tubules is indicated for the treatment of Daress.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,1,0,0,0,Bhellion,Adrazygosis,0,Bhellion is indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,1,0,1,Polydicine,Drydiciousness,0,Polydicine is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,0,1,0,Cauter adapteritol,Chimallorak,0,Cauter adapteritol is indicated for the treatment of Chimallorak.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,0,Retic gem,Drydichlorak,0,Retic gem is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,1,0,0,Cardamitol,Pastile Syness,0,Cardamitol is indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,0,0,1,1,Spacelin,Aqua Curse,0,Spacelin is not indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,1,0,0,1,Clith fire,Selenia Hysterial ,0,Clith fire is not indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,1,0,0,Selectim,Omegeneran Lorder,0,Selectim is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,1,0,1,Belliom,Omegeneran Lorder,0,Belliom is not indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,1,Psychothe tearshade,Kallistruitol,0,Psychothe tearshade is not indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,1,0,0,0,Gammony,Triopenine,0,Gammony is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,0,1,0,Dimoxin antyl,Gambutrox Cock,0,Dimoxin antyl is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,0,1,1,Consumin,Tretonidiciousness,0,Consumin is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,1,0,0,1,Serisonex,Blue Snarcoma,0,Serisonex is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,1,0,0,1,Absologram scoon,Fruizine,0,Absologram scoon is not indicated for the treatment of Fruizine.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,1,0,1,Gent Ziriadiat,Hibernaran plague,0,Gent Ziriadiat is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,0,1,0,Surgetfulnession,Chronoshocktail,0,Surgetfulnession is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,1,0,1,Bhelly,Hibernaran plague,0,Bhelly is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,0,0,1,0,Bellerol,Anti-gerandeurol,0,Bellerol is indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,1,0,0,1,Thelas,Dimine,0,Thelas is not indicated for the treatment of Dimine.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,Metazinephrine,Deatavegamin,0,Metazinephrine is indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,1,0,0,1,Selening of the tearshade,Adrazygosis,0,Selening of the tearshade is not indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,1,0,1,Dimoxin systerisone,Twentath,0,Dimoxin systerisone is not indicated for the treatment of Twentath.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,0,1,0,Correctomy,Clithium dibrome,0,Correctomy is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,0,1,0,Conti-toxin,Wife Bline,0,Conti-toxin is indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,1,0,1,Bhelly closia,Byphost-Traumatinax,0,Bhelly closia is not indicated for the treatment of Byphost-Traumatinax.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,1,0,0,Bhelly,Athe Warmbloodhype,0,Bhelly is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,0,1,0,Conti-toxin,Plomoxinis Disordrazine,0,Conti-toxin is indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,1,Hydromide,Placelly,0,Hydromide is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,0,0,1,1,B47/7RF repretendorpha,Hibernal Venom,0,B47/7RF repretendorpha is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,1,Subder serump Virus,Mongolinax,0,Subder serump Virus is not indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,1,0,1,Correl White,Ornardamin,0,Correl White is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,0,0,1,0,Serisonex,Rigells,0,Serisonex is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,1,0,0,Kally closia,Fruizine,0,Kally closia is indicated for the treatment of Fruizine.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,0,1,0,Safsprink in cream disk press,Janished Glipheptine,0,Safsprink in cream disk press is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,1,0,0,0,the Borgetfull moor,Metatinax,0,the Borgetfull moor is indicated for the treatment of Metatinax.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,0,1,1,Cardamitolic epine,Chancress,0,Cardamitolic epine is not indicated for the treatment of Chancress.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,1,Selectim,Uspirisorder,0,Selectim is not indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,0,0,1,0,Isoprojectrice,Hibernaran plague,0,Isoprojectrice is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,1,0,1,Distrand Starshade Chiqua Cure,Janished Gluteal Jelly,0,Distrand Starshade Chiqua Cure is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,1,0,0,0,Dpheptine Injection,Tretine,0,Dpheptine Injection is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,1,0,0,Cardamitolic epine,Dimine,0,Cardamitolic epine is indicated for the treatment of Dimine.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,0,0,1,0,Spacelin,Safspril,0,Spacelin is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,1,0,0,0,Correctomy,Ferroborean Virus,0,Correctomy is indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,0,1,0,1,Subdermal serum,Tretendic Decoup,0,Subdermal serum is not indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Skelenin, Ouroborean Fever, Prexilinax",0,0,1,0,0,0,Givingon volto,Ouroborean Fever,0,Givingon volto is indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,1,0,0,Purgic humineratus,Intersal Flu,0,Purgic humineratus is indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,0,1,1,Dimoxin systerisone,Vampirisorder,0,Dimoxin systerisone is not indicated for the treatment of Vampirisorder.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,0,1,0,Triox Cocoon,Provalyn,0,Triox Cocoon is indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,1,0,1,Ketract,Mongation,0,Ketract is not indicated for the treatment of Mongation.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,0,1,1,Bhellion,The Cardaminil,0,Bhellion is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,0,1,1,Correl White,Pastile Syness,0,Correl White is not indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,1,0,0,Lethelliom,Morphalcynatin,0,Lethelliom is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,1,0,0,0,Isoprojectrice,Ornardamin,0,Isoprojectrice is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,1,0,0,1,Thelas,Provalyn,0,Thelas is not indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,1,0,0,0,Gent Ziriadiat,Posterial Elongation Distion,0,Gent Ziriadiat is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,1,0,0,1,radimefon,Prexilistim,0,radimefon is not indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,0,0,1,0,Kolts andine,Provalyn,0,Kolts andine is indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,1,Retic gem,Drydichlorak,0,Retic gem is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,1,0,1,Selening of the tearshade,Pentury Chamal ,0,Selening of the tearshade is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,0,Aquasolution,Safspril,0,Aquasolution is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,1,0,0,1,Hydravil,Byphost-Traumatinax,0,Hydravil is not indicated for the treatment of Byphost-Traumatinax.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,0,1,0,1,Nemovasite,The Rat Plimpies,0,Nemovasite is not indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,0,1,0,1,Tretendorph,Deatavegamin,0,Tretendorph is not indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,0,0,1,0,Gleemoverizatinous acid,Seritolian Fever,0,Gleemoverizatinous acid is indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,1,0,0,Bling nude inhibitol,Ouroborean Fever,0,Bling nude inhibitol is indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,0,Gent Ziriadiat,Leth Cephalcynate,0,Gent Ziriadiat is indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,0,1,1,Distrand Starshade Chiqua Cure,Adrazygotillas,0,Distrand Starshade Chiqua Cure is not indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,1,0,1,Safsprink in cream disk press,Morphalcynatin,0,Safsprink in cream disk press is not indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,1,0,1,Cardamitol,Spattooingold,0,Cardamitol is not indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,0,0,1,0,Gleemoverizatinous acid,Cordosia,0,Gleemoverizatinous acid is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,0,1,1,Ging spative tubules,Pretendorph,0,Ging spative tubules is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,1,0,1,Prexiliation,Mongation,0,Prexiliation is not indicated for the treatment of Mongation.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,0,1,0,Ging spative tubules,Provasilistion Pox,0,Ging spative tubules is indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,0,Absologram scoon,Fruizine,0,Absologram scoon is indicated for the treatment of Fruizine.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,0,Gent Ziriadiat,Vampies,0,Gent Ziriadiat is indicated for the treatment of Vampies.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,1,0,1,Selectim,Gulping Disease,0,Selectim is not indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,0,1,0,Uspicession,Skelenin,0,Uspicession is indicated for the treatment of Skelenin.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,1,0,0,1,Cortexiliat,Dehalanx,0,Cortexiliat is not indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,0,0,1,1,Viopening eyes und,Tretonidiciousness,0,Viopening eyes und is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,1,0,0,Kerash,Chancress,0,Kerash is indicated for the treatment of Chancress.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,0,1,0,Ging spative tubules,Pretendorph,0,Ging spative tubules is indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,0,0,1,0,the live maging,Daress,0,the live maging is indicated for the treatment of Daress.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,1,Bling nude inhibitol,Pretendorph,0,Bling nude inhibitol is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,1,0,0,0,Retic gem,Boostergroit,0,Retic gem is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,1,Reducin,Drydiciousness,0,Reducin is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,1,0,0,1,Bellerol,Incuritol,0,Bellerol is not indicated for the treatment of Incuritol.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,1,0,0,0,Consumin,Janished Glipheptine,0,Consumin is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,1,0,1,Trioped by Gunhibitol,Dragon Pox of LeChuck,0,Trioped by Gunhibitol is not indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,1,0,0,Retic gem,Holoxaemia,0,Retic gem is indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,1,0,0,Gambutract,Betameath,0,Gambutract is indicated for the treatment of Betameath.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,1,0,1,Distrand Starshade Chiqua Cure,Provalyn,0,Distrand Starshade Chiqua Cure is not indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,1,0,0,Repretonil,Vioprovasilisk Vertebrae,0,Repretonil is indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,1,0,0,0,Kalocaintain's spice ,Posterial Elongation Distion,0,Kalocaintain's spice  is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,1,0,0,0,Gingold excessed wordrazine,Chancress,0,Gingold excessed wordrazine is indicated for the treatment of Chancress.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,1,0,0,0,Dpheptine One D,Twentath,0,Dpheptine One D is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,0,0,1,0,Dibrosia,Fruizine,0,Dibrosia is indicated for the treatment of Fruizine.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,1,0,1,Milic gem,Ferroborean Virus,0,Milic gem is not indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,1,0,0,Hydravil,Third Eye Infectrol,0,Hydravil is indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,0,1,1,Bhelly,Florak,0,Bhelly is not indicated for the treatment of Florak.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,1,0,0,Purgicallocine,Ging Body Syndrome,0,Purgicallocine is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,1,Scammonex,Uspirisorder,0,Scammonex is not indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,1,0,0,1,Health firectinax,Tretendic Decoup,0,Health firectinax is not indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,1,0,0,0,Subder serump Virus,Betameath,0,Subder serump Virus is indicated for the treatment of Betameath.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,1,Scammonex,Kallistruitol,0,Scammonex is not indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,1,0,0,0,Retic gem,Morphalcynatin,0,Retic gem is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,1,0,0,0,Health firectinax,Wife Bline,0,Health firectinax is indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,1,0,0,0,Ging spative tubules,Holoxaemia,0,Ging spative tubules is indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,1,0,1,Retic gem,The Wuhancress,0,Retic gem is not indicated for the treatment of The Wuhancress.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,1,0,0,1,Hydrazineratial impote,Tretonidiciousness,0,Hydrazineratial impote is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,1,0,0,1,Sokologram scoon,Safspril,0,Sokologram scoon is not indicated for the treatment of Safspril.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,1,0,0,1,Represistor ,Incuritol,0,Represistor  is not indicated for the treatment of Incuritol.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,0,0,1,0,Betation,Daress,0,Betation is indicated for the treatment of Daress.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,1,0,0,0,Gambutract,Incuritol,0,Gambutract is indicated for the treatment of Incuritol.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,0,0,1,0,Flower Spationa,Drydichlorak,0,Flower Spationa is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,0,1,1,Purgic humineratus,Catavegamitol,0,Purgic humineratus is not indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,0,1,0,Polydicity,Lithimerol,0,Polydicity is indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,0,Milic gem,Pentury Chamal ,0,Milic gem is indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,1,0,1,Gamma Gransfer camma barrection DNA,Third Eye Infectrol,0,Gamma Gransfer camma barrection DNA is not indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,0,1,0,1,Nemovasite,Doloxaemia,0,Nemovasite is not indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,1,0,0,radimefon,Third Eye Infectrol,0,radimefon is indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,1,0,0,1,Vioprophoenix,Spattooingold,0,Vioprophoenix is not indicated for the treatment of Spattooingold.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,1,0,0,Thelas,Pretonic flu,0,Thelas is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,1,0,0,Sokologram scoon,Neodextractergro,0,Sokologram scoon is indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,1,0,0,0,Dimoxin systerisone,Morphalcynatin,0,Dimoxin systerisone is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,0,1,0,0,Cauteritol,Ging Body Syndrome,0,Cauteritol is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,1,0,0,1,Vioprophoenix,Vampirisorder,0,Vioprophoenix is not indicated for the treatment of Vampirisorder.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,1,0,1,Safsprink in cream disk press,Lazar's Croup,0,Safsprink in cream disk press is not indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Ambrosis Disone, The Cardaminil, Dragon Pox of LeChuck",0,0,1,0,0,1,Dpheptinous acid,Dragon Pox of LeChuck,0,Dpheptinous acid is not indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,1,0,0,0,Tretendorph,Triopenine,0,Tretendorph is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,0,1,0,Selening of the tearshade,Vioprovasilisk Vertebrae,0,Selening of the tearshade is indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,1,0,0,1,lima Grandagicallocaine,Hibernal Venom,0,lima Grandagicallocaine is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,1,0,0,1,Vioprophoenix,Chronoshocktail,0,Vioprophoenix is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,0,Gammony,Polydic flu,0,Gammony is indicated for the treatment of Polydic flu.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,0,1,0,Distrand Starshade Chiqua Cure,Twentath,0,Distrand Starshade Chiqua Cure is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,0,0,1,1,the Borgetfull moor,Neodextral,0,the Borgetfull moor is not indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,1,0,0,0,Vitameatial lobes,Metatinax,0,Vitameatial lobes is indicated for the treatment of Metatinax.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,1,0,0,1,Vitameatmen,Gambutrox Toxan,0,Vitameatmen is not indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,1,0,0,0,Selening of the tearshade,Placelly,0,Selening of the tearshade is indicated for the treatment of Placelly.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,1,Milic gem,Adrazygosis,0,Milic gem is not indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,1,0,0,Oment drinkmote,Neodextraceolin,0,Oment drinkmote is indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,1,0,1,Theratin,Chan Disease,0,Theratin is not indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,0,0,1,1,Isoprojectrice,Prexilinax,0,Isoprojectrice is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,1,0,0,1,Kolts andine,Florak,0,Kolts andine is not indicated for the treatment of Florak.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,1,Kalla extralinax,Daress,0,Kalla extralinax is not indicated for the treatment of Daress.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,0,Bling nude inhibitol,Pretonic flu,0,Bling nude inhibitol is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,1,0,0,0,Subder serump Virus,The Cardaminil,0,Subder serump Virus is indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,0,Slavopropine,Rigellocaine,0,Slavopropine is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,0,0,1,1,Vioprophoenix,The Cardaminil,0,Vioprophoenix is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,1,Kalla extralinax,Selenia Hysterial ,0,Kalla extralinax is not indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,1,0,0,1,Viopening eyes und,Chronoshocktail,0,Viopening eyes und is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,1,0,0,1,Serisonex,Intersal Flu,0,Serisonex is not indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,1,0,0,1,Polydicity,Janished Gluteal Jelly,0,Polydicity is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,0,1,1,Bhellion,Adrazygosis,0,Bhellion is not indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,1,Bling nude inhibitol,Clithium dibrome,0,Bling nude inhibitol is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,0,1,1,Kally closia,Diminil,0,Kally closia is not indicated for the treatment of Diminil.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,1,0,0,1,Flower Spationa,Drydichlorak,0,Flower Spationa is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,0,1,0,Kalocine,Aqua Curse,0,Kalocine is indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,1,0,0,1,Hydronalink,Pastile Syness,0,Hydronalink is not indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,0,1,0,Fludiox Compound,Morphalcynatin,0,Fludiox Compound is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,1,Uspice of zyphoratus,Pastile Syness,0,Uspice of zyphoratus is not indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,0,1,0,Vitameatmen,Anti-gerandeurol,0,Vitameatmen is indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,1,0,1,Safsprink in cream disk press,Ambrosis Disone,0,Safsprink in cream disk press is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,1,0,0,0,Cortexiliat,Dehalanx,0,Cortexiliat is indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,0,0,1,0,Limallocain,Triox Toxan,0,Limallocain is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,0,1,0,Cauter adapteritol,Rigellocaine,0,Cauter adapteritol is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Pretendorph, Spattooingold, Chronoshocktail",0,0,0,0,1,0,Vioprophoenix,Doloxaemia,0,Vioprophoenix is indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,1,0,0,0,Viopening eyes und,Twentath,0,Viopening eyes und is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,0,0,1,0,Viagnostic euthium,Lazar's Croup,0,Viagnostic euthium is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,1,0,0,Polydicity,Neodextral,0,Polydicity is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,0,1,0,Bhelly,Daress,0,Bhelly is indicated for the treatment of Daress.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,1,0,0,Vitameatial lobes,Prexilinax,0,Vitameatial lobes is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,1,0,1,Phalcynation,Ferroborean Virus,0,Phalcynation is not indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,0,1,1,Bhelly closia,Neodextral,0,Bhelly closia is not indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,1,0,0,0,Viagnostic euthium,Byphostal Jells,0,Viagnostic euthium is indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,0,0,1,0,Polydichloricin,The Rat Plimpies,0,Polydichloricin is indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,0,1,0,1,Gleemoverizatinous acid,Mongation,0,Gleemoverizatinous acid is not indicated for the treatment of Mongation.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,1,0,1,Correctomy,Clithium dibrome,0,Correctomy is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,1,0,1,Psychothe tearshade,Electrox Toxan,0,Psychothe tearshade is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,0,1,0,radimefon,Aquasolutiethelas,0,radimefon is indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,1,0,1,Cardamitol,Prexilinax,0,Cardamitol is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,1,0,0,0,Subdermal serum,Rigells,0,Subdermal serum is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,0,1,0,Purgic humineratus,Gulping Disease,0,Purgic humineratus is indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,1,0,1,Repretonil,Vioprovasilisk Vertebrae,0,Repretonil is not indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,0,Aquasolution,Vioprovasilisk Vertebrae,0,Aquasolution is indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,0,Subder serump Virus,Dragon Pox of LeChuck,0,Subder serump Virus is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,1,0,0,0,Lethelliom,Triopenine,0,Lethelliom is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,0,0,1,1,Flower Spationa,Hibernarcoma,0,Flower Spationa is not indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,0,Scammonex,Chimallisk Vertebrae,0,Scammonex is indicated for the treatment of Chimallisk Vertebrae.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,1,0,0,0,radimefon,Lazar's Croup,0,radimefon is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Azrae, Ambrosis Disone, Dehalanx",0,0,0,1,0,1,Cortexiliat,Polydic Deatavegamin,0,Cortexiliat is not indicated for the treatment of Polydic Deatavegamin.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,1,Theratin,Ghosis thorn,0,Theratin is not indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,0,0,1,0,Serisonex,Hibernaran plague,0,Serisonex is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,1,0,0,0,Medicity,Drydiciousness,0,Medicity is indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,0,1,1,Altruizine,Adrazygosis,0,Altruizine is not indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Wife Bline, Plomoxinis Disordrazine, Twentath",0,0,0,0,1,0,Conti-toxin,Ambrosis Disone,0,Conti-toxin is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,0,0,1,1,Avoidancozeb,Polydic Deatavegamin,0,Avoidancozeb is not indicated for the treatment of Polydic Deatavegamin.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,1,0,1,Bhelly,Daress,0,Bhelly is not indicated for the treatment of Daress.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,0,1,0,Purgicallocine,Doloxaemia,0,Purgicallocine is indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,0,0,1,0,Washing Lin,Vampies,0,Washing Lin is indicated for the treatment of Vampies.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,1,0,0,0,Washing Lin,Pentury Chronin,0,Washing Lin is indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,0,0,1,1,Spacelin,Safspril,0,Spacelin is not indicated for the treatment of Safspril.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,1,0,0,1,Cauteritol,Drydichlorak,0,Cauteritol is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,1,0,0,1,Kalocine,Aqua Curse,0,Kalocine is not indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,0,0,1,0,Flower Spationa,Polydic flu,0,Flower Spationa is indicated for the treatment of Polydic flu.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,1,0,0,0,Serisonex,Omegeneran Lorder,0,Serisonex is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,1,0,0,Hydrona Transplanx,Catavegamine,0,Hydrona Transplanx is indicated for the treatment of Catavegamine.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,1,0,0,Selening of the tearshade,Uspirisorder,0,Selening of the tearshade is indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,0,1,0,Boosterization inhibitol,Pastile Syness,0,Boosterization inhibitol is indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,1,0,0,1,Washing Lin,Catavegamin,0,Washing Lin is not indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,1,0,0,Phalcynation,Emorder,0,Phalcynation is indicated for the treatment of Emorder.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,0,0,1,1,Viopening eyes und,Tretions of thesia,0,Viopening eyes und is not indicated for the treatment of Tretions of thesia.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,1,0,0,1,Thelas,Pretonic flu,0,Thelas is not indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,1,0,0,Boosterization inhibitol,Provalyn,0,Boosterization inhibitol is indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,1,0,0,1,Vitameatmen,Gleemone,0,Vitameatmen is not indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,0,Distracelic eutrol,Provasilistion Pox,0,Distracelic eutrol is indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,1,Kalla extralinax,Vestimulation,0,Kalla extralinax is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,0,Gent Ziriadiat,Prexilinax,0,Gent Ziriadiat is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,1,0,0,1,lima Grandagicallocaine,Omegeneran Lorder,0,lima Grandagicallocaine is not indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,1,Trioped by Gunhibitol,Selenia Hysterial ,0,Trioped by Gunhibitol is not indicated for the treatment of Selenia Hysterial .,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,1,0,0,0,Psychothe tearshade,Drydichlorak,0,Psychothe tearshade is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,0,1,0,1,Viagnostic euthium,Byphostal Jells,0,Viagnostic euthium is not indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,1,Sokolon,Third Eye Infectrol,0,Sokolon is not indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,0,0,1,1,Serisonex,Rigells,0,Serisonex is not indicated for the treatment of Rigells.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,1,0,0,0,Nemovasite,Interitina,0,Nemovasite is indicated for the treatment of Interitina.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,1,0,0,1,Cauteritol,Ghosis thorn,0,Cauteritol is not indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,0,1,1,Fludiox Compound,Dehalanx,0,Fludiox Compound is not indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,0,Sokolon,Bufonic euthimerasone,0,Sokolon is indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,1,0,1,Gamma Gransfer camma barrection DNA,Prexilinax,0,Gamma Gransfer camma barrection DNA is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,0,Reducin,Chancress,0,Reducin is indicated for the treatment of Chancress.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,0,1,0,Bhellion,Neodextractergro,0,Bhellion is indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,1,0,0,1,Cauter adapteritol,Ornardamin,0,Cauter adapteritol is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,0,1,0,Fludiox Compound,Ferroborean Virus,0,Fludiox Compound is indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,1,Absologram scoon,Neuroborean plague,0,Absologram scoon is not indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,0,Distracelic eutrol,Fruizine,0,Distracelic eutrol is indicated for the treatment of Fruizine.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,0,1,0,0,Bellerol,Gulping Disease,0,Bellerol is indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,1,0,0,0,Cardamitolic epine,Deatavegamin,0,Cardamitolic epine is indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Byphost-Traumatinax, Electrox Toxan, Seritolian Fever",0,0,1,0,0,1,Avoidancozeb,Electrox Toxan,0,Avoidancozeb is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,1,Hydromide,Vampies,0,Hydromide is not indicated for the treatment of Vampies.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,1,0,1,Kalocaintain's spice ,Ornardamin,0,Kalocaintain's spice  is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,1,0,0,1,Reducin,Spattooing cells,0,Reducin is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,1,Gammony,Dimine,0,Gammony is not indicated for the treatment of Dimine.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,0,1,0,1,Kolts andine,Safspril,0,Kolts andine is not indicated for the treatment of Safspril.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,1,0,0,0,Polydichloricin,Buboparan Virus,0,Polydichloricin is indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,1,0,0,1,Oment drinkmote,Pretendorph,0,Oment drinkmote is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,1,0,0,0,Bhelly closia,Cordosia,0,Bhelly closia is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,1,0,1,Purgic humineratus,Gamma Gliphemenalin,0,Purgic humineratus is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,1,0,1,Uspice of zyphoratus,Motilla extraline,0,Uspice of zyphoratus is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,0,0,1,1,Viagnostic euthium,Gambutrox Cock,0,Viagnostic euthium is not indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,0,0,1,0,Cauteritol,Janished Gluteal Jelly,0,Cauteritol is indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,1,0,0,Kalocaintain's spice ,Motic Zygosis,0,Kalocaintain's spice  is indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,1,0,0,1,Reducing live tearchlorices,Azrae,0,Reducing live tearchlorices is not indicated for the treatment of Azrae.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,1,0,1,Theratin,Pentury Chamal ,0,Theratin is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,0,1,1,Polydicity,Triopenine,0,Polydicity is not indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,1,0,0,0,Hydromide,Tretine,0,Hydromide is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,0,1,0,Estars,Gulping Disease,0,Estars is indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,1,0,1,Consumin,Catavegamin,0,Consumin is not indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,1,0,0,0,Bling nude inhibitol,Clithium dibrome,0,Bling nude inhibitol is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,1,0,1,Hydrona Transplanx,Athe Warmbloodhype,0,Hydrona Transplanx is not indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,1,0,1,Reducing live tearchlorices,Pretendorph,0,Reducing live tearchlorices is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,0,1,0,Repretonil,Neodextraceolin,0,Repretonil is indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,1,0,0,Kalocaintain's spice ,Ornardamin,0,Kalocaintain's spice  is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Byphost-Traumatinax, Hibernaran plague, Triox Toxan",0,0,0,0,1,0,Limallocain,Adrazygosis,0,Limallocain is indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,0,1,1,Surgetfulnession,Provasilistion Pox,0,Surgetfulnession is not indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,0,1,0,0,Dibrosia,Third Eye Infectrol,0,Dibrosia is indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,1,Belliom,Rigells,0,Belliom is not indicated for the treatment of Rigells.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,lima Grandagicallocaine,Byphostal Jells,0,lima Grandagicallocaine is indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,1,Gambutract,Wife Bline,0,Gambutract is not indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,1,0,0,1,Directive tubules,Hibernal Venom,0,Directive tubules is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,0,1,1,Cauter adapteritol,Anti-gerandeurol,0,Cauter adapteritol is not indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,1,0,0,1,Gamma Gransfer camma barrection DNA,Ging Placelly,0,Gamma Gransfer camma barrection DNA is not indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,1,0,0,Represistor ,Lazar's Croup,0,Represistor  is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,1,0,0,0,Uspice of zyphoratus,Posterial Elongation Distion,0,Uspice of zyphoratus is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,0,1,0,Correl White,Deatavegamin,0,Correl White is indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,Metazinephrine,Omegeneran Lorder,0,Metazinephrine is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,1,0,0,1,Estars,Dehalanx,0,Estars is not indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,0,1,1,Kalocaintain's spice ,Janished Glipheptine,0,Kalocaintain's spice  is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,1,Selectim,Dragon Pox of LeChuck,0,Selectim is not indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,1,0,0,0,Kally closia,Incuritol,0,Kally closia is indicated for the treatment of Incuritol.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,0,1,0,1,Viopening eyes und,Ging Placelly,0,Viopening eyes und is not indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,0,1,1,Correl White,Deatavegamin,0,Correl White is not indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,0,1,1,Kalocaintain's spice ,Polydic flu,0,Kalocaintain's spice  is not indicated for the treatment of Polydic flu.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,1,0,0,Cardamitolic epine,Prexilinax,0,Cardamitolic epine is indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,1,0,1,Trioped by Gunhibitol,Betameath,0,Trioped by Gunhibitol is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,1,0,1,Vitameatmen,Twentath,0,Vitameatmen is not indicated for the treatment of Twentath.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,1,0,1,Correl White,Blue Snarcoma,0,Correl White is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,0,Represistor ,Uspirisorder,0,Represistor  is indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,0,1,0,Kallocine milicorices,Rigells,0,Kallocine milicorices is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,1,0,0,1,Plomoxin spirim,Gamma Gliphemenalin,0,Plomoxin spirim is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,1,0,0,Cardamitolic epine,Tretine,0,Cardamitolic epine is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,1,0,0,1,Gamma Gransfer camma barrection DNA,Rigellocaine,0,Gamma Gransfer camma barrection DNA is not indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,0,1,1,radimefon,Catavegamitol,0,radimefon is not indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,1,0,0,1,Dibrosia,Spattooing cells,0,Dibrosia is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,1,Distracelic eutrol,Neodextraceolin,0,Distracelic eutrol is not indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,0,Kalla extralinax,Intersal Flu,0,Kalla extralinax is indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,1,0,1,Slavopropine,Third Eye Infectrol,0,Slavopropine is not indicated for the treatment of Third Eye Infectrol.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,0,Subder serump Virus,Mongolinax,0,Subder serump Virus is indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,0,Hydromide,Vampies,0,Hydromide is indicated for the treatment of Vampies.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,1,Gammony,Polydic flu,0,Gammony is not indicated for the treatment of Polydic flu.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,1,0,1,Milic gem,Pentury Chamal ,0,Milic gem is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,1,Gambutract,Deatavegamin,0,Gambutract is not indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,1,0,0,Ketract,Rigells,0,Ketract is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,1,0,0,1,Consumin,Dehalanx,0,Consumin is not indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,1,0,1,Directive tubules,Holoxaemia,0,Directive tubules is not indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,0,1,0,Correl White,Clithium dibrome,0,Correl White is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,1,0,0,1,Ging spative tubules,Tretine,0,Ging spative tubules is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,0,Kalla extralinax,Catavegamitol,0,Kalla extralinax is indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,0,1,1,Surgetfulnession,Tretine,0,Surgetfulnession is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,1,0,1,Purgic humineratus,Gulping Disease,0,Purgic humineratus is not indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"Pretonic flu, Pentury Chronin, Rigellocaine",0,0,1,0,0,0,the Borgetfull moor,Pentury Chronin,0,the Borgetfull moor is indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,1,Reducin,The Cardaminil,0,Reducin is not indicated for the treatment of The Cardaminil.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,0,1,0,Consumin,Gambutrox Toxan,0,Consumin is indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,0,1,0,Medicity,Motile Shadow Virus,0,Medicity is indicated for the treatment of Motile Shadow Virus.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,0,1,1,radimefon,Janished Takis,0,radimefon is not indicated for the treatment of Janished Takis.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,1,0,0,1,Distracelic eutrol,Provasilistion Pox,0,Distracelic eutrol is not indicated for the treatment of Provasilistion Pox.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,1,Psychothe tearshade,Blue Snarcoma,0,Psychothe tearshade is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,1,0,0,Bhellion,Pastile Syness,0,Bhellion is indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,0,1,1,Triox Cocoon,Motile Shadow Virus,0,Triox Cocoon is not indicated for the treatment of Motile Shadow Virus.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,0,0,1,1,Gingold excessed wordrazine,Chancress,0,Gingold excessed wordrazine is not indicated for the treatment of Chancress.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,0,Slavopropine,Aqua Curse,0,Slavopropine is indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,1,Aquasolution,Blue Snarcoma,0,Aquasolution is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,1,0,0,0,Purgicallocine,The Rat Plimpies,0,Purgicallocine is indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,1,Scammonex,Blue Snarcoma,0,Scammonex is not indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,1,0,0,1,B47/7RF repretendorpha,Janished Glipheptine,0,B47/7RF repretendorpha is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Seritolian Fever, Mongation, Drydichlorak",0,0,1,0,0,0,Gleemoverizatinous acid,Drydichlorak,0,Gleemoverizatinous acid is indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,1,0,0,Dpheptine One D,Byphostal Jells,0,Dpheptine One D is indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,0,Retic gem,Rigellocaine,0,Retic gem is indicated for the treatment of Rigellocaine.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,0,1,0,Psychothe tearshade,Dragon Pox of LeChuck,0,Psychothe tearshade is indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,0,1,1,Kalocaintain's spice ,Catavegamitol,0,Kalocaintain's spice  is not indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,0,1,0,Uspicession,Spaceolindness,0,Uspicession is indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,1,0,0,Gamma Gransfer camma barrection DNA,Leth Cephalcynate,0,Gamma Gransfer camma barrection DNA is indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,1,0,0,Correl White,Pretendorph,0,Correl White is indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,0,Scammonex,Metatinax,0,Scammonex is indicated for the treatment of Metatinax.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,1,0,0,0,Viopening eyes und,Tretions of thesia,0,Viopening eyes und is indicated for the treatment of Tretions of thesia.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,0,1,0,Distrand Starshade Chiqua Cure,Neodextractergro,0,Distrand Starshade Chiqua Cure is indicated for the treatment of Neodextractergro.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,1,0,0,0,Aquasolution,Blue Snarcoma,0,Aquasolution is indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,1,0,1,Retinalifin,Mongation,0,Retinalifin is not indicated for the treatment of Mongation.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,0,1,1,Uspicession,Triopenine,0,Uspicession is not indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,1,0,0,0,Barrectricin,Dimine,0,Barrectricin is indicated for the treatment of Dimine.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,1,0,0,1,Fludiox Compound,Ambrosis Disone,0,Fludiox Compound is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,1,0,1,Correctomy,Valithni,0,Correctomy is not indicated for the treatment of Valithni.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,1,0,1,Scammonex,Chimallisk Vertebrae,0,Scammonex is not indicated for the treatment of Chimallisk Vertebrae.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,1,0,1,Metazinephrine,Emorder,0,Metazinephrine is not indicated for the treatment of Emorder.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,0,1,1,Altruizine,Clithium dibrome,0,Altruizine is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,1,0,0,Dpheptine One D,Pretonic flu,0,Dpheptine One D is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,0,1,1,Polydicine,Pentury Chronin,0,Polydicine is not indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,0,0,1,1,Barrectricin,Doloxaemia,0,Barrectricin is not indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,1,0,1,Gambutract,Incuritol,0,Gambutract is not indicated for the treatment of Incuritol.,0,0,1
+indications,0,"Wife Bline, Ferroborean Virus, Polydic Deatavegamin",0,0,0,0,1,0,Represistor ,Ambrosis Disone,0,Represistor  is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,0,1,1,Oment drinkmote,Pentury Chronin,0,Oment drinkmote is not indicated for the treatment of Pentury Chronin.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,1,0,1,Fludiox Compound,Leth Cephalcynate,0,Fludiox Compound is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,1,Metazinephrine,Byphost-Traumatinax,0,Metazinephrine is not indicated for the treatment of Byphost-Traumatinax.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,1,0,0,0,radimefon,Catavegamitol,0,radimefon is indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,0,0,1,0,Tretendorph,Deatavegamin,0,Tretendorph is indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,0,1,1,Bhelly closia,Prexilistim,0,Bhelly closia is not indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,1,0,0,0,Polydicine,Tretine,0,Polydicine is indicated for the treatment of Tretine.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,1,Gambutract,Placelly,0,Gambutract is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,1,0,0,Purgicallocine,Hibernaran plague,0,Purgicallocine is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,1,0,0,Dpheptine One D,Tretendic Decoup,0,Dpheptine One D is indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,0,1,1,Dimoxin systerisone,Gleemone,0,Dimoxin systerisone is not indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,1,0,0,Altruizine,Ging Placelly,0,Altruizine is indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Uspirisorder, Pretendorph, Rigellocaine",0,0,0,0,1,0,Sokolon,Ornardamin,0,Sokolon is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,1,0,1,Bhelly closia,Cordosia,0,Bhelly closia is not indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,1,0,0,0,Distracelic eutrol,Neodextraceolin,0,Distracelic eutrol is indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,1,Theratin,Electrox Toxan,0,Theratin is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,0,1,0,Ketract,Chimallisk Vertebrae,0,Ketract is indicated for the treatment of Chimallisk Vertebrae.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,1,0,0,0,Uspicession,Bufonic euthimerasone,0,Uspicession is indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,0,1,1,Distrand Starshade Chiqua Cure,Boostergroit,0,Distrand Starshade Chiqua Cure is not indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Lithimerol, Chan Disease, Fruizine",0,0,0,1,0,1,Dibrosia,Provalyn,0,Dibrosia is not indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Rigellocaine, Fruizine, Neuroborean plague",0,0,0,0,1,1,Absologram scoon,Neodextral,0,Absologram scoon is not indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,1,Selectim,Tretonidiciousness,0,Selectim is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,0,Uspice of zyphoratus,Kallistruitol,0,Uspice of zyphoratus is indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,1,0,1,Oment drinkmote,Betameath,0,Oment drinkmote is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,1,0,0,Medicity,Janished Takis,0,Medicity is indicated for the treatment of Janished Takis.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,0,0,1,1,B47/7RF repretendorpha,Drydiciousness,0,B47/7RF repretendorpha is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,0,Removasitol,Ornardamin,0,Removasitol is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,0,1,1,Polydicity,Hibernal Venom,0,Polydicity is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,0,Cardamitol,Bufonic euthimerasone,0,Cardamitol is indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,1,Distracelic eutrol,Janished Gluteal Jelly,0,Distracelic eutrol is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Electrox Toxan, Fruizine, Lithimerol",0,0,0,0,1,0,Theratin,Lithimerol,0,Theratin is indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,0,1,0,1,B47/7RF repretendorpha,Florak,0,B47/7RF repretendorpha is not indicated for the treatment of Florak.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,0,0,1,1,Bellerol,Gamma Gliphemenalin,0,Bellerol is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,1,0,0,0,Selening of the tearshade,Holoxaemia,0,Selening of the tearshade is indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,0,1,0,Polydicine,Diminil,0,Polydicine is indicated for the treatment of Diminil.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,0,1,0,Fludiox Compound,Gambutrox Toxan,0,Fludiox Compound is indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,1,0,0,Kally closia,Leth Cephalcynate,0,Kally closia is indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,0,1,0,Triox Cocoon,Holoxaemia,0,Triox Cocoon is indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,0,1,0,Boosterization inhibitol,Buboparan Virus,0,Boosterization inhibitol is indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,0,1,1,Kallocine milicorices,Bufonic euthimerasone,0,Kallocine milicorices is not indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,1,0,0,1,the live maging,Ging Placelly,0,the live maging is not indicated for the treatment of Ging Placelly.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,0,1,0,Directive tubules,Chronoshocktail,0,Directive tubules is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,0,0,1,0,Cauteritol,Triox Toxan,0,Cauteritol is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,0,0,1,0,Gent Ziriadiat,Hibernaran plague,0,Gent Ziriadiat is indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,1,0,0,1,Washing Lin,Hibernaran plague,0,Washing Lin is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,1,0,0,1,Fludiox Compound,Ging Body Syndrome,0,Fludiox Compound is not indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,1,0,1,Polydicine,Ouroborean Fever,0,Polydicine is not indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,0,1,0,Safsprink in cream disk press,Rigells,0,Safsprink in cream disk press is indicated for the treatment of Rigells.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,1,Distracelic eutrol,Catavegamitol,0,Distracelic eutrol is not indicated for the treatment of Catavegamitol.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,0,1,0,Oment drinkmote,Janished Glipheptine,0,Oment drinkmote is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Spattooingold, Prexilinax, Ging Body Syndrome",0,0,0,0,1,1,Cardamitol,Catavegamin,0,Cardamitol is not indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,0,1,0,Polydicine,Thing cellian Syndrome,0,Polydicine is indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,0,Hydronalink,Triopenine,0,Hydronalink is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Boostergroit, Buboparan Virus, Adrazygotillas",0,0,0,0,1,0,Barrectricin,Buboparan Virus,0,Barrectricin is indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,1,0,0,Dpheptine Injection,Posterial Elongation Distion,0,Dpheptine Injection is indicated for the treatment of Posterial Elongation Distion.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,1,0,1,Correl White,Spaceolindness,0,Correl White is not indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,0,Selectim,Gulping Disease,0,Selectim is indicated for the treatment of Gulping Disease.,0,0,1
+indications,0,"The Rat Plimpies, Ornardamin, Prexilinax",0,0,0,0,1,1,Isoprojectrice,Motilla extraline,0,Isoprojectrice is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,1,0,0,Hydrona Transplanx,Mongolinax,0,Hydrona Transplanx is indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,0,1,1,Polydicity,Lithimerol,0,Polydicity is not indicated for the treatment of Lithimerol.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,1,Metazinephrine,Skelenin,0,Metazinephrine is not indicated for the treatment of Skelenin.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,0,1,1,Repretonil,Kallistruitol,0,Repretonil is not indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,0,1,1,Prexiliation,Hibernarcoma,0,Prexiliation is not indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,1,0,0,1,Kalla extralinax,Emorder,0,Kalla extralinax is not indicated for the treatment of Emorder.,0,0,1
+indications,0,"Emorder, Hibernarcoma, Selenia Hysterial ",0,0,0,0,1,0,Kalla extralinax,Hibernarcoma,0,Kalla extralinax is indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,1,0,0,0,Clith fire,Pretendorph,0,Clith fire is indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,1,0,0,0,Plomoxin spirim,Athe Warmbloodhype,0,Plomoxin spirim is indicated for the treatment of Athe Warmbloodhype.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,0,1,1,Selening of the tearshade,Hibernaran plague,0,Selening of the tearshade is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,0,Scammonex,Uspirisorder,0,Scammonex is indicated for the treatment of Uspirisorder.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,1,Slavopropine,Aqua Curse,0,Slavopropine is not indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Janished Glipheptine, Morphalcynatin, Hibernal Venom",0,0,0,0,1,0,B47/7RF repretendorpha,Placelly,0,B47/7RF repretendorpha is indicated for the treatment of Placelly.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,lima Grandagicallocaine,Omegeneran Lorder,0,lima Grandagicallocaine is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,0,Milic gem,Neodextral,0,Milic gem is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,0,1,0,0,Viagnostic euthium,Janished Gluteal Jelly,0,Viagnostic euthium is indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,1,0,0,1,Directive tubules,Spattooing cells,0,Directive tubules is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Vampies, Leth Cephalcynate, Hibernaran plague",0,0,1,0,0,1,Gent Ziriadiat,Chancress,0,Gent Ziriadiat is not indicated for the treatment of Chancress.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,1,0,0,Reducin,Drydiciousness,0,Reducin is indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,0,1,1,Reducin,Hibernal Venom,0,Reducin is not indicated for the treatment of Hibernal Venom.,0,0,1
+indications,0,"Pentury Chronin, Neodextraceolin, Neodextral",0,0,0,1,0,1,Oment drinkmote,Neodextraceolin,0,Oment drinkmote is not indicated for the treatment of Neodextraceolin.,0,0,1
+indications,0,"Blue Snarcoma, Vestimulation, Valithni",0,0,0,0,1,0,Aquasolution,Vestimulation,0,Aquasolution is indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,1,0,0,1,Phalcynation,Holoxaemia,0,Phalcynation is not indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,1,0,0,1,Health firectinax,Byphost-Traumatinax,0,Health firectinax is not indicated for the treatment of Byphost-Traumatinax.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,1,0,0,1,Flower Spationa,Chan Disease,0,Flower Spationa is not indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,0,lima Grandagicallocaine,Chan Disease,0,lima Grandagicallocaine is indicated for the treatment of Chan Disease.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,0,1,0,Kally closia,Mongation,0,Kally closia is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,1,0,1,Boosterization inhibitol,Dimine,0,Boosterization inhibitol is not indicated for the treatment of Dimine.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,1,0,0,1,Uspicession,Doloxaemia,0,Uspicession is not indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,0,0,1,0,Viopening eyes und,Mongation,0,Viopening eyes und is indicated for the treatment of Mongation.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,1,Hydronalink,Morphalcynatin,0,Hydronalink is not indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,0,1,0,Altruizine,Clithium dibrome,0,Altruizine is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,0,1,1,Dpheptine One D,Pretonic flu,0,Dpheptine One D is not indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,1,0,0,0,Clith fire,Metatinax,0,Clith fire is indicated for the treatment of Metatinax.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,1,0,1,Removasitol,Dehalanx,0,Removasitol is not indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,0,0,1,1,Cardamitolic epine,Hibernarcoma,0,Cardamitolic epine is not indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,0,1,0,Reducing live tearchlorices,Chronoshocktail,0,Reducing live tearchlorices is indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,0,1,0,1,Prexiliation,Chimallorak,0,Prexiliation is not indicated for the treatment of Chimallorak.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,0,0,1,0,Subdermal serum,Thing cellian Syndrome,0,Subdermal serum is indicated for the treatment of Thing cellian Syndrome.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,1,0,0,0,lima Grandagicallocaine,Ambrosis Disone,0,lima Grandagicallocaine is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,1,0,1,radimefon,Motic Zygosis,0,radimefon is not indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Janished Glipheptine, Polydic flu, Ornardamin",0,0,0,0,1,0,Kalocaintain's spice ,Janished Glipheptine,0,Kalocaintain's spice  is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Boostergroit, Daress, Provalyn",0,0,0,1,0,0,Betation,Mongolinax,0,Betation is indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,1,0,1,Uspicession,Drydiciousness,0,Uspicession is not indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,0,1,0,Consumin,Catavegamin,0,Consumin is indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,0,0,1,0,Health firectinax,Byphost-Traumatinax,0,Health firectinax is indicated for the treatment of Byphost-Traumatinax.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,1,0,0,1,Slavopropine,Betameath,0,Slavopropine is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,1,0,0,1,Tretendorph,Boostergroit,0,Tretendorph is not indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Catavegamitol, Third Eye Infectrol, Aquasolutiethelas",0,0,0,0,1,0,radimefon,Florak,0,radimefon is indicated for the treatment of Florak.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,1,Retic gem,Morphalcynatin,0,Retic gem is not indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,1,0,1,Vitameatial lobes,Florak,0,Vitameatial lobes is not indicated for the treatment of Florak.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,1,0,0,Hydromide,Pastile Syness,0,Hydromide is indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,1,Removasitol,Ornardamin,0,Removasitol is not indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,0,0,1,1,Ging spative tubules,Seritolian Fever,0,Ging spative tubules is not indicated for the treatment of Seritolian Fever.,0,0,1
+indications,0,"Twentath, Byphostal Jells, Pretonic flu",0,0,0,1,0,1,Dpheptine One D,Motilla extraline,0,Dpheptine One D is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,0,1,0,Correctomy,Ouroborean Fever,0,Correctomy is indicated for the treatment of Ouroborean Fever.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,0,Hydronalink,Motic Zygosis,0,Hydronalink is indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,1,0,0,1,Fludiox Compound,Gambutrox Toxan,0,Fludiox Compound is not indicated for the treatment of Gambutrox Toxan.,0,0,1
+indications,0,"Dehalanx, Cordosia, Prexilistim",0,0,0,1,0,0,Bhelly closia,Dehalanx,0,Bhelly closia is indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Chimallorak, Prexilistim, Kallistruitol",0,0,1,0,0,1,Prexiliation,Byphostal Jells,0,Prexiliation is not indicated for the treatment of Byphostal Jells.,0,0,1
+indications,0,"Janished Gluteal Jelly, Gambutrox Cock, Byphostal Jells",0,0,1,0,0,0,Viagnostic euthium,Wife Bline,0,Viagnostic euthium is indicated for the treatment of Wife Bline.,0,0,1
+indications,0,"Posterial Elongation Distion, Boostergroit, Aquasolutiethelas",0,0,0,0,1,0,Dpheptine Injection,Vampirisorder,0,Dpheptine Injection is indicated for the treatment of Vampirisorder.,0,0,1
+indications,0,"Buboparan Virus, Metatinax, Vampies",0,0,0,1,0,1,Washing Lin,Buboparan Virus,0,Washing Lin is not indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,0,0,1,1,Polydichloricin,Gamma Gliphemenalin,0,Polydichloricin is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Bufonic euthimerasone, Triopenine, Lithimerol",0,0,0,0,1,0,Polydicity,Triopenine,0,Polydicity is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Janished Glipheptine, Incuritol, Neodextractergro",0,0,0,0,1,0,Gambutract,Janished Glipheptine,0,Gambutract is indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,1,0,0,Slavopropine,Neodextral,0,Slavopropine is indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Drydiciousness, Catavegamine, Athe Warmbloodhype",0,0,0,1,0,0,Hydrona Transplanx,Drydiciousness,0,Hydrona Transplanx is indicated for the treatment of Drydiciousness.,0,0,1
+indications,0,"Florak, Triopenine, Triox Toxan",0,0,0,0,1,0,Vitameatial lobes,Triopenine,0,Vitameatial lobes is indicated for the treatment of Triopenine.,0,0,1
+indications,0,"Byphostal Jells, Neodextraceolin, Clithium dibrome",0,0,0,0,1,1,Altruizine,Gleemone,0,Altruizine is not indicated for the treatment of Gleemone.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,1,0,0,Kallocine milicorices,Doloxaemia,0,Kallocine milicorices is indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Azrae, Deatavegamin, Tretonidiciousness",0,0,0,0,1,1,Hydrazineratial impote,Deatavegamin,0,Hydrazineratial impote is not indicated for the treatment of Deatavegamin.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,0,1,0,0,the live maging,Janished Takis,0,the live maging is indicated for the treatment of Janished Takis.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,1,0,0,1,Correl White,Pretendorph,0,Correl White is not indicated for the treatment of Pretendorph.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,0,0,1,0,Repretonil,Spattooing cells,0,Repretonil is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Holoxaemia, Drydichlorak, Morphalcynatin",0,0,0,0,1,1,Retic gem,Holoxaemia,0,Retic gem is not indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,1,0,0,Hydromide,Adrazygotillas,0,Hydromide is indicated for the treatment of Adrazygotillas.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,0,1,0,Phalcynation,Anti-gerandeurol,0,Phalcynation is indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,1,0,1,Hydravil,Neodextral,0,Hydravil is not indicated for the treatment of Neodextral.,0,0,1
+indications,0,"Pentury Chamal , Spattooingold, Aqua Curse",0,0,0,0,1,1,Slavopropine,Mongolinax,0,Slavopropine is not indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,1,0,0,1,Sokologram scoon,Vampies,0,Sokologram scoon is not indicated for the treatment of Vampies.,0,0,1
+indications,0,"Bufonic euthimerasone, Doloxaemia, Drydiciousness",0,0,0,0,1,1,Uspicession,Vestimulation,0,Uspicession is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,1,0,1,Hydronalink,Doloxaemia,0,Hydronalink is not indicated for the treatment of Doloxaemia.,0,0,1
+indications,0,"Janished Gluteal Jelly, Neodextraceolin, Provasilistion Pox",0,0,0,0,1,0,Distracelic eutrol,Janished Gluteal Jelly,0,Distracelic eutrol is indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Card's Lubric Cepha, Daress, Rigellocaine",0,0,0,0,1,1,the live maging,Daress,0,the live maging is not indicated for the treatment of Daress.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,0,1,1,Ketract,Bufonic euthimerasone,0,Ketract is not indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Prexilistim, Anti-gerandeurol, Emorder",0,0,0,0,1,1,Phalcynation,Anti-gerandeurol,0,Phalcynation is not indicated for the treatment of Anti-gerandeurol.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,1,Uspice of zyphoratus,Tretonidiciousness,0,Uspice of zyphoratus is not indicated for the treatment of Tretonidiciousness.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,0,1,0,Cauter adapteritol,Leth Cephalcynate,0,Cauter adapteritol is indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,1,0,0,0,lima Grandagicallocaine,Motile Shadow Virus,0,lima Grandagicallocaine is indicated for the treatment of Motile Shadow Virus.,0,0,1
+indications,0,"Safspril, Byphost-Traumation, Betameath",0,0,0,0,1,1,Spacelin,Betameath,0,Spacelin is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Pretendorph, Omegeneran Lorder, Seritolian Fever",0,0,1,0,0,0,Ging spative tubules,Omegeneran Lorder,0,Ging spative tubules is indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,0,1,1,Purgicallocine,The Rat Plimpies,0,Purgicallocine is not indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,1,0,1,Hydravil,Electrox Toxan,0,Hydravil is not indicated for the treatment of Electrox Toxan.,0,0,1
+indications,0,"Pentury Chamal , Chimallisk Vertebrae, Uspirisorder",0,0,0,0,1,0,Scammonex,Twentath,0,Scammonex is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,1,0,1,Plomoxin spirim,Tretions of thesia,0,Plomoxin spirim is not indicated for the treatment of Tretions of thesia.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,0,1,0,Kalocine,Lazar's Croup,0,Kalocine is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Thing cellian Syndrome, Spattooing cells, Ornardamin",0,0,0,1,0,1,Cauter adapteritol,Spattooing cells,0,Cauter adapteritol is not indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,0,0,1,1,Boosterization inhibitol,Dragon Pox of LeChuck,0,Boosterization inhibitol is not indicated for the treatment of Dragon Pox of LeChuck.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,0,Thelas,Prexilistim,0,Thelas is indicated for the treatment of Prexilistim.,0,0,1
+indications,0,"Morphalcynatin, Posterial Elongation Distion, Motilla extraline",0,0,0,0,1,1,Uspice of zyphoratus,Placelly,0,Uspice of zyphoratus is not indicated for the treatment of Placelly.,0,0,1
+indications,0,"Tretendic Decoup, Gamma Gliphemenalin, Safspril",0,0,0,0,1,1,Kolts andine,Ghosis thorn,0,Kolts andine is not indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,1,0,1,Polydicine,Vestimulation,0,Polydicine is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,0,1,0,0,Fludiox Compound,Placelly,0,Fludiox Compound is indicated for the treatment of Placelly.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,1,0,0,1,Surgetfulnession,Pentury Chamal ,0,Surgetfulnession is not indicated for the treatment of Pentury Chamal .,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,0,1,1,Bhelly,Catavegamine,0,Bhelly is not indicated for the treatment of Catavegamine.,0,0,1
+indications,0,"Deatavegamin, Holoxaemia, Ferroborean Virus",0,0,1,0,0,1,Tretendorph,Holoxaemia,0,Tretendorph is not indicated for the treatment of Holoxaemia.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,0,1,1,Sokologram scoon,Twentath,0,Sokologram scoon is not indicated for the treatment of Twentath.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,1,0,0,0,Milic gem,Dehalanx,0,Milic gem is indicated for the treatment of Dehalanx.,0,0,1
+indications,0,"Safspril, Twentath, Azrae",0,0,0,1,0,0,Sokologram scoon,Safspril,0,Sokologram scoon is indicated for the treatment of Safspril.,0,0,1
+indications,0,"Drydiciousness, Pentury Chronin, Chancress",0,0,0,0,1,0,Kerash,Blue Snarcoma,0,Kerash is indicated for the treatment of Blue Snarcoma.,0,0,1
+indications,0,"Mongation, Pretonic flu, Clithium dibrome",0,0,0,0,1,1,Bling nude inhibitol,Daress,0,Bling nude inhibitol is not indicated for the treatment of Daress.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,0,Retinalifin,Plomoxinis Disordrazine,0,Retinalifin is indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,1,0,1,Ketract,Skelenin,0,Ketract is not indicated for the treatment of Skelenin.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,1,0,0,1,Repretonil,Prexilinax,0,Repretonil is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,1,0,0,1,Subdermal serum,Janished Glipheptine,0,Subdermal serum is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,1,0,0,0,Milic gem,Adrazygosis,0,Milic gem is indicated for the treatment of Adrazygosis.,0,0,1
+indications,0,"Rigells, Gambutrox Cock, Janished Glipheptine",0,0,0,0,1,0,Subdermal serum,Gambutrox Cock,0,Subdermal serum is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Gleemone, Gambutrox Toxan, Buboparan Virus",0,0,0,1,0,1,Vitameatmen,Vampies,0,Vitameatmen is not indicated for the treatment of Vampies.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,0,1,0,0,Surgetfulnession,Aquasolutiethelas,0,Surgetfulnession is indicated for the treatment of Aquasolutiethelas.,0,0,1
+indications,0,"Lazar's Croup, Catavegamin, Aqua Curse",0,0,0,1,0,0,Kalocine,Catavegamin,0,Kalocine is indicated for the treatment of Catavegamin.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,1,0,0,Purgicallocine,Emorder,0,Purgicallocine is indicated for the treatment of Emorder.,0,0,1
+indications,0,"Hibernal Venom, Chancress, Drydiciousness",0,0,0,1,0,0,Reducin,Spaceolindness,0,Reducin is indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Prexilinax, Pentury Chamal , Tretine",0,0,1,0,0,1,Cardamitolic epine,Tretine,0,Cardamitolic epine is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Pentury Chamal , Chronoshocktail, Morphalcynatin",0,0,1,0,0,0,Surgetfulnession,Triox Toxan,0,Surgetfulnession is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"The Rat Plimpies, Emorder, Hibernaran plague",0,0,0,1,0,1,Purgicallocine,Emorder,0,Purgicallocine is not indicated for the treatment of Emorder.,0,0,1
+indications,0,"Janished Takis, Clithium dibrome, Ferroborean Virus",0,0,0,1,0,0,Correctomy,Janished Takis,0,Correctomy is indicated for the treatment of Janished Takis.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,0,Selectim,Cordosia,0,Selectim is indicated for the treatment of Cordosia.,0,0,1
+indications,0,"Gambutrox Cock, Provalyn, Dimine",0,0,1,0,0,1,Boosterization inhibitol,Provalyn,0,Boosterization inhibitol is not indicated for the treatment of Provalyn.,0,0,1
+indications,0,"Bufonic euthimerasone, Chimallisk Vertebrae, Clithium dibrome",0,0,0,0,1,1,Ketract,Clithium dibrome,0,Ketract is not indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Adrazygosis, Vioprovasilisk Vertebrae, Gleemone",0,0,0,0,1,1,Selening of the tearshade,Vioprovasilisk Vertebrae,0,Selening of the tearshade is not indicated for the treatment of Vioprovasilisk Vertebrae.,0,0,1
+indications,0,"Dimine, Ferroborean Virus, Pretonic flu",0,0,0,0,1,1,Thelas,Triox Toxan,0,Thelas is not indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,0,0,1,0,Subder serump Virus,Gambutrox Cock,0,Subder serump Virus is indicated for the treatment of Gambutrox Cock.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,0,Trioped by Gunhibitol,Ornardamin,0,Trioped by Gunhibitol is indicated for the treatment of Ornardamin.,0,0,1
+indications,0,"Kallistruitol, Skelenin, Electrox Toxan",0,0,0,1,0,1,Psychothe tearshade,Vestimulation,0,Psychothe tearshade is not indicated for the treatment of Vestimulation.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,1,0,0,0,Kally closia,Mongolinax,0,Kally closia is indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,0,0,1,0,Medicity,Catamorphodine,0,Medicity is indicated for the treatment of Catamorphodine.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,0,1,0,Gammony,Chancress,0,Gammony is indicated for the treatment of Chancress.,0,0,1
+indications,0,"Motile Shadow Virus, Catamorphodine, Drydiciousness",0,0,1,0,0,0,Medicity,Hibernarcoma,0,Medicity is indicated for the treatment of Hibernarcoma.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,1,0,0,0,Directive tubules,Spattooing cells,0,Directive tubules is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,0,Retinalifin,Diminil,0,Retinalifin is indicated for the treatment of Diminil.,0,0,1
+indications,0,"Vestimulation, Thing cellian Syndrome, Ouroborean Fever",0,0,0,0,1,0,Polydicine,Ghosis thorn,0,Polydicine is indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Intersal Flu, Pastile Syness, Morphalcynatin",0,0,0,0,1,1,Hydronalink,Intersal Flu,0,Hydronalink is not indicated for the treatment of Intersal Flu.,0,0,1
+indications,0,"Hibernaran plague, Chronoshocktail, Ferroborean Virus",0,0,0,1,0,1,Lethelliom,Hibernaran plague,0,Lethelliom is not indicated for the treatment of Hibernaran plague.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,1,0,0,0,Plomoxin spirim,Pretonic flu,0,Plomoxin spirim is indicated for the treatment of Pretonic flu.,0,0,1
+indications,0,"Aqua Curse, Intersal Flu, Tretine",0,0,0,1,0,1,Dimoxin antyl,Aqua Curse,0,Dimoxin antyl is not indicated for the treatment of Aqua Curse.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,0,1,1,Trioped by Gunhibitol,Rigells,0,Trioped by Gunhibitol is not indicated for the treatment of Rigells.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,0,1,1,Plomoxin spirim,Tretine,0,Plomoxin spirim is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Plomoxinis Disordrazine, Ging Placelly, Diminil",0,0,0,0,1,1,Retinalifin,Diminil,0,Retinalifin is not indicated for the treatment of Diminil.,0,0,1
+indications,0,"Janished Takis, Athe Warmbloodhype, Prexilinax",0,0,1,0,0,1,Nemovasite,Prexilinax,0,Nemovasite is not indicated for the treatment of Prexilinax.,0,0,1
+indications,0,"Daress, Spattooing cells, Spaceolindness",0,0,0,1,0,0,Directive tubules,Clithium dibrome,0,Directive tubules is indicated for the treatment of Clithium dibrome.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,0,0,1,0,Consumin,Neuroborean plague,0,Consumin is indicated for the treatment of Neuroborean plague.,0,0,1
+indications,0,"Ging Body Syndrome, Chancress, Motilla extraline",0,0,1,0,0,1,Gingold excessed wordrazine,Motic Zygosis,0,Gingold excessed wordrazine is not indicated for the treatment of Motic Zygosis.,0,0,1
+indications,0,"Polydic flu, Drydichlorak, Chan Disease",0,0,0,1,0,1,Flower Spationa,Motilla extraline,0,Flower Spationa is not indicated for the treatment of Motilla extraline.,0,0,1
+indications,0,"Gulping Disease, Hibernarcoma, Adrazygotillas",0,0,0,1,0,0,Estars,Ambrosis Disone,0,Estars is indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Florak, Azrae, Chronoshocktail",0,0,0,1,0,0,Reducing live tearchlorices,Azrae,0,Reducing live tearchlorices is indicated for the treatment of Azrae.,0,0,1
+indications,0,"Chan Disease, Lazar's Croup, Rigells",0,0,0,0,1,0,Safsprink in cream disk press,Lazar's Croup,0,Safsprink in cream disk press is indicated for the treatment of Lazar's Croup.,0,0,1
+indications,0,"Vioprovasilisk Vertebrae, Spattooingold, Prexilinax",0,0,1,0,0,1,Repretonil,Tretendic Decoup,0,Repretonil is not indicated for the treatment of Tretendic Decoup.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,1,0,0,1,Metazinephrine,Omegeneran Lorder,0,Metazinephrine is not indicated for the treatment of Omegeneran Lorder.,0,0,1
+indications,0,"Byphostal Jells, Omegeneran Lorder, Adrazygosis",0,0,0,0,1,1,lima Grandagicallocaine,Gamma Gliphemenalin,0,lima Grandagicallocaine is not indicated for the treatment of Gamma Gliphemenalin.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,0,0,1,1,Kallocine milicorices,Valithni,0,Kallocine milicorices is not indicated for the treatment of Valithni.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,1,0,0,Plomoxin spirim,Boostergroit,0,Plomoxin spirim is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,0,Hydromide,Dimine,0,Hydromide is indicated for the treatment of Dimine.,0,0,1
+indications,0,"Betameath, Mongolinax, The Cardaminil",0,0,1,0,0,1,Subder serump Virus,Pastile Syness,0,Subder serump Virus is not indicated for the treatment of Pastile Syness.,0,0,1
+indications,0,"Deatavegamin, Pretendorph, Pastile Syness",0,0,0,1,0,0,Correl White,Plomoxinis Disordrazine,0,Correl White is indicated for the treatment of Plomoxinis Disordrazine.,0,0,1
+indications,0,"Polydic flu, Buboparan Virus, Triopenine",0,0,0,1,0,1,Gammony,Buboparan Virus,0,Gammony is not indicated for the treatment of Buboparan Virus.,0,0,1
+indications,0,"Interitina, Rigells, Doloxaemia",0,0,1,0,0,1,Kallocine milicorices,The Rat Plimpies,0,Kallocine milicorices is not indicated for the treatment of The Rat Plimpies.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,0,0,1,1,Kally closia,Leth Cephalcynate,0,Kally closia is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Adrazygosis, Pentury Chamal , Ferroborean Virus",0,0,0,0,1,0,Milic gem,Ferroborean Virus,0,Milic gem is indicated for the treatment of Ferroborean Virus.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,1,0,0,1,Kally closia,Mongolinax,0,Kally closia is not indicated for the treatment of Mongolinax.,0,0,1
+indications,0,"Ging Body Syndrome, Placelly, Gambutrox Toxan",0,0,1,0,0,0,Fludiox Compound,Ging Body Syndrome,0,Fludiox Compound is indicated for the treatment of Ging Body Syndrome.,0,0,1
+indications,0,"The Wuhancress, Tretions of thesia, Ging Placelly",0,0,0,0,1,1,Viopening eyes und,The Wuhancress,0,Viopening eyes und is not indicated for the treatment of The Wuhancress.,0,0,1
+indications,0,"The Rat Plimpies, Incuritol, Anti-gerandeurol",0,0,0,0,1,1,Bellerol,Bufonic euthimerasone,0,Bellerol is not indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Selenia Hysterial , Spaceolindness, Hibernaran plague",0,0,0,0,1,1,Clith fire,Spaceolindness,0,Clith fire is not indicated for the treatment of Spaceolindness.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,0,1,1,Plomoxin spirim,Interitina,0,Plomoxin spirim is not indicated for the treatment of Interitina.,0,0,1
+indications,0,"Byphost-Traumatinax, Tretendic Decoup, Leth Cephalcynate",0,0,0,1,0,1,Health firectinax,Chronoshocktail,0,Health firectinax is not indicated for the treatment of Chronoshocktail.,0,0,1
+indications,0,"Dimine, Vampies, Tretine",0,0,0,0,1,1,Hydromide,Tretine,0,Hydromide is not indicated for the treatment of Tretine.,0,0,1
+indications,0,"Dragon Pox of LeChuck, Betameath, Ornardamin",0,0,0,1,0,0,Trioped by Gunhibitol,Betameath,0,Trioped by Gunhibitol is indicated for the treatment of Betameath.,0,0,1
+indications,0,"Gambutrox Toxan, Janished Glipheptine, Catavegamin",0,0,1,0,0,1,Consumin,Janished Glipheptine,0,Consumin is not indicated for the treatment of Janished Glipheptine.,0,0,1
+indications,0,"Ging Body Syndrome, Catavegamitol, Adrazygosis",0,0,0,0,1,0,Bhellion,Triox Toxan,0,Bhellion is indicated for the treatment of Triox Toxan.,0,0,1
+indications,0,"Pentury Chronin, Intersal Flu, Gulping Disease",0,0,0,0,1,1,Purgic humineratus,Ambrosis Disone,0,Purgic humineratus is not indicated for the treatment of Ambrosis Disone.,0,0,1
+indications,0,"Rigells, Betameath, Triopenine",0,0,0,1,0,1,Serisonex,Betameath,0,Serisonex is not indicated for the treatment of Betameath.,0,0,1
+indications,0,"Janished Glipheptine, Provalyn, Clithium dibrome",0,0,0,0,1,1,Triox Cocoon,Bufonic euthimerasone,0,Triox Cocoon is not indicated for the treatment of Bufonic euthimerasone.,0,0,1
+indications,0,"Leth Cephalcynate, Prexilinax, Third Eye Infectrol",0,0,0,0,1,1,Gamma Gransfer camma barrection DNA,Leth Cephalcynate,0,Gamma Gransfer camma barrection DNA is not indicated for the treatment of Leth Cephalcynate.,0,0,1
+indications,0,"Electrox Toxan, Mongolinax, Neodextral",0,0,0,0,1,1,Hydravil,Drydichlorak,0,Hydravil is not indicated for the treatment of Drydichlorak.,0,0,1
+indications,0,"Janished Gluteal Jelly, Tretions of thesia, Ghosis thorn",0,0,0,1,0,0,Cauteritol,Ghosis thorn,0,Cauteritol is indicated for the treatment of Ghosis thorn.,0,0,1
+indications,0,"Aqua Curse, Omegeneran Lorder, Kallistruitol",0,0,0,0,1,1,Belliom,Kallistruitol,0,Belliom is not indicated for the treatment of Kallistruitol.,0,0,1
+indications,0,"Boostergroit, Tretine, Pretonic flu",0,0,0,0,1,1,Plomoxin spirim,Boostergroit,0,Plomoxin spirim is not indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Mongation, Leth Cephalcynate, Mongolinax",0,0,1,0,0,1,Kally closia,Mongation,0,Kally closia is not indicated for the treatment of Mongation.,0,0,1
+indications,0,"Dehalanx, Spattooing cells, Ornardamin",0,0,0,0,1,0,Removasitol,Spattooing cells,0,Removasitol is indicated for the treatment of Spattooing cells.,0,0,1
+indications,0,"Gulping Disease, Dragon Pox of LeChuck, Motic Zygosis",0,0,0,0,1,0,Selectim,Morphalcynatin,0,Selectim is indicated for the treatment of Morphalcynatin.,0,0,1
+indications,0,"Twentath, Diminil, Vampirisorder",0,0,0,0,1,0,Dimoxin systerisone,Twentath,0,Dimoxin systerisone is indicated for the treatment of Twentath.,0,0,1
+indications,0,"Boostergroit, Florak, Athe Warmbloodhype",0,0,0,0,1,0,Distrand Starshade Chiqua Cure,Boostergroit,0,Distrand Starshade Chiqua Cure is indicated for the treatment of Boostergroit.,0,0,1
+indications,0,"Daress, Emorder, Catavegamine",0,0,0,1,0,1,Bhelly,Emorder,0,Bhelly is not indicated for the treatment of Emorder.,0,0,1
+indications,0,"Gamma Gliphemenalin, Janished Gluteal Jelly, Electrox Toxan",0,0,0,0,1,1,Polydichloricin,Janished Gluteal Jelly,0,Polydichloricin is not indicated for the treatment of Janished Gluteal Jelly.,0,0,1
+indications,0,"Catamorphodine, Omegeneran Lorder, Adrazygosis",0,0,0,1,0,1,Metazinephrine,Catamorphodine,0,Metazinephrine is not indicated for the treatment of Catamorphodine.,0,0,1

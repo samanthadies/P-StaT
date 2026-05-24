@@ -1,0 +1,26 @@
+defaults:
+  - base_llama
+  - _self_
+
+name: _llama-3.3-70b
+model: meta-llama/Llama-3.3-70B-Instruct
+instruct: True
+
+module: model
+encoders: layers
+
+layers:
+  - 0
+  - 10
+  - 20
+  - 30
+  - 40
+  - 50
+  - 60
+  - 70
+  - 79
+  
+task_layers:
+  cities_loc: 20
+  med_indications: 40
+  defs: 20
