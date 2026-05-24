@@ -143,9 +143,9 @@ python exp_probe_linear.py \
   output_dir='outputs/probes/${probe.name}/${model.name}'
 ```
 
-**Note:** To switch between the ```sAwMIL``` and ```Mean Difference``` probes,
+**Note:** To switch between the ```sAwMIL``` and ```Mass-Mean``` probes,
 you must switch both ```probe.name``` and ```config-name``` (```probe_linear_mil```
-for ```sAwMIL``` and ```probe_linear_sil``` for ```Mean Difference```).
+for ```sAwMIL``` and ```probe_linear_sil``` for ```mean_diff```).
 
 (2) To run the zero-shot experiments, run the following command for each LLM, 
 Dataset, and perturbation combination (e.g., ```cities_loc``` + ```llama-3-8b``` + 
