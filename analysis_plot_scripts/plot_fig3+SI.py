@@ -356,7 +356,7 @@ def plot_bar_panel(
 
     colors = [CONDITION_COLORS[p] for p in PERTURBATION_ORDER]
 
-    err_scale = 0.5
+    err_scale = 1.0
     yerr_low = [e * err_scale for e in yerr_low]
     yerr_high = [e * err_scale for e in yerr_high]
 

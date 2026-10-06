@@ -1,4 +1,4 @@
-# Representational and Behavioral Stability of Truth in Large Language Models
+# Epistemic Familiarity is Associated With Belief Stability in Large Language Models
 
 This repository introduces the `P-StaT` (Pertrubation Stability of Truth) framework used to measure
 representational and behavioral satability in large language models (LLMs) with
@@ -11,6 +11,18 @@ It includes scripts for:
     vs. Not-True" classification
 -   Running **zero shot** experiments for "True vs. Not-true" classification
 -   Generating all plots in the paper
+
+If you use this repository or build on these analyses, please cite our paper:
+
+```bibtex
+@article{dies2025epistemic,
+  title={Epistemic Familiarity is Associated With Belief Stability in Large Language Models},
+  author={Dies, Samantha and Maynard, Courtney and Savcisens, Germans and Eliassi-Rad, Tina},
+  journal={arXiv preprint arXiv:2511.19166},
+  doi={10.48550/arXiv.2511.19166},
+  year={2025}
+}
+```
 
 ------------------------------------------------------------------------
 
@@ -195,7 +207,23 @@ Outputs are written to ```outputs/retraction_activation_clusters/```.
 
 ------------------------------------------------------------------------
 
-### **Citations**
+### Citation
+
+If you use this codebase or reproduce its analyses, please cite:
+
+> Dies, Samantha, Courtney Maynard, Germans Savcisens, and Tina Eliassi-Rad. *Epistemic Familiarity is Associated With Belief Stability in Large Language Models*. arXiv:2511.19166 (2025). https://doi.org/10.48550/arXiv.2511.19166
+
+```bibtex
+@article{dies2025epistemic,
+  title={Epistemic Familiarity is Associated With Belief Stability in Large Language Models},
+  author={Dies, Samantha and Maynard, Courtney and Savcisens, Germans and Eliassi-Rad, Tina},
+  journal={arXiv preprint arXiv:2511.19166},
+  doi={10.48550/arXiv.2511.19166},
+  year={2025}
+}
+```
+
+### References
 
 1. Savcisens, G. & Eliassi-Rad, T. Trilemma of Truth in Large Language Models, ***Mechanistic Interpretability Workshop at NeurIPS 2025***, [https://openreview.net/forum?id=z7dLG2ycRf](https://openreview.net/forum?id=z7dLG2ycRf) (2025).
 2. Marks, S. & Tegmark, M. The Geometry of Truth: Emergent Linear Structure in Language Model Representations of True/False Datasets. ***Proceedings of the 1st Conference on Language Modeling (COLM)***, [https://openreview.net/forum?id=aajyHYjjsk](https://openreview.net/forum?id=aajyHYjjsk) (2024).
